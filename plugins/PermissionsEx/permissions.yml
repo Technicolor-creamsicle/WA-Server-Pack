@@ -2,7 +2,6 @@ groups:
   Stranger:
     options:
       prefix: '&8[&aSTRANGER&8]&r'
-      default: 'true'
     rank: '900'
     build: false
     permissions:
@@ -20,11 +19,13 @@ groups:
     - Stranger
     options:
       prefix: '&8[&2CITIZEN&8]&r'
+      default: 'true'
     rank: '800'
     build: true
     permissions:
     - discordsrv.sync.228826020831166464
     - essentials.sethome.multiple.citizen
+    - betterrtp.use
     - essentials.spawn
     - modifyworld.*
     - herochat.join.*

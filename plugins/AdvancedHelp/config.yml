@@ -1,0 +1,57 @@
+############################################################
+# +------------------------------------------------------+ #
+# |         AdvancedHelp ~ Plugin By Cmaaxx              | #
+# +------------------------------------------------------+ #
+############################################################
+
+# The format of the timing system
+# dd = day | MM = month | yyyy = year | HH = hour | mm = minute | ss = second
+dateFormat: "HH:mm:ss dd-MM-yyyy"
+prefix: "&7[&6WorldAutomation.Net Help&7]"
+checkUpdates: true
+
+# AdvancedHelp pages. /help.
+# Recommend using 6 lines per page but you can use as many as you want! 
+AdvancedHelpPages:
+  1:
+    - "&d&m---&6 WorldAutomation.Net &dHelp &d&m---"
+    - "  &6/help <categoryName> - &fShows &ocategory&f!"
+    - "  &6/help 2 - &fOpen &osecond &fhelp page."
+    - "  &6/spawn - &fTeleports you to spawn"
+    - "  &6/home - &fBrings you home"
+    - "  &6/pay <user> <amount> - &fPay users"
+    - "{\"text\":\"Use JSON chat as well!\"}"
+  2:
+    - ""
+    
+# To create more pages, follow the format below or above!!
+# 3:
+#   - "Hello %player% it is %time%!
+#   - "Add as many lines as you want!"
+
+      
+
+# AdvancedHelp Categories. /help <category>
+#  Per-Category permissions can be used! help.categoryname
+#  example permission - help.categoryexample1
+#  ***Make sure to make the name of your category all lower case!*** 
+#  Making your category default 'true' means anyone can open it without the permissions help.<categoryname>
+AdvancedHelpCategories:
+  categoryexample1: 
+    Default: true
+    1:
+      - "&e&m---&e Make the name of the category anything! &e&m---"
+      - "  For example make a category called 'faction'"
+      - "  then players can do /help faction to see help!"
+      - "{\"text\":\"Example MSG\",\"bold\":true,\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://google.com\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Click here!\"}}"
+      
+    2:
+      - "&e&m---&e Page2 &e&m---"
+      - " add as many pages as you need to categories as well!"
+  categoryexample2: 
+    Default: false
+    1:
+      - "add in as many categories as you need!"
+      
+
+    

@@ -239,7 +239,7 @@ settings:
         enabled: true
         # Send every X seconds a message to a player to
         # remind him that he has to login/register
-        messageInterval: 15
+        messageInterval: 99999
         # Only registered and logged in players can play.
         # See restrictions for exceptions
         force: true
