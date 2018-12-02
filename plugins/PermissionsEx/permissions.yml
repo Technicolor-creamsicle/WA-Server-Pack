@@ -89,9 +89,11 @@ groups:
     rank: '600'
     default: false
     permissions:
+    - herochat.join.staff    
     - essentials.sethome.multiple.mod
   GM:
     inheritance:
+    - Citizen
     - Mod
     options:
       prefix: '&8[&4GM&8]&r'

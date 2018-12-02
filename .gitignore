@@ -26,6 +26,7 @@ plugins/AuthMe/config.yml.bak
 plugins/AuthMe/authme.log
 plugins/AuthMe/authme.db
 plugins/DiscordSRV/config.yml
+plugins/DiscordSRV/config.yml.bak
 plugins/AdvancedAchievements/config.yml
 plugins/AdvancedAchievements/config.yml.bak
 plugins/OnTime/config.yml
@@ -35,3 +36,5 @@ plugins/OnTime/config.yml.bak
 */*/*.bak
 */*/*/*.bak
 usercache.json
+DiscordConsole.log
+*.log
