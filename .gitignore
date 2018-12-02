@@ -38,3 +38,5 @@ plugins/OnTime/config.yml.bak
 usercache.json
 DiscordConsole.log
 *.log
+server.properties.template
+server.properties
