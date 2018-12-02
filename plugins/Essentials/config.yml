@@ -365,7 +365,7 @@ cancel-afk-on-interact: true
 cancel-afk-on-move: true
 
 # You can disable the death messages of Minecraft here.
-death-messages: false
+death-messages: true
 
 # Should operators be able to join and part silently.
 # You can control this with permissions if it is enabled.
