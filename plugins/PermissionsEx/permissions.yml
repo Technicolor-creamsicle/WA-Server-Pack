@@ -1,7 +1,7 @@
 groups:
   Stranger:
     options:
-      prefix: '&8[&aSTRANGER&8]&r'
+      prefix: '&8[&aStranger&8]&r'
     rank: '900'
     build: false
     permissions:
@@ -18,7 +18,7 @@ groups:
     inheritance:
     - Stranger
     options:
-      prefix: '&8[&2CITIZEN&8]&r'
+      prefix: '&8[&2Citizen&8]&r'
       default: 'true'
     rank: '800'
     build: true
@@ -87,7 +87,7 @@ groups:
     inheritance:
     - Citizen
     options:
-      prefix: '&8[&3MOD&8]&r'
+      prefix: '&8[&3Mod&8]&r'
     rank: '600'
     permissions:
     - discordsrv.sync.424623790199406592
@@ -107,7 +107,7 @@ groups:
     inheritance:
     - GM
     options:
-      prefix: '&8[&9ADMIN&8]&r'
+      prefix: '&8[&9Admin&8]&r'
     rank: '400'
     permissions:
     - discordsrv.sync.413460388072652810

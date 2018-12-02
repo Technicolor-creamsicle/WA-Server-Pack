@@ -19,8 +19,8 @@
 #
 # DiscordToMinecraftAllRolesSeparator: the separator used in between roles in %allroles%
 #
-DiscordToMinecraftChatMessageFormat: "[&bDiscord &r| %toprolecolor%%toprole%&r] %username% » %message%"
-DiscordToMinecraftChatMessageFormatNoRole: "[&bDiscord&r] %username% » %message%"
+DiscordToMinecraftChatMessageFormat: "&8[%toprolecolor%%toprole%&r&8][&bDiscord&8]&r%username% # %message%"
+DiscordToMinecraftChatMessageFormatNoRole: "&8[%toprole%&r&8][&bDiscord&8]&r%username% # %message%"
 DiscordToMinecraftAllRolesSeparator: " | "
 
 # Minecraft -> Discord message
