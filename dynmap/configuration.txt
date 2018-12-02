@@ -360,7 +360,7 @@ showplayerfacesinmenu: true
 grayplayerswhenhidden: true
 
 # Set sidebaropened: 'true' to pin menu sidebar opened permanently, 'pinned' to default the sidebar to pinned, but allow it to unpin
-#sidebaropened: true
+sidebaropened: true
 
 # Customized HTTP response headers - add 'id: value' pairs to all HTTP response headers (internal web server only)
 #http-response-headers:

@@ -120,9 +120,9 @@ DiscordChatChannelListCommandAllPlayersSeparator: ", "
 # %date%:        current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerJoinMessageFormat: ":barcode: **%displayname%** `joined the server!`"
-MinecraftPlayerFirstJoinMessageFormat: ":barcode: **%displayname%** `joined the server for the first time!`"
-MinecraftPlayerLeaveMessageFormat: ":barcode: **%displayname%** `left the server!`"
+MinecraftPlayerJoinMessageFormat: ":barcode: **%username%** `joined the server!`"
+MinecraftPlayerFirstJoinMessageFormat: ":barcode: **%username%** `joined the server for the first time!`"
+MinecraftPlayerLeaveMessageFormat: ":barcode: **%username%** `left the server!`"
 
 # Minecraft -> Discord player death messages
 #
@@ -147,7 +147,7 @@ MinecraftPlayerDeathMessageFormat: ":skull: **RIP:** %username% `%deathmessage%`
 # %date%:        current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerAchievementMessagesFormat: ":medal: **%displayname%** `Just earned the achievement %achievement%!`"
+MinecraftPlayerAchievementMessagesFormat: ":medal: **%username%** `Just earned the achievement %achievement%!`"
 
 # Channel topic updater messages
 # This is all the stuff related to automatically updating the chat or console channel's topics with server information

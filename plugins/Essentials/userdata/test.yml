@@ -1,0 +1,13 @@
+geolocation: N/A
+uuid: 530fa97a-357f-3c19-94d3-0c5c65c18fe8
+timestamps:
+  login: 1543742630141
+  logout: 1543742001238
+ipAddress: 0:0:0:0:0:0:0:1
+logoutlocation:
+  world: world
+  x: 313.5
+  y: 67.0
+  z: 378.5
+  yaw: 0.0
+  pitch: 0.0

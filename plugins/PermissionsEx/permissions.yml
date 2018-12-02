@@ -2,10 +2,11 @@ groups:
   Stranger:
     options:
       prefix: '&8[&aSTRANGER&8]&r'
+      default: 'true'
     rank: '900'
     build: false
-    default: true
     permissions:
+    - discordsrv.sync.518695492176052244
     - authme.register
     - authme.login
     - authme.logout
@@ -13,17 +14,17 @@ groups:
     - authme.unregister
     - essentials.help
     - essentials.motd
-    - essentials.rules    
+    - essentials.rules
   Citizen:
     inheritance:
-    - Stranger  
+    - Stranger
     options:
       prefix: '&8[&2CITIZEN&8]&r'
     rank: '800'
     build: true
-    default: false
     permissions:
-    - essentials.sethome.multiple.citizen    
+    - discordsrv.sync.228826020831166464
+    - essentials.sethome.multiple.citizen
     - essentials.spawn
     - modifyworld.*
     - herochat.join.*
@@ -78,8 +79,8 @@ groups:
     options:
       prefix: '&8[&6VIP&8]&r'
     rank: '700'
-    default: false
     permissions:
+    - discordsrv.sync.424623843059957763
     - essentials.sethome.multiple.vip
   Mod:
     inheritance:
@@ -87,9 +88,9 @@ groups:
     options:
       prefix: '&8[&3MOD&8]&r'
     rank: '600'
-    default: false
     permissions:
-    - herochat.join.staff    
+    - discordsrv.sync.424623790199406592
+    - herochat.join.staff
     - essentials.sethome.multiple.mod
   GM:
     inheritance:
@@ -97,9 +98,9 @@ groups:
     - Mod
     options:
       prefix: '&8[&4GM&8]&r'
-    rank: '500'    
-    default: false
+    rank: '500'
     permissions:
+    - discordsrv.sync.424623754245570570
     - essentials.sethome.multiple.gm
   Admin:
     inheritance:
@@ -107,8 +108,8 @@ groups:
     options:
       prefix: '&8[&9ADMIN&8]&r'
     rank: '400'
-    default: false
     permissions:
+    - discordsrv.sync.413460388072652810
     - essentials.sethome.multiple.admin
     - essentials.*
     - essentials.*.*
@@ -128,3 +129,7 @@ users:
     permissions:
     - '*'
     - essentials.*
+  530fa97a-357f-3c19-94d3-0c5c65c18fe8:
+    group: []
+    options:
+      name: test

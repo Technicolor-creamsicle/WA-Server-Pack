@@ -59,14 +59,12 @@ adhocCount: 0
 # To disable this message set "lines:" to 0   
 playerLogin:
    lines: 2
-   line-1: '[player] welcome to [serverName] !'
-   line-2: 'You currently have a total OnTime of [total]'
+   line-1: 'Total Play Time: [total]'
 
 # To disable this message set "lines:" to 0      
 loginAnnouncement:
    lines: 2
-   line-1: 'Please welcome [otherPlayer] to [serverName] '
-   line-2: '[otherPlayer] has a total OnTime of [otherTotal]'
+   line-1: '[otherPlayer] Total Play Time: [otherTotal]'
 
 message:
    testmessage:
