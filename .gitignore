@@ -31,3 +31,7 @@ plugins/AdvancedAchievements/config.yml.bak
 plugins/OnTime/config.yml
 plugins/OnTime/config.yml.bak
 *.bak
+*/*.bak
+*/*/*.bak
+*/*/*/*.bak
+usercache.json

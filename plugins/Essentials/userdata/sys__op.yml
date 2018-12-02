@@ -1,0 +1,22 @@
+geolocation: United States
+uuid: e9893eaa-6432-447d-97d4-e61369479971
+timestamps:
+  login: 1543730268484
+  logout: 1543730454925
+  lastteleport: 1543693777455
+ipAddress: 127.0.0.1
+lastlocation:
+  world: Universe
+  x: 32.22838564818114
+  y: 67.0
+  z: -48.30000001192093
+  yaw: -324.60443
+  pitch: -5.5499187
+logoutlocation:
+  world: world
+  x: -239.30000001192093
+  y: 95.0
+  z: 226.73697995836352
+  yaw: -44.549843
+  pitch: 8.399974
+afk: false
