@@ -73,10 +73,10 @@ dataStorage: MYSQL
 
 MySQL:
   enable: true
-  host: INSERT_HOST
+  host: INSERT_DBHOST
   port: 3306
-  user: INSERT_USER
-  password: INSERT_PASS
+  user: INSERT_DBUSER
+  password: INSERT_DBPASS
   database: INSERT_DBNAME
   table: ontime-players
   multiServerTable: ontime_mulitServer

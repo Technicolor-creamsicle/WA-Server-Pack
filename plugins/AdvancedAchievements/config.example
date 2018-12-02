@@ -213,9 +213,9 @@ AdditionalConnectionOptions: ''
 
 # Settings to link with MySQL database (ignored if sqlite or postgresql).
 MYSQL:
-  Database: jdbc:mysql://INSERT_HOST:3306/INSERT_DB_NAME
-  User: INSERT_USER
-  Password: INSERT_PASS
+  Database: jdbc:mysql://INSERT_DBHOST:3306/INSERT_DBNAME
+  User: INSERT_DBUSER
+  Password: INSERT_DBPASS
 
 # Settings to link with PostgresSQL database (ignored if sqlite or mysql).
 # Refer to https://github.com/PyvesB/AdvancedAchievements/wiki/Installation to set up PostgreSQL.

@@ -6,15 +6,15 @@ DataSource:
     # Enable database caching, should improve database performance
     caching: true
     # Database host address
-    mySQLHost: 'INSERT_HOST'
+    mySQLHost: 'INSERT_DBHOST'
     # Database port
     mySQLPort: '3306'
     # Connect to MySQL database over SSL
     mySQLUseSSL: true
     # Username to connect to the MySQL database
-    mySQLUsername: 'INSERT_USER'
+    mySQLUsername: 'INSERT_DBUSER'
     # Password to connect to the MySQL database
-    mySQLPassword: 'INSERT_PASS'
+    mySQLPassword: 'INSERT_DBPASS'
     # Database Name, use with converters or as SQLITE database name
     mySQLDatabase: 'INSERT_DBNAME'
     # Table of the database
@@ -257,7 +257,7 @@ settings:
         # Do not use with login feature below
         forceKickAfterRegister: false
         # Does AuthMe need to enforce a /login after a successful registration?
-        forceLoginAfterRegister: false
+        forceLoginAfterRegister: true
     # Enable to display the welcome message (welcome.txt) after a login
     # You can use colors in this welcome.txt + some replaced strings:
     # {PLAYER}: player name, {ONLINE}: display number of online players,
@@ -323,7 +323,7 @@ Email:
     # Recovery password length
     RecoveryPasswordLength: 8
     # Mail Subject
-    mailSubject: 'Your new AuthMe password'
+    mailSubject: 'Your new WorldAutomation.Net Password'
     # Like maxRegPerIP but with email
     maxRegPerEmail: 1
     # Recall players to add an email?
