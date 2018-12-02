@@ -1,0 +1,237 @@
+# This is the main configuration file for TileEntities.
+# 
+# If you need help with the configuration or have any questions related to Cauldron,
+# join us at the IRC or drop by our forums and leave a post.
+# 
+# IRC: #cauldron @ irc.esper.net ( http://webchat.esper.net/?channel=cauldron )
+# Forums: http://cauldron.minecraftforge.net/
+# 
+# Setting: settings.skip-tileentity-ticks Default: true   # If enabled, turns on tileentity tick skip feature when no players are near.
+# Setting: debug.enable-te-inventory-warning Default: false   # Set true to detect which tileentities with inventory failed to detect size for Bukkit's InventoryType enum. Note: This may detect a false-positive.
+# Setting: settings.prevent-invalid-tileentity-updates Default: true   # Used to determine if a tileentity should tick and if not the TE is added to a ban list. Note: This should help improve performance.
+# Setting: debug.enable-te-can-update-warning Default: false   # Set true to detect which tileentities should not be ticking.
+# Setting: debug.enable-te-place-warning Default: false   # Warn when a mod requests tile entity from a block that doesn't support one
+
+settings:
+  skip-tileentity-ticks: true
+  prevent-invalid-tileentity-updates: true
+debug:
+  enable-te-inventory-warning: false
+  enable-te-can-update-warning: false
+  enable-te-place-warning: false
+config-version: 1
+world-settings:
+  default:
+    forestry-apiculture-tiles-TileSwarm:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityChest:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityMobSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    mrtjp-projectred-exploration-TileLily:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-hidden-TileHidden:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityGravitationalAnomaly:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-cell-TileCellCreative:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipController:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipCore:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-alloy-TileAlloySmelter:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceSurvival:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityTritaniumCrate:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkSwitch:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp0:
+      tick-no-players: false
+      tick-interval: 1
+    mekanism-common-tile-TileEntityMetallurgicInfuser:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp1:
+      tick-no-players: false
+      tick-interval: 1
+    mekanism-common-tile-TileEntityEnrichmentChamber:
+      tick-no-players: false
+      tick-interval: 1
+    mekanism-common-tile-TileEntityEnergizedSmelter:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-capbank-TileCapBank:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityAndroidStation:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityWeaponStation:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineChargingStation:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineStarMap:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-tank-TileTankCreative:
+      tick-no-players: false
+      tick-interval: 1
+    codechicken-enderstorage-storage-liquid-TileEnderTank:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorMagma:
+      tick-no-players: false
+      tick-interval: 1
+    codechicken-chunkloader-TileSpotLoader:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-entity-DoorFactoryTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityCrystal:
+      tick-no-players: false
+      tick-interval: 1
+    openblocks-common-tileentity-TileEntityGrave:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityFusionReactorPart:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkRouter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineReplicator:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityBoundingBox:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityOwnable:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityKeycardReader:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityKeypad:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityCageTrap:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityLightsaberForge:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityStaticNpc:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityHothCeilingLight2:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityFloorLight:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityHothCeilingLight:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityMV:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityCrateHoth1:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityCrate1:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityConsoleHoth2:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityMedicalConsole2:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityCrateHoth2:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityFloorLight2:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-sensor-TileEntitySensorStructureRebelEcho:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityPipeDoubleOffsetBot:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityPipeDoubleOffsetBotSpecial:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityPipeMass:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityPipeSleevedMass:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityPipeClampedMass:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityConsoleHoth1:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityConsoleHoth3:
+      tick-no-players: false
+      tick-interval: 1
+    com-parzivail-pswm-tileentities-TileEntityDoorHoth:
+      tick-no-players: false
+      tick-interval: 1

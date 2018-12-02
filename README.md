@@ -1,2 +1,4 @@
 # WA-Server-Pack
-The WorldAutomation.Net Server Pack
+WA Server Pack
+
+MC Version: 1.7.10
