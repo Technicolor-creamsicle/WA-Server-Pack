@@ -1,7 +1,10 @@
 name: mindamp
-activeChannel: Global
+activeChannel: general
 channels:
 - Global
+- random
+- nsfw
+- general
 ignores: []
 muted: false
 autojoin: false

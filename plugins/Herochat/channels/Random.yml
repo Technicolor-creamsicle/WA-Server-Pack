@@ -1,8 +1,8 @@
-name: Staff
-nick: Staff
+name: Random
+nick: Random
 format: '{default}'
 password: ''
-color: GRAY
+color: WHITE
 distance: 0
 shortcut: false
 verbose: true
@@ -11,4 +11,5 @@ muted: false
 worlds: []
 bans: []
 mutes: []
-moderators: []
+moderators:
+- mindamp
