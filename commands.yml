@@ -15,3 +15,5 @@ command-block-overrides: []
 aliases:
   icanhasbukkit:
   - version $1-
+  cofhtps:
+  -cofh tps-

@@ -146,7 +146,7 @@ protection:
   instant-removal: ''
 optimized:
   affinity-locking: false
-  ram-load-chunks: false
+  ram-load-chunks: true
   redstone-repeater-update-speed: -1
   redstone-redstoneTorch-update-speed: -1
 fake-players:
@@ -184,17 +184,3 @@ world-environment-settings:
   moon:
     keep-world-loaded: true
     enabled: true
-  tatooine:
-    keep-world-loaded: true
-  hoth:
-    keep-world-loaded: true
-  kashyyyk:
-    keep-world-loaded: true
-  yavin:
-    keep-world-loaded: true
-  endor:
-    keep-world-loaded: true
-  ilum:
-    keep-world-loaded: true
-  dagobah:
-    keep-world-loaded: true
