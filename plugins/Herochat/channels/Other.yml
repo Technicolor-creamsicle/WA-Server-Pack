@@ -1,8 +1,8 @@
-name: Global
-nick: Global
+name: Other
+nick: Other
 format: '{default}'
 password: ''
-color: DARK_GREEN
+color: WHITE
 distance: 0
 shortcut: false
 verbose: true
