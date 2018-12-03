@@ -22,10 +22,10 @@ debug:
 config-version: 1
 world-settings:
   default:
-    mods-railcraft-common-blocks-hidden-TileHidden:
+    net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityChest:
+    mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
     mrtjp-projectred-exploration-TileLily:
@@ -38,48 +38,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     forestry-apiculture-tiles-TileSwarm:
-      tick-no-players: false
-      tick-interval: 1
-    codechicken-enderstorage-storage-liquid-TileEnderTank:
-      tick-no-players: false
-      tick-interval: 1
-    codechicken-chunkloader-TileSpotLoader:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-tank-TileTankCreative:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    vazkii-botania-common-block-tile-TileSpecialFlower:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-cell-TileCellCreative:
-      tick-no-players: false
-      tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipController:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipCore:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-alloy-TileAlloySmelter:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-DoorTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceSurvival:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityTritaniumCrate:
@@ -112,22 +70,64 @@ world-settings:
     matteroverdrive-tile-TileEntityWeaponStation:
       tick-no-players: false
       tick-interval: 1
+    codechicken-chunkloader-TileSpotLoader:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorMagma:
+      tick-no-players: false
+      tick-interval: 1
+    codechicken-enderstorage-storage-liquid-TileEnderTank:
+      tick-no-players: false
+      tick-interval: 1
     matteroverdrive-tile-TileEntityMachineChargingStation:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachineStarMap:
       tick-no-players: false
       tick-interval: 1
-    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorMagma:
+    cofh-thermalexpansion-block-tank-TileTankCreative:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-alloy-TileAlloySmelter:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-DoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    openblocks-common-tileentity-TileEntityGrave:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-cell-TileCellCreative:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipController:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipCore:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceSurvival:
       tick-no-players: false
       tick-interval: 1
     net-malisis-doors-entity-DoorFactoryTileEntity:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityCrystal:
-      tick-no-players: false
-      tick-interval: 1
-    openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
