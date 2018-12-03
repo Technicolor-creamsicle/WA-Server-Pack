@@ -37,6 +37,10 @@ groups:
     - essentials.pay.*
     - essentials.sell
     - essentials.list
+    - essentials.balance
+    - essentials.chat.shout
+    - essentials.wallet
+    - essentials.pay
     - -essentials.list.hidden
     - essentials.motd
     - essentials.msg

@@ -100,6 +100,9 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
       tick-no-players: false
       tick-interval: 1
@@ -155,9 +158,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceSurvival:
