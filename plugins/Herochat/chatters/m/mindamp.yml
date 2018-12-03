@@ -1,7 +1,13 @@
 name: mindamp
 activeChannel: Global
 channels:
+- General
 - Global
+- NSFW
+- Staff
+- Music
+- Random
+- Other
 ignores: []
 muted: false
 autojoin: false
