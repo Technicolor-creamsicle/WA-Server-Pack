@@ -7,5 +7,14 @@
       "mytown.cmd.outsider.*"
     ],
     "meta": {}
+  },
+  {
+    "name": "Citizen",
+    "permissions": [
+      "cmd.*",
+      "mytown.cmd",
+      "mytown.cmd.outsider.*"
+    ],
+    "meta": {}
   }
 ]

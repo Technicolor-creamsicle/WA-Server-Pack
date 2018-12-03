@@ -28,6 +28,9 @@ groups:
     - randomtp.use.user.*
     - randomtp.use.user
     - randomtp.use.*
+    - cmd.*
+    - mytown.cmd
+    - mytown.cmd.outsider.*
     - randomtp.use
     - randomtp.usesigns
     - randomtp.gui

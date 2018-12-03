@@ -106,11 +106,31 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-item-EntityFireworkRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    lumien-randomthings-Entity-EntitySoul:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     cofh-thermalfoundation-entity-monster-EntityBasalz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     tconstruct-tools-entity-FancyEntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFallingBlock:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityCaveSpider:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -119,14 +139,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-monster-EntitySlime:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    lumien-randomthings-Entity-EntitySoul:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityFallingBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -146,10 +158,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-player-EntityPlayerMP:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-projectile-EntityArrow:
       tick-no-players: false
       never-ever-tick: false
@@ -159,10 +167,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityTNTPrimed:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityFireworkRocket:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

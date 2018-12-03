@@ -106,6 +106,33 @@ world-settings:
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkRouter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityFusionReactorPart:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-tools-logic-BattlesignLogic:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp2:
       tick-no-players: false
       tick-interval: 1
@@ -154,12 +181,6 @@ world-settings:
     matteroverdrive-tile-TileEntityMachineReplicator:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
       tick-no-players: false
       tick-interval: 1
@@ -179,24 +200,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     mekanism-common-tile-TileEntityAdvancedFactory:
-      tick-no-players: false
-      tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineNetworkRouter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityFusionReactorPart:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-LavaTankLogic:
