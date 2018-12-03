@@ -1,0 +1,7 @@
+name: Honze_Fonze
+activeChannel: Global
+channels:
+- Global
+ignores: []
+muted: false
+autojoin: false
