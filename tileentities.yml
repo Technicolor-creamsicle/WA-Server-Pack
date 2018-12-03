@@ -100,6 +100,12 @@ world-settings:
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
+    TileMultipartcmp4:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-core-tiles-TileAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp0:
       tick-no-players: false
       tick-interval: 1
@@ -155,9 +161,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp3:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-core-tiles-TileAnalyzer:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-spawner-TilePoweredSpawner:
