@@ -1,0 +1,21 @@
+geolocation: Sweden
+uuid: fc05c1fa-8353-4f14-b4f8-827b841a66ac
+timestamps:
+  login: 1543855823130
+  logout: 1543855885043
+  lastteleport: 1543854783777
+ipAddress: 89.236.36.123
+logoutlocation:
+  world: Universe
+  x: -1477.8265232363524
+  y: 76.23944873045822
+  z: 1029.871056241107
+  yaw: -262.4957
+  pitch: 9.4121895
+lastlocation:
+  world: Universe
+  x: -262.159523772503
+  y: 72.0
+  z: 87.71943253182062
+  yaw: 257.518
+  pitch: 9.67743
