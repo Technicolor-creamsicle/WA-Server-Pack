@@ -6,7 +6,7 @@ if ! screen -list | grep -q "mc"; then
 	echo "Server is starting!"
 	sed s/WA_VERSION/$CURRENT_VERSION/g server.properties.template > server.properties
 	#sudo screen -dmS mc sudo java -Xmx8G -Xms6G -jar forge-1.12.2-14.23.5.2768-universal.jar nogui
-	sudo screen -dmS mc sudo java -server -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=5 -XX:+AggressiveOpts -Xms1G -Xmx8G -jar Thermos-1.7.10-1614-server.jar nogui
+	sudo screen -dmS mc sudo java -server -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+CMSIncrementalPacing -XX:ParallelGCThreads=5 -XX:+AggressiveOpts -Xms1G -Xmx12G -jar Thermos-1.7.10-1614-server.jar nogui
 else
 	echo "Server already started!";
 fi
