@@ -1,21 +1,21 @@
-uuid: b9bded46-3f9b-38fa-87d0-cc4ab6b4077f
+uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1543740940174
-  logout: 1543741006845
+  login: 1543812260862
+  logout: 1543812352276
   lastteleport: 1543735742729
-ipAddress: 0:0:0:0:0:0:0:1
+ipAddress: 75.129.254.61
 logoutlocation:
-  world: world
-  x: 317.5
-  y: 64.0
-  z: 370.5
-  yaw: 0.0
-  pitch: 0.0
+  world: Universe
+  x: 2.1353543590419126
+  y: 66.0
+  z: -21.28824321422791
+  yaw: 203.54988
+  pitch: 13.049996
 lastlocation:
-  world: world
-  x: -244.8120055376914
-  y: 75.0
-  z: 258.6055941431042
-  yaw: -9.299992
-  pitch: 12.899997
+  world: Universe
+  x: -28.62942445258785
+  y: 64.0
+  z: -72.22226587975447
+  yaw: -281.99908
+  pitch: 10.949998
 geolocation: N/A
