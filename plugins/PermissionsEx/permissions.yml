@@ -25,7 +25,7 @@ groups:
     permissions:
     - discordsrv.sync.228826020831166464
     - essentials.sethome.multiple.citizen
-    - betterrtp.use
+    - randomtp.use.user
     - essentials.spawn
     - modifyworld.*
     - herochat.join.*
@@ -102,6 +102,7 @@ groups:
       rank: '500'
     permissions:
     - discordsrv.sync.424623754245570570
+    - randomtp.*
     - essentials.sethome.multiple.gm
     - essentials.*
     - essentials.*.*
