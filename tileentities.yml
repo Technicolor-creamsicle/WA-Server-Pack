@@ -133,6 +133,9 @@ world-settings:
     tconstruct-tools-logic-BattlesignLogic:
       tick-no-players: false
       tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp2:
       tick-no-players: false
       tick-interval: 1
