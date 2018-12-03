@@ -16,7 +16,7 @@ Inventory:
     '0':
       id: '322'
       slot: 11
-      name: '&8[&a+&8] &aRandomTP User &8[&a+&8]'
+      name: '&8[&a+&8] &aBasic &8[&a+&8]'
       cost: 0
       distance: 250
       world: Universe
@@ -30,7 +30,7 @@ Inventory:
     '1':
       id: '322'
       slot: 13
-      name: '&8[&a+&8] Air Jordan &8[&a+&8]'
+      name: '&8[&a+&8] &aAir Jordan &8[&a+&8]'
       cost: 2
       distance: 500
       world: Universe
@@ -44,7 +44,7 @@ Inventory:
     '2':
       id: '322:1'
       slot: 15
-      name: '&8[&a+&8] Neil Armstrong &8[&a+&8]'
+      name: '&8[&a+&8] &aNeil Armstrong &8[&a+&8]'
       cost: 5
       distance: 1000
       world: Universe

@@ -100,10 +100,85 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingBasinLogic:
+      tick-no-players: false
+      tick-interval: 1
+    mcjty-rftools-blocks-logic-SequencerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-tiles-TileApiary:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-core-tiles-TileEscritoire:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp2:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineReplicator:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp3:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-core-tiles-TileAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-spawner-TilePoweredSpawner:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntityElectricKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntityManualKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntitySteamKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-kineticgenerator-tileentity-TileEntityWindKineticGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    mekanism-common-tile-TileEntityAdvancedFactory:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachineNetworkRouter:
@@ -115,19 +190,10 @@ world-settings:
     matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
-    vazkii-botania-common-block-tile-TileSpecialFlower:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-LavaTankLogic:
@@ -136,13 +202,7 @@ world-settings:
     tconstruct-smeltery-logic-FaucetLogic:
       tick-no-players: false
       tick-interval: 1
-    tconstruct-smeltery-logic-CastingBasinLogic:
-      tick-no-players: false
-      tick-interval: 1
     tconstruct-smeltery-logic-SmelteryLogic:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-CastingTableLogic:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-cell-TileCellCreative:
@@ -167,9 +227,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityCrystal:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineReplicator:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityBoundingBox:

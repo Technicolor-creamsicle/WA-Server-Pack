@@ -25,7 +25,12 @@ groups:
     permissions:
     - discordsrv.sync.228826020831166464
     - essentials.sethome.multiple.citizen
+    - randomtp.use.user.*
     - randomtp.use.user
+    - randomtp.use.*
+    - randomtp.use
+    - randomtp.usesigns
+    - randomtp.gui
     - essentials.spawn
     - modifyworld.*
     - herochat.join.*
@@ -110,7 +115,7 @@ groups:
     - essentials.sethome.multiple.gm
     - essentials.*
     - essentials.*.*
-    - '*'    
+    - '*'
   Admin:
     inheritance:
     - GM
@@ -125,11 +130,6 @@ groups:
     - '*'
 schema-version: 1
 users:
-  e9893eaa-6432-447d-97d4-e61369479971:
-    group:
-    - Admin
-    options:
-      name: mindamp
   4bccd8d3-4e53-4b31-9695-9124de8cc256:
     group:
     - GM
@@ -147,3 +147,8 @@ users:
     - GM
     options:
       name: DrNaidemoc
+  e9893eaa-6432-447d-97d4-e61369479971:
+    group:
+    - Admin
+    options:
+      name: mindamp
