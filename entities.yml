@@ -98,11 +98,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityWolf:
+    tconstruct-tools-entity-FancyEntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    tconstruct-tools-entity-FancyEntityItem:
+    net-minecraft-entity-passive-EntityWolf:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
