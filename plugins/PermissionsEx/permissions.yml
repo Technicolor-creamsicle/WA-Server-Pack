@@ -147,8 +147,3 @@ users:
     - GM
     options:
       name: DrNaidemoc
-  e9893eaa-6432-447d-97d4-e61369479971:
-    group:
-    - Admin
-    options:
-      name: mindamp

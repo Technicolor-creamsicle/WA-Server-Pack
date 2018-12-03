@@ -19,11 +19,8 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
-  fullMatchRate: 10
   player-shuffle: 0
-commands:
-  log: true
-  tab-complete: true
+  fullMatchRate: 10
 messages:
   restart: WorldAutomation.Net is Restarting Please Wait!
   whitelist: You are not whitelisted for WorldAutomation.Net!
@@ -31,6 +28,9 @@ messages:
   server-full: WorldAutomation.Net is Currently Full!
   outdated-client: Outdated client! Please see www.worldautomation.net!
   outdated-server: Outdated server! Please see www.worldautomation.net!
+commands:
+  log: true
+  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -40,28 +40,6 @@ world-settings:
     merge-radius:
       item: 2.5
       exp: 3.0
-    mob-spawn-range: 4
-    anti-xray:
-      enabled: false
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
-    nerf-spawner-mobs: false
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -91,11 +69,33 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
+    nerf-spawner-mobs: false
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
+    mob-spawn-range: 4
     view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    zombie-aggressive-towards-villager: true
     use-async-lighting: false
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
     item-despawn-rate: 6000
+    zombie-aggressive-towards-villager: true
