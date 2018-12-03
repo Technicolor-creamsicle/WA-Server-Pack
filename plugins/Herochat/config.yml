@@ -18,7 +18,7 @@ moderator-permissions:
 default-channel: Global
 censors: []
 format:
-  default: '{color}[{nick}] &f{sender}{suffix}{color}: {msg}'
+  default: '{color}[{nick}] {prefix}&f{sender}{suffix}{color}&f: {msg}'
   announce: '{color}[{nick}] {msg}'
   emote: '{color}[{nick}] * {msg}'
   private-message: '&d{convoaddress} {convopartner}&d: {msg}'

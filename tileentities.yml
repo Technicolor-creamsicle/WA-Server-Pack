@@ -40,6 +40,12 @@ world-settings:
     mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
+    TileMultipartcmp1:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-core-tiles-TileAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityFurnace:
       tick-no-players: false
       tick-interval: 1
@@ -49,13 +55,13 @@ world-settings:
     matteroverdrive-tile-TileEntityMachineNetworkSwitch:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp1:
+    TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
     mekanism-common-tile-TileEntityMetallurgicInfuser:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp2:
+    TileMultipartcmp4:
       tick-no-players: false
       tick-interval: 1
     mekanism-common-tile-TileEntityEnrichmentChamber:
@@ -100,10 +106,7 @@ world-settings:
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp4:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-core-tiles-TileAnalyzer:
+    TileMultipartcmp2:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp0:
@@ -158,9 +161,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
-      tick-no-players: false
-      tick-interval: 1
-    TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-spawner-TilePoweredSpawner:
