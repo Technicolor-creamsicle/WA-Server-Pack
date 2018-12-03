@@ -1,5 +1,6 @@
 §8§L===================================
-Welcome to &L&4WorldAutomation.Net&r, &b{PLAYER}&r!
+Welcome &b{PLAYER}&r!
+&L&4WorldAutomation.Net Server&r
 §7Web: §ehttps://www.worldautomation.net
 §7Discord: §ehttps://discord.gg/V72fB6D
 &6Players online:&c {ONLINE} &6- World time:&c {WORLDTIME12}
