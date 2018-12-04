@@ -37,13 +37,13 @@ world-settings:
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
+    mods-railcraft-common-blocks-hidden-TileHidden:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp1:
       tick-no-players: false
       tick-interval: 1
     forestry-core-tiles-TileAnalyzer:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityFurnace:
@@ -118,22 +118,22 @@ world-settings:
     matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachinePatternMonitor:
       tick-no-players: false
       tick-interval: 1
+    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
+      tick-no-players: false
+      tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
-    tconstruct-tools-logic-BattlesignLogic:
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
       tick-no-players: false
       tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+    tconstruct-tools-logic-BattlesignLogic:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp2:
