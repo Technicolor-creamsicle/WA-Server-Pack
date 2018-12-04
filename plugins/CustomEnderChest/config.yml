@@ -59,7 +59,7 @@ enderChestTitle:
 chatMessages:
     #Chat messages prefix.
     #To disable the prefix set it to '' ; Example: prefix: ''
-    prefix: '&5&l[CustomEC] '
+    prefix: '&8[&7WA&8] '
     
     #Disable any chat message by setting it to '' | Example: noPermission: ''
     #Chat messages.
