@@ -31,6 +31,8 @@ plugins/AdvancedAchievements/config.yml
 plugins/AdvancedAchievements/config.yml.bak
 plugins/OnTime/config.yml
 plugins/OnTime/config.yml.bak
+plugins/MysqlInventoryBridge/config.yml
+plugins/MysqlInventoryBridge/config.yml.bak
 *.bak
 */*.bak
 */*/*.bak

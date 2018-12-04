@@ -29,6 +29,8 @@ groups:
     - randomtp.use.user
     - randomtp.use.*
     - cmd.*
+    - Graves.Use
+    - graves.use
     - help.use
     - mytown.cmd
     - mytown.cmd.outsider.*
