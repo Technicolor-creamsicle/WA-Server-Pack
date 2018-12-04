@@ -37,6 +37,9 @@ world-settings:
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
+    mods-railcraft-common-blocks-hidden-TileHidden:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp1:
       tick-no-players: false
       tick-interval: 1
@@ -92,9 +95,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-tank-TileTankCreative:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-alloy-TileAlloySmelter:
