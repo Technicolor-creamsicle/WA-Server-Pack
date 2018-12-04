@@ -136,6 +136,18 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
       tick-no-players: false
       tick-interval: 1
+    appeng-tile-grindstone-TileCrank:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
     tconstruct-tools-logic-BattlesignLogic:
       tick-no-players: false
       tick-interval: 1
@@ -161,15 +173,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     forestry-core-tiles-TileEscritoire:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
     mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:

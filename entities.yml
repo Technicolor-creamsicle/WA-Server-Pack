@@ -118,6 +118,14 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityEgg:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     lumien-randomthings-Entity-EntitySoul:
       tick-no-players: false
       never-ever-tick: false
@@ -131,10 +139,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSHorse:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlitz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -163,10 +167,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-monster-EntityCaveSpider:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-projectile-EntityEgg:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
