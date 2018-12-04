@@ -17,3 +17,11 @@ aliases:
   - version $1-
   random:
   - rtp gui -
+  randomtp:
+  - rtp gui -
+  t:
+  - town -
+  worlds:
+  - cofh tps -
+  wallet:
+  - bal -
