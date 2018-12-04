@@ -20,6 +20,6 @@ aliases:
   randomtp:
   - rtp gui -
   t:
-  - town -
+  - town $1-
   worlds:
   - cofh tps -
