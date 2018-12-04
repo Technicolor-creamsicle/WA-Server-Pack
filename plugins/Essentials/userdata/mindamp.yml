@@ -1,7 +1,7 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1543895260974
-  logout: 1543891165503
+  login: 1543897876624
+  logout: 1543898320672
   lastteleport: 1543891028361
   kits:
     dtools: 1543893666463
@@ -9,11 +9,11 @@ timestamps:
 ipAddress: 75.129.254.61
 logoutlocation:
   world: Universe
-  x: -468.5
+  x: -467.46425315108434
   y: 79.0
-  z: -362.5
-  yaw: -42.89933
-  pitch: 7.950053
+  z: -364.81945247629335
+  yaw: -297.8997
+  pitch: 4.2000103
 lastlocation:
   world: Universe
   x: 753.233560586172
