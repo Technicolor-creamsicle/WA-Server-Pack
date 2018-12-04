@@ -39,12 +39,12 @@ AdvancedHelpCategories:
     1:
     - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f&LTOWNS and PROTECTION&r"
-    - "  &f/t new = &7Create a New Town"
-    - "  &f/t claim = &7Claim an Additional Chunk"
-    - "  &f/t bank deposit X = &7Deposit X Credits into Town Bank"
-    - "  &f/t perm set mobs false = &7Disables Mobs in your Town"
-    - "  &f/t perm set entry false = &7Members Only"    
-    - "  &f/t help = &7More Help"    
+    - "  &f/town new = &7Create a New Town"
+    - "  &f/town claim = &7Claim an Additional Chunk"
+    - "  &f/town bank deposit X = &7Deposit X Credits into Town Bank"
+    - "  &f/town perm set mobs false = &7Disables Mobs in your Town"
+    - "  &f/town perm set entry false = &7Members Only"    
+    - "  &f/town help = &7More Help"    
     - "&8&m=============================================="
   chat: 
     Default: true
