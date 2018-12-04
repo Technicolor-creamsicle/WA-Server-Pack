@@ -62,7 +62,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
+    micdoodle8-mods-galacticraft-core-entities-player-GCEntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mekanism-common-entity-EntityBabySkeleton:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -70,23 +74,19 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSWitherSkull:
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSHorse:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    micdoodle8-mods-galacticraft-core-entities-player-GCEntityPlayerMP:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
+    net-minecraft-entity-item-EntityXPOrb:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-monster-EntitySpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityWitch:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -102,6 +102,18 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSWitherSkull:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSHorse:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-passive-EntityBat:
       tick-no-players: false
       never-ever-tick: false
@@ -114,19 +126,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    mekanism-common-entity-EntityBabySkeleton:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityWitch:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     matteroverdrive-entity-weapon-PlasmaBolt:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityXPOrb:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
