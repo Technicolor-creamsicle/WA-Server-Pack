@@ -33,6 +33,8 @@ plugins/OnTime/config.yml
 plugins/OnTime/config.yml.bak
 plugins/MysqlInventoryBridge/config.yml
 plugins/MysqlInventoryBridge/config.yml.bak
+plugins/MysqlPlayerDataBridge/config.yml
+plugins/MysqlPlayerDataBridge/config.yml.bak
 *.bak
 */*.bak
 */*/*.bak
