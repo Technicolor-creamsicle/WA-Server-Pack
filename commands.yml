@@ -19,7 +19,9 @@ aliases:
   - rtp gui -
   randomtp:
   - rtp gui -
-  t:
-  - town $1-
+  towns:
+  - town $1 -
+  claim:
+  - town claim -
   worlds:
   - cofh tps -
