@@ -107,36 +107,36 @@ world-settings:
     allow-tnt-punishment: true
     infinite-water-source: true
     entity-despawn-immediate: false
-    worldgen-voltzengine-OreGenReplace: true
-    worldgen-IC2-IC2: true
-    worldgen-harvestcraft-WorldGenPamSalt: true
-    worldgen-harvestcraft-PamTreeGenerator: true
-    worldgen-lightsabers-WorldGeneratorStructures: true
-    worldgen-WarpDrive-CommonWorldGenerator: true
-    worldgen-harvestcraft-PamBeeGenerator: true
-    worldgen-harvestcraft-PamGardenGenerator: true
-    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
-    worldgen-PneumaticCraft-WorldGeneratorPneumaticCraft: true
-    worldgen-GalacticraftCore-OverworldGenerator: true
-    worldgen-TConstruct-TBaseWorldGenerator: true
-    worldgen-ImmersiveEngineering-IEWorldGen: true
-    worldgen-aobdbb-AOBDBBWorldGenerator: true
-    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
     worldgen-CoFHCore-WorldHandler: true
-    worldgen-TConstruct-SlimeIslandGen: true
-    worldgen-appliedenergistics2-MeteoriteWorldGen: true
-    worldgen-mo-MOWorldGen: true
-    worldgen-ASRuins-RuinsWorldGenerator: true
-    worldgen-ExtraUtilities-WorldGenEnderLillies: true
-    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-voltzengine-OreGenReplace: true
+    worldgen-aobdbb-AOBDBBWorldGenerator: true
+    worldgen-GalacticraftCore-OverworldGenerator: true
+    worldgen-IC2-IC2: true
     worldgen-lightsabers-WorldGeneratorOres: true
-    worldgen-ExtraBees-ModuleGeneration: true
     worldgen-chisel-GeneratorChisel: true
-    worldgen-appliedenergistics2-QuartzWorldGen: true
-    worldgen-Forestry-WorldGenerator: true
-    worldgen-Mekanism-GenHandler: true
-    worldgen-denseores-WorldGenOres: true
     worldgen-rftools-GenericWorldGenerator: true
+    worldgen-MrTJPCoreMod-SimpleGenHandler$: true
+    worldgen-ImmersiveEngineering-IEWorldGen: true
+    worldgen-TConstruct-SlimeIslandGen: true
+    worldgen-ASRuins-RuinsWorldGenerator: true
+    worldgen-PneumaticCraft-WorldGeneratorPneumaticCraft: true
+    worldgen-harvestcraft-PamTreeGenerator: true
+    worldgen-Forestry-WorldGenerator: true
+    worldgen-lightsabers-WorldGeneratorStructures: true
+    worldgen-BigReactors-BRWorldGenerator: true
+    worldgen-FlatBedrockx-WorldGenFlatBedrock: true
+    worldgen-harvestcraft-PamGardenGenerator: true
+    worldgen-TConstruct-TBaseWorldGenerator: true
+    worldgen-ExtraUtilities-WorldGenEnderLillies: true
+    worldgen-appliedenergistics2-QuartzWorldGen: true
+    worldgen-ExtraBees-ModuleGeneration: true
+    worldgen-mo-MOWorldGen: true
+    worldgen-harvestcraft-WorldGenPamSalt: true
+    worldgen-Mekanism-GenHandler: true
+    worldgen-WarpDrive-CommonWorldGenerator: true
+    worldgen-appliedenergistics2-MeteoriteWorldGen: true
+    worldgen-denseores-WorldGenOres: true
+    worldgen-harvestcraft-PamBeeGenerator: true
     worldgen-starwarsmod-OreGenerator: true
   max-players-visible: -1
   use-real-names: false

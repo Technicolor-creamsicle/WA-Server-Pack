@@ -106,9 +106,6 @@ world-settings:
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityMachineNetworkRouter:
       tick-no-players: false
       tick-interval: 1
@@ -122,6 +119,9 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
