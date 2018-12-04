@@ -23,5 +23,3 @@ aliases:
   - town -
   worlds:
   - cofh tps -
-  wallet:
-  - bal -

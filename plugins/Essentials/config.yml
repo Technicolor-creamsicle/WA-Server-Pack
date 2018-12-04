@@ -229,7 +229,7 @@ player-commands:
 # For more information, visit http://wiki.ess3.net/wiki/Kits
 kits:
   tools:
-    delay: 60
+    delay: 1200
     items:
       - 272 1
       - 277 1 digspeed:3 name:Dwarf lore:Diggy|Diggy|Hole
@@ -454,9 +454,8 @@ command-costs:
   #example: 1000
   # /kit tools costs $1500 PER USE
   #kit-tools: 1500
-  kit-tools: 50
 # Set this to a currency symbol you want to use.
-currency-symbol: '?'
+currency-symbol: '✪'
 
 # Set the maximum amount of money a player can have.
 # The amount is always limited to 10 trillion because of the limitations of a java double.
