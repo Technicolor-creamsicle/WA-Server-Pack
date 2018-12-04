@@ -134,7 +134,7 @@ MinecraftPlayerLeaveMessageFormat: ":barcode: **%username%** `left the server!`"
 # %date%:         current date & time
 # PlaceholderAPI placeholders are also supported
 #
-MinecraftPlayerDeathMessageFormat: ":skull: **RIP** %username% `%deathmessage%`"
+MinecraftPlayerDeathMessageFormat: ":skull: **RIP** `%deathmessage%`"
 
 # Minecraft -> Discord achievement messages
 #
