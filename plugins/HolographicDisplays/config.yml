@@ -11,5 +11,5 @@ images:
     color: '&7'
 bungee-refresh-seconds: 3
 time-format: 'H:mm'
-update-notification: true
+update-notification: false
 using-RedisBungee: false
