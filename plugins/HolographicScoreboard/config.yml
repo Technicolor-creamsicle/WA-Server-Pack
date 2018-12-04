@@ -1,1 +1,11 @@
-boards: {}
+boards:
+  SpawnTPS:
+    command: tps
+    interval: 30s
+    sender: console
+    delay: 5s
+    location:
+      world: Universe
+      x: -1286.627874282053
+      y: 76.39884682960599
+      z: 1085.8005839511598

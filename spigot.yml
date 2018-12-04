@@ -15,12 +15,12 @@ commands:
   log: true
   tab-complete: true
 settings:
-  late-bind: false
   sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
+  late-bind: false
   bungeecord: false
   player-shuffle: 0
   fullMatchRate: 10
@@ -91,11 +91,11 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
-    enable-zombie-pigmen-portal-spawns: true
+    view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    view-distance: 10
     use-async-lighting: false
-    item-despawn-rate: 6000
     arrow-despawn-rate: 1200
     zombie-aggressive-towards-villager: true
+    item-despawn-rate: 6000
+    enable-zombie-pigmen-portal-spawns: true
