@@ -14,7 +14,7 @@ checkUpdates: false
 # Recommend using 6 lines per page but you can use as many as you want! 
 AdvancedHelpPages:
   1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f/help towns = &7Town Help, Information and Commands"
     - "  &f/help chat = &7Chat Help, Information and Commands"
     - "  &f/help misc = &7Misc Help, Information and Commands"
@@ -26,7 +26,7 @@ AdvancedHelpCategories:
   default: 
     Default: true
     1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f/help towns = &7Town Help, Information and Commands"
     - "  &f/help chat = &7Chat Help, Information and Commands"
     - "  &f/help misc = &7Misc Help, Information and Commands"
@@ -37,7 +37,7 @@ AdvancedHelpCategories:
   towns: 
     Default: true
     1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f&LTOWNS and PROTECTION&r"
     - "  &f/t new = &7Create a New Town"
     - "  &f/t claim = &7Claim an Additional Chunk"
@@ -49,7 +49,7 @@ AdvancedHelpCategories:
   chat: 
     Default: true
     1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f&LCHAT and MESSAGING&r"    
     - "  &f/ch [channelName] = &7Joins a Channel"
     - "  &f/ch create [channelName] = &7Creates a new Channel"
@@ -58,7 +58,7 @@ AdvancedHelpCategories:
   misc: 
     Default: true
     1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f&LMISCELLANEOUS&r"
     - "  &f/random = &7Brings up the Random Teleport GUI"
     - "  &f/spawn = &7Takes you to the Server Spawn"
@@ -67,7 +67,7 @@ AdvancedHelpCategories:
   eco: 
     Default: true
     1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f&LECONOMY, TRADING and VOTING&r"
     - "  &f/pay [playerName] X = &7Pay a Player X Credits"
     - "  &f/sell = &7Sell Item in Hand to the Server Market"
@@ -76,14 +76,14 @@ AdvancedHelpCategories:
   kits: 
     Default: true
     1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f&LKITS&r"
     - "  &fComing soon!"
     - "&8&m================================================"
   vote: 
     Default: true
     1:
-    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "&8&m========= &7&L WorldAutomation.Net Help &8&m============"
     - "  &f&LKITS&r"
     - "  &fComing soon!"
     - "&8&m================================================"        

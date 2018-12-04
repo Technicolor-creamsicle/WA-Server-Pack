@@ -118,16 +118,16 @@ world-settings:
     matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
     tconstruct-tools-logic-BattlesignLogic:
