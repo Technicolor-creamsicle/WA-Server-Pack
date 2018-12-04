@@ -2,3 +2,4 @@ OnTime v4.1.4 [12/02/2018 03:13:29] {logout} test was not marked as 'online' by 
 OnTime v4.1.4 [12/02/2018 03:14:54] {auditLogout} OnLine player: test was NOT online per OnTime Records. Logging them IN now.
 OnTime v4.1.4 [12/02/2018 03:19:55] {auditLogout} OnLine player: test was NOT online per OnTime Records. Logging them IN now.
 OnTime v4.1.4 [12/02/2018 03:20:54] {logout} test was not marked as 'online' by ontime.  Logout failed. No data update. 
+OnTime v4.1.4 [12/04/2018 22:14:08] {rewards.getCurrentGroup} Could not find mindamp group(s) [Citizen] in reward.yml
