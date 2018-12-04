@@ -37,13 +37,13 @@ world-settings:
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
-    mods-railcraft-common-blocks-hidden-TileHidden:
-      tick-no-players: false
-      tick-interval: 1
     TileMultipartcmp1:
       tick-no-players: false
       tick-interval: 1
     forestry-core-tiles-TileAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityFurnace:
@@ -106,25 +106,25 @@ world-settings:
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
+    matteroverdrive-tile-TileEntityMachineNetworkRouter:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-pipes-TileEntityNetworkPipe:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
+    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineNetworkRouter:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
