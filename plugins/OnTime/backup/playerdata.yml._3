@@ -7,10 +7,9 @@ playerDataVersion: 6
 ##################################################
 #
 players:
-   player0: 'e9893eaa-6432-447d-97d4-e61369479971,mindamp,22660,1543880170000,22660,22660,22660,0,0,0,0,0'
 #
-TodayDate: 1543816800000
+TodayDate: 0
 #
-WeekStartDate: 1543816800000
+WeekStartDate: 0
 #
-MonthStartDate: 1543644000000
+MonthStartDate: 0

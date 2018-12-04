@@ -1,57 +1,89 @@
 ############################################################
-# +------------------------------------------------------+ #
+# +======================================================+ #
 # |         AdvancedHelp ~ Plugin By Cmaaxx              | #
-# +------------------------------------------------------+ #
+# +======================================================+ #
 ############################################################
 
 # The format of the timing system
 # dd = day | MM = month | yyyy = year | HH = hour | mm = minute | ss = second
-dateFormat: "HH:mm:ss dd-MM-yyyy"
-prefix: "&7[&6WorldAutomation.Net Help&7]"
-checkUpdates: true
+dateFormat: "HH:mm:ss dd=MM=yyyy"
+prefix: "&8[&7WA&8]"
+checkUpdates: false
 
 # AdvancedHelp pages. /help.
 # Recommend using 6 lines per page but you can use as many as you want! 
 AdvancedHelpPages:
   1:
-    - "&d&m---&6 WorldAutomation.Net &dHelp &d&m---"
-    - "  &6/help <categoryName> - &fShows &ocategory&f!"
-    - "  &6/help 2 - &fOpen &osecond &fhelp page."
-    - "  &6/spawn - &fTeleports you to spawn"
-    - "  &6/home - &fBrings you home"
-    - "  &6/pay <user> <amount> - &fPay users"
-    - "{\"text\":\"Use JSON chat as well!\"}"
-  2:
-    - ""
-    
-# To create more pages, follow the format below or above!!
-# 3:
-#   - "Hello %player% it is %time%!
-#   - "Add as many lines as you want!"
-
-      
-
-# AdvancedHelp Categories. /help <category>
-#  Per-Category permissions can be used! help.categoryname
-#  example permission - help.categoryexample1
-#  ***Make sure to make the name of your category all lower case!*** 
-#  Making your category default 'true' means anyone can open it without the permissions help.<categoryname>
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f/help towns = &7Town Help, Information and Commands"
+    - "  &f/help chat = &7Chat Help, Information and Commands"
+    - "  &f/help misc = &7Misc Help, Information and Commands"
+    - "  &f/help eco = &7Economy Help, Information and Commands"
+    - "  &f/help kits = &7Kits Help, Information and Commands"
+    - "  &f/help vote = &7Vote Help, Information and Commands"    
+    - "&8&m================================================"
 AdvancedHelpCategories:
-  categoryexample1: 
+  default: 
     Default: true
     1:
-      - "&e&m---&e Make the name of the category anything! &e&m---"
-      - "  For example make a category called 'faction'"
-      - "  then players can do /help faction to see help!"
-      - "{\"text\":\"Example MSG\",\"bold\":true,\"color\":\"light_purple\",\"clickEvent\":{\"action\":\"open_url\",\"value\":\"http://google.com\"},\"hoverEvent\":{\"action\":\"show_text\",\"value\":\"Click here!\"}}"
-      
-    2:
-      - "&e&m---&e Page2 &e&m---"
-      - " add as many pages as you need to categories as well!"
-  categoryexample2: 
-    Default: false
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f/help towns = &7Town Help, Information and Commands"
+    - "  &f/help chat = &7Chat Help, Information and Commands"
+    - "  &f/help misc = &7Misc Help, Information and Commands"
+    - "  &f/help eco = &7Economy Help, Information and Commands"
+    - "  &f/help kits = &7Kits Help, Information and Commands"
+    - "  &f/help vote = &7Vote Help, Information and Commands"    
+    - "&8&m================================================"
+  towns: 
+    Default: true
     1:
-      - "add in as many categories as you need!"
-      
-
-    
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f&LTOWNS and PROTECTION&r"
+    - "  &f/t new = &7Create a New Town"
+    - "  &f/t claim = &7Claim an Additional Chunk"
+    - "  &f/t bank deposit X = &7Deposit X Credits into Town Bank"
+    - "  &f/t perm set mobs false = &7Disables Mobs in your Town"
+    - "  &f/t perm set entry false = &7Members Only"    
+    - "  &f/t help = &7More Help"    
+    - "&8&m================================================"
+  chat: 
+    Default: true
+    1:
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f&LCHAT and MESSAGING&r"    
+    - "  &f/ch [channelName] = &7Joins a Channel"
+    - "  &f/ch create [channelName] = &7Creates a new Channel"
+    - "  &f/ch help = &7More Help"
+    - "&8&m================================================"
+  misc: 
+    Default: true
+    1:
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f&LMISCELLANEOUS&r"
+    - "  &f/random = &7Brings up the Random Teleport GUI"
+    - "  &f/spawn = &7Takes you to the Server Spawn"
+    - "  &f/kits = &7List all Available Kits"
+    - "&8&m================================================"
+  eco: 
+    Default: true
+    1:
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f&LECONOMY, TRADING and VOTING&r"
+    - "  &f/pay [playerName] X = &7Pay a Player X Credits"
+    - "  &f/sell = &7Sell Item in Hand to the Server Market"
+    - "  &f/wallet = &7Get your Personal Balance"
+    - "&8&m================================================"
+  kits: 
+    Default: true
+    1:
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f&LKITS&r"
+    - "  &fComing soon!"
+    - "&8&m================================================"
+  vote: 
+    Default: true
+    1:
+    - "&8&m=============&7 WorldAutomation.Net Help &8&m============="
+    - "  &f&LKITS&r"
+    - "  &fComing soon!"
+    - "&8&m================================================"        

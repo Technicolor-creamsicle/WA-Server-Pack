@@ -30,10 +30,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityXPOrb:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-passive-EntityChicken:
       tick-no-players: false
       never-ever-tick: false
@@ -42,15 +38,35 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityZombie:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-passive-EntityCow:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityZombie:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mods-railcraft-common-carts-EntityCartChest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-monster-EntitySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityHorse:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityXPOrb:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -59,10 +75,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     tconstruct-world-entity-BlueSlime:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    mods-railcraft-common-carts-EntityCartChest:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -78,19 +90,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-passive-EntityHorse:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     micdoodle8-mods-galacticraft-core-entities-player-GCEntityPlayerMP:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntitySpider:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

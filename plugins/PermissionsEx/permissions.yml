@@ -29,6 +29,7 @@ groups:
     - randomtp.use.user
     - randomtp.use.*
     - cmd.*
+    - help.use
     - mytown.cmd
     - mytown.cmd.outsider.*
     - randomtp.use
@@ -119,8 +120,9 @@ groups:
     - discordsrv.sync.424623754245570570
     - randomtp.*
     - essentials.sethome.multiple.gm
-    - essentials.*
-    - essentials.*.*
+    - help.*
+    - randomtp.*
+    - authme.*
     - '*'
   Admin:
     inheritance:
@@ -131,8 +133,6 @@ groups:
     permissions:
     - discordsrv.sync.413460388072652810
     - essentials.sethome.multiple.admin
-    - essentials.*
-    - essentials.*.*
     - '*'
 schema-version: 1
 users:

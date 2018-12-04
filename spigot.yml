@@ -11,6 +11,9 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
 settings:
   late-bind: false
   sample-count: 12
@@ -28,36 +31,15 @@ messages:
   server-full: WorldAutomation.Net is Currently Full!
   outdated-client: Outdated client! Please see www.worldautomation.net!
   outdated-server: Outdated server! Please see www.worldautomation.net!
-commands:
-  log: true
-  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
 world-settings:
   default:
     verbose: false
-    anti-xray:
-      enabled: false
-      engine-mode: 1
-      hide-blocks:
-      - 14
-      - 15
-      - 16
-      - 21
-      - 48
-      - 49
-      - 54
-      - 56
-      - 73
-      - 74
-      - 82
-      - 129
-      - 130
-      replace-blocks:
-      - 1
-      - 5
-    nerf-spawner-mobs: false
+    merge-radius:
+      item: 2.5
+      exp: 3.0
     growth:
       cactus-modifier: 100
       cane-modifier: 100
@@ -87,15 +69,33 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
+    nerf-spawner-mobs: false
+    anti-xray:
+      enabled: false
+      engine-mode: 1
+      hide-blocks:
+      - 14
+      - 15
+      - 16
+      - 21
+      - 48
+      - 49
+      - 54
+      - 56
+      - 73
+      - 74
+      - 82
+      - 129
+      - 130
+      replace-blocks:
+      - 1
+      - 5
     mob-spawn-range: 4
-    merge-radius:
-      item: 2.5
-      exp: 3.0
     chunks-per-tick: 650
     clear-tick-list: false
     use-async-lighting: false
     view-distance: 10
-    zombie-aggressive-towards-villager: true
     item-despawn-rate: 6000
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
