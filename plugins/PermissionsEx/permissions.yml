@@ -157,7 +157,7 @@ users:
       name: DrNaidemoc
   e9893eaa-6432-447d-97d4-e61369479971:
     group:
-    - Citizen
+    - Admin
     options:
       name: mindamp
   4d24640d-6861-447a-8ca6-4eddacf6c9fb:

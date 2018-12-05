@@ -15,7 +15,7 @@ lastlocation:
   z: -701.0440086173437
   yaw: 61.12676
   pitch: 36.149994
-godmode: true
+godmode: false
 afk: false
 logoutlocation:
   world: Universe

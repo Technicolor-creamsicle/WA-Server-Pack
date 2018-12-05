@@ -98,11 +98,15 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityWitch:
+    net-minecraft-entity-monster-EntityEnderman:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntityEnderman:
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityWitch:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -110,7 +114,23 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlitz:
+    net-minecraft-entity-projectile-EntityPotion:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-weapon-PlasmaBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    lumien-randomthings-Entity-EntitySoul:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBasalz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cr0s-warpdrive-world-EntitySphereGen:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -122,23 +142,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    matteroverdrive-entity-weapon-PlasmaBolt:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBasalz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-projectile-EntityEgg:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-projectile-EntityArrow:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    lumien-randomthings-Entity-EntitySoul:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -223,10 +231,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     lumien-randomthings-Entity-EntitySpirit:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-projectile-EntityPotion:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
