@@ -5,17 +5,17 @@ timestamps:
   kits:
     notch: 1543594105058
     dtools: 1543593423408
-  lastteleport: 1543710472759
+  lastteleport: 1544043082699
   logout: 1543712232678
 ipAddress: 84.104.113.11
 lastlocation:
   world: Universe
-  x: -1.1205820604316359
-  y: 63.0
-  z: 0.3719281191919285
-  yaw: 346.0499
-  pitch: 21.45
-godmode: false
+  x: -993.5145557218084
+  y: 43.0
+  z: -701.0440086173437
+  yaw: 61.12676
+  pitch: 36.149994
+godmode: true
 afk: false
 logoutlocation:
   world: Universe

@@ -160,3 +160,9 @@ users:
     - Citizen
     options:
       name: mindamp
+  4d24640d-6861-447a-8ca6-4eddacf6c9fb:
+    group:
+    - GM
+    - Mod
+    options:
+      name: Miotismon
