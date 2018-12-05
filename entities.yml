@@ -138,6 +138,14 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    com-enm-mob-javapower-EntityJavaPowerMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-projectile-EntityBlitzBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSWitherSkull:
       tick-no-players: false
       never-ever-tick: false
@@ -194,10 +202,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    com-enm-mob-javapower-EntityJavaPowerMob:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     tconstruct-world-entity-KingBlueSlime:
       tick-no-players: false
       never-ever-tick: false
@@ -207,10 +211,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-projectile-EntitySnowball:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    cofh-thermalfoundation-entity-projectile-EntityBlitzBolt:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
