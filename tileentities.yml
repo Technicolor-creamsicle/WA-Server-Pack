@@ -148,6 +148,18 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipCore:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipController:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp5:
+      tick-no-players: false
+      tick-interval: 1
     tconstruct-tools-logic-BattlesignLogic:
       tick-no-players: false
       tick-interval: 1
@@ -218,15 +230,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-cell-TileCellCreative:
-      tick-no-players: false
-      tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipController:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipCore:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:

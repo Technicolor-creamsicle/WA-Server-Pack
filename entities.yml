@@ -146,6 +146,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-monster-EntitySlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSWitherSkull:
       tick-no-players: false
       never-ever-tick: false
@@ -179,10 +183,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-passive-EntityWolf:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntitySlime:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
