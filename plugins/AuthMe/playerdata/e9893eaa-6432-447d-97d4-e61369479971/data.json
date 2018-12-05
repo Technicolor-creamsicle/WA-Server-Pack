@@ -2,11 +2,11 @@
   "group": "Citizen",
   "location": {
     "world": "Universe",
-    "x": -470.5,
-    "y": 78.0,
-    "z": -369.5,
-    "yaw": 70.200745,
-    "pitch": -39.749935
+    "x": -1286.572710180512,
+    "y": 71.5,
+    "z": 1079.2865201168336,
+    "yaw": -5.4927053,
+    "pitch": 17.825296
   },
   "operator": false,
   "can-fly": false,

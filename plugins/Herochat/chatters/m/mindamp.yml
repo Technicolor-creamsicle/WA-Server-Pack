@@ -2,6 +2,7 @@ name: mindamp
 activeChannel: Global
 channels:
 - Global
+- Staff
 ignores: []
 muted: false
 autojoin: false
