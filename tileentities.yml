@@ -145,6 +145,9 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
+    com-rwtema-extrautils-tileentity-TileEntityTrashCan:
+      tick-no-players: false
+      tick-interval: 1
     matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
