@@ -127,6 +127,24 @@ world-settings:
     dan200-computercraft-shared-peripheral-monitor-TileMonitor:
       tick-no-players: false
       tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-grindstone-TileCrank:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
     matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
@@ -158,24 +176,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityCageTrap:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
-      tick-no-players: false
-      tick-interval: 1
-    appeng-tile-grindstone-TileCrank:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp5:
