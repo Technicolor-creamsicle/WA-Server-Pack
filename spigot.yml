@@ -11,9 +11,6 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
-commands:
-  log: true
-  tab-complete: true
 settings:
   late-bind: false
   sample-count: 12
@@ -22,8 +19,8 @@ settings:
   restart-script: ./start.sh
   netty-threads: -1
   bungeecord: false
-  fullMatchRate: 10
   player-shuffle: 0
+  fullMatchRate: 10
 messages:
   restart: WorldAutomation.Net is Restarting Please Wait!
   whitelist: You are not whitelisted for WorldAutomation.Net!
@@ -31,6 +28,9 @@ messages:
   server-full: WorldAutomation.Net is Currently Full!
   outdated-client: Outdated client! Please see www.worldautomation.net!
   outdated-server: Outdated server! Please see www.worldautomation.net!
+commands:
+  log: true
+  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -91,11 +91,11 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
-    item-despawn-rate: 6000
-    zombie-aggressive-towards-villager: true
-    view-distance: 10
-    use-async-lighting: false
     chunks-per-tick: 650
     clear-tick-list: false
+    use-async-lighting: false
+    view-distance: 10
+    item-despawn-rate: 6000
+    zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
