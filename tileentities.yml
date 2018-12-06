@@ -109,21 +109,6 @@ world-settings:
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp5:
-      tick-no-players: false
-      tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
-      tick-no-players: false
-      tick-interval: 1
-    dan200-computercraft-shared-peripheral-modem-TileCable:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipCore:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipController:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
@@ -148,6 +133,18 @@ world-settings:
     matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityOwnable:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityKeypad:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityCageTrap:
+      tick-no-players: false
+      tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
       tick-no-players: false
       tick-interval: 1
@@ -164,6 +161,21 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp5:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-modem-TileCable:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipCore:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipController:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-peripheral-monitor-TileMonitor:
@@ -253,16 +265,7 @@ world-settings:
     fiskfille-lightsabers-common-tileentity-TileEntityCrystal:
       tick-no-players: false
       tick-interval: 1
-    net-geforcemods-securitycraft-tileentity-TileEntityOwnable:
-      tick-no-players: false
-      tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityKeycardReader:
-      tick-no-players: false
-      tick-interval: 1
-    net-geforcemods-securitycraft-tileentity-TileEntityKeypad:
-      tick-no-players: false
-      tick-interval: 1
-    net-geforcemods-securitycraft-tileentity-TileEntityCageTrap:
       tick-no-players: false
       tick-interval: 1
     com-parzivail-pswm-tileentities-TileEntityLightsaberForge:
