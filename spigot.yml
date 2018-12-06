@@ -91,11 +91,11 @@ world-settings:
       tile: 1000
       entity: 1000
     max-tnt-per-tick: 100
+    use-async-lighting: false
+    item-despawn-rate: 6000
     chunks-per-tick: 650
     clear-tick-list: false
-    use-async-lighting: false
     view-distance: 10
-    item-despawn-rate: 6000
     zombie-aggressive-towards-villager: true
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
