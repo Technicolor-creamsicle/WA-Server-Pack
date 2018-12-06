@@ -1,29 +1,29 @@
 uuid: e9893eaa-6432-447d-97d4-e61369479971
 timestamps:
-  login: 1544056297329
-  logout: 1544027135660
-  lastteleport: 1544053060503
+  login: 1544059960636
+  logout: 1544060346915
+  lastteleport: 1544059580998
   kits:
     dtools: 1543893666463
     tools: 1543894495671
 ipAddress: 75.129.254.61
 logoutlocation:
   world: Universe
-  x: -1286.572710180512
-  y: 71.5
-  z: 1079.2865201168336
-  yaw: -5.4927053
-  pitch: 17.825296
+  x: 302.34692161720636
+  y: 83.0
+  z: 522.7472598032709
+  yaw: -340.32434
+  pitch: 9.569691
 lastlocation:
-  world: solarSystem
-  x: -41036.411714285496
-  y: 251.0625
-  z: 29315.790434262155
-  yaw: 175.7326
-  pitch: 6.1499605
+  world: Universe
+  x: -1285.7362761427407
+  y: 71.5
+  z: 1080.0416814157234
+  yaw: 23.157286
+  pitch: 2.825299
 geolocation: United States
 afk: false
-money: '6.0'
+money: '4.0'
 homes:
   home:
     world: Universe
