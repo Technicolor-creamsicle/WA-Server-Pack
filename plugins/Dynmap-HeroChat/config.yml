@@ -7,4 +7,4 @@ channel-to-web-list:
 - NSFW
 - Music
 - Other
-webmsgformat: '&color;2[WEB] %playername%: &color;f%message%'
+webmsgformat: '&color;2[MAP]%playername%: &color;f%message%'
