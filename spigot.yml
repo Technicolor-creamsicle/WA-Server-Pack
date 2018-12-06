@@ -12,13 +12,13 @@
 
 config-version: 7
 settings:
-  late-bind: false
-  sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
   bungeecord: false
+  late-bind: false
+  sample-count: 12
   player-shuffle: 0
   fullMatchRate: 10
 messages:
