@@ -145,9 +145,6 @@ world-settings:
     matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-peripheral-monitor-TileMonitor:
-      tick-no-players: false
-      tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
       tick-no-players: false
       tick-interval: 1
@@ -155,6 +152,9 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     appeng-tile-grindstone-TileCrank:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-TileEntityTrashCan:
       tick-no-players: false
       tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
@@ -166,7 +166,7 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
-    com-rwtema-extrautils-tileentity-TileEntityTrashCan:
+    dan200-computercraft-shared-peripheral-monitor-TileMonitor:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityOwnable:

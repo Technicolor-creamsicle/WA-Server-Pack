@@ -1,0 +1,15 @@
+{
+  "group": "Citizen",
+  "location": {
+    "world": "Universe",
+    "x": -275.48134123257654,
+    "y": 67.0,
+    "z": -138.20582278051052,
+    "yaw": -265.50168,
+    "pitch": 6.3
+  },
+  "operator": false,
+  "can-fly": false,
+  "walk-speed": 0.2,
+  "fly-speed": 0.1
+}

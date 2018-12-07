@@ -122,7 +122,19 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    mekanism-common-entity-EntityBabySkeleton:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-projectile-EntityEgg:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    lumien-randomthings-Entity-EntitySpirit:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-tools-entity-FancyEntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -131,10 +143,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     com-vicmatskiv-weaponlib-grenade-EntitySmokeGrenade:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    mekanism-common-entity-EntityBabySkeleton:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -202,10 +210,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    tconstruct-tools-entity-FancyEntityItem:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-monster-EntityCaveSpider:
       tick-no-players: false
       never-ever-tick: false
@@ -247,10 +251,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     appeng-entity-EntityChargedQuartz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    lumien-randomthings-Entity-EntitySpirit:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
