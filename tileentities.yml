@@ -109,19 +109,19 @@ world-settings:
     openblocks-common-tileentity-TileEntityGrave:
       tick-no-players: false
       tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+    cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipCore:
+    dan200-computercraft-shared-computer-blocks-TileComputer:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityShipController:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-cell-TileCellCreative:
+    cr0s-warpdrive-block-movement-TileEntityShipCore:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-peripheral-monitor-TileMonitor:
