@@ -114,6 +114,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-item-EntityFireworkRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-item-EntityXPOrb:
       tick-no-players: false
       never-ever-tick: false
@@ -183,10 +187,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     cr0s-warpdrive-world-EntitySphereGen:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityFireworkRocket:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

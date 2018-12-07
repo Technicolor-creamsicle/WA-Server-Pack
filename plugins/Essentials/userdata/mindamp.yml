@@ -22,7 +22,7 @@ lastlocation:
   yaw: -224.97455
   pitch: 2.819695
 geolocation: United States
-afk: true
+afk: false
 money: '4.0'
 homes:
   home:
