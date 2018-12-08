@@ -166,3 +166,8 @@ users:
     - Mod
     options:
       name: Miotismon
+  cd37089d-0990-4d13-a252-c364ba0fee6a:
+    group:
+    - VIP
+    options:
+      name: Get_Bang
