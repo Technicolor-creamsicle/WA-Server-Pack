@@ -130,6 +130,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    appeng-entity-EntityChargedQuartz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-item-EntityFireworkRocket:
       tick-no-players: false
       never-ever-tick: false
@@ -255,10 +259,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-projectile-EntitySnowball:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    appeng-entity-EntityChargedQuartz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

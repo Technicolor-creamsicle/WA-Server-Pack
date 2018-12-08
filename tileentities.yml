@@ -145,12 +145,6 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityFusionReactorPart:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityMachineNetworkRouter:
       tick-no-players: false
       tick-interval: 1
@@ -160,13 +154,19 @@ world-settings:
     matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-cell-TileCellCreative:
+    matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachineReplicator:
