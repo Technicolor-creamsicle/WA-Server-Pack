@@ -19,8 +19,8 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
-  player-shuffle: 0
   fullMatchRate: 10
+  player-shuffle: 0
 commands:
   log: true
   tab-complete: true
@@ -93,9 +93,9 @@ world-settings:
     max-tnt-per-tick: 100
     chunks-per-tick: 650
     clear-tick-list: false
-    view-distance: 10
-    item-despawn-rate: 6000
     use-async-lighting: false
+    view-distance: 10
     arrow-despawn-rate: 1200
-    enable-zombie-pigmen-portal-spawns: true
     zombie-aggressive-towards-villager: true
+    item-despawn-rate: 6000
+    enable-zombie-pigmen-portal-spawns: true
