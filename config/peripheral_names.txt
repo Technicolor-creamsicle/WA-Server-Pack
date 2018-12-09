@@ -1,6 +1,7 @@
 #OpenPeripheral user-friendly names
 #class_name	user_name
 cofh.thermalexpansion.block.cell.TileCellCreative	tile_thermalexpansion_cell_creative_name
+crazypants.enderio.conduit.TileConduitBundle	blockconduitbundletileentity
 net.minecraft.block.BlockJukebox$TileEntityJukebox	record_player
 net.minecraft.tileentity.TileEntityBeacon	beacon
 net.minecraft.tileentity.TileEntityBrewingStand	brewing_stand
