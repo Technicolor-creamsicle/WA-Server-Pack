@@ -196,6 +196,24 @@ world-settings:
     net-minecraft-tileentity-TileEntityHopper:
       tick-no-players: false
       tick-interval: 1
+    TileMultipartcmp5:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-modem-TileCable:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineReplicator:
+      tick-no-players: false
+      tick-interval: 1
+    buildcraft-builders-TileQuarryCompat:
+      tick-no-players: false
+      tick-interval: 1
+    buildcraft-builders-TileConstructionMarker:
+      tick-no-players: false
+      tick-interval: 1
+    buildcraft-core-TileMarker:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1
@@ -209,9 +227,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-cell-TileCellCreative:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineReplicator:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachinePatternStorage:
@@ -233,12 +248,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityCageTrap:
-      tick-no-players: false
-      tick-interval: 1
-    TileMultipartcmp5:
-      tick-no-players: false
-      tick-interval: 1
-    dan200-computercraft-shared-peripheral-modem-TileCable:
       tick-no-players: false
       tick-interval: 1
     tconstruct-tools-logic-BattlesignLogic:

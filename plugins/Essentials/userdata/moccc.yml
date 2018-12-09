@@ -1,20 +1,20 @@
 geolocation: Netherlands
 uuid: 4bccd8d3-4e53-4b31-9695-9124de8cc256
 timestamps:
-  login: 1544050481175
+  login: 1544382461743
   kits:
     notch: 1543594105058
     dtools: 1543593423408
-  lastteleport: 1544043082699
+  lastteleport: 1544385175798
   logout: 1544054517960
 ipAddress: 84.104.113.11
 lastlocation:
   world: Universe
-  x: -993.5145557218084
-  y: 43.0
-  z: -701.0440086173437
-  yaw: 61.12676
-  pitch: 36.149994
+  x: -1233.953124091499
+  y: 64.0
+  z: 1201.9736399018886
+  yaw: 212.28783
+  pitch: -2.236624
 godmode: false
 afk: false
 logoutlocation:
@@ -39,3 +39,10 @@ homes:
     z: -760.2616122774607
     yaw: 72.49853
     pitch: 17.249958
+  ship:
+    world: Universe
+    x: -854.5058781198462
+    y: 121.36581659429095
+    z: -860.3807730302185
+    yaw: 52.57735
+    pitch: 32.0668
