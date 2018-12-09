@@ -214,6 +214,9 @@ world-settings:
     buildcraft-core-TileMarker:
       tick-no-players: false
       tick-interval: 1
+    buildcraft-transport-TileGenericPipeCompat:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1

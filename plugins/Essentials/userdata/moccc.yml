@@ -5,25 +5,25 @@ timestamps:
   kits:
     notch: 1543594105058
     dtools: 1543593423408
-  lastteleport: 1544385175798
-  logout: 1544054517960
+  lastteleport: 1544385690044
+  logout: 1544385874034
 ipAddress: 84.104.113.11
 lastlocation:
   world: Universe
-  x: -1233.953124091499
-  y: 64.0
-  z: 1201.9736399018886
-  yaw: 212.28783
-  pitch: -2.236624
+  x: -989.5
+  y: 215.0
+  z: -715.5
+  yaw: -238.53323
+  pitch: 12.600019
 godmode: false
 afk: false
 logoutlocation:
-  world: solarSystem
-  x: -41035.00887528956
-  y: 249.0
-  z: 29289.915889802003
-  yaw: 194.79147
-  pitch: -0.14987868
+  world: Universe
+  x: -1030.8581808607933
+  y: 63.0
+  z: -748.4198334348313
+  yaw: 359.5179
+  pitch: 8.850139
 homes:
   home:
     world: Universe
@@ -46,3 +46,4 @@ homes:
     z: -860.3807730302185
     yaw: 52.57735
     pitch: 32.0668
+money: '192.0'
