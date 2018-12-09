@@ -127,10 +127,43 @@ world-settings:
     cr0s-warpdrive-block-movement-TileEntityShipController:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-ender-TileTesseract:
+    matteroverdrive-tile-TileEntityFusionReactorPart:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkRouter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-building-TileEntityShipScanner:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityLift:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
@@ -152,27 +185,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineNetworkRouter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityFusionReactorPart:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
