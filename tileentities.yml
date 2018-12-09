@@ -190,6 +190,9 @@ world-settings:
     crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
+    crazypants-enderio-machine-painter-TileEntityPainter:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
