@@ -217,6 +217,9 @@ world-settings:
     buildcraft-transport-TileGenericPipeCompat:
       tick-no-players: false
       tick-interval: 1
+    net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1
@@ -245,9 +248,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityKeypad:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityCageTrap:

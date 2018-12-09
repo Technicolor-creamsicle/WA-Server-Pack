@@ -182,6 +182,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    tconstruct-tools-entity-FancyEntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-monster-EntitySlime:
       tick-no-players: false
       never-ever-tick: false
@@ -191,10 +195,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     powercrystals-netherores-entity-EntityArmedOre:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    tconstruct-tools-entity-FancyEntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
