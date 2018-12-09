@@ -25,10 +25,10 @@ world-settings:
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityGravitationalAnomaly:
+    mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
-    mods-railcraft-common-blocks-hidden-TileHidden:
+    matteroverdrive-tile-TileEntityGravitationalAnomaly:
       tick-no-players: false
       tick-interval: 1
     mrtjp-projectred-exploration-TileLily:
@@ -109,16 +109,25 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
+    crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-ender-TileTesseract:
+    cr0s-warpdrive-block-TileEntityLaserMedium:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-collection-TileEntityMiningLaser:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityShipCore:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityShipController:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
@@ -179,15 +188,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-collection-TileEntityMiningLaser:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-TileEntityLaserMedium:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-painter-TileEntityPainter:
