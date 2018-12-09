@@ -1,17 +1,17 @@
 geolocation: Portugal
 uuid: cd37089d-0990-4d13-a252-c364ba0fee6a
 timestamps:
-  login: 1544297716541
-  lastteleport: 1544301669659
+  login: 1544377427834
+  lastteleport: 1544378179518
   logout: 1544301680958
 ipAddress: 188.250.28.161
 lastlocation:
   world: Universe
-  x: -278.7939173044907
+  x: -279.09104028198396
   y: 67.0
-  z: -137.1048673590114
-  yaw: -100.80194
-  pitch: 30.450031
+  z: -139.15752855221254
+  yaw: -95.251945
+  pitch: 5.400034
 money: '323.25'
 homes:
   home:
