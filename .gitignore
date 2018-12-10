@@ -46,3 +46,5 @@ DiscordConsole.log
 *.log
 server.properties.template
 server.properties
+backups
+backups/*
