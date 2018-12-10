@@ -112,6 +112,12 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-building-TileEntityShipScanner:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
       tick-no-players: false
       tick-interval: 1
@@ -157,9 +163,6 @@ world-settings:
     cr0s-warpdrive-block-collection-TileEntityMiningLaser:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
-      tick-no-players: false
-      tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityShipCore:
       tick-no-players: false
       tick-interval: 1
@@ -188,9 +191,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-building-TileEntityShipScanner:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
