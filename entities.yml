@@ -34,7 +34,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntitySkeleton:
+    net-minecraft-entity-passive-EntityCow:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntitySquid:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -42,23 +46,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntitySpider:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-monster-EntityEnderman:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityCow:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityBat:
+    net-minecraft-entity-monster-EntitySkeleton:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -67,6 +55,14 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     mods-railcraft-common-carts-EntityCartChest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySpider:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -86,23 +82,27 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-passive-EntityBat:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    mekanism-common-entity-EntityBabySkeleton:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlitz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntitySquid:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-monster-EntityWitch:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntityEnderman:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    mekanism-common-entity-EntityBabySkeleton:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -123,6 +123,10 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-passive-EntityVillager:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -247,10 +251,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-monster-EntityCaveSpider:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-passive-EntityVillager:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

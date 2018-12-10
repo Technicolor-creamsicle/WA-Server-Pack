@@ -37,13 +37,16 @@ world-settings:
     net-minecraft-tileentity-TileEntityChest:
       tick-no-players: false
       tick-interval: 1
+    li-cil-oc-common-tileentity-Screen:
+      tick-no-players: false
+      tick-interval: 1
     matteroverdrive-tile-TileEntityTritaniumCrate:
       tick-no-players: false
       tick-interval: 1
-    net-geforcemods-securitycraft-tileentity-TileEntityOwnable:
+    li-cil-oc-common-tileentity-Rack:
       tick-no-players: false
       tick-interval: 1
-    li-cil-oc-common-tileentity-Rack:
+    TileMultipartcmp2:
       tick-no-players: false
       tick-interval: 1
     li-cil-oc-common-tileentity-PowerConverter:
@@ -52,13 +55,7 @@ world-settings:
     cofh-thermalexpansion-block-cell-TileCellCreative:
       tick-no-players: false
       tick-interval: 1
-    net-geforcemods-securitycraft-tileentity-TileEntityRetinalScanner:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-hidden-TileHidden:
-      tick-no-players: false
-      tick-interval: 1
-    TileMultipartcmp1:
+    li-cil-oc-common-tileentity-Case:
       tick-no-players: false
       tick-interval: 1
     codechicken-chunkloader-TileSpotLoader:
@@ -73,10 +70,16 @@ world-settings:
     net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
+    mods-railcraft-common-blocks-hidden-TileHidden:
+      tick-no-players: false
+      tick-interval: 1
     forestry-core-tiles-TileAnalyzer:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
+    net-geforcemods-securitycraft-tileentity-TileEntityRetinalScanner:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-building-TileEntityShipScanner:
@@ -130,16 +133,19 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
+    net-geforcemods-securitycraft-tileentity-TileEntityOwnable:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp1:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
     openblocks-common-tileentity-TileEntityBigButton:
       tick-no-players: false
       tick-interval: 1
     pcl-opensecurity-tileentity-TileEntitySecureDoor:
-      tick-no-players: false
-      tick-interval: 1
-    li-cil-oc-common-tileentity-Screen:
-      tick-no-players: false
-      tick-interval: 1
-    li-cil-oc-common-tileentity-Case:
       tick-no-players: false
       tick-interval: 1
     micdoodle8-mods-galacticraft-core-tile-TileEntityDish:
@@ -182,9 +188,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityScannerDoor:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-trapdoor-tileentity-TrapDoorTileEntity:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
@@ -290,9 +293,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     tconstruct-tools-logic-BattlesignLogic:
-      tick-no-players: false
-      tick-interval: 1
-    TileMultipartcmp2:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp0:
