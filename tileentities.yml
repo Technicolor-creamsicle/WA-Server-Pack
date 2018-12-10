@@ -136,6 +136,18 @@ world-settings:
     pcl-opensecurity-tileentity-TileEntitySecureDoor:
       tick-no-players: false
       tick-interval: 1
+    li-cil-oc-common-tileentity-Screen:
+      tick-no-players: false
+      tick-interval: 1
+    li-cil-oc-common-tileentity-Case:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-tile-TileEntityDish:
+      tick-no-players: false
+      tick-interval: 1
+    micdoodle8-mods-galacticraft-core-tile-TileEntityMulti:
+      tick-no-players: false
+      tick-interval: 1
     pcl-opensecurity-tileentity-TileEntityKeypadLock:
       tick-no-players: false
       tick-interval: 1

@@ -94,7 +94,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityXPOrb:
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -102,15 +102,19 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntitySlime:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-monster-EntityWitch:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlitz:
+    net-minecraft-entity-item-EntityFireworkRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityXPOrb:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -119,10 +123,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     cr0s-warpdrive-world-EntitySphereGen:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityFireworkRocket:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
