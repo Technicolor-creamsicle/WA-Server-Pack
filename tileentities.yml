@@ -64,6 +64,9 @@ world-settings:
     codechicken-chunkloader-TileSpotLoader:
       tick-no-players: false
       tick-interval: 1
+    mods-railcraft-common-blocks-hidden-TileHidden:
+      tick-no-players: false
+      tick-interval: 1
     codechicken-enderstorage-storage-liquid-TileEnderTank:
       tick-no-players: false
       tick-interval: 1
@@ -74,9 +77,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     forestry-core-tiles-TileAnalyzer:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityRetinalScanner:
@@ -136,6 +136,30 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
+    crazypants-enderio-conduit-TileConduitBundle:
+      tick-no-players: false
+      tick-interval: 1
+    mrtjp-projectred-illumination-TileLamp:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-computer-blocks-TileComputer:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-TileEntityLaserMedium:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-collection-TileEntityMiningLaser:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipController:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityShipCore:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-painter-TileEntityPainter:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
       tick-no-players: false
       tick-interval: 1
@@ -148,9 +172,6 @@ world-settings:
     net-minecraft-tileentity-TileEntityHopper:
       tick-no-players: false
       tick-interval: 1
-    crazypants-enderio-conduit-TileConduitBundle:
-      tick-no-players: false
-      tick-interval: 1
     net-malisis-doors-door-tileentity-FenceGateTileEntity:
       tick-no-players: false
       tick-interval: 1
@@ -160,25 +181,10 @@ world-settings:
     cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-computer-blocks-TileComputer:
-      tick-no-players: false
-      tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityLift:
       tick-no-players: false
       tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipCore:
-      tick-no-players: false
-      tick-interval: 1
     ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipController:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-TileEntityLaserMedium:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-collection-TileEntityMiningLaser:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-peripheral-modem-TileCable:
@@ -272,9 +278,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     vazkii-botania-common-block-tile-TileSpecialFlower:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-painter-TileEntityPainter:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachinePatternStorage:
