@@ -148,6 +148,36 @@ world-settings:
     micdoodle8-mods-galacticraft-core-tile-TileEntityMulti:
       tick-no-players: false
       tick-interval: 1
+    matteroverdrive-tile-TileEntityFusionReactorPart:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityLift:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineNetworkRouter:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
+      tick-no-players: false
+      tick-interval: 1
+    org-blockartistry-mod-ThermalRecycling-machines-entity-VendingTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     pcl-opensecurity-tileentity-TileEntityKeypadLock:
       tick-no-players: false
       tick-interval: 1
@@ -208,34 +238,7 @@ world-settings:
     cr0s-warpdrive-block-movement-TileEntityShipController:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityFusionReactorPart:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineNetworkRouter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
-      tick-no-players: false
-      tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-machines-transporter-TileEntityMachineTransporter:
-      tick-no-players: false
-      tick-interval: 1
     cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityLift:
       tick-no-players: false
       tick-interval: 1
     ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
