@@ -1,0 +1,107 @@
+# lightsabers 1.1.1
+version:1.7
+modname:lightsabers
+
+
+cfgfile:config/lightsabers.cfg
+
+
+texturepath:assets/lightsabers/textures/blocks/
+texture:id=lightsabers/dark_activated_forcestone_pillar,filename=assets/lightsabers/textures/blocks/dark_activated_forcestone_pillar.png
+texture:id=lightsabers/dark_activated_forcestone_pillar_top,filename=assets/lightsabers/textures/blocks/dark_activated_forcestone_pillar_top.png
+texture:id=lightsabers/dark_forcestone,filename=assets/lightsabers/textures/blocks/dark_forcestone.png
+texture:id=lightsabers/dark_forcestone_inscribed,filename=assets/lightsabers/textures/blocks/dark_forcestone_inscribed.png
+texture:id=lightsabers/dark_forcestone_pillar,filename=assets/lightsabers/textures/blocks/dark_forcestone_pillar.png
+texture:id=lightsabers/dark_forcestone_pillar_top,filename=assets/lightsabers/textures/blocks/dark_forcestone_pillar_top.png
+texture:id=lightsabers/jedi_holocron_corner,filename=assets/lightsabers/textures/blocks/jedi_holocron_corner.png
+texture:id=lightsabers/jedi_holocron_corner_bottom,filename=assets/lightsabers/textures/blocks/jedi_holocron_corner_bottom.png
+texture:id=lightsabers/jedi_holocron_corner_side,filename=assets/lightsabers/textures/blocks/jedi_holocron_corner_side.png
+texture:id=lightsabers/jedi_holocron_side,filename=assets/lightsabers/textures/blocks/jedi_holocron_side.png
+texture:id=lightsabers/light_activated_forcestone_pillar,filename=assets/lightsabers/textures/blocks/light_activated_forcestone_pillar.png
+texture:id=lightsabers/light_activated_forcestone_pillar_top,filename=assets/lightsabers/textures/blocks/light_activated_forcestone_pillar_top.png
+texture:id=lightsabers/light_forcestone,filename=assets/lightsabers/textures/blocks/light_forcestone.png
+texture:id=lightsabers/light_forcestone_inscribed,filename=assets/lightsabers/textures/blocks/light_forcestone_inscribed.png
+texture:id=lightsabers/light_forcestone_pillar,filename=assets/lightsabers/textures/blocks/light_forcestone_pillar.png
+texture:id=lightsabers/light_forcestone_pillar_top,filename=assets/lightsabers/textures/blocks/light_forcestone_pillar_top.png
+texture:id=lightsabers/lightsaber_crystal,filename=assets/lightsabers/textures/blocks/lightsaber_crystal.png
+texture:id=lightsabers/sith_holocron_bottom,filename=assets/lightsabers/textures/blocks/sith_holocron_bottom.png
+texture:id=lightsabers/sith_holocron_side,filename=assets/lightsabers/textures/blocks/sith_holocron_side.png
+texture:id=minecraft/hardened_clay_stained_black,filename=assets/minecraft/textures/blocks/hardened_clay_stained_black.png
+texture:id=minecraft/obsidian,filename=assets/minecraft/textures/blocks/obsidian.png
+
+
+
+# %lightsaber_crystal:* (lightsaber_crystal), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockCrystal
+block:id=%lightsaber_crystal,data=*,stdrot=true,face0-5=0:lightsabers/lightsaber_crystal
+
+# %lightsaber_forge_light:* (lightsaber_forge_light), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockLightsaberForge
+block:id=%lightsaber_forge_light,data=0,stdrot=true,transparency=TRANSPARENT,face0-5=0:lightsabers/light_forcestone
+block:id=%lightsaber_forge_light,data=1,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/light_forcestone,face2-5=0:lightsabers/light_forcestone_inscribed
+block:id=%lightsaber_forge_light,data=2,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/light_forcestone_pillar_top,face2-5=0:lightsabers/light_forcestone_pillar
+block:id=%lightsaber_forge_light,data=3,stdrot=true,transparency=TRANSPARENT,face0-3=0:lightsabers/light_forcestone_pillar,face4-5=0:lightsabers/light_forcestone_pillar_top
+block:id=%lightsaber_forge_light,data=4,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/light_forcestone_pillar,face2-3=0:lightsabers/light_forcestone_pillar_top,face4-5=0:lightsabers/light_forcestone_pillar
+block:id=%lightsaber_forge_light,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/light_forcestone,face2-5=0:lightsabers/light_forcestone_inscribed
+
+# %lightsaber_forge_dark:* (lightsaber_forge_dark), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockLightsaberForge
+block:id=%lightsaber_forge_dark,data=0,stdrot=true,transparency=TRANSPARENT,face0-5=0:lightsabers/dark_forcestone
+block:id=%lightsaber_forge_dark,data=1,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/dark_forcestone,face2-5=0:lightsabers/dark_forcestone_inscribed
+block:id=%lightsaber_forge_dark,data=2,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/dark_forcestone_pillar_top,face2-5=0:lightsabers/dark_forcestone_pillar
+block:id=%lightsaber_forge_dark,data=3,stdrot=true,transparency=TRANSPARENT,face0-3=0:lightsabers/dark_forcestone_pillar,face4-5=0:lightsabers/dark_forcestone_pillar_top
+block:id=%lightsaber_forge_dark,data=4,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/dark_forcestone_pillar,face2-3=0:lightsabers/dark_forcestone_pillar_top,face4-5=0:lightsabers/dark_forcestone_pillar
+block:id=%lightsaber_forge_dark,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-1=0:lightsabers/dark_forcestone,face2-5=0:lightsabers/dark_forcestone_inscribed
+
+# %sith_coffin:* (sith_coffin), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockSithCoffin
+block:id=%sith_coffin,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:minecraft/obsidian
+
+# %sith_stone_coffin:* (sith_stone_coffin), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockSithStoneCoffin
+block:id=%sith_stone_coffin,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:minecraft/hardened_clay_stained_black
+
+# %holocron:* (holocron), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockHolocron
+block:id=%holocron,data=0,stdrot=true,transparency=TRANSPARENT,face0=0:lightsabers/jedi_holocron_side,face1=0:lightsabers/jedi_holocron_corner,face2=0:lightsabers/jedi_holocron_corner_bottom,face3-5=0:lightsabers/jedi_holocron_corner_side
+block:id=%holocron,data=1,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0=0:lightsabers/sith_holocron_bottom,face1-5=0:lightsabers/sith_holocron_side
+
+# %light_forcestone:* (light_forcestone), render=(QUARTZ), opaque=true,cls=fiskfille.lightsabers.common.block.BlockForcestone
+block:id=%light_forcestone,data=0,stdrot=true,face0-5=0:lightsabers/light_forcestone
+block:id=%light_forcestone,data=1,stdrot=true,face0-1=0:lightsabers/light_forcestone,face2-5=0:lightsabers/light_forcestone_inscribed
+block:id=%light_forcestone,data=2,stdrot=true,face0-1=0:lightsabers/light_forcestone_pillar_top,face2-5=0:lightsabers/light_forcestone_pillar
+block:id=%light_forcestone,data=3,stdrot=true,face0-1=4000:lightsabers/light_forcestone_pillar,face2-3=0:lightsabers/light_forcestone_pillar,face4-5=6000:lightsabers/light_forcestone_pillar_top
+block:id=%light_forcestone,data=4,stdrot=true,face0-1=0:lightsabers/light_forcestone_pillar,face2-3=6000:lightsabers/light_forcestone_pillar_top,face4-5=0:lightsabers/light_forcestone_pillar
+block:id=%light_forcestone,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:lightsabers/light_forcestone,face2-5=0:lightsabers/light_forcestone_inscribed
+
+# %light_activated_forcestone_pillar:* (light_activated_forcestone_pillar), render=(LOG), opaque=true,cls=fiskfille.lightsabers.common.block.BlockPillar
+block:id=%light_activated_forcestone_pillar,data=0,data=1,data=2,data=3,stdrot=true,face0-1=0:lightsabers/light_activated_forcestone_pillar_top,face2-5=0:lightsabers/light_activated_forcestone_pillar
+block:id=%light_activated_forcestone_pillar,data=4,data=5,data=6,data=7,face0-1=0:lightsabers/light_activated_forcestone_pillar,face2-3=4000:lightsabers/light_activated_forcestone_pillar,face4-5=0:lightsabers/light_activated_forcestone_pillar_top
+block:id=%light_activated_forcestone_pillar,data=8,data=9,data=10,data=11,face0-1=4000:lightsabers/light_activated_forcestone_pillar,face2-3=0:lightsabers/light_activated_forcestone_pillar_top,face4-5=4000:lightsabers/light_activated_forcestone_pillar
+block:id=%light_activated_forcestone_pillar,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:lightsabers/light_activated_forcestone_pillar
+
+# %light_forcestone_stairs:* (light_forcestone_stairs), render=(STAIRS), opaque=false,cls=fiskfille.lightsabers.common.block.BlockModStairs
+block:id=%light_forcestone_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:lightsabers/light_forcestone
+
+# %dark_forcestone:* (dark_forcestone), render=(QUARTZ), opaque=true,cls=fiskfille.lightsabers.common.block.BlockForcestone
+block:id=%dark_forcestone,data=0,stdrot=true,face0-5=0:lightsabers/dark_forcestone
+block:id=%dark_forcestone,data=1,stdrot=true,face0-1=0:lightsabers/dark_forcestone,face2-5=0:lightsabers/dark_forcestone_inscribed
+block:id=%dark_forcestone,data=2,stdrot=true,face0-1=0:lightsabers/dark_forcestone_pillar_top,face2-5=0:lightsabers/dark_forcestone_pillar
+block:id=%dark_forcestone,data=3,stdrot=true,face0-1=4000:lightsabers/dark_forcestone_pillar,face2-3=0:lightsabers/dark_forcestone_pillar,face4-5=6000:lightsabers/dark_forcestone_pillar_top
+block:id=%dark_forcestone,data=4,stdrot=true,face0-1=0:lightsabers/dark_forcestone_pillar,face2-3=6000:lightsabers/dark_forcestone_pillar_top,face4-5=0:lightsabers/dark_forcestone_pillar
+block:id=%dark_forcestone,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:lightsabers/dark_forcestone,face2-5=0:lightsabers/dark_forcestone_inscribed
+
+# %dark_activated_forcestone_pillar:* (dark_activated_forcestone_pillar), render=(LOG), opaque=true,cls=fiskfille.lightsabers.common.block.BlockPillar
+block:id=%dark_activated_forcestone_pillar,data=0,data=1,data=2,data=3,stdrot=true,face0-1=0:lightsabers/dark_activated_forcestone_pillar_top,face2-5=0:lightsabers/dark_activated_forcestone_pillar
+block:id=%dark_activated_forcestone_pillar,data=4,data=5,data=6,data=7,face0-1=0:lightsabers/dark_activated_forcestone_pillar,face2-3=4000:lightsabers/dark_activated_forcestone_pillar,face4-5=0:lightsabers/dark_activated_forcestone_pillar_top
+block:id=%dark_activated_forcestone_pillar,data=8,data=9,data=10,data=11,face0-1=4000:lightsabers/dark_activated_forcestone_pillar,face2-3=0:lightsabers/dark_activated_forcestone_pillar_top,face4-5=4000:lightsabers/dark_activated_forcestone_pillar
+block:id=%dark_activated_forcestone_pillar,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:lightsabers/dark_activated_forcestone_pillar
+
+# %dark_forcestone_stairs:* (dark_forcestone_stairs), render=(STAIRS), opaque=false,cls=fiskfille.lightsabers.common.block.BlockModStairs
+block:id=%dark_forcestone_stairs,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:lightsabers/dark_forcestone
+
+# %forcestone_double_slab:* (forcestone_double_slab), render=(STANDARD), opaque=true,cls=fiskfille.lightsabers.common.block.BlockModSlab
+block:id=%forcestone_double_slab,data=0,stdrot=true,face0-5=0:lightsabers/light_forcestone
+block:id=%forcestone_double_slab,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,face0-5=0:lightsabers/dark_forcestone
+block:id=%forcestone_double_slab,data=8,stdrot=true,face0-5=0:lightsabers/light_forcestone
+block:id=%forcestone_double_slab,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:lightsabers/dark_forcestone
+
+# %forcestone_slab:* (forcestone_slab), render=(STANDARD), opaque=false,cls=fiskfille.lightsabers.common.block.BlockModSlab
+block:id=%forcestone_slab,data=0,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:lightsabers/light_forcestone
+block:id=%forcestone_slab,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:lightsabers/dark_forcestone
+block:id=%forcestone_slab,data=8,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:lightsabers/light_forcestone
+block:id=%forcestone_slab,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:lightsabers/dark_forcestone

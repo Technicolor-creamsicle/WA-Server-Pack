@@ -1,0 +1,521 @@
+# securitycraft v1.8.2.4
+version:1.7
+modname:securitycraft
+
+
+cfgfile:config/securitycraft.cfg
+
+
+texturepath:assets/securitycraft/textures/blocks/
+texture:id=minecraft/MISSING_ICON_BLOCK_202_alarmLit,filename=assets/minecraft/textures/blocks/MISSING_ICON_BLOCK_202_alarmLit.png
+texture:id=minecraft/brick,filename=assets/minecraft/textures/blocks/brick.png
+texture:id=minecraft/cobblestone,filename=assets/minecraft/textures/blocks/cobblestone.png
+texture:id=minecraft/cobblestone_mossy,filename=assets/minecraft/textures/blocks/cobblestone_mossy.png
+texture:id=minecraft/diamond_ore,filename=assets/minecraft/textures/blocks/diamond_ore.png
+texture:id=minecraft/dirt,filename=assets/minecraft/textures/blocks/dirt.png
+texture:id=minecraft/dirt_podzol_side,filename=assets/minecraft/textures/blocks/dirt_podzol_side.png
+texture:id=minecraft/dirt_podzol_top,filename=assets/minecraft/textures/blocks/dirt_podzol_top.png
+texture:id=minecraft/furnace_front_off,filename=assets/minecraft/textures/blocks/furnace_front_off.png
+texture:id=minecraft/furnace_side,filename=assets/minecraft/textures/blocks/furnace_side.png
+texture:id=minecraft/furnace_top,filename=assets/minecraft/textures/blocks/furnace_top.png
+texture:id=minecraft/hardened_clay,filename=assets/minecraft/textures/blocks/hardened_clay.png
+texture:id=minecraft/hardened_clay_stained_black,filename=assets/minecraft/textures/blocks/hardened_clay_stained_black.png
+texture:id=minecraft/hardened_clay_stained_blue,filename=assets/minecraft/textures/blocks/hardened_clay_stained_blue.png
+texture:id=minecraft/hardened_clay_stained_brown,filename=assets/minecraft/textures/blocks/hardened_clay_stained_brown.png
+texture:id=minecraft/hardened_clay_stained_cyan,filename=assets/minecraft/textures/blocks/hardened_clay_stained_cyan.png
+texture:id=minecraft/hardened_clay_stained_gray,filename=assets/minecraft/textures/blocks/hardened_clay_stained_gray.png
+texture:id=minecraft/hardened_clay_stained_green,filename=assets/minecraft/textures/blocks/hardened_clay_stained_green.png
+texture:id=minecraft/hardened_clay_stained_light_blue,filename=assets/minecraft/textures/blocks/hardened_clay_stained_light_blue.png
+texture:id=minecraft/hardened_clay_stained_lime,filename=assets/minecraft/textures/blocks/hardened_clay_stained_lime.png
+texture:id=minecraft/hardened_clay_stained_magenta,filename=assets/minecraft/textures/blocks/hardened_clay_stained_magenta.png
+texture:id=minecraft/hardened_clay_stained_orange,filename=assets/minecraft/textures/blocks/hardened_clay_stained_orange.png
+texture:id=minecraft/hardened_clay_stained_pink,filename=assets/minecraft/textures/blocks/hardened_clay_stained_pink.png
+texture:id=minecraft/hardened_clay_stained_purple,filename=assets/minecraft/textures/blocks/hardened_clay_stained_purple.png
+texture:id=minecraft/hardened_clay_stained_red,filename=assets/minecraft/textures/blocks/hardened_clay_stained_red.png
+texture:id=minecraft/hardened_clay_stained_silver,filename=assets/minecraft/textures/blocks/hardened_clay_stained_silver.png
+texture:id=minecraft/hardened_clay_stained_white,filename=assets/minecraft/textures/blocks/hardened_clay_stained_white.png
+texture:id=minecraft/hardened_clay_stained_yellow,filename=assets/minecraft/textures/blocks/hardened_clay_stained_yellow.png
+texture:id=minecraft/iron_bars,filename=assets/minecraft/textures/blocks/iron_bars.png
+texture:id=minecraft/iron_block,filename=assets/minecraft/textures/blocks/iron_block.png
+texture:id=minecraft/lava_flow,filename=assets/minecraft/textures/blocks/lava_flow.png
+texture:id=minecraft/lava_still,filename=assets/minecraft/textures/blocks/lava_still.png
+texture:id=minecraft/nether_brick,filename=assets/minecraft/textures/blocks/nether_brick.png
+texture:id=minecraft/planks_acacia,filename=assets/minecraft/textures/blocks/planks_acacia.png
+texture:id=minecraft/planks_big_oak,filename=assets/minecraft/textures/blocks/planks_big_oak.png
+texture:id=minecraft/planks_birch,filename=assets/minecraft/textures/blocks/planks_birch.png
+texture:id=minecraft/planks_jungle,filename=assets/minecraft/textures/blocks/planks_jungle.png
+texture:id=minecraft/planks_oak,filename=assets/minecraft/textures/blocks/planks_oak.png
+texture:id=minecraft/planks_spruce,filename=assets/minecraft/textures/blocks/planks_spruce.png
+texture:id=minecraft/sand,filename=assets/minecraft/textures/blocks/sand.png
+texture:id=minecraft/sandstone_bottom,filename=assets/minecraft/textures/blocks/sandstone_bottom.png
+texture:id=minecraft/sandstone_carved,filename=assets/minecraft/textures/blocks/sandstone_carved.png
+texture:id=minecraft/sandstone_normal,filename=assets/minecraft/textures/blocks/sandstone_normal.png
+texture:id=minecraft/sandstone_smooth,filename=assets/minecraft/textures/blocks/sandstone_smooth.png
+texture:id=minecraft/sandstone_top,filename=assets/minecraft/textures/blocks/sandstone_top.png
+texture:id=minecraft/stone,filename=assets/minecraft/textures/blocks/stone.png
+texture:id=minecraft/stone_slab_side,filename=assets/minecraft/textures/blocks/stone_slab_side.png
+texture:id=minecraft/stone_slab_top,filename=assets/minecraft/textures/blocks/stone_slab_top.png
+texture:id=minecraft/stonebrick,filename=assets/minecraft/textures/blocks/stonebrick.png
+texture:id=minecraft/stonebrick_carved,filename=assets/minecraft/textures/blocks/stonebrick_carved.png
+texture:id=minecraft/stonebrick_cracked,filename=assets/minecraft/textures/blocks/stonebrick_cracked.png
+texture:id=minecraft/stonebrick_mossy,filename=assets/minecraft/textures/blocks/stonebrick_mossy.png
+texture:id=minecraft/water_flow,filename=assets/minecraft/textures/blocks/water_flow.png
+texture:id=minecraft/water_still,filename=assets/minecraft/textures/blocks/water_still.png
+texture:id=securitycraft/alarmParticleTexture,filename=assets/securitycraft/textures/blocks/alarmParticleTexture.png
+texture:id=securitycraft/aniLaser,filename=assets/securitycraft/textures/blocks/aniLaser.png
+texture:id=securitycraft/bouncingBettyActive,filename=assets/securitycraft/textures/blocks/bouncingBettyActive.png
+texture:id=securitycraft/bouncingBettyDefused,filename=assets/securitycraft/textures/blocks/bouncingBettyDefused.png
+texture:id=securitycraft/claymore,filename=assets/securitycraft/textures/blocks/claymore.png
+texture:id=securitycraft/glass_reinforced,filename=assets/securitycraft/textures/blocks/glass_reinforced.png
+texture:id=securitycraft/glass_reinforced_black,filename=assets/securitycraft/textures/blocks/glass_reinforced_black.png
+texture:id=securitycraft/glass_reinforced_blue,filename=assets/securitycraft/textures/blocks/glass_reinforced_blue.png
+texture:id=securitycraft/glass_reinforced_brown,filename=assets/securitycraft/textures/blocks/glass_reinforced_brown.png
+texture:id=securitycraft/glass_reinforced_cyan,filename=assets/securitycraft/textures/blocks/glass_reinforced_cyan.png
+texture:id=securitycraft/glass_reinforced_gray,filename=assets/securitycraft/textures/blocks/glass_reinforced_gray.png
+texture:id=securitycraft/glass_reinforced_green,filename=assets/securitycraft/textures/blocks/glass_reinforced_green.png
+texture:id=securitycraft/glass_reinforced_light_blue,filename=assets/securitycraft/textures/blocks/glass_reinforced_light_blue.png
+texture:id=securitycraft/glass_reinforced_lime,filename=assets/securitycraft/textures/blocks/glass_reinforced_lime.png
+texture:id=securitycraft/glass_reinforced_magenta,filename=assets/securitycraft/textures/blocks/glass_reinforced_magenta.png
+texture:id=securitycraft/glass_reinforced_orange,filename=assets/securitycraft/textures/blocks/glass_reinforced_orange.png
+texture:id=securitycraft/glass_reinforced_pink,filename=assets/securitycraft/textures/blocks/glass_reinforced_pink.png
+texture:id=securitycraft/glass_reinforced_purple,filename=assets/securitycraft/textures/blocks/glass_reinforced_purple.png
+texture:id=securitycraft/glass_reinforced_red,filename=assets/securitycraft/textures/blocks/glass_reinforced_red.png
+texture:id=securitycraft/glass_reinforced_silver,filename=assets/securitycraft/textures/blocks/glass_reinforced_silver.png
+texture:id=securitycraft/glass_reinforced_white,filename=assets/securitycraft/textures/blocks/glass_reinforced_white.png
+texture:id=securitycraft/glass_reinforced_yellow,filename=assets/securitycraft/textures/blocks/glass_reinforced_yellow.png
+texture:id=securitycraft/ims,filename=assets/securitycraft/textures/blocks/ims.png
+texture:id=securitycraft/inventoryScanner,filename=assets/securitycraft/textures/blocks/inventoryScanner.png
+texture:id=securitycraft/ironTrapdoor,filename=assets/securitycraft/textures/blocks/ironTrapdoor.png
+texture:id=securitycraft/iron_block,filename=assets/securitycraft/textures/blocks/iron_block.png
+texture:id=securitycraft/keycardReaderFront,filename=assets/securitycraft/textures/blocks/keycardReaderFront.png
+texture:id=securitycraft/keypadUnactive,filename=assets/securitycraft/textures/blocks/keypadUnactive.png
+texture:id=securitycraft/laserBlock,filename=assets/securitycraft/textures/blocks/laserBlock.png
+texture:id=securitycraft/mine,filename=assets/securitycraft/textures/blocks/mine.png
+texture:id=securitycraft/mineCut,filename=assets/securitycraft/textures/blocks/mineCut.png
+texture:id=securitycraft/panicButton,filename=assets/securitycraft/textures/blocks/panicButton.png
+texture:id=securitycraft/panicButtonPowered,filename=assets/securitycraft/textures/blocks/panicButtonPowered.png
+texture:id=securitycraft/portableRadarSides,filename=assets/securitycraft/textures/blocks/portableRadarSides.png
+texture:id=securitycraft/portableRadarTop1,filename=assets/securitycraft/textures/blocks/portableRadarTop1.png
+texture:id=securitycraft/protectoParticleTexture,filename=assets/securitycraft/textures/blocks/protectoParticleTexture.png
+texture:id=securitycraft/rail_mine,filename=assets/securitycraft/textures/blocks/rail_mine.png
+texture:id=securitycraft/rail_mineTurned,filename=assets/securitycraft/textures/blocks/rail_mineTurned.png
+texture:id=securitycraft/reinforcedDoorLower,filename=assets/securitycraft/textures/blocks/reinforcedDoorLower.png
+texture:id=securitycraft/reinforcedDoorUpper,filename=assets/securitycraft/textures/blocks/reinforcedDoorUpper.png
+texture:id=securitycraft/reinforcedIronBars,filename=assets/securitycraft/textures/blocks/reinforcedIronBars.png
+texture:id=securitycraft/retinalScannerFront,filename=assets/securitycraft/textures/blocks/retinalScannerFront.png
+texture:id=securitycraft/scannerDoorUpper,filename=assets/securitycraft/textures/blocks/scannerDoorUpper.png
+texture:id=securitycraft/securityCameraParticleTexture,filename=assets/securitycraft/textures/blocks/securityCameraParticleTexture.png
+texture:id=securitycraft/transparent,filename=assets/securitycraft/textures/blocks/transparent.png
+texture:id=securitycraft/usernameLoggerFront,filename=assets/securitycraft/textures/blocks/usernameLoggerFront.png
+texture:id=securitycraft/usernameLoggerSide,filename=assets/securitycraft/textures/blocks/usernameLoggerSide.png
+texture:id=securitycraft/usernameLoggerTop,filename=assets/securitycraft/textures/blocks/usernameLoggerTop.png
+
+
+
+# %laserBlock:* (laserBlock), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockLaserBlock
+block:id=%laserBlock,data=*,stdrot=true,face0-5=0:securitycraft/laserBlock
+
+# %laser:* (laser), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockLaserField
+block:id=%laser,data=0,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/aniLaser
+block:id=%laser,data=1,stdrot=true,transparency=TRANSPARENT,face0-1=0:securitycraft/transparent,face2-5=0:securitycraft/aniLaser
+block:id=%laser,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/aniLaser
+
+# %keypad:* (keypad), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockKeypad
+block:id=%keypad,data=0,stdrot=true,face0-2=0:securitycraft/iron_block,face3=0:securitycraft/keypadUnactive,face4-5=0:securitycraft/iron_block
+block:id=%keypad,data=1,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:securitycraft/iron_block
+
+# %mine:* (mine), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockMine
+block:id=%mine,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/mine
+
+# %mineCut:* (mineCut), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockMine
+block:id=%mineCut,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/mineCut
+
+# %dirtMine:* (dirtMine), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.mines.BlockFullMineBase
+block:id=%dirtMine,data=*,stdrot=true,face0-5=0:minecraft/dirt
+
+# %stoneMine:* (stoneMine), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.mines.BlockFullMineBase
+block:id=%stoneMine,data=*,stdrot=true,face0-5=0:minecraft/stone
+
+# %cobblestoneMine:* (cobblestoneMine), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.mines.BlockFullMineBase
+block:id=%cobblestoneMine,data=*,stdrot=true,face0-5=0:minecraft/cobblestone
+
+# %diamondMine:* (diamondMine), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.mines.BlockFullMineBase
+block:id=%diamondMine,data=*,stdrot=true,face0-5=0:minecraft/diamond_ore
+
+# %sandMine:* (sandMine), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.mines.BlockFullMineBase
+block:id=%sandMine,data=*,stdrot=true,face0-5=0:minecraft/sand
+
+# %furnaceMine:* (furnaceMine), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.mines.BlockFurnaceMine
+block:id=%furnaceMine,data=0,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:minecraft/furnace_front_off,face4-5=0:minecraft/furnace_side
+block:id=%furnaceMine,data=1,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+block:id=%furnaceMine,data=2,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_front_off,face3-5=0:minecraft/furnace_side
+block:id=%furnaceMine,data=3,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:minecraft/furnace_front_off,face4-5=0:minecraft/furnace_side
+block:id=%furnaceMine,data=4,stdrot=true,face0-1=0:minecraft/furnace_top,face2-3=0:minecraft/furnace_side,face4=0:minecraft/furnace_front_off,face5=0:minecraft/furnace_side
+block:id=%furnaceMine,data=5,stdrot=true,face0-1=0:minecraft/furnace_top,face2-4=0:minecraft/furnace_side,face5=0:minecraft/furnace_front_off
+block:id=%furnaceMine,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+
+# %retinalScanner:* (retinalScanner), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockRetinalScanner
+block:id=%retinalScanner,data=0,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/retinalScannerFront,face4-5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=1,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=2,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:securitycraft/retinalScannerFront,face3-5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=3,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/retinalScannerFront,face4-5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=4,stdrot=true,face0-1=0:minecraft/furnace_top,face2-3=0:minecraft/furnace_side,face4=0:securitycraft/retinalScannerFront,face5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=5,stdrot=true,face0-1=0:minecraft/furnace_top,face2-4=0:minecraft/furnace_side,face5=0:securitycraft/retinalScannerFront
+block:id=%retinalScanner,data=6,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=7,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:securitycraft/retinalScannerFront,face3-5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=8,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/retinalScannerFront,face4-5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=9,stdrot=true,face0-1=0:minecraft/furnace_top,face2-3=0:minecraft/furnace_side,face4=0:securitycraft/retinalScannerFront,face5=0:minecraft/furnace_side
+block:id=%retinalScanner,data=10,stdrot=true,face0-1=0:minecraft/furnace_top,face2-4=0:minecraft/furnace_side,face5=0:securitycraft/retinalScannerFront
+block:id=%retinalScanner,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+
+# %ironDoorReinforced:* (ironDoorReinforced), render=(DOOR), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedDoor
+block:id=%ironDoorReinforced,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:securitycraft/reinforcedDoorUpper,patch1=0:securitycraft/reinforcedDoorLower
+
+# %bogusLava:* (bogusLava), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeLavaBase
+block:id=%bogusLava,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-1=12000:minecraft/lava_still,face2-5=12000:minecraft/lava_flow
+
+# %bogusLavaFlowing:* (bogusLavaFlowing), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeLava
+block:id=%bogusLavaFlowing,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-1=12000:minecraft/lava_still,face2-5=12000:minecraft/lava_flow
+
+# %bogusWater:* (bogusWater), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeWaterBase
+block:id=%bogusWater,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-1=12000:minecraft/water_still,face2-5=12000:minecraft/water_flow
+
+# %bogusWaterFlowing:* (bogusWaterFlowing), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeWater
+block:id=%bogusWaterFlowing,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-1=12000:minecraft/water_still,face2-5=12000:minecraft/water_flow
+
+# %keycardReader:* (keycardReader), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockKeycardReader
+block:id=%keycardReader,data=0,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/keycardReaderFront,face4-5=0:minecraft/furnace_side
+block:id=%keycardReader,data=1,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+block:id=%keycardReader,data=2,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:securitycraft/keycardReaderFront,face3-5=0:minecraft/furnace_side
+block:id=%keycardReader,data=3,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/keycardReaderFront,face4-5=0:minecraft/furnace_side
+block:id=%keycardReader,data=4,stdrot=true,face0-1=0:minecraft/furnace_top,face2-3=0:minecraft/furnace_side,face4=0:securitycraft/keycardReaderFront,face5=0:minecraft/furnace_side
+block:id=%keycardReader,data=5,stdrot=true,face0-1=0:minecraft/furnace_top,face2-4=0:minecraft/furnace_side,face5=0:securitycraft/keycardReaderFront
+block:id=%keycardReader,data=6,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+block:id=%keycardReader,data=7,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:securitycraft/keycardReaderFront,face3-5=0:minecraft/furnace_side
+block:id=%keycardReader,data=8,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/keycardReaderFront,face4-5=0:minecraft/furnace_side
+block:id=%keycardReader,data=9,stdrot=true,face0-1=0:minecraft/furnace_top,face2-3=0:minecraft/furnace_side,face4=0:securitycraft/keycardReaderFront,face5=0:minecraft/furnace_side
+block:id=%keycardReader,data=10,stdrot=true,face0-1=0:minecraft/furnace_top,face2-4=0:minecraft/furnace_side,face5=0:securitycraft/keycardReaderFront
+block:id=%keycardReader,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+
+# %ironTrapdoor:* (ironTrapdoor), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockIronTrapDoor
+block:id=%ironTrapdoor,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/ironTrapdoor
+
+# %bouncingBetty:* (bouncingBetty), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockBouncingBetty
+block:id=%bouncingBetty,data=0,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/bouncingBettyActive
+block:id=%bouncingBetty,data=1,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/bouncingBettyDefused
+
+# %inventoryScanner:* (inventoryScanner), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockInventoryScanner
+block:id=%inventoryScanner,data=0,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/inventoryScanner,face4-5=0:minecraft/furnace_side
+block:id=%inventoryScanner,data=1,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+block:id=%inventoryScanner,data=2,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:securitycraft/inventoryScanner,face3-5=0:minecraft/furnace_side
+block:id=%inventoryScanner,data=3,stdrot=true,face0-1=0:minecraft/furnace_top,face2=0:minecraft/furnace_side,face3=0:securitycraft/inventoryScanner,face4-5=0:minecraft/furnace_side
+block:id=%inventoryScanner,data=4,stdrot=true,face0-1=0:minecraft/furnace_top,face2-3=0:minecraft/furnace_side,face4=0:securitycraft/inventoryScanner,face5=0:minecraft/furnace_side
+block:id=%inventoryScanner,data=5,stdrot=true,face0-1=0:minecraft/furnace_top,face2-4=0:minecraft/furnace_side,face5=0:securitycraft/inventoryScanner
+block:id=%inventoryScanner,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:minecraft/furnace_top,face2-5=0:minecraft/furnace_side
+
+# %inventoryScannerField:* (inventoryScannerField), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockInventoryScannerField
+block:id=%inventoryScannerField,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/aniLaser
+
+# %trackMine:* (trackMine), render=(MINECARTTRACK), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockTrackMine
+block:id=%trackMine,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=TRANSPARENT,patch0=0:securitycraft/rail_mine
+block:id=%trackMine,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,patch0=0:securitycraft/rail_mineTurned
+
+# %cageTrap:* (cageTrap), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockCageTrap
+block:id=%cageTrap,data=*,stdrot=true,face0-5=0:securitycraft/reinforcedIronBars
+
+# %portableRadar:* (portableRadar), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockPortableRadar
+block:id=%portableRadar,data=*,stdrot=true,transparency=TRANSPARENT,face0=0:securitycraft/portableRadarSides,face1=0:securitycraft/portableRadarTop1,face2-5=0:securitycraft/portableRadarSides
+
+# %deactivatedCageTrap:* (deactivatedCageTrap), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockCageTrap
+block:id=%deactivatedCageTrap,data=*,stdrot=true,face0-5=0:minecraft/iron_bars
+
+# %reinforcedIronBars:* (reinforcedIronBars), render=(PANE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedIronBars
+block:id=%reinforcedIronBars,data=*,stdrot=true,transparency=TRANSPARENT,patch0-1=0:securitycraft/reinforcedIronBars
+
+# %keypadChest:* (keypadChest), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockKeypadChest
+block:id=%keypadChest,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:minecraft/planks_oak
+
+# %usernameLogger:* (usernameLogger), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockLogger
+block:id=%usernameLogger,data=0,stdrot=true,face0-1=0:securitycraft/usernameLoggerTop,face2=0:securitycraft/usernameLoggerSide,face3=0:securitycraft/usernameLoggerFront,face4-5=0:securitycraft/usernameLoggerSide
+block:id=%usernameLogger,data=1,stdrot=true,face0-1=0:securitycraft/usernameLoggerTop,face2-5=0:securitycraft/usernameLoggerSide
+block:id=%usernameLogger,data=2,stdrot=true,face0-1=0:securitycraft/usernameLoggerTop,face2=0:securitycraft/usernameLoggerFront,face3-5=0:securitycraft/usernameLoggerSide
+block:id=%usernameLogger,data=3,stdrot=true,face0-1=0:securitycraft/usernameLoggerTop,face2=0:securitycraft/usernameLoggerSide,face3=0:securitycraft/usernameLoggerFront,face4-5=0:securitycraft/usernameLoggerSide
+block:id=%usernameLogger,data=4,stdrot=true,face0-1=0:securitycraft/usernameLoggerTop,face2-3=0:securitycraft/usernameLoggerSide,face4=0:securitycraft/usernameLoggerFront,face5=0:securitycraft/usernameLoggerSide
+block:id=%usernameLogger,data=5,stdrot=true,face0-1=0:securitycraft/usernameLoggerTop,face2-4=0:securitycraft/usernameLoggerSide,face5=0:securitycraft/usernameLoggerFront
+block:id=%usernameLogger,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:securitycraft/usernameLoggerTop,face2-5=0:securitycraft/usernameLoggerSide
+
+# %reinforcedGlass:* (reinforcedGlass), render=(PANE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedGlassPane
+block:id=%reinforcedGlass,data=*,stdrot=true,transparency=TRANSPARENT,patch0-1=0:securitycraft/glass_reinforced
+
+# %alarm:* (alarm), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockAlarm
+block:id=%alarm,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/alarmParticleTexture
+
+# %alarmLit:* (alarmLit), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockAlarm
+block:id=%alarmLit,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:minecraft/MISSING_ICON_BLOCK_202_alarmLit
+
+# %reinforcedStone:* (reinforcedStone), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockOwnable
+block:id=%reinforcedStone,data=*,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stone
+
+# %reinforcedSandstone:* (reinforcedSandstone), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedSandstone
+block:id=%reinforcedSandstone,data=0,stdrot=true,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedSandstone,data=1,stdrot=true,colorMult=999999,face0-1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_carved
+block:id=%reinforcedSandstone,data=2,stdrot=true,colorMult=999999,face0-1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_smooth
+block:id=%reinforcedSandstone,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+
+# %reinforcedDirt:* (reinforcedDirt), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockOwnable
+block:id=%reinforcedDirt,data=0,data=1,stdrot=true,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedDirt,data=2,stdrot=true,colorMult=999999,face0=17000:minecraft/dirt,face1=17000:minecraft/dirt_podzol_top,face2-5=17000:minecraft/dirt_podzol_side
+block:id=%reinforcedDirt,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,colorMult=999999,face0-5=17000:minecraft/dirt
+
+# %reinforcedCobblestone:* (reinforcedCobblestone), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockOwnable
+block:id=%reinforcedCobblestone,data=*,stdrot=true,colorMult=999999,face0-5=17000:minecraft/cobblestone
+
+# %reinforcedFenceGate:* (reinforcedFenceGate), render=(FENCEGATE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedFenceGate
+block:id=%reinforcedFenceGate,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:securitycraft/reinforcedDoorLower
+
+# %reinforcedPlanks:* (reinforcedPlanks), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedWood
+block:id=%reinforcedPlanks,data=0,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_oak
+block:id=%reinforcedPlanks,data=1,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_spruce
+block:id=%reinforcedPlanks,data=2,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_birch
+block:id=%reinforcedPlanks,data=3,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_jungle
+block:id=%reinforcedPlanks,data=4,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_acacia
+block:id=%reinforcedPlanks,data=5,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_big_oak
+block:id=%reinforcedPlanks,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_oak
+
+# %panicButton:* (panicButton), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockPanicButton
+block:id=%panicButton,data=0,data=1,data=2,data=3,data=4,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/panicButton
+block:id=%panicButton,data=5,data=6,data=7,data=8,data=9,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/panicButtonPowered
+block:id=%panicButton,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/panicButton
+
+# %keypadFrame:* (keypadFrame), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFrame
+block:id=%keypadFrame,data=*,stdrot=true,face0-5=0:minecraft/iron_block
+
+# %claymoreActive:* (claymoreActive), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockClaymore
+block:id=%claymoreActive,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/claymore
+
+# %claymoreDefused:* (claymoreDefused), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockClaymore
+block:id=%claymoreDefused,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/claymore
+
+# %keypadFurnace:* (keypadFurnace), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockKeypadFurnace
+block:id=%keypadFurnace,data=*,stdrot=true,face0-5=0:securitycraft/keypadUnactive
+
+# %securityCamera:* (securityCamera), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockSecurityCamera
+block:id=%securityCamera,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/securityCameraParticleTexture
+
+# %reinforcedStairsOak:* (reinforcedStairsOak), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsOak,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_oak
+
+# %reinforcedStairsSpruce:* (reinforcedStairsSpruce), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsSpruce,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_spruce
+
+# %reinforcedStairsBirch:* (reinforcedStairsBirch), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsBirch,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_birch
+
+# %reinforcedStairsJungle:* (reinforcedStairsJungle), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsJungle,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_jungle
+
+# %reinforcedStairsAcacia:* (reinforcedStairsAcacia), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsAcacia,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_acacia
+
+# %reinforcedStairsDarkoak:* (reinforcedStairsDarkoak), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsDarkoak,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_big_oak
+
+# %reinforcedStairsStone:* (reinforcedStairsStone), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsStone,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/stone
+
+# %reinforcedStairsCobblestone:* (reinforcedStairsCobblestone), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsCobblestone,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/cobblestone
+
+# %reinforcedStairsSandstone:* (reinforcedStairsSandstone), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsSandstone,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+
+# %scIronFence:* (scIronFence), render=(FENCE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockIronFence
+block:id=%scIronFence,data=*,stdrot=true,transparency=TRANSPARENT,patch0-2=0:securitycraft/reinforcedDoorLower
+
+# %ims:* (ims), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockIMS
+block:id=%ims,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:securitycraft/ims
+
+# %reinforcedGlassBlock:* (reinforcedGlassBlock), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedGlass
+block:id=%reinforcedGlassBlock,data=*,stdrot=true,face0-5=0:securitycraft/glass_reinforced
+
+# %reinforcedStainedGlass:* (reinforcedStainedGlass), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStainedGlass
+block:id=%reinforcedStainedGlass,data=0,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_white
+block:id=%reinforcedStainedGlass,data=1,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_orange
+block:id=%reinforcedStainedGlass,data=2,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_magenta
+block:id=%reinforcedStainedGlass,data=3,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_light_blue
+block:id=%reinforcedStainedGlass,data=4,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_yellow
+block:id=%reinforcedStainedGlass,data=5,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_lime
+block:id=%reinforcedStainedGlass,data=6,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_pink
+block:id=%reinforcedStainedGlass,data=7,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_gray
+block:id=%reinforcedStainedGlass,data=8,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_silver
+block:id=%reinforcedStainedGlass,data=9,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_cyan
+block:id=%reinforcedStainedGlass,data=10,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_purple
+block:id=%reinforcedStainedGlass,data=11,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_blue
+block:id=%reinforcedStainedGlass,data=12,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_brown
+block:id=%reinforcedStainedGlass,data=13,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_green
+block:id=%reinforcedStainedGlass,data=14,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_red
+block:id=%reinforcedStainedGlass,data=15,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_black
+
+# %reinforcedStainedGlassPanes:* (reinforcedStainedGlassPanes), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStainedGlassPanes
+block:id=%reinforcedStainedGlassPanes,data=0,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_white
+block:id=%reinforcedStainedGlassPanes,data=1,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_orange
+block:id=%reinforcedStainedGlassPanes,data=2,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_magenta
+block:id=%reinforcedStainedGlassPanes,data=3,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_light_blue
+block:id=%reinforcedStainedGlassPanes,data=4,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_yellow
+block:id=%reinforcedStainedGlassPanes,data=5,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_lime
+block:id=%reinforcedStainedGlassPanes,data=6,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_pink
+block:id=%reinforcedStainedGlassPanes,data=7,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_gray
+block:id=%reinforcedStainedGlassPanes,data=8,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_silver
+block:id=%reinforcedStainedGlassPanes,data=9,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_cyan
+block:id=%reinforcedStainedGlassPanes,data=10,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_purple
+block:id=%reinforcedStainedGlassPanes,data=11,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_blue
+block:id=%reinforcedStainedGlassPanes,data=12,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_brown
+block:id=%reinforcedStainedGlassPanes,data=13,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_green
+block:id=%reinforcedStainedGlassPanes,data=14,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_red
+block:id=%reinforcedStainedGlassPanes,data=15,stdrot=true,face0-5=12000:securitycraft/glass_reinforced_black
+
+# %reinforcedWoodSlabs:* (reinforcedWoodSlabs), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedWoodSlabs
+block:id=%reinforcedWoodSlabs,data=0,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_oak
+block:id=%reinforcedWoodSlabs,data=1,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_spruce
+block:id=%reinforcedWoodSlabs,data=2,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_birch
+block:id=%reinforcedWoodSlabs,data=3,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_jungle
+block:id=%reinforcedWoodSlabs,data=4,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_acacia
+block:id=%reinforcedWoodSlabs,data=5,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_big_oak
+block:id=%reinforcedWoodSlabs,data=6,data=7,data=8,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_oak
+block:id=%reinforcedWoodSlabs,data=9,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_spruce
+block:id=%reinforcedWoodSlabs,data=10,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_birch
+block:id=%reinforcedWoodSlabs,data=11,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_jungle
+block:id=%reinforcedWoodSlabs,data=12,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_acacia
+block:id=%reinforcedWoodSlabs,data=13,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_big_oak
+block:id=%reinforcedWoodSlabs,data=14,data=15,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/planks_oak
+
+# %reinforcedStoneSlabs:* (reinforcedStoneSlabs), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedSlabs
+block:id=%reinforcedStoneSlabs,data=0,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedStoneSlabs,data=1,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedStoneSlabs,data=2,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedStoneSlabs,data=3,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedStoneSlabs,data=4,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedStoneSlabs,data=5,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedStoneSlabs,data=6,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/nether_brick
+block:id=%reinforcedStoneSlabs,data=8,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedStoneSlabs,data=9,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedStoneSlabs,data=10,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedStoneSlabs,data=11,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedStoneSlabs,data=12,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedStoneSlabs,data=13,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedStoneSlabs,data=14,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/nether_brick
+
+# %reinforcedDirtSlab:* (reinforcedDirtSlab), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedSlabs
+block:id=%reinforcedDirtSlab,data=0,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedDirtSlab,data=1,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedDirtSlab,data=2,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedDirtSlab,data=3,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedDirtSlab,data=4,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedDirtSlab,data=5,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedDirtSlab,data=6,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/nether_brick
+block:id=%reinforcedDirtSlab,data=8,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedDirtSlab,data=9,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedDirtSlab,data=10,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedDirtSlab,data=11,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedDirtSlab,data=12,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedDirtSlab,data=13,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedDirtSlab,data=14,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/nether_brick
+
+# %reinforcedDoubleWoodSlabs:* (reinforcedDoubleWoodSlabs), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedWoodSlabs
+block:id=%reinforcedDoubleWoodSlabs,data=0,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_oak
+block:id=%reinforcedDoubleWoodSlabs,data=1,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_spruce
+block:id=%reinforcedDoubleWoodSlabs,data=2,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_birch
+block:id=%reinforcedDoubleWoodSlabs,data=3,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_jungle
+block:id=%reinforcedDoubleWoodSlabs,data=4,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_acacia
+block:id=%reinforcedDoubleWoodSlabs,data=5,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_big_oak
+block:id=%reinforcedDoubleWoodSlabs,data=6,data=7,data=8,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_oak
+block:id=%reinforcedDoubleWoodSlabs,data=9,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_spruce
+block:id=%reinforcedDoubleWoodSlabs,data=10,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_birch
+block:id=%reinforcedDoubleWoodSlabs,data=11,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_jungle
+block:id=%reinforcedDoubleWoodSlabs,data=12,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_acacia
+block:id=%reinforcedDoubleWoodSlabs,data=13,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_big_oak
+block:id=%reinforcedDoubleWoodSlabs,data=14,data=15,stdrot=true,colorMult=999999,face0-5=17000:minecraft/planks_oak
+
+# %reinforcedDoubleStoneSlabs:* (reinforcedDoubleStoneSlabs), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedSlabs
+block:id=%reinforcedDoubleStoneSlabs,data=0,stdrot=true,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedDoubleStoneSlabs,data=1,stdrot=true,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedDoubleStoneSlabs,data=2,stdrot=true,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedDoubleStoneSlabs,data=3,stdrot=true,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedDoubleStoneSlabs,data=4,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedDoubleStoneSlabs,data=5,stdrot=true,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedDoubleStoneSlabs,data=6,stdrot=true,colorMult=999999,face0-5=17000:minecraft/nether_brick
+block:id=%reinforcedDoubleStoneSlabs,data=8,stdrot=true,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedDoubleStoneSlabs,data=9,stdrot=true,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedDoubleStoneSlabs,data=10,stdrot=true,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedDoubleStoneSlabs,data=11,stdrot=true,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedDoubleStoneSlabs,data=12,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedDoubleStoneSlabs,data=13,stdrot=true,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedDoubleStoneSlabs,data=14,stdrot=true,colorMult=999999,face0-5=17000:minecraft/nether_brick
+
+# %reinforcedDoubleDirtSlab:* (reinforcedDoubleDirtSlab), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedSlabs
+block:id=%reinforcedDoubleDirtSlab,data=0,stdrot=true,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedDoubleDirtSlab,data=1,stdrot=true,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedDoubleDirtSlab,data=2,stdrot=true,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedDoubleDirtSlab,data=3,stdrot=true,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedDoubleDirtSlab,data=4,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedDoubleDirtSlab,data=5,stdrot=true,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedDoubleDirtSlab,data=6,stdrot=true,colorMult=999999,face0-5=17000:minecraft/nether_brick
+block:id=%reinforcedDoubleDirtSlab,data=8,stdrot=true,colorMult=999999,face0-1=17000:minecraft/stone_slab_top,face2-5=17000:minecraft/stone_slab_side
+block:id=%reinforcedDoubleDirtSlab,data=9,stdrot=true,colorMult=999999,face0-5=17000:minecraft/cobblestone
+block:id=%reinforcedDoubleDirtSlab,data=10,stdrot=true,colorMult=999999,face0=17000:minecraft/sandstone_bottom,face1=17000:minecraft/sandstone_top,face2-5=17000:minecraft/sandstone_normal
+block:id=%reinforcedDoubleDirtSlab,data=11,stdrot=true,colorMult=999999,face0-5=17000:minecraft/dirt
+block:id=%reinforcedDoubleDirtSlab,data=12,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedDoubleDirtSlab,data=13,stdrot=true,colorMult=999999,face0-5=17000:minecraft/brick
+block:id=%reinforcedDoubleDirtSlab,data=14,stdrot=true,colorMult=999999,face0-5=17000:minecraft/nether_brick
+
+# %protecto:* (protecto), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockProtecto
+block:id=%protecto,data=*,stdrot=true,face0-5=0:securitycraft/protectoParticleTexture
+
+# %scannerDoor:* (scannerDoor), render=(DOOR), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockScannerDoor
+block:id=%scannerDoor,data=*,stdrot=true,transparency=TRANSPARENT,patch0=0:securitycraft/scannerDoorUpper,patch1=0:securitycraft/reinforcedDoorLower
+
+# %reinforcedStoneBrick:* (reinforcedStoneBrick), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStoneBrick
+block:id=%reinforcedStoneBrick,data=0,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick
+block:id=%reinforcedStoneBrick,data=1,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick_mossy
+block:id=%reinforcedStoneBrick,data=2,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick_cracked
+block:id=%reinforcedStoneBrick,data=3,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick_carved
+block:id=%reinforcedStoneBrick,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,colorMult=999999,face0-5=17000:minecraft/stonebrick
+
+# %reinforcedStairsStoneBrick:* (reinforcedStairsStoneBrick), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsStoneBrick,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/stonebrick
+
+# %reinforcedMossyCobblestone:* (reinforcedMossyCobblestone), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockOwnable
+block:id=%reinforcedMossyCobblestone,data=*,stdrot=true,colorMult=999999,face0-5=17000:minecraft/cobblestone_mossy
+
+# %reinforcedBrick:* (reinforcedBrick), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockOwnable
+block:id=%reinforcedBrick,data=*,stdrot=true,colorMult=999999,face0-5=17000:minecraft/brick
+
+# %reinforcedStairsBrick:* (reinforcedStairsBrick), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsBrick,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/brick
+
+# %reinforcedNetherBrick:* (reinforcedNetherBrick), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockOwnable
+block:id=%reinforcedNetherBrick,data=*,stdrot=true,colorMult=999999,face0-5=17000:minecraft/nether_brick
+
+# %reinforcedStairsNetherBrick:* (reinforcedStairsNetherBrick), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+block:id=%reinforcedStairsNetherBrick,data=*,stdrot=true,transparency=SEMITRANSPARENT,colorMult=999999,face0-5=17000:minecraft/nether_brick
+
+# %reinforcedHardenedClay:* (reinforcedHardenedClay), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockOwnable
+block:id=%reinforcedHardenedClay,data=*,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay
+
+# %reinforcedStainedHardenedClay:* (reinforcedStainedHardenedClay), render=(STANDARD), opaque=true,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStainedHardenedClay
+block:id=%reinforcedStainedHardenedClay,data=0,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_white
+block:id=%reinforcedStainedHardenedClay,data=1,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_orange
+block:id=%reinforcedStainedHardenedClay,data=2,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_magenta
+block:id=%reinforcedStainedHardenedClay,data=3,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_light_blue
+block:id=%reinforcedStainedHardenedClay,data=4,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_yellow
+block:id=%reinforcedStainedHardenedClay,data=5,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_lime
+block:id=%reinforcedStainedHardenedClay,data=6,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_pink
+block:id=%reinforcedStainedHardenedClay,data=7,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_gray
+block:id=%reinforcedStainedHardenedClay,data=8,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_silver
+block:id=%reinforcedStainedHardenedClay,data=9,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_cyan
+block:id=%reinforcedStainedHardenedClay,data=10,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_purple
+block:id=%reinforcedStainedHardenedClay,data=11,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_blue
+block:id=%reinforcedStainedHardenedClay,data=12,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_brown
+block:id=%reinforcedStainedHardenedClay,data=13,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_green
+block:id=%reinforcedStainedHardenedClay,data=14,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_red
+block:id=%reinforcedStainedHardenedClay,data=15,stdrot=true,colorMult=999999,face0-5=17000:minecraft/hardened_clay_stained_black

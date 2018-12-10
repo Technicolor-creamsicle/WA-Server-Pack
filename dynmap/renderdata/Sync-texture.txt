@@ -1,0 +1,15 @@
+# Sync 4.0.1
+version:1.7
+modname:Sync
+
+
+cfgfile:config/Sync.cfg
+
+
+texturepath:assets/sync/textures/blocks/
+texture:id=sync/dvBlockPlaceholder,filename=assets/sync/textures/blocks/dvBlockPlaceholder.png
+
+
+
+# %Sync_ShellConstructor:* (Sync_ShellConstructor), render=(CUSTOM), opaque=false,cls=sync.common.block.BlockDualVertical
+block:id=%Sync_ShellConstructor,data=*,stdrot=true,face0-5=0:sync/dvBlockPlaceholder

@@ -1,0 +1,366 @@
+# WarpDrive 1.7.10-1.4.2.-
+version:1.7
+modname:WarpDrive
+
+
+
+# Configuration file not found!
+
+patch:id=VertX1Z0ToX0Z1,Ox=1.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0,visibility=flip
+patch:id=VertX025,Ox=0.25,Oy=0.0,Oz=1.0,Ux=0.25,Uy=0.0,Uz=0.0,Vx=0.25,Vy=1.0,Vz=1.0
+patch:id=VertX075,Ox=0.75,Oy=0.0,Oz=1.0,Ux=0.75,Uy=0.0,Uz=0.0,Vx=0.75,Vy=1.0,Vz=1.0
+patch:id=HorizY001ZTop,Ox=0.0,Oy=0.01,Oz=0.0,Ux=1.0,Uy=0.01,Uz=0.0,Vx=0.0,Vy=0.01,Vz=1.0
+patch:id=SlopeXUpZTop,Ox=0.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0
+patch:id=VertX0In,Ox=0.0,Oy=0.0,Oz=1.0,Ux=0.0,Uy=0.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0
+patch:id=VertX04375,Ox=0.4375,Oy=0.0,Oz=0.0,Ux=0.4375,Uy=0.0,Uz=1.0,Vx=0.4375,Vy=1.0,Vz=0.0,visibility=top
+patch:id=TorchSide1,Ox=-0.5,Oy=0.2,Oz=0.4375,Ux=0.5,Uy=0.2,Uz=0.4375,Vx=-0.1,Vy=1.2,Vz=0.4375,Vmax=0.8,visibility=bottom
+patch:id=TorchSide2,Ox=-0.5,Oy=0.2,Oz=0.5625,Ux=0.5,Uy=0.2,Uz=0.5625,Vx=-0.1,Vy=1.2,Vz=0.5625,Vmax=0.8,visibility=top
+patch:id=TorchSide3,Ox=0.0625,Oy=0.2,Oz=0.0,Ux=0.0625,Uy=0.2,Uz=1.0,Vx=0.4625,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=bottom
+patch:id=TorchSide4,Ox=-0.0625,Oy=0.2,Oz=0.0,Ux=-0.0625,Uy=0.2,Uz=1.0,Vx=0.3375,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=top
+patch:id=TorchTop,Ox=0.0,Oy=0.625,Oz=-0.0625,Ux=1.0,Uy=0.625,Uz=-0.0625,Vx=0.0,Vy=0.625,Vz=0.9375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=TorchTopSlope,Ox=0.0,Oy=0.825,Oz=-0.3625,Ux=1.0,Uy=0.825,Uz=-0.3625,Vx=0.0,Vy=0.825,Vz=0.6375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=VertX00625,Ox=0.0625,Oy=0.0,Oz=0.0,Ux=0.0625,Uy=0.0,Uz=1.0,Vx=0.0625,Vy=1.0,Vz=0.0,visibility=top
+patch:id=HorizY100ZTop,Ox=0.0,Oy=1.0,Oz=0.0,Ux=1.0,Uy=1.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0,visibility=bottom
+
+
+# %blockHull1_stairs_white:* (blockHull1_stairs_white), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_white,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_white:* (blockHull1_slab_white), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_white,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_white,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_orange:* (blockHull1_stairs_orange), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_orange,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_orange:* (blockHull1_slab_orange), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_orange,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_orange,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_magenta:* (blockHull1_stairs_magenta), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_magenta,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_magenta:* (blockHull1_slab_magenta), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_magenta,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_magenta,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_lightBlue:* (blockHull1_stairs_lightBlue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_lightBlue,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_lightBlue:* (blockHull1_slab_lightBlue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_lightBlue,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_lightBlue,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_yellow:* (blockHull1_stairs_yellow), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_yellow,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_yellow:* (blockHull1_slab_yellow), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_yellow,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_yellow,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_lime:* (blockHull1_stairs_lime), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_lime,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_lime:* (blockHull1_slab_lime), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_lime,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_lime,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_pink:* (blockHull1_stairs_pink), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_pink,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_pink:* (blockHull1_slab_pink), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_pink,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_pink,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_gray:* (blockHull1_stairs_gray), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_gray,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_gray:* (blockHull1_slab_gray), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_gray,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_gray,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_silver:* (blockHull1_stairs_silver), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_silver,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_silver:* (blockHull1_slab_silver), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_silver,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_silver,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_cyan:* (blockHull1_stairs_cyan), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_cyan,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_cyan:* (blockHull1_slab_cyan), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_cyan,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_cyan,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_purple:* (blockHull1_stairs_purple), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_purple,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_purple:* (blockHull1_slab_purple), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_purple,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_purple,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_blue:* (blockHull1_stairs_blue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_blue,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_blue:* (blockHull1_slab_blue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_blue,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_blue,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_brown:* (blockHull1_stairs_brown), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_brown,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_brown:* (blockHull1_slab_brown), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_brown,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_brown,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_green:* (blockHull1_stairs_green), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_green,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_green:* (blockHull1_slab_green), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_green,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_green,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_red:* (blockHull1_stairs_red), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_red,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_red:* (blockHull1_slab_red), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_red,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_red,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull1_stairs_black:* (blockHull1_stairs_black), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull1_stairs_black,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull1_slab_black:* (blockHull1_slab_black), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull1_slab_black,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull1_slab_black,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_white:* (blockHull2_stairs_white), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_white,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_white:* (blockHull2_slab_white), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_white,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_white,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_orange:* (blockHull2_stairs_orange), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_orange,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_orange:* (blockHull2_slab_orange), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_orange,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_orange,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_magenta:* (blockHull2_stairs_magenta), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_magenta,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_magenta:* (blockHull2_slab_magenta), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_magenta,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_magenta,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_lightBlue:* (blockHull2_stairs_lightBlue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_lightBlue,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_lightBlue:* (blockHull2_slab_lightBlue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_lightBlue,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_lightBlue,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_yellow:* (blockHull2_stairs_yellow), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_yellow,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_yellow:* (blockHull2_slab_yellow), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_yellow,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_yellow,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_lime:* (blockHull2_stairs_lime), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_lime,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_lime:* (blockHull2_slab_lime), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_lime,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_lime,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_pink:* (blockHull2_stairs_pink), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_pink,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_pink:* (blockHull2_slab_pink), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_pink,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_pink,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_gray:* (blockHull2_stairs_gray), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_gray,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_gray:* (blockHull2_slab_gray), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_gray,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_gray,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_silver:* (blockHull2_stairs_silver), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_silver,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_silver:* (blockHull2_slab_silver), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_silver,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_silver,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_cyan:* (blockHull2_stairs_cyan), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_cyan,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_cyan:* (blockHull2_slab_cyan), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_cyan,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_cyan,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_purple:* (blockHull2_stairs_purple), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_purple,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_purple:* (blockHull2_slab_purple), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_purple,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_purple,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_blue:* (blockHull2_stairs_blue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_blue,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_blue:* (blockHull2_slab_blue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_blue,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_blue,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_brown:* (blockHull2_stairs_brown), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_brown,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_brown:* (blockHull2_slab_brown), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_brown,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_brown,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_green:* (blockHull2_stairs_green), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_green,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_green:* (blockHull2_slab_green), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_green,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_green,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_red:* (blockHull2_stairs_red), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_red,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_red:* (blockHull2_slab_red), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_red,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_red,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull2_stairs_black:* (blockHull2_stairs_black), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull2_stairs_black,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull2_slab_black:* (blockHull2_slab_black), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull2_slab_black,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull2_slab_black,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_white:* (blockHull3_stairs_white), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_white,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_white:* (blockHull3_slab_white), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_white,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_white,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_orange:* (blockHull3_stairs_orange), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_orange,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_orange:* (blockHull3_slab_orange), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_orange,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_orange,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_magenta:* (blockHull3_stairs_magenta), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_magenta,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_magenta:* (blockHull3_slab_magenta), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_magenta,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_magenta,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_lightBlue:* (blockHull3_stairs_lightBlue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_lightBlue,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_lightBlue:* (blockHull3_slab_lightBlue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_lightBlue,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_lightBlue,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_yellow:* (blockHull3_stairs_yellow), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_yellow,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_yellow:* (blockHull3_slab_yellow), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_yellow,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_yellow,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_lime:* (blockHull3_stairs_lime), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_lime,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_lime:* (blockHull3_slab_lime), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_lime,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_lime,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_pink:* (blockHull3_stairs_pink), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_pink,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_pink:* (blockHull3_slab_pink), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_pink,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_pink,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_gray:* (blockHull3_stairs_gray), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_gray,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_gray:* (blockHull3_slab_gray), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_gray,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_gray,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_silver:* (blockHull3_stairs_silver), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_silver,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_silver:* (blockHull3_slab_silver), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_silver,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_silver,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_cyan:* (blockHull3_stairs_cyan), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_cyan,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_cyan:* (blockHull3_slab_cyan), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_cyan,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_cyan,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_purple:* (blockHull3_stairs_purple), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_purple,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_purple:* (blockHull3_slab_purple), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_purple,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_purple,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_blue:* (blockHull3_stairs_blue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_blue,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_blue:* (blockHull3_slab_blue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_blue,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_blue,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_brown:* (blockHull3_stairs_brown), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_brown,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_brown:* (blockHull3_slab_brown), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_brown,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_brown,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_green:* (blockHull3_stairs_green), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_green,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_green:* (blockHull3_slab_green), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_green,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_green,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_red:* (blockHull3_stairs_red), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_red,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_red:* (blockHull3_slab_red), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_red,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_red,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockHull3_stairs_black:* (blockHull3_stairs_black), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+customblock:id=%blockHull3_stairs_black,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %blockHull3_slab_black:* (blockHull3_slab_black), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+boxblock:id=%blockHull3_slab_black,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%blockHull3_slab_black,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %blockTransporterContainment:* (blockTransporterContainment), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.movement.BlockTransporterContainment
+boxblock:id=%blockTransporterContainment,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.5,zmin=0.0,zmax=1.0,data=*
+
+# %blockTransporterScanner:* (blockTransporterScanner), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.movement.BlockTransporterScanner
+boxblock:id=%blockTransporterScanner,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.5,zmin=0.0,zmax=1.0,data=*

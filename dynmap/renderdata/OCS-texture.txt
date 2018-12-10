@@ -1,0 +1,26 @@
+# OCS 1.7.5
+version:1.7
+modname:OCS
+
+
+cfgfile:config/OCS.cfg
+
+
+texturepath:assets/ocs/textures/blocks/
+texture:id=openccsensors/gauge,filename=assets/openccsensors/textures/blocks/gauge.png
+texture:id=openccsensors/proxBottom,filename=assets/openccsensors/textures/blocks/proxBottom.png
+texture:id=openccsensors/proxSideAll,filename=assets/openccsensors/textures/blocks/proxSideAll.png
+texture:id=openccsensors/proxTop,filename=assets/openccsensors/textures/blocks/proxTop.png
+texture:id=openccsensors/sensor,filename=assets/openccsensors/textures/blocks/sensor.png
+
+
+
+# %sensor:* (sensor), render=openccsensors.client.RenderingHandler(CUSTOM), opaque=false,cls=openccsensors.common.block.BlockSensor
+block:id=%sensor,data=*,stdrot=true,face0-5=0:openccsensors/sensor
+
+# %gauge:* (gauge), render=openccsensors.client.RenderingHandler(CUSTOM), opaque=false,cls=openccsensors.common.block.BlockGauge
+block:id=%gauge,data=0,data=1,stdrot=true,face0-5=0:openccsensors/gauge
+block:id=%gauge,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-5=0:openccsensors/gauge
+
+# %basicProximitySensor:* (basicProximitySensor), render=(STANDARD), opaque=true,cls=openccsensors.common.block.BlockBasicSensor
+block:id=%basicProximitySensor,data=*,stdrot=true,face0=0:openccsensors/proxBottom,face1=0:openccsensors/proxTop,face2-5=0:openccsensors/proxSideAll

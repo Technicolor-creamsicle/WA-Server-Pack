@@ -1,0 +1,134 @@
+# icbm 2.15.5.514
+version:1.7
+modname:icbm
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/icbm/textures/blocks/
+texture:id=icbm/PowerRailArrowDown,filename=assets/icbm/textures/blocks/PowerRailArrowDown.png
+texture:id=icbm/PowerRailArrowLeft,filename=assets/icbm/textures/blocks/PowerRailArrowLeft.png
+texture:id=icbm/PowerRailArrowRight,filename=assets/icbm/textures/blocks/PowerRailArrowRight.png
+texture:id=icbm/PowerRailArrowUp,filename=assets/icbm/textures/blocks/PowerRailArrowUp.png
+texture:id=icbm/PowerRailBody,filename=assets/icbm/textures/blocks/PowerRailBody.png
+texture:id=icbm/commandController,filename=assets/icbm/textures/blocks/commandController.png
+texture:id=icbm/commandController_top,filename=assets/icbm/textures/blocks/commandController_top.png
+texture:id=icbm/commandSiloConnector,filename=assets/icbm/textures/blocks/commandSiloConnector.png
+texture:id=icbm/commandSiloConnector_top,filename=assets/icbm/textures/blocks/commandSiloConnector_top.png
+texture:id=icbm/controller.direct.silo,filename=assets/icbm/textures/blocks/controller.direct.silo.png
+texture:id=icbm/controller.direct.silo.top,filename=assets/icbm/textures/blocks/controller.direct.silo.top.png
+texture:id=icbm/launcher.box,filename=assets/icbm/textures/blocks/launcher.box.png
+texture:id=icbm/launcher.box.top,filename=assets/icbm/textures/blocks/launcher.box.top.png
+texture:id=icbm/pad.bot,filename=assets/icbm/textures/blocks/pad.bot.png
+texture:id=icbm/pad.center,filename=assets/icbm/textures/blocks/pad.center.png
+texture:id=icbm/pad.left,filename=assets/icbm/textures/blocks/pad.left.png
+texture:id=icbm/pad.lower.left,filename=assets/icbm/textures/blocks/pad.lower.left.png
+texture:id=icbm/pad.lower.right,filename=assets/icbm/textures/blocks/pad.lower.right.png
+texture:id=icbm/pad.right,filename=assets/icbm/textures/blocks/pad.right.png
+texture:id=icbm/pad.top,filename=assets/icbm/textures/blocks/pad.top.png
+texture:id=icbm/pad.upper.left,filename=assets/icbm/textures/blocks/pad.upper.left.png
+texture:id=icbm/pad.upper.right,filename=assets/icbm/textures/blocks/pad.upper.right.png
+texture:id=icbm/warhead.large,filename=assets/icbm/textures/blocks/warhead.large.png
+texture:id=icbm/warhead.medium,filename=assets/icbm/textures/blocks/warhead.medium.png
+texture:id=icbm/warhead.micro,filename=assets/icbm/textures/blocks/warhead.micro.png
+texture:id=icbm/warhead.small,filename=assets/icbm/textures/blocks/warhead.small.png
+texture:id=icbm/warhead.standard,filename=assets/icbm/textures/blocks/warhead.standard.png
+texture:id=minecraft/cake_bottom,filename=assets/minecraft/textures/blocks/cake_bottom.png
+texture:id=minecraft/cake_inner,filename=assets/minecraft/textures/blocks/cake_inner.png
+texture:id=minecraft/cake_side,filename=assets/minecraft/textures/blocks/cake_side.png
+texture:id=minecraft/cake_top,filename=assets/minecraft/textures/blocks/cake_top.png
+texture:id=minecraft/gravel,filename=assets/minecraft/textures/blocks/gravel.png
+texture:id=minecraft/hopper_outside,filename=assets/minecraft/textures/blocks/hopper_outside.png
+texture:id=minecraft/hopper_top,filename=assets/minecraft/textures/blocks/hopper_top.png
+texture:id=minecraft/iron_bars,filename=assets/minecraft/textures/blocks/iron_bars.png
+texture:id=minecraft/iron_block,filename=assets/minecraft/textures/blocks/iron_block.png
+texture:id=minecraft/planks_oak,filename=assets/minecraft/textures/blocks/planks_oak.png
+texture:id=minecraft/wool_colored_light_blue,filename=assets/minecraft/textures/blocks/wool_colored_light_blue.png
+texture:id=minecraft/wool_colored_lime,filename=assets/minecraft/textures/blocks/wool_colored_lime.png
+texture:id=minecraft/wool_colored_magenta,filename=assets/minecraft/textures/blocks/wool_colored_magenta.png
+texture:id=minecraft/wool_colored_orange,filename=assets/minecraft/textures/blocks/wool_colored_orange.png
+texture:id=minecraft/wool_colored_white,filename=assets/minecraft/textures/blocks/wool_colored_white.png
+texture:id=minecraft/wool_colored_yellow,filename=assets/minecraft/textures/blocks/wool_colored_yellow.png
+
+
+
+# %smallsilo:* (smallsilo), render=(CUSTOM), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%smallsilo,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %standardsilo:* (standardsilo), render=(CUSTOM), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%standardsilo,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %icbmSMAuto:* (icbmSMAuto), render=(CUSTOM), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%icbmSMAuto,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %icbmWarheadWorkstation:* (icbmWarheadWorkstation), render=(CUSTOM), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%icbmWarheadWorkstation,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %silocontroller:* (silocontroller), render=(CUSTOM), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%silocontroller,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %standardlauncher:* (standardlauncher), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%standardlauncher,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:icbm/launcher.box.top,face2-5=0:icbm/launcher.box
+
+# %icbmLauncherParts:* (icbmLauncherParts), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%icbmLauncherParts,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:icbm/launcher.box.top,face2-5=0:icbm/launcher.box
+
+# %icbmDecorLaunchPad:* (icbmDecorLaunchPad), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.seven.framework.block.meta.BlockMeta
+block:id=%icbmDecorLaunchPad,data=0,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.top,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=1,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.bot,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=2,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.left,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=3,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.right,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=4,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.lower.left,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=5,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.lower.right,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=6,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.upper.left,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=7,stdrot=true,face0=0:icbm/pad.center,face1=0:icbm/pad.upper.right,face2-5=0:icbm/pad.center
+block:id=%icbmDecorLaunchPad,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:icbm/pad.center
+
+# %smallMissileMag:* (smallMissileMag), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%smallMissileMag,data=0,data=1,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2-5=0:icbm/PowerRailBody
+block:id=%smallMissileMag,data=2,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/wool_colored_white,face1=0:icbm/PowerRailArrowUp,face2-5=0:icbm/PowerRailBody
+block:id=%smallMissileMag,data=3,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/wool_colored_white,face1=0:icbm/PowerRailArrowDown,face2-5=0:icbm/PowerRailBody
+block:id=%smallMissileMag,data=4,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/wool_colored_white,face1=0:icbm/PowerRailArrowLeft,face2-5=0:icbm/PowerRailBody
+block:id=%smallMissileMag,data=5,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/wool_colored_white,face1=0:icbm/PowerRailArrowRight,face2-5=0:icbm/PowerRailBody
+block:id=%smallMissileMag,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2-5=0:icbm/PowerRailBody
+
+# %silodoor:* (silodoor), render=(CUSTOM), opaque=false,cls=com.builtbroken.mc.seven.framework.block.BlockBase
+block:id=%silodoor,data=*,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %TileMissile:* (TileMissile), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.seven.framework.block.meta.BlockMeta
+block:id=%TileMissile,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:minecraft/planks_oak
+
+# %icbmCommandSiloDisplay:* (icbmCommandSiloDisplay), render=com.builtbroken.mc.lib.render.block.BlockRenderHandler(CUSTOM), opaque=false,cls=com.builtbroken.mc.prefab.tile.BlockTile
+block:id=%icbmCommandSiloDisplay,data=*,stdrot=true,face0-5=0:minecraft/gravel
+
+# %warhead:* (warhead), render=(CUSTOM), opaque=false,cls=com.builtbroken.mc.prefab.tile.BlockTile
+block:id=%warhead,data=0,stdrot=true,transparency=TRANSPARENT,face0-5=0:icbm/warhead.micro
+block:id=%warhead,data=1,stdrot=true,transparency=TRANSPARENT,face0-5=0:icbm/warhead.small
+block:id=%warhead,data=2,stdrot=true,transparency=TRANSPARENT,face0-5=0:icbm/warhead.standard
+block:id=%warhead,data=3,stdrot=true,transparency=TRANSPARENT,face0-5=0:icbm/warhead.medium
+block:id=%warhead,data=4,stdrot=true,transparency=TRANSPARENT,face0-5=0:icbm/warhead.large
+block:id=%warhead,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0-5=0:icbm/warhead.micro
+
+# %icbmCrashedMissile:* (icbmCrashedMissile), render=com.builtbroken.mc.lib.render.block.BlockRenderHandler(CUSTOM), opaque=false,cls=com.builtbroken.mc.prefab.tile.BlockTile
+block:id=%icbmCrashedMissile,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:minecraft/iron_block
+
+# %icbmLauncherFrame:* (icbmLauncherFrame), render=com.builtbroken.mc.lib.render.block.BlockRenderHandler(CUSTOM), opaque=false,cls=com.builtbroken.mc.prefab.tile.BlockTile
+block:id=%icbmLauncherFrame,data=*,stdrot=true,face0-5=0:minecraft/iron_bars
+
+# %icbmDirectSiloConnector:* (icbmDirectSiloConnector), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.prefab.tile.BlockTile
+block:id=%icbmDirectSiloConnector,data=*,stdrot=true,face0=0:icbm/controller.direct.silo,face1=0:icbm/controller.direct.silo.top,face2-5=0:icbm/controller.direct.silo
+
+# %icbmAntenna:* (icbmAntenna), render=(CUSTOM), opaque=false,cls=com.builtbroken.icbm.content.launcher.controller.remote.antenna.BlockAntennaParts
+block:id=%icbmAntenna,data=*,stdrot=true,face0=0:minecraft/hopper_outside,face1=0:minecraft/hopper_top,face2-5=0:minecraft/hopper_outside
+
+# %icbmCommandCentral:* (icbmCommandCentral), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.prefab.tile.BlockTile
+block:id=%icbmCommandCentral,data=*,stdrot=true,face0=0:icbm/commandController,face1=0:icbm/commandController_top,face2-5=0:icbm/commandController
+
+# %icbmCommandSiloController:* (icbmCommandSiloController), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.prefab.tile.BlockTile
+block:id=%icbmCommandSiloController,data=*,stdrot=true,face0=0:icbm/commandSiloConnector,face1=0:icbm/commandSiloConnector_top,face2-5=0:icbm/commandSiloConnector
+
+# %ICBMxFakeCake:* (ICBMxFakeCake), render=(STANDARD), opaque=false,cls=com.builtbroken.icbm.content.blast.item.BlockFakeCake
+block:id=%ICBMxFakeCake,data=0,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/cake_bottom,face1=0:minecraft/cake_top,face2-5=0:minecraft/cake_side
+block:id=%ICBMxFakeCake,data=1,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0=0:minecraft/cake_bottom,face1=0:minecraft/cake_top,face2-3=0:minecraft/cake_side,face4=0:minecraft/cake_inner,face5=0:minecraft/cake_side

@@ -1,0 +1,176 @@
+# advgenerators 0.9.20.123
+version:1.7
+modname:advgenerators
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/advgenerators/textures/blocks/
+texture:id=advgenerators/control/off,filename=assets/advgenerators/textures/blocks/control/off.png
+texture:id=advgenerators/control/on,filename=assets/advgenerators/textures/blocks/control/on.png
+texture:id=advgenerators/efficiencyupgradetier1/main,filename=assets/advgenerators/textures/blocks/efficiencyupgradetier1/main.png
+texture:id=advgenerators/efficiencyupgradetier2/main,filename=assets/advgenerators/textures/blocks/efficiencyupgradetier2/main.png
+texture:id=advgenerators/euoutput/front_ev,filename=assets/advgenerators/textures/blocks/euoutput/front_ev.png
+texture:id=advgenerators/euoutput/front_hv,filename=assets/advgenerators/textures/blocks/euoutput/front_hv.png
+texture:id=advgenerators/euoutput/front_lv,filename=assets/advgenerators/textures/blocks/euoutput/front_lv.png
+texture:id=advgenerators/euoutput/front_mv,filename=assets/advgenerators/textures/blocks/euoutput/front_mv.png
+texture:id=advgenerators/euoutput/main,filename=assets/advgenerators/textures/blocks/euoutput/main.png
+texture:id=advgenerators/exchangercontroller/main,filename=assets/advgenerators/textures/blocks/exchangercontroller/main.png
+texture:id=advgenerators/exchangercontroller/top,filename=assets/advgenerators/textures/blocks/exchangercontroller/top.png
+texture:id=advgenerators/fluidinput/main,filename=assets/advgenerators/textures/blocks/fluidinput/main.png
+texture:id=advgenerators/fluidoutputselect/main,filename=assets/advgenerators/textures/blocks/fluidoutputselect/main.png
+texture:id=advgenerators/fueltank/main,filename=assets/advgenerators/textures/blocks/fueltank/main.png
+texture:id=advgenerators/gasinput/main,filename=assets/advgenerators/textures/blocks/gasinput/main.png
+texture:id=advgenerators/heatexchanger/main,filename=assets/advgenerators/textures/blocks/heatexchanger/main.png
+texture:id=advgenerators/heatingchamber/main,filename=assets/advgenerators/textures/blocks/heatingchamber/main.png
+texture:id=advgenerators/iteminput/main,filename=assets/advgenerators/textures/blocks/iteminput/main.png
+texture:id=advgenerators/itemoutput/main,filename=assets/advgenerators/textures/blocks/itemoutput/main.png
+texture:id=advgenerators/mixingchamber/main,filename=assets/advgenerators/textures/blocks/mixingchamber/main.png
+texture:id=advgenerators/mixingchamber/top,filename=assets/advgenerators/textures/blocks/mixingchamber/top.png
+texture:id=advgenerators/powercapacitor/advanced,filename=assets/advgenerators/textures/blocks/powercapacitor/advanced.png
+texture:id=advgenerators/powercapacitor/dense,filename=assets/advgenerators/textures/blocks/powercapacitor/dense.png
+texture:id=advgenerators/powercapacitor/redstone,filename=assets/advgenerators/textures/blocks/powercapacitor/redstone.png
+texture:id=advgenerators/rfoutput/disabled,filename=assets/advgenerators/textures/blocks/rfoutput/disabled.png
+texture:id=advgenerators/sensor/back,filename=assets/advgenerators/textures/blocks/sensor/back.png
+texture:id=advgenerators/sensor/front_off,filename=assets/advgenerators/textures/blocks/sensor/front_off.png
+texture:id=advgenerators/sensor/front_on,filename=assets/advgenerators/textures/blocks/sensor/front_on.png
+texture:id=advgenerators/sensor/side_off,filename=assets/advgenerators/textures/blocks/sensor/side_off.png
+texture:id=advgenerators/sensor/side_on,filename=assets/advgenerators/textures/blocks/sensor/side_on.png
+texture:id=advgenerators/steamturbinecontroller/bottom,filename=assets/advgenerators/textures/blocks/steamturbinecontroller/bottom.png
+texture:id=advgenerators/steamturbinecontroller/main,filename=assets/advgenerators/textures/blocks/steamturbinecontroller/main.png
+texture:id=advgenerators/steamturbinecontroller/top,filename=assets/advgenerators/textures/blocks/steamturbinecontroller/top.png
+texture:id=advgenerators/syngas/flowing,filename=assets/advgenerators/textures/blocks/syngas/flowing.png
+texture:id=advgenerators/syngas/still,filename=assets/advgenerators/textures/blocks/syngas/still.png
+texture:id=advgenerators/syngascontroller/main,filename=assets/advgenerators/textures/blocks/syngascontroller/main.png
+texture:id=advgenerators/syngascontroller/top,filename=assets/advgenerators/textures/blocks/syngascontroller/top.png
+texture:id=advgenerators/turbine/advalloy/main,filename=assets/advgenerators/textures/blocks/turbine/advalloy/main.png
+texture:id=advgenerators/turbine/advalloy/top,filename=assets/advgenerators/textures/blocks/turbine/advalloy/top.png
+texture:id=advgenerators/turbine/bronze/main,filename=assets/advgenerators/textures/blocks/turbine/bronze/main.png
+texture:id=advgenerators/turbine/bronze/top,filename=assets/advgenerators/textures/blocks/turbine/bronze/top.png
+texture:id=advgenerators/turbine/enderium/main,filename=assets/advgenerators/textures/blocks/turbine/enderium/main.png
+texture:id=advgenerators/turbine/enderium/top,filename=assets/advgenerators/textures/blocks/turbine/enderium/top.png
+texture:id=advgenerators/turbine/gold/main,filename=assets/advgenerators/textures/blocks/turbine/gold/main.png
+texture:id=advgenerators/turbine/gold/top,filename=assets/advgenerators/textures/blocks/turbine/gold/top.png
+texture:id=advgenerators/turbine/iron/main,filename=assets/advgenerators/textures/blocks/turbine/iron/main.png
+texture:id=advgenerators/turbine/iron/top,filename=assets/advgenerators/textures/blocks/turbine/iron/top.png
+texture:id=advgenerators/turbine/manyullyn/main,filename=assets/advgenerators/textures/blocks/turbine/manyullyn/main.png
+texture:id=advgenerators/turbine/manyullyn/top,filename=assets/advgenerators/textures/blocks/turbine/manyullyn/top.png
+texture:id=advgenerators/turbine/steel/main,filename=assets/advgenerators/textures/blocks/turbine/steel/main.png
+texture:id=advgenerators/turbine/steel/top,filename=assets/advgenerators/textures/blocks/turbine/steel/top.png
+texture:id=advgenerators/turbine/vibrant/main,filename=assets/advgenerators/textures/blocks/turbine/vibrant/main.png
+texture:id=advgenerators/turbine/vibrant/top,filename=assets/advgenerators/textures/blocks/turbine/vibrant/top.png
+texture:id=advgenerators/turbinecontroller/bottom,filename=assets/advgenerators/textures/blocks/turbinecontroller/bottom.png
+texture:id=advgenerators/turbinecontroller/main,filename=assets/advgenerators/textures/blocks/turbinecontroller/main.png
+texture:id=advgenerators/turbinecontroller/top,filename=assets/advgenerators/textures/blocks/turbinecontroller/top.png
+
+
+
+# %TurbineController:* (TurbineController), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.controllers.turbine.BlockTurbineController$
+block:id=%TurbineController,data=*,stdrot=true,face0=0:advgenerators/turbinecontroller/bottom,face1=0:advgenerators/turbinecontroller/top,face2-5=0:advgenerators/turbinecontroller/main
+
+# %HeatExchangerController:* (HeatExchangerController), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.controllers.exchanger.BlockExchangerController$
+block:id=%HeatExchangerController,data=*,stdrot=true,face0-1=0:advgenerators/exchangercontroller/top,face2-5=0:advgenerators/exchangercontroller/main
+
+# %SteamTurbineController:* (SteamTurbineController), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.controllers.steam.BlockSteamTurbineController$
+block:id=%SteamTurbineController,data=*,stdrot=true,face0=0:advgenerators/steamturbinecontroller/bottom,face1=0:advgenerators/steamturbinecontroller/top,face2-5=0:advgenerators/steamturbinecontroller/main
+
+# %SyngasController:* (SyngasController), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.controllers.syngas.BlockSyngasController$
+block:id=%SyngasController,data=*,stdrot=true,face0-1=0:advgenerators/syngascontroller/top,face2-5=0:advgenerators/syngascontroller/main
+
+# %EuOutputLV:* (EuOutputLV), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.euOutput.BlockEuOutputLV$
+block:id=%EuOutputLV,data=*,stdrot=true,face0-2=0:advgenerators/euoutput/main,face3=0:advgenerators/euoutput/front_lv,face4-5=0:advgenerators/euoutput/main
+
+# %EuOutputMV:* (EuOutputMV), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.euOutput.BlockEuOutputMV$
+block:id=%EuOutputMV,data=*,stdrot=true,face0-2=0:advgenerators/euoutput/main,face3=0:advgenerators/euoutput/front_mv,face4-5=0:advgenerators/euoutput/main
+
+# %EuOutputHV:* (EuOutputHV), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.euOutput.BlockEuOutputHV$
+block:id=%EuOutputHV,data=*,stdrot=true,face0-2=0:advgenerators/euoutput/main,face3=0:advgenerators/euoutput/front_hv,face4-5=0:advgenerators/euoutput/main
+
+# %EuOutputEV:* (EuOutputEV), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.euOutput.BlockEuOutputEV$
+block:id=%EuOutputEV,data=*,stdrot=true,face0-2=0:advgenerators/euoutput/main,face3=0:advgenerators/euoutput/front_ev,face4-5=0:advgenerators/euoutput/main
+
+# %RFOutput:* (RFOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.rfOutput.BlockRfOutput$
+block:id=%RFOutput,data=*,stdrot=true,face0-5=0:advgenerators/rfoutput/disabled
+
+# %FluidInput:* (FluidInput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.fluidInput.BlockFluidInput$
+block:id=%FluidInput,data=*,stdrot=true,face0-5=0:advgenerators/fluidinput/main
+
+# %FluidOutputSelect:* (FluidOutputSelect), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.fluidOutputSelect.BlockFluidOutputSelect$
+block:id=%FluidOutputSelect,data=*,stdrot=true,face0-5=0:advgenerators/fluidoutputselect/main
+
+# %ItemInput:* (ItemInput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.itemInput.BlockItemInput$
+block:id=%ItemInput,data=*,stdrot=true,face0-5=0:advgenerators/iteminput/main
+
+# %ItemOutput:* (ItemOutput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.itemOutput.BlockItemOutput$
+block:id=%ItemOutput,data=*,stdrot=true,face0-5=0:advgenerators/itemoutput/main
+
+# %FuelTank:* (FuelTank), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.fuelTank.BlockFuelTank$
+block:id=%FuelTank,data=*,stdrot=true,face0-5=0:advgenerators/fueltank/main
+
+# %HeatingChamber:* (HeatingChamber), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.heatingChamber.BlockHeatingChamber$
+block:id=%HeatingChamber,data=*,stdrot=true,face0-5=0:advgenerators/heatingchamber/main
+
+# %MixingChamber:* (MixingChamber), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.mixingChamber.BlockMixingChamber$
+block:id=%MixingChamber,data=*,stdrot=true,face0-1=0:advgenerators/mixingchamber/top,face2-5=0:advgenerators/mixingchamber/main
+
+# %HeatExchanger:* (HeatExchanger), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.exchanger.BlockExchanger$
+block:id=%HeatExchanger,data=*,stdrot=true,face0-5=0:advgenerators/heatexchanger/main
+
+# %Sensor:* (Sensor), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.sensor.BlockSensor$
+block:id=%Sensor,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7,stdrot=true,face0=0:advgenerators/sensor/back,face1=0:advgenerators/sensor/front_off,face2-5=0:advgenerators/sensor/side_off
+block:id=%Sensor,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0=0:advgenerators/sensor/back,face1=0:advgenerators/sensor/front_on,face2-5=0:advgenerators/sensor/side_on
+
+# %Control:* (Control), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.control.BlockControl$
+block:id=%Control,data=0,stdrot=true,face0-5=0:advgenerators/control/off
+block:id=%Control,data=1,stdrot=true,face0-5=0:advgenerators/control/on
+block:id=%Control,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:advgenerators/control/off
+
+# %EfficiencyUpgradeTier1:* (EfficiencyUpgradeTier1), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.efficiency.BlockEfficiencyUpgradeTier1$
+block:id=%EfficiencyUpgradeTier1,data=*,stdrot=true,face0-5=0:advgenerators/efficiencyupgradetier1/main
+
+# %EfficiencyUpgradeTier2:* (EfficiencyUpgradeTier2), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.efficiency.BlockEfficiencyUpgradeTier2$
+block:id=%EfficiencyUpgradeTier2,data=*,stdrot=true,face0-5=0:advgenerators/efficiencyupgradetier2/main
+
+# %GasInput:* (GasInput), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.gasInput.BlockGasInput$
+block:id=%GasInput,data=*,stdrot=true,face0-5=0:advgenerators/gasinput/main
+
+# %syngas_flaming:* (syngas_flaming), render=(STANDARD), opaque=true,cls=net.bdew.generators.blocks.BlockSyngasFlaming$
+block:id=%syngas_flaming,data=*,stdrot=true,face0-5=12000:advgenerators/syngas/still
+
+# %syngas:* (syngas), render=net.minecraftforge.fluids.RenderBlockFluid(FLUIDS), opaque=false,cls=net.bdew.generators.blocks.BlockSyngas
+block:id=%syngas,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-1=12000:advgenerators/syngas/still,face2-5=12000:advgenerators/syngas/flowing
+
+# %TurbineEnderium:* (TurbineEnderium), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineEnderium,data=*,stdrot=true,face0-1=0:advgenerators/turbine/enderium/top,face2-5=0:advgenerators/turbine/enderium/main
+
+# %TurbineSteel:* (TurbineSteel), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineSteel,data=*,stdrot=true,face0-1=0:advgenerators/turbine/steel/top,face2-5=0:advgenerators/turbine/steel/main
+
+# %TurbineGold:* (TurbineGold), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineGold,data=*,stdrot=true,face0-1=0:advgenerators/turbine/gold/top,face2-5=0:advgenerators/turbine/gold/main
+
+# %TurbineBronze:* (TurbineBronze), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineBronze,data=*,stdrot=true,face0-1=0:advgenerators/turbine/bronze/top,face2-5=0:advgenerators/turbine/bronze/main
+
+# %TurbineManyullyn:* (TurbineManyullyn), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineManyullyn,data=*,stdrot=true,face0-1=0:advgenerators/turbine/manyullyn/top,face2-5=0:advgenerators/turbine/manyullyn/main
+
+# %TurbineIron:* (TurbineIron), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineIron,data=*,stdrot=true,face0-1=0:advgenerators/turbine/iron/top,face2-5=0:advgenerators/turbine/iron/main
+
+# %TurbineVibrant:* (TurbineVibrant), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineVibrant,data=*,stdrot=true,face0-1=0:advgenerators/turbine/vibrant/top,face2-5=0:advgenerators/turbine/vibrant/main
+
+# %TurbineAdvAlloy:* (TurbineAdvAlloy), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.turbine.BlockTurbine
+block:id=%TurbineAdvAlloy,data=*,stdrot=true,face0-1=0:advgenerators/turbine/advalloy/top,face2-5=0:advgenerators/turbine/advalloy/main
+
+# %PowerCapacitorRedstone:* (PowerCapacitorRedstone), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.powerCapacitor.BlockPowerCapacitor
+block:id=%PowerCapacitorRedstone,data=*,stdrot=true,face0-5=0:advgenerators/powercapacitor/redstone
+
+# %PowerCapacitorAdvanced:* (PowerCapacitorAdvanced), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.powerCapacitor.BlockPowerCapacitor
+block:id=%PowerCapacitorAdvanced,data=*,stdrot=true,face0-5=0:advgenerators/powercapacitor/advanced
+
+# %PowerCapacitorDense:* (PowerCapacitorDense), render=net.bdew.lib.render.connected.ConnectedRenderer$(CUSTOM), opaque=true,cls=net.bdew.generators.modules.powerCapacitor.BlockPowerCapacitor
+block:id=%PowerCapacitorDense,data=*,stdrot=true,face0-5=0:advgenerators/powercapacitor/dense

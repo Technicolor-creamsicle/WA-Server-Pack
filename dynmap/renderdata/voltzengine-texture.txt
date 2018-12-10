@@ -1,0 +1,64 @@
+# voltzengine 1.11.0.479
+version:1.7
+modname:voltzengine
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/voltzengine/textures/blocks/
+texture:id=minecraft/iron_block,filename=assets/minecraft/textures/blocks/iron_block.png
+texture:id=minecraft/wool_colored_light_blue,filename=assets/minecraft/textures/blocks/wool_colored_light_blue.png
+texture:id=minecraft/wool_colored_lime,filename=assets/minecraft/textures/blocks/wool_colored_lime.png
+texture:id=minecraft/wool_colored_magenta,filename=assets/minecraft/textures/blocks/wool_colored_magenta.png
+texture:id=minecraft/wool_colored_orange,filename=assets/minecraft/textures/blocks/wool_colored_orange.png
+texture:id=minecraft/wool_colored_white,filename=assets/minecraft/textures/blocks/wool_colored_white.png
+texture:id=minecraft/wool_colored_yellow,filename=assets/minecraft/textures/blocks/wool_colored_yellow.png
+texture:id=voltzengine/stone/ore_amazonite,filename=assets/voltzengine/textures/blocks/stone/ore_amazonite.png
+texture:id=voltzengine/stone/ore_bauxite,filename=assets/voltzengine/textures/blocks/stone/ore_bauxite.png
+texture:id=voltzengine/stone/ore_copper,filename=assets/voltzengine/textures/blocks/stone/ore_copper.png
+texture:id=voltzengine/stone/ore_garnetgreen,filename=assets/voltzengine/textures/blocks/stone/ore_garnetgreen.png
+texture:id=voltzengine/stone/ore_garnetorange,filename=assets/voltzengine/textures/blocks/stone/ore_garnetorange.png
+texture:id=voltzengine/stone/ore_garnetred,filename=assets/voltzengine/textures/blocks/stone/ore_garnetred.png
+texture:id=voltzengine/stone/ore_garnetyellow,filename=assets/voltzengine/textures/blocks/stone/ore_garnetyellow.png
+texture:id=voltzengine/stone/ore_lead,filename=assets/voltzengine/textures/blocks/stone/ore_lead.png
+texture:id=voltzengine/stone/ore_magnesite,filename=assets/voltzengine/textures/blocks/stone/ore_magnesite.png
+texture:id=voltzengine/stone/ore_nickel,filename=assets/voltzengine/textures/blocks/stone/ore_nickel.png
+texture:id=voltzengine/stone/ore_onyxblack,filename=assets/voltzengine/textures/blocks/stone/ore_onyxblack.png
+texture:id=voltzengine/stone/ore_onyxred,filename=assets/voltzengine/textures/blocks/stone/ore_onyxred.png
+texture:id=voltzengine/stone/ore_platinum,filename=assets/voltzengine/textures/blocks/stone/ore_platinum.png
+texture:id=voltzengine/stone/ore_silver,filename=assets/voltzengine/textures/blocks/stone/ore_silver.png
+texture:id=voltzengine/stone/ore_smokeyquartz,filename=assets/voltzengine/textures/blocks/stone/ore_smokeyquartz.png
+texture:id=voltzengine/stone/ore_tin,filename=assets/voltzengine/textures/blocks/stone/ore_tin.png
+texture:id=voltzengine/stone/ore_uranium,filename=assets/voltzengine/textures/blocks/stone/ore_uranium.png
+texture:id=voltzengine/stone/ore_zinc,filename=assets/voltzengine/textures/blocks/stone/ore_zinc.png
+
+
+
+# %veGemOre:* (veGemOre), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.seven.framework.block.meta.BlockMeta
+block:id=%veGemOre,data=0,stdrot=true,face0-5=0:voltzengine/stone/ore_amazonite
+block:id=%veGemOre,data=1,stdrot=true,face0-5=0:voltzengine/stone/ore_smokeyquartz
+block:id=%veGemOre,data=2,stdrot=true,face0-5=0:voltzengine/stone/ore_onyxblack
+block:id=%veGemOre,data=3,stdrot=true,face0-5=0:voltzengine/stone/ore_onyxred
+block:id=%veGemOre,data=4,stdrot=true,face0-5=0:voltzengine/stone/ore_garnetgreen
+block:id=%veGemOre,data=5,stdrot=true,face0-5=0:voltzengine/stone/ore_garnetorange
+block:id=%veGemOre,data=6,stdrot=true,face0-5=0:voltzengine/stone/ore_garnetred
+block:id=%veGemOre,data=7,stdrot=true,face0-5=0:voltzengine/stone/ore_garnetyellow
+block:id=%veGemOre,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %veStoneOre:* (veStoneOre), render=(STANDARD), opaque=false,cls=com.builtbroken.mc.seven.framework.block.meta.BlockMeta
+block:id=%veStoneOre,data=0,stdrot=true,face0-5=0:voltzengine/stone/ore_tin
+block:id=%veStoneOre,data=1,stdrot=true,face0-5=0:voltzengine/stone/ore_copper
+block:id=%veStoneOre,data=2,stdrot=true,face0-5=0:voltzengine/stone/ore_silver
+block:id=%veStoneOre,data=3,stdrot=true,face0-5=0:voltzengine/stone/ore_lead
+block:id=%veStoneOre,data=4,stdrot=true,face0-5=0:voltzengine/stone/ore_zinc
+block:id=%veStoneOre,data=5,stdrot=true,face0-5=0:voltzengine/stone/ore_nickel
+block:id=%veStoneOre,data=6,stdrot=true,face0-5=0:voltzengine/stone/ore_bauxite
+block:id=%veStoneOre,data=7,stdrot=true,face0-5=0:voltzengine/stone/ore_magnesite
+block:id=%veStoneOre,data=8,stdrot=true,face0-5=0:voltzengine/stone/ore_uranium
+block:id=%veStoneOre,data=9,stdrot=true,face0-5=0:voltzengine/stone/ore_platinum
+block:id=%veStoneOre,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0=0:minecraft/wool_colored_white,face1=0:minecraft/wool_colored_orange,face2=0:minecraft/wool_colored_magenta,face3=0:minecraft/wool_colored_light_blue,face4=0:minecraft/wool_colored_yellow,face5=0:minecraft/wool_colored_lime
+
+# %veMultiBlock:* (veMultiBlock), render=com.builtbroken.mc.framework.multiblock.MultiBlockRenderHelper(CUSTOM), opaque=false,cls=com.builtbroken.mc.framework.multiblock.BlockMultiblock
+block:id=%veMultiBlock,data=*,stdrot=true,face0-5=0:minecraft/iron_block

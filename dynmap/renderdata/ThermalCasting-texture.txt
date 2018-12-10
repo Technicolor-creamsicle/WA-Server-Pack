@@ -1,0 +1,15 @@
+# ThermalCasting 0.0.3
+version:1.7
+modname:ThermalCasting
+
+
+cfgfile:config/ThermalCasting.cfg
+
+
+texturepath:assets/thermalcasting/textures/blocks/
+texture:id=thermalcasting/castingframe,filename=assets/thermalcasting/textures/blocks/castingframe.png
+
+
+
+# %castingFrame:* (castingFrame), render=(STANDARD), opaque=false,cls=com.insane.thermalcasting.BlockCastingFrame
+block:id=%castingFrame,data=*,stdrot=true,face0-5=12000:thermalcasting/castingframe

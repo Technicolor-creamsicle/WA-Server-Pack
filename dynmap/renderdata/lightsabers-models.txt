@@ -1,0 +1,52 @@
+# lightsabers 1.1.1
+version:1.7
+modname:lightsabers
+
+
+cfgfile:config/lightsabers.cfg
+
+patch:id=VertX1Z0ToX0Z1,Ox=1.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0,visibility=flip
+patch:id=VertX025,Ox=0.25,Oy=0.0,Oz=1.0,Ux=0.25,Uy=0.0,Uz=0.0,Vx=0.25,Vy=1.0,Vz=1.0
+patch:id=VertX075,Ox=0.75,Oy=0.0,Oz=1.0,Ux=0.75,Uy=0.0,Uz=0.0,Vx=0.75,Vy=1.0,Vz=1.0
+patch:id=HorizY001ZTop,Ox=0.0,Oy=0.01,Oz=0.0,Ux=1.0,Uy=0.01,Uz=0.0,Vx=0.0,Vy=0.01,Vz=1.0
+patch:id=SlopeXUpZTop,Ox=0.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0
+patch:id=VertX0In,Ox=0.0,Oy=0.0,Oz=1.0,Ux=0.0,Uy=0.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0
+patch:id=VertX04375,Ox=0.4375,Oy=0.0,Oz=0.0,Ux=0.4375,Uy=0.0,Uz=1.0,Vx=0.4375,Vy=1.0,Vz=0.0,visibility=top
+patch:id=TorchSide1,Ox=-0.5,Oy=0.2,Oz=0.4375,Ux=0.5,Uy=0.2,Uz=0.4375,Vx=-0.1,Vy=1.2,Vz=0.4375,Vmax=0.8,visibility=bottom
+patch:id=TorchSide2,Ox=-0.5,Oy=0.2,Oz=0.5625,Ux=0.5,Uy=0.2,Uz=0.5625,Vx=-0.1,Vy=1.2,Vz=0.5625,Vmax=0.8,visibility=top
+patch:id=TorchSide3,Ox=0.0625,Oy=0.2,Oz=0.0,Ux=0.0625,Uy=0.2,Uz=1.0,Vx=0.4625,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=bottom
+patch:id=TorchSide4,Ox=-0.0625,Oy=0.2,Oz=0.0,Ux=-0.0625,Uy=0.2,Uz=1.0,Vx=0.3375,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=top
+patch:id=TorchTop,Ox=0.0,Oy=0.625,Oz=-0.0625,Ux=1.0,Uy=0.625,Uz=-0.0625,Vx=0.0,Vy=0.625,Vz=0.9375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=TorchTopSlope,Ox=0.0,Oy=0.825,Oz=-0.3625,Ux=1.0,Uy=0.825,Uz=-0.3625,Vx=0.0,Vy=0.825,Vz=0.6375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=VertX00625,Ox=0.0625,Oy=0.0,Oz=0.0,Ux=0.0625,Uy=0.0,Uz=1.0,Vx=0.0625,Vy=1.0,Vz=0.0,visibility=top
+patch:id=HorizY100ZTop,Ox=0.0,Oy=1.0,Oz=0.0,Ux=1.0,Uy=1.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0,visibility=bottom
+
+
+# %lightsaber_forge_light:* (lightsaber_forge_light), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockLightsaberForge
+# FIXME: Box constraints truncated to 0.0<=val<=1.0
+boxblock:id=%lightsaber_forge_light,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.8125,zmin=0.0,zmax=1.0,data=*
+
+# %lightsaber_forge_dark:* (lightsaber_forge_dark), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockLightsaberForge
+# FIXME: Box constraints truncated to 0.0<=val<=1.0
+boxblock:id=%lightsaber_forge_dark,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.8125,zmin=0.0,zmax=1.0,data=*
+
+# %sith_coffin:* (sith_coffin), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockSithCoffin
+# FIXME: Box constraints truncated to 0.0<=val<=1.0
+boxblock:id=%sith_coffin,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.9375,zmin=0.0,zmax=1.0,data=*
+
+# %sith_stone_coffin:* (sith_stone_coffin), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockSithStoneCoffin
+# FIXME: Box constraints truncated to 0.0<=val<=1.0
+boxblock:id=%sith_stone_coffin,xmin=0.0,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.0,zmax=1.0,data=*
+
+# %holocron:* (holocron), render=(CUSTOM), opaque=false,cls=fiskfille.lightsabers.common.block.BlockHolocron
+boxblock:id=%holocron,xmin=0.25,xmax=0.75,ymin=0.0,ymax=0.5,zmin=0.25,zmax=0.75,data=*
+
+# %light_forcestone_stairs:* (light_forcestone_stairs), render=(STAIRS), opaque=false,cls=fiskfille.lightsabers.common.block.BlockModStairs
+customblock:id=%light_forcestone_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %dark_forcestone_stairs:* (dark_forcestone_stairs), render=(STAIRS), opaque=false,cls=fiskfille.lightsabers.common.block.BlockModStairs
+customblock:id=%dark_forcestone_stairs,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %forcestone_slab:* (forcestone_slab), render=(STANDARD), opaque=false,cls=fiskfille.lightsabers.common.block.BlockModSlab
+boxblock:id=%forcestone_slab,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%forcestone_slab,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15

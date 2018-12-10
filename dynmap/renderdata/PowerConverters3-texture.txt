@@ -1,0 +1,51 @@
+# PowerConverters3 1.7.10-2.11
+version:1.7
+modname:PowerConverters3
+
+
+cfgfile:config/PowerConverters3.cfg
+
+
+texturepath:assets/powerconverters3/textures/blocks/
+texture:id=minecraft/MISSING_ICON_BLOCK_2907_powerconverters.conduit,filename=assets/minecraft/textures/blocks/MISSING_ICON_BLOCK_2907_powerconverters.conduit.png
+texture:id=powerconverters/tile.powerconverters.common.bridge,filename=assets/powerconverters/textures/blocks/tile.powerconverters.common.bridge.png
+texture:id=powerconverters/tile.powerconverters.common.charger.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.common.charger.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.ev.consumer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.ev.consumer.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.ev.producer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.ev.producer.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.hv.consumer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.hv.consumer.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.hv.producer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.hv.producer.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.lv.consumer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.lv.consumer.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.lv.producer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.lv.producer.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.mv.consumer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.mv.consumer.off.png
+texture:id=powerconverters/tile.powerconverters.ic2.mv.producer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.ic2.mv.producer.off.png
+texture:id=powerconverters/tile.powerconverters.rf.consumer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.rf.consumer.off.png
+texture:id=powerconverters/tile.powerconverters.rf.producer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.rf.producer.off.png
+texture:id=powerconverters/tile.powerconverters.steam.consumer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.steam.consumer.off.png
+texture:id=powerconverters/tile.powerconverters.steam.producer.off,filename=assets/powerconverters/textures/blocks/tile.powerconverters.steam.producer.off.png
+
+
+
+# %powerconverters.conduit:* (powerconverters.conduit), render=(CUSTOM), opaque=false,cls=covers1624.powerconverters.block.BlockEnergyConduit
+block:id=%powerconverters.conduit,data=*,stdrot=true,face0-5=0:minecraft/MISSING_ICON_BLOCK_2907_powerconverters.conduit
+
+# %powerconverters.common:* (powerconverters.common), render=(STANDARD), opaque=true,cls=covers1624.powerconverters.block.BlockPowerConverterCommon
+block:id=%powerconverters.common,data=0,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.common.bridge
+block:id=%powerconverters.common,data=2,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.common.charger.off
+
+# %powerconverters.rf:* (powerconverters.rf), render=(STANDARD), opaque=true,cls=covers1624.powerconverters.block.BlockPowerConverterRedstoneFlux
+block:id=%powerconverters.rf,data=0,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.rf.consumer.off
+block:id=%powerconverters.rf,data=1,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.rf.producer.off
+
+# %powerconverters.ic2:* (powerconverters.ic2), render=(STANDARD), opaque=true,cls=covers1624.powerconverters.block.BlockPowerConverterIndustrialCraft
+block:id=%powerconverters.ic2,data=0,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.lv.consumer.off
+block:id=%powerconverters.ic2,data=1,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.lv.producer.off
+block:id=%powerconverters.ic2,data=2,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.mv.consumer.off
+block:id=%powerconverters.ic2,data=3,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.mv.producer.off
+block:id=%powerconverters.ic2,data=4,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.hv.consumer.off
+block:id=%powerconverters.ic2,data=5,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.hv.producer.off
+block:id=%powerconverters.ic2,data=6,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.ev.consumer.off
+block:id=%powerconverters.ic2,data=7,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.ic2.ev.producer.off
+
+# %powerconverters.steam:* (powerconverters.steam), render=(STANDARD), opaque=true,cls=covers1624.powerconverters.block.BlockPowerConverterSteam
+block:id=%powerconverters.steam,data=0,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.steam.consumer.off
+block:id=%powerconverters.steam,data=1,stdrot=true,face0-5=0:powerconverters/tile.powerconverters.steam.producer.off

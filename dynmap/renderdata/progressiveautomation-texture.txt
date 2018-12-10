@@ -1,0 +1,203 @@
+# progressiveautomation 1.6.35
+version:1.7
+modname:progressiveautomation
+
+
+cfgfile:config/progressiveautomation.cfg
+
+
+texturepath:assets/progressiveautomation/textures/blocks/
+texture:id=progressiveautomation/chopper/Diamond_Bottom,filename=assets/progressiveautomation/textures/blocks/chopper/Diamond_Bottom.png
+texture:id=progressiveautomation/chopper/Diamond_Side,filename=assets/progressiveautomation/textures/blocks/chopper/Diamond_Side.png
+texture:id=progressiveautomation/chopper/Diamond_Top,filename=assets/progressiveautomation/textures/blocks/chopper/Diamond_Top.png
+texture:id=progressiveautomation/chopper/Iron_Bottom,filename=assets/progressiveautomation/textures/blocks/chopper/Iron_Bottom.png
+texture:id=progressiveautomation/chopper/Iron_Side,filename=assets/progressiveautomation/textures/blocks/chopper/Iron_Side.png
+texture:id=progressiveautomation/chopper/Iron_Top,filename=assets/progressiveautomation/textures/blocks/chopper/Iron_Top.png
+texture:id=progressiveautomation/chopper/Stone_Bottom,filename=assets/progressiveautomation/textures/blocks/chopper/Stone_Bottom.png
+texture:id=progressiveautomation/chopper/Stone_Side,filename=assets/progressiveautomation/textures/blocks/chopper/Stone_Side.png
+texture:id=progressiveautomation/chopper/Stone_Top,filename=assets/progressiveautomation/textures/blocks/chopper/Stone_Top.png
+texture:id=progressiveautomation/chopper/Wooden_Bottom,filename=assets/progressiveautomation/textures/blocks/chopper/Wooden_Bottom.png
+texture:id=progressiveautomation/chopper/Wooden_Side,filename=assets/progressiveautomation/textures/blocks/chopper/Wooden_Side.png
+texture:id=progressiveautomation/chopper/Wooden_Top,filename=assets/progressiveautomation/textures/blocks/chopper/Wooden_Top.png
+texture:id=progressiveautomation/crafter/Diamond_Bottom,filename=assets/progressiveautomation/textures/blocks/crafter/Diamond_Bottom.png
+texture:id=progressiveautomation/crafter/Diamond_Side,filename=assets/progressiveautomation/textures/blocks/crafter/Diamond_Side.png
+texture:id=progressiveautomation/crafter/Diamond_Top,filename=assets/progressiveautomation/textures/blocks/crafter/Diamond_Top.png
+texture:id=progressiveautomation/crafter/Iron_Bottom,filename=assets/progressiveautomation/textures/blocks/crafter/Iron_Bottom.png
+texture:id=progressiveautomation/crafter/Iron_Side,filename=assets/progressiveautomation/textures/blocks/crafter/Iron_Side.png
+texture:id=progressiveautomation/crafter/Iron_Top,filename=assets/progressiveautomation/textures/blocks/crafter/Iron_Top.png
+texture:id=progressiveautomation/crafter/Stone_Bottom,filename=assets/progressiveautomation/textures/blocks/crafter/Stone_Bottom.png
+texture:id=progressiveautomation/crafter/Stone_Side,filename=assets/progressiveautomation/textures/blocks/crafter/Stone_Side.png
+texture:id=progressiveautomation/crafter/Stone_Top,filename=assets/progressiveautomation/textures/blocks/crafter/Stone_Top.png
+texture:id=progressiveautomation/crafter/Wooden_Bottom,filename=assets/progressiveautomation/textures/blocks/crafter/Wooden_Bottom.png
+texture:id=progressiveautomation/crafter/Wooden_Side,filename=assets/progressiveautomation/textures/blocks/crafter/Wooden_Side.png
+texture:id=progressiveautomation/crafter/Wooden_Top,filename=assets/progressiveautomation/textures/blocks/crafter/Wooden_Top.png
+texture:id=progressiveautomation/farmer/Diamond_Bottom,filename=assets/progressiveautomation/textures/blocks/farmer/Diamond_Bottom.png
+texture:id=progressiveautomation/farmer/Diamond_Side,filename=assets/progressiveautomation/textures/blocks/farmer/Diamond_Side.png
+texture:id=progressiveautomation/farmer/Diamond_Top,filename=assets/progressiveautomation/textures/blocks/farmer/Diamond_Top.png
+texture:id=progressiveautomation/farmer/Iron_Bottom,filename=assets/progressiveautomation/textures/blocks/farmer/Iron_Bottom.png
+texture:id=progressiveautomation/farmer/Iron_Side,filename=assets/progressiveautomation/textures/blocks/farmer/Iron_Side.png
+texture:id=progressiveautomation/farmer/Iron_Top,filename=assets/progressiveautomation/textures/blocks/farmer/Iron_Top.png
+texture:id=progressiveautomation/farmer/Stone_Bottom,filename=assets/progressiveautomation/textures/blocks/farmer/Stone_Bottom.png
+texture:id=progressiveautomation/farmer/Stone_Side,filename=assets/progressiveautomation/textures/blocks/farmer/Stone_Side.png
+texture:id=progressiveautomation/farmer/Stone_Top,filename=assets/progressiveautomation/textures/blocks/farmer/Stone_Top.png
+texture:id=progressiveautomation/farmer/Wooden_Bottom,filename=assets/progressiveautomation/textures/blocks/farmer/Wooden_Bottom.png
+texture:id=progressiveautomation/farmer/Wooden_Side,filename=assets/progressiveautomation/textures/blocks/farmer/Wooden_Side.png
+texture:id=progressiveautomation/farmer/Wooden_Top,filename=assets/progressiveautomation/textures/blocks/farmer/Wooden_Top.png
+texture:id=progressiveautomation/generator/Diamond_Front,filename=assets/progressiveautomation/textures/blocks/generator/Diamond_Front.png
+texture:id=progressiveautomation/generator/Diamond_Side,filename=assets/progressiveautomation/textures/blocks/generator/Diamond_Side.png
+texture:id=progressiveautomation/generator/Diamond_Top,filename=assets/progressiveautomation/textures/blocks/generator/Diamond_Top.png
+texture:id=progressiveautomation/generator/Iron_Front,filename=assets/progressiveautomation/textures/blocks/generator/Iron_Front.png
+texture:id=progressiveautomation/generator/Iron_Side,filename=assets/progressiveautomation/textures/blocks/generator/Iron_Side.png
+texture:id=progressiveautomation/generator/Iron_Top,filename=assets/progressiveautomation/textures/blocks/generator/Iron_Top.png
+texture:id=progressiveautomation/generator/Stone_Front,filename=assets/progressiveautomation/textures/blocks/generator/Stone_Front.png
+texture:id=progressiveautomation/generator/Stone_Side,filename=assets/progressiveautomation/textures/blocks/generator/Stone_Side.png
+texture:id=progressiveautomation/generator/Stone_Top,filename=assets/progressiveautomation/textures/blocks/generator/Stone_Top.png
+texture:id=progressiveautomation/generator/Wooden_Front,filename=assets/progressiveautomation/textures/blocks/generator/Wooden_Front.png
+texture:id=progressiveautomation/generator/Wooden_Side,filename=assets/progressiveautomation/textures/blocks/generator/Wooden_Side.png
+texture:id=progressiveautomation/generator/Wooden_Top,filename=assets/progressiveautomation/textures/blocks/generator/Wooden_Top.png
+texture:id=progressiveautomation/killer/Diamond_Bottom,filename=assets/progressiveautomation/textures/blocks/killer/Diamond_Bottom.png
+texture:id=progressiveautomation/killer/Diamond_Side,filename=assets/progressiveautomation/textures/blocks/killer/Diamond_Side.png
+texture:id=progressiveautomation/killer/Diamond_Top,filename=assets/progressiveautomation/textures/blocks/killer/Diamond_Top.png
+texture:id=progressiveautomation/killer/Iron_Bottom,filename=assets/progressiveautomation/textures/blocks/killer/Iron_Bottom.png
+texture:id=progressiveautomation/killer/Iron_Side,filename=assets/progressiveautomation/textures/blocks/killer/Iron_Side.png
+texture:id=progressiveautomation/killer/Iron_Top,filename=assets/progressiveautomation/textures/blocks/killer/Iron_Top.png
+texture:id=progressiveautomation/killer/Stone_Bottom,filename=assets/progressiveautomation/textures/blocks/killer/Stone_Bottom.png
+texture:id=progressiveautomation/killer/Stone_Side,filename=assets/progressiveautomation/textures/blocks/killer/Stone_Side.png
+texture:id=progressiveautomation/killer/Stone_Top,filename=assets/progressiveautomation/textures/blocks/killer/Stone_Top.png
+texture:id=progressiveautomation/killer/Wooden_Bottom,filename=assets/progressiveautomation/textures/blocks/killer/Wooden_Bottom.png
+texture:id=progressiveautomation/killer/Wooden_Side,filename=assets/progressiveautomation/textures/blocks/killer/Wooden_Side.png
+texture:id=progressiveautomation/killer/Wooden_Top,filename=assets/progressiveautomation/textures/blocks/killer/Wooden_Top.png
+texture:id=progressiveautomation/miner/Diamond_Bottom,filename=assets/progressiveautomation/textures/blocks/miner/Diamond_Bottom.png
+texture:id=progressiveautomation/miner/Diamond_Side,filename=assets/progressiveautomation/textures/blocks/miner/Diamond_Side.png
+texture:id=progressiveautomation/miner/Diamond_Top,filename=assets/progressiveautomation/textures/blocks/miner/Diamond_Top.png
+texture:id=progressiveautomation/miner/Iron_Bottom,filename=assets/progressiveautomation/textures/blocks/miner/Iron_Bottom.png
+texture:id=progressiveautomation/miner/Iron_Side,filename=assets/progressiveautomation/textures/blocks/miner/Iron_Side.png
+texture:id=progressiveautomation/miner/Iron_Top,filename=assets/progressiveautomation/textures/blocks/miner/Iron_Top.png
+texture:id=progressiveautomation/miner/Stone_Bottom,filename=assets/progressiveautomation/textures/blocks/miner/Stone_Bottom.png
+texture:id=progressiveautomation/miner/Stone_Side,filename=assets/progressiveautomation/textures/blocks/miner/Stone_Side.png
+texture:id=progressiveautomation/miner/Stone_Top,filename=assets/progressiveautomation/textures/blocks/miner/Stone_Top.png
+texture:id=progressiveautomation/miner/Wooden_Bottom,filename=assets/progressiveautomation/textures/blocks/miner/Wooden_Bottom.png
+texture:id=progressiveautomation/miner/Wooden_Side,filename=assets/progressiveautomation/textures/blocks/miner/Wooden_Side.png
+texture:id=progressiveautomation/miner/Wooden_Top,filename=assets/progressiveautomation/textures/blocks/miner/Wooden_Top.png
+texture:id=progressiveautomation/planter/Diamond_Bottom,filename=assets/progressiveautomation/textures/blocks/planter/Diamond_Bottom.png
+texture:id=progressiveautomation/planter/Diamond_Side,filename=assets/progressiveautomation/textures/blocks/planter/Diamond_Side.png
+texture:id=progressiveautomation/planter/Diamond_Top,filename=assets/progressiveautomation/textures/blocks/planter/Diamond_Top.png
+texture:id=progressiveautomation/planter/Iron_Bottom,filename=assets/progressiveautomation/textures/blocks/planter/Iron_Bottom.png
+texture:id=progressiveautomation/planter/Iron_Side,filename=assets/progressiveautomation/textures/blocks/planter/Iron_Side.png
+texture:id=progressiveautomation/planter/Iron_Top,filename=assets/progressiveautomation/textures/blocks/planter/Iron_Top.png
+texture:id=progressiveautomation/planter/Stone_Bottom,filename=assets/progressiveautomation/textures/blocks/planter/Stone_Bottom.png
+texture:id=progressiveautomation/planter/Stone_Side,filename=assets/progressiveautomation/textures/blocks/planter/Stone_Side.png
+texture:id=progressiveautomation/planter/Stone_Top,filename=assets/progressiveautomation/textures/blocks/planter/Stone_Top.png
+texture:id=progressiveautomation/planter/Wooden_Bottom,filename=assets/progressiveautomation/textures/blocks/planter/Wooden_Bottom.png
+texture:id=progressiveautomation/planter/Wooden_Side,filename=assets/progressiveautomation/textures/blocks/planter/Wooden_Side.png
+texture:id=progressiveautomation/planter/Wooden_Top,filename=assets/progressiveautomation/textures/blocks/planter/Wooden_Top.png
+
+
+
+# %Miner:* (Miner), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockMiner
+block:id=%Miner,data=*,stdrot=true,face0=0:progressiveautomation/miner/Wooden_Bottom,face1=0:progressiveautomation/miner/Wooden_Top,face2-5=0:progressiveautomation/miner/Wooden_Side
+
+# %MinerStone:* (MinerStone), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockMiner
+block:id=%MinerStone,data=*,stdrot=true,face0=0:progressiveautomation/miner/Stone_Bottom,face1=0:progressiveautomation/miner/Stone_Top,face2-5=0:progressiveautomation/miner/Stone_Side
+
+# %MinerIron:* (MinerIron), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockMiner
+block:id=%MinerIron,data=*,stdrot=true,face0=0:progressiveautomation/miner/Iron_Bottom,face1=0:progressiveautomation/miner/Iron_Top,face2-5=0:progressiveautomation/miner/Iron_Side
+
+# %MinerDiamond:* (MinerDiamond), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockMiner
+block:id=%MinerDiamond,data=*,stdrot=true,face0=0:progressiveautomation/miner/Diamond_Bottom,face1=0:progressiveautomation/miner/Diamond_Top,face2-5=0:progressiveautomation/miner/Diamond_Side
+
+# %Chopper:* (Chopper), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockChopper
+block:id=%Chopper,data=*,stdrot=true,face0=0:progressiveautomation/chopper/Wooden_Bottom,face1=0:progressiveautomation/chopper/Wooden_Top,face2-5=0:progressiveautomation/chopper/Wooden_Side
+
+# %ChopperStone:* (ChopperStone), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockChopper
+block:id=%ChopperStone,data=*,stdrot=true,face0=0:progressiveautomation/chopper/Stone_Bottom,face1=0:progressiveautomation/chopper/Stone_Top,face2-5=0:progressiveautomation/chopper/Stone_Side
+
+# %ChopperIron:* (ChopperIron), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockChopper
+block:id=%ChopperIron,data=*,stdrot=true,face0=0:progressiveautomation/chopper/Iron_Bottom,face1=0:progressiveautomation/chopper/Iron_Top,face2-5=0:progressiveautomation/chopper/Iron_Side
+
+# %ChopperDiamond:* (ChopperDiamond), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockChopper
+block:id=%ChopperDiamond,data=*,stdrot=true,face0=0:progressiveautomation/chopper/Diamond_Bottom,face1=0:progressiveautomation/chopper/Diamond_Top,face2-5=0:progressiveautomation/chopper/Diamond_Side
+
+# %Planter:* (Planter), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockPlanter
+block:id=%Planter,data=*,stdrot=true,face0=0:progressiveautomation/planter/Wooden_Bottom,face1=0:progressiveautomation/planter/Wooden_Top,face2-5=0:progressiveautomation/planter/Wooden_Side
+
+# %PlanterStone:* (PlanterStone), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockPlanter
+block:id=%PlanterStone,data=*,stdrot=true,face0=0:progressiveautomation/planter/Stone_Bottom,face1=0:progressiveautomation/planter/Stone_Top,face2-5=0:progressiveautomation/planter/Stone_Side
+
+# %PlanterIron:* (PlanterIron), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockPlanter
+block:id=%PlanterIron,data=*,stdrot=true,face0=0:progressiveautomation/planter/Iron_Bottom,face1=0:progressiveautomation/planter/Iron_Top,face2-5=0:progressiveautomation/planter/Iron_Side
+
+# %PlanterDiamond:* (PlanterDiamond), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockPlanter
+block:id=%PlanterDiamond,data=*,stdrot=true,face0=0:progressiveautomation/planter/Diamond_Bottom,face1=0:progressiveautomation/planter/Diamond_Top,face2-5=0:progressiveautomation/planter/Diamond_Side
+
+# %Generator:* (Generator), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockGenerator
+block:id=%Generator,data=0,stdrot=true,face0-1=0:progressiveautomation/generator/Wooden_Top,face2=0:progressiveautomation/generator/Wooden_Side,face3=0:progressiveautomation/generator/Wooden_Front,face4-5=0:progressiveautomation/generator/Wooden_Side
+block:id=%Generator,data=1,stdrot=true,face0-1=0:progressiveautomation/generator/Wooden_Top,face2-5=0:progressiveautomation/generator/Wooden_Side
+block:id=%Generator,data=2,stdrot=true,face0-1=0:progressiveautomation/generator/Wooden_Top,face2=0:progressiveautomation/generator/Wooden_Front,face3-5=0:progressiveautomation/generator/Wooden_Side
+block:id=%Generator,data=3,stdrot=true,face0-1=0:progressiveautomation/generator/Wooden_Top,face2=0:progressiveautomation/generator/Wooden_Side,face3=0:progressiveautomation/generator/Wooden_Front,face4-5=0:progressiveautomation/generator/Wooden_Side
+block:id=%Generator,data=4,stdrot=true,face0-1=0:progressiveautomation/generator/Wooden_Top,face2-3=0:progressiveautomation/generator/Wooden_Side,face4=0:progressiveautomation/generator/Wooden_Front,face5=0:progressiveautomation/generator/Wooden_Side
+block:id=%Generator,data=5,stdrot=true,face0-1=0:progressiveautomation/generator/Wooden_Top,face2-4=0:progressiveautomation/generator/Wooden_Side,face5=0:progressiveautomation/generator/Wooden_Front
+block:id=%Generator,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:progressiveautomation/generator/Wooden_Top,face2-5=0:progressiveautomation/generator/Wooden_Side
+
+# %GeneratorStone:* (GeneratorStone), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockGenerator
+block:id=%GeneratorStone,data=0,stdrot=true,face0-1=0:progressiveautomation/generator/Stone_Top,face2=0:progressiveautomation/generator/Stone_Side,face3=0:progressiveautomation/generator/Stone_Front,face4-5=0:progressiveautomation/generator/Stone_Side
+block:id=%GeneratorStone,data=1,stdrot=true,face0-1=0:progressiveautomation/generator/Stone_Top,face2-5=0:progressiveautomation/generator/Stone_Side
+block:id=%GeneratorStone,data=2,stdrot=true,face0-1=0:progressiveautomation/generator/Stone_Top,face2=0:progressiveautomation/generator/Stone_Front,face3-5=0:progressiveautomation/generator/Stone_Side
+block:id=%GeneratorStone,data=3,stdrot=true,face0-1=0:progressiveautomation/generator/Stone_Top,face2=0:progressiveautomation/generator/Stone_Side,face3=0:progressiveautomation/generator/Stone_Front,face4-5=0:progressiveautomation/generator/Stone_Side
+block:id=%GeneratorStone,data=4,stdrot=true,face0-1=0:progressiveautomation/generator/Stone_Top,face2-3=0:progressiveautomation/generator/Stone_Side,face4=0:progressiveautomation/generator/Stone_Front,face5=0:progressiveautomation/generator/Stone_Side
+block:id=%GeneratorStone,data=5,stdrot=true,face0-1=0:progressiveautomation/generator/Stone_Top,face2-4=0:progressiveautomation/generator/Stone_Side,face5=0:progressiveautomation/generator/Stone_Front
+block:id=%GeneratorStone,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:progressiveautomation/generator/Stone_Top,face2-5=0:progressiveautomation/generator/Stone_Side
+
+# %GeneratorIron:* (GeneratorIron), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockGenerator
+block:id=%GeneratorIron,data=0,stdrot=true,face0-1=0:progressiveautomation/generator/Iron_Top,face2=0:progressiveautomation/generator/Iron_Side,face3=0:progressiveautomation/generator/Iron_Front,face4-5=0:progressiveautomation/generator/Iron_Side
+block:id=%GeneratorIron,data=1,stdrot=true,face0-1=0:progressiveautomation/generator/Iron_Top,face2-5=0:progressiveautomation/generator/Iron_Side
+block:id=%GeneratorIron,data=2,stdrot=true,face0-1=0:progressiveautomation/generator/Iron_Top,face2=0:progressiveautomation/generator/Iron_Front,face3-5=0:progressiveautomation/generator/Iron_Side
+block:id=%GeneratorIron,data=3,stdrot=true,face0-1=0:progressiveautomation/generator/Iron_Top,face2=0:progressiveautomation/generator/Iron_Side,face3=0:progressiveautomation/generator/Iron_Front,face4-5=0:progressiveautomation/generator/Iron_Side
+block:id=%GeneratorIron,data=4,stdrot=true,face0-1=0:progressiveautomation/generator/Iron_Top,face2-3=0:progressiveautomation/generator/Iron_Side,face4=0:progressiveautomation/generator/Iron_Front,face5=0:progressiveautomation/generator/Iron_Side
+block:id=%GeneratorIron,data=5,stdrot=true,face0-1=0:progressiveautomation/generator/Iron_Top,face2-4=0:progressiveautomation/generator/Iron_Side,face5=0:progressiveautomation/generator/Iron_Front
+block:id=%GeneratorIron,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:progressiveautomation/generator/Iron_Top,face2-5=0:progressiveautomation/generator/Iron_Side
+
+# %GeneratorDiamond:* (GeneratorDiamond), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockGenerator
+block:id=%GeneratorDiamond,data=0,stdrot=true,face0-1=0:progressiveautomation/generator/Diamond_Top,face2=0:progressiveautomation/generator/Diamond_Side,face3=0:progressiveautomation/generator/Diamond_Front,face4-5=0:progressiveautomation/generator/Diamond_Side
+block:id=%GeneratorDiamond,data=1,stdrot=true,face0-1=0:progressiveautomation/generator/Diamond_Top,face2-5=0:progressiveautomation/generator/Diamond_Side
+block:id=%GeneratorDiamond,data=2,stdrot=true,face0-1=0:progressiveautomation/generator/Diamond_Top,face2=0:progressiveautomation/generator/Diamond_Front,face3-5=0:progressiveautomation/generator/Diamond_Side
+block:id=%GeneratorDiamond,data=3,stdrot=true,face0-1=0:progressiveautomation/generator/Diamond_Top,face2=0:progressiveautomation/generator/Diamond_Side,face3=0:progressiveautomation/generator/Diamond_Front,face4-5=0:progressiveautomation/generator/Diamond_Side
+block:id=%GeneratorDiamond,data=4,stdrot=true,face0-1=0:progressiveautomation/generator/Diamond_Top,face2-3=0:progressiveautomation/generator/Diamond_Side,face4=0:progressiveautomation/generator/Diamond_Front,face5=0:progressiveautomation/generator/Diamond_Side
+block:id=%GeneratorDiamond,data=5,stdrot=true,face0-1=0:progressiveautomation/generator/Diamond_Top,face2-4=0:progressiveautomation/generator/Diamond_Side,face5=0:progressiveautomation/generator/Diamond_Front
+block:id=%GeneratorDiamond,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-1=0:progressiveautomation/generator/Diamond_Top,face2-5=0:progressiveautomation/generator/Diamond_Side
+
+# %Crafter:* (Crafter), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockCrafter
+block:id=%Crafter,data=*,stdrot=true,face0=0:progressiveautomation/crafter/Wooden_Bottom,face1=0:progressiveautomation/crafter/Wooden_Top,face2-5=0:progressiveautomation/crafter/Wooden_Side
+
+# %CrafterStone:* (CrafterStone), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockCrafter
+block:id=%CrafterStone,data=*,stdrot=true,face0=0:progressiveautomation/crafter/Stone_Bottom,face1=0:progressiveautomation/crafter/Stone_Top,face2-5=0:progressiveautomation/crafter/Stone_Side
+
+# %CrafterIron:* (CrafterIron), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockCrafter
+block:id=%CrafterIron,data=*,stdrot=true,face0=0:progressiveautomation/crafter/Iron_Bottom,face1=0:progressiveautomation/crafter/Iron_Top,face2-5=0:progressiveautomation/crafter/Iron_Side
+
+# %CrafterDiamond:* (CrafterDiamond), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockCrafter
+block:id=%CrafterDiamond,data=*,stdrot=true,face0=0:progressiveautomation/crafter/Diamond_Bottom,face1=0:progressiveautomation/crafter/Diamond_Top,face2-5=0:progressiveautomation/crafter/Diamond_Side
+
+# %Farmer:* (Farmer), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockFarmer
+block:id=%Farmer,data=*,stdrot=true,face0=0:progressiveautomation/farmer/Wooden_Bottom,face1=0:progressiveautomation/farmer/Wooden_Top,face2-5=0:progressiveautomation/farmer/Wooden_Side
+
+# %FarmerStone:* (FarmerStone), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockFarmer
+block:id=%FarmerStone,data=*,stdrot=true,face0=0:progressiveautomation/farmer/Stone_Bottom,face1=0:progressiveautomation/farmer/Stone_Top,face2-5=0:progressiveautomation/farmer/Stone_Side
+
+# %FarmerIron:* (FarmerIron), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockFarmer
+block:id=%FarmerIron,data=*,stdrot=true,face0=0:progressiveautomation/farmer/Iron_Bottom,face1=0:progressiveautomation/farmer/Iron_Top,face2-5=0:progressiveautomation/farmer/Iron_Side
+
+# %FarmerDiamond:* (FarmerDiamond), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockFarmer
+block:id=%FarmerDiamond,data=*,stdrot=true,face0=0:progressiveautomation/farmer/Diamond_Bottom,face1=0:progressiveautomation/farmer/Diamond_Top,face2-5=0:progressiveautomation/farmer/Diamond_Side
+
+# %Killer:* (Killer), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockKiller
+block:id=%Killer,data=*,stdrot=true,face0=0:progressiveautomation/killer/Wooden_Bottom,face1=0:progressiveautomation/killer/Wooden_Top,face2-5=0:progressiveautomation/killer/Wooden_Side
+
+# %KillerStone:* (KillerStone), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockKiller
+block:id=%KillerStone,data=*,stdrot=true,face0=0:progressiveautomation/killer/Stone_Bottom,face1=0:progressiveautomation/killer/Stone_Top,face2-5=0:progressiveautomation/killer/Stone_Side
+
+# %KillerIron:* (KillerIron), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockKiller
+block:id=%KillerIron,data=*,stdrot=true,face0=0:progressiveautomation/killer/Iron_Bottom,face1=0:progressiveautomation/killer/Iron_Top,face2-5=0:progressiveautomation/killer/Iron_Side
+
+# %KillerDiamond:* (KillerDiamond), render=(STANDARD), opaque=true,cls=com.vanhal.progressiveautomation.blocks.BlockKiller
+block:id=%KillerDiamond,data=*,stdrot=true,face0=0:progressiveautomation/killer/Diamond_Bottom,face1=0:progressiveautomation/killer/Diamond_Top,face2-5=0:progressiveautomation/killer/Diamond_Side

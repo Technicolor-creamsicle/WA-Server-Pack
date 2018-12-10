@@ -1,0 +1,22 @@
+# vending 1.2.3
+version:1.7
+modname:vending
+
+
+cfgfile:config/vending.cfg
+
+
+texturepath:assets/vending/textures/blocks/
+texture:id=Vending/vendor-side,filename=assets/vending/textures/blocks/vendor-side.png
+texture:id=Vending/vendor-top,filename=assets/vending/textures/blocks/vendor-top.png
+
+
+
+# %vendingMachine:* (vendingMachine), render=info.jbcs.minecraft.vending.renderer.BlockVendingMachineRenderer(CUSTOM), opaque=false,cls=info.jbcs.minecraft.vending.block.BlockVendingMachine
+block:id=%vendingMachine,data=*,stdrot=true,transparency=TRANSPARENT,face0-1=0:Vending/vendor-top,face2-5=0:Vending/vendor-side
+
+# %vendingMachineAdvanced:* (vendingMachineAdvanced), render=info.jbcs.minecraft.vending.renderer.BlockVendingMachineRenderer(CUSTOM), opaque=false,cls=info.jbcs.minecraft.vending.block.BlockVendingMachine
+block:id=%vendingMachineAdvanced,data=*,stdrot=true,transparency=TRANSPARENT,face0-1=0:Vending/vendor-top,face2-5=0:Vending/vendor-side
+
+# %vendingMachineMultiple:* (vendingMachineMultiple), render=info.jbcs.minecraft.vending.renderer.BlockVendingMachineRenderer(CUSTOM), opaque=false,cls=info.jbcs.minecraft.vending.block.BlockVendingMachine
+block:id=%vendingMachineMultiple,data=*,stdrot=true,transparency=TRANSPARENT,face0-1=0:Vending/vendor-top,face2-5=0:Vending/vendor-side

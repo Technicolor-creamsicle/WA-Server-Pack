@@ -1,0 +1,34 @@
+# mffs 4.0.0.154
+version:1.7
+modname:mffs
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/mffs/textures/blocks/
+texture:id=mffs/biometricIdentifier,filename=assets/mffs/textures/blocks/biometricIdentifier.png
+texture:id=mffs/forceField,filename=assets/mffs/textures/blocks/forceField.png
+texture:id=mffs/interdictionMatrix,filename=assets/mffs/textures/blocks/interdictionMatrix.png
+texture:id=mffs/machine,filename=assets/mffs/textures/blocks/machine.png
+
+
+
+# %biometricIdentifier:* (biometricIdentifier), render=(STANDARD), opaque=false,cls=com.builtbroken.mffs.content.biometric.BlockBiometricIdentifier
+block:id=%biometricIdentifier,data=*,stdrot=true,face0-5=0:mffs/biometricIdentifier
+
+# %coercionDeriver:* (coercionDeriver), render=com.builtbroken.mffs.client.render.RenderBlockHandler(CUSTOM), opaque=false,cls=com.builtbroken.mffs.content.gen.BlockCoercionDeriver
+block:id=%coercionDeriver,data=*,stdrot=true,face0-5=0:mffs/machine
+
+# %forceField:* (forceField), render=(STANDARD), opaque=false,cls=com.builtbroken.mffs.content.field.BlockForceField
+block:id=%forceField,data=*,stdrot=true,face0-5=12000:mffs/forceField
+
+# %forceFieldProjector:* (forceFieldProjector), render=com.builtbroken.mffs.client.render.RenderBlockHandler(CUSTOM), opaque=false,cls=com.builtbroken.mffs.content.projector.BlockForceFieldProjector
+block:id=%forceFieldProjector,data=*,stdrot=true,transparency=TRANSPARENT,face0-5=0:mffs/machine
+
+# %fortronCapacitor:* (fortronCapacitor), render=com.builtbroken.mffs.client.render.RenderBlockHandler(CUSTOM), opaque=false,cls=com.builtbroken.mffs.content.cap.BlockFortronCapacitor
+block:id=%fortronCapacitor,data=*,stdrot=true,face0-5=0:mffs/machine
+
+# %interdictionMatrix:* (interdictionMatrix), render=(STANDARD), opaque=false,cls=com.builtbroken.mffs.content.interdiction.BlockInterdictionMatrix
+block:id=%interdictionMatrix,data=*,stdrot=true,face0-5=0:mffs/interdictionMatrix

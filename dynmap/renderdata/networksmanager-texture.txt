@@ -1,0 +1,93 @@
+# networksmanager 11.0R
+version:1.7
+modname:networksmanager
+
+
+cfgfile:config/networksmanager.cfg
+
+
+texturepath:assets/networksmanager/textures/blocks/
+texture:id=networksmanager/CableFacade,filename=assets/networksmanager/textures/blocks/CableFacade.png
+texture:id=networksmanager/FIn,filename=assets/networksmanager/textures/blocks/FIn.png
+texture:id=networksmanager/Fcounterpanel,filename=assets/networksmanager/textures/blocks/Fcounterpanel.png
+texture:id=networksmanager/Fflowpanel,filename=assets/networksmanager/textures/blocks/Fflowpanel.png
+texture:id=networksmanager/Fnameinfo,filename=assets/networksmanager/textures/blocks/Fnameinfo.png
+texture:id=networksmanager/Fstorageinfopanel,filename=assets/networksmanager/textures/blocks/Fstorageinfopanel.png
+texture:id=networksmanager/Fstorageinfoside,filename=assets/networksmanager/textures/blocks/Fstorageinfoside.png
+texture:id=networksmanager/Fvalvepanel,filename=assets/networksmanager/textures/blocks/Fvalvepanel.png
+texture:id=networksmanager/GASIn,filename=assets/networksmanager/textures/blocks/GASIn.png
+texture:id=networksmanager/GAScounterpanel,filename=assets/networksmanager/textures/blocks/GAScounterpanel.png
+texture:id=networksmanager/GASflowpanel,filename=assets/networksmanager/textures/blocks/GASflowpanel.png
+texture:id=networksmanager/GASvalvepanel,filename=assets/networksmanager/textures/blocks/GASvalvepanel.png
+texture:id=networksmanager/calculationunit,filename=assets/networksmanager/textures/blocks/calculationunit.png
+texture:id=networksmanager/counterpanel,filename=assets/networksmanager/textures/blocks/counterpanel.png
+texture:id=networksmanager/fluxpanel,filename=assets/networksmanager/textures/blocks/fluxpanel.png
+texture:id=networksmanager/machine,filename=assets/networksmanager/textures/blocks/machine.png
+texture:id=networksmanager/redstoneOUT,filename=assets/networksmanager/textures/blocks/redstoneOUT.png
+texture:id=networksmanager/redstoneswitch,filename=assets/networksmanager/textures/blocks/redstoneswitch.png
+texture:id=networksmanager/rfstorageinfopanel,filename=assets/networksmanager/textures/blocks/rfstorageinfopanel.png
+texture:id=networksmanager/rfstorageinfoside,filename=assets/networksmanager/textures/blocks/rfstorageinfoside.png
+texture:id=networksmanager/rfswitchIn,filename=assets/networksmanager/textures/blocks/rfswitchIn.png
+texture:id=networksmanager/switchpanel,filename=assets/networksmanager/textures/blocks/switchpanel.png
+
+
+
+# %BlockNetWorkCable:* (BlockNetWorkCable), render=(CUSTOM), opaque=false,cls=com.enm.block.BlockNetWorkCable
+block:id=%BlockNetWorkCable,data=*,stdrot=true,face0-5=0:networksmanager/machine
+
+# %BlockCableFacade:* (BlockCableFacade), render=(STANDARD), opaque=true,cls=com.enm.block.BlockCableFacade
+block:id=%BlockCableFacade,data=*,stdrot=true,face0-5=0:networksmanager/CableFacade
+
+# %BlockTerminal:* (BlockTerminal), render=(CUSTOM), opaque=false,cls=com.enm.block.BlockTerminal
+block:id=%BlockTerminal,data=*,stdrot=true,face0-5=0:networksmanager/machine
+
+# %BlockSwitch:* (BlockSwitch), render=(STANDARD), opaque=true,cls=com.enm.block.BlockSwitch
+block:id=%BlockSwitch,data=*,stdrot=true,face0-3=0:networksmanager/switchpanel,face4=0:networksmanager/rfswitchIn,face5=0:networksmanager/switchpanel
+
+# %BlockFluxMeter:* (BlockFluxMeter), render=(STANDARD), opaque=true,cls=com.enm.block.BlockFluxMeter
+block:id=%BlockFluxMeter,data=*,stdrot=true,face0-3=0:networksmanager/fluxpanel,face4=0:networksmanager/rfswitchIn,face5=0:networksmanager/fluxpanel
+
+# %BlockCounter:* (BlockCounter), render=(STANDARD), opaque=true,cls=com.enm.block.BlockCounter
+block:id=%BlockCounter,data=*,stdrot=true,face0-3=0:networksmanager/counterpanel,face4=0:networksmanager/rfswitchIn,face5=0:networksmanager/counterpanel
+
+# %BlockRFStorageInfo:* (BlockRFStorageInfo), render=(STANDARD), opaque=true,cls=com.enm.block.BlockRFStorageInfo
+block:id=%BlockRFStorageInfo,data=*,stdrot=true,face0-3=0:networksmanager/rfstorageinfopanel,face4=0:networksmanager/rfstorageinfoside,face5=0:networksmanager/rfstorageinfopanel
+
+# %BlockFluidTerminal:* (BlockFluidTerminal), render=(CUSTOM), opaque=false,cls=com.enm.block.BlockFluidTerminal
+block:id=%BlockFluidTerminal,data=*,stdrot=true,face0-5=0:networksmanager/Fnameinfo
+
+# %BlockFluidValve:* (BlockFluidValve), render=(STANDARD), opaque=true,cls=com.enm.block.BlockFluidValve
+block:id=%BlockFluidValve,data=*,stdrot=true,face0-3=0:networksmanager/Fvalvepanel,face4=0:networksmanager/FIn,face5=0:networksmanager/Fvalvepanel
+
+# %BlockFlowMeter:* (BlockFlowMeter), render=(STANDARD), opaque=true,cls=com.enm.block.BlockFlowMeter
+block:id=%BlockFlowMeter,data=*,stdrot=true,face0-3=0:networksmanager/Fflowpanel,face4=0:networksmanager/FIn,face5=0:networksmanager/Fflowpanel
+
+# %BlockFluidCounter:* (BlockFluidCounter), render=(STANDARD), opaque=true,cls=com.enm.block.BlockFluidCounter
+block:id=%BlockFluidCounter,data=*,stdrot=true,face0-3=0:networksmanager/Fcounterpanel,face4=0:networksmanager/FIn,face5=0:networksmanager/Fcounterpanel
+
+# %BlockFluidStorageInfo:* (BlockFluidStorageInfo), render=(STANDARD), opaque=true,cls=com.enm.block.BlockFluidStorageInfo
+block:id=%BlockFluidStorageInfo,data=*,stdrot=true,face0-3=0:networksmanager/Fstorageinfopanel,face4=0:networksmanager/Fstorageinfoside,face5=0:networksmanager/Fstorageinfopanel
+
+# %BlockFluidNameInfo:* (BlockFluidNameInfo), render=(STANDARD), opaque=true,cls=com.enm.block.BlockFluidNameInfo
+block:id=%BlockFluidNameInfo,data=*,stdrot=true,face0-3=0:networksmanager/Fnameinfo,face4=0:networksmanager/Fstorageinfoside,face5=0:networksmanager/Fnameinfo
+
+# %BlockGasValve:* (BlockGasValve), render=(STANDARD), opaque=true,cls=com.enm.block.BlockGasValve
+block:id=%BlockGasValve,data=*,stdrot=true,face0-3=0:networksmanager/GASvalvepanel,face4=0:networksmanager/GASIn,face5=0:networksmanager/GASvalvepanel
+
+# %BlockGasFlowMeter:* (BlockGasFlowMeter), render=(STANDARD), opaque=true,cls=com.enm.block.BlockGasFlowMeter
+block:id=%BlockGasFlowMeter,data=*,stdrot=true,face0-3=0:networksmanager/GASflowpanel,face4=0:networksmanager/GASIn,face5=0:networksmanager/GASflowpanel
+
+# %BlockGasCounter:* (BlockGasCounter), render=(STANDARD), opaque=true,cls=com.enm.block.BlockGasCounter
+block:id=%BlockGasCounter,data=*,stdrot=true,face0-3=0:networksmanager/GAScounterpanel,face4=0:networksmanager/GASIn,face5=0:networksmanager/GAScounterpanel
+
+# %BlockMonitor:* (BlockMonitor), render=(CUSTOM), opaque=false,cls=com.enm.block.BlockMonitor
+block:id=%BlockMonitor,data=*,stdrot=true,face0-5=0:networksmanager/rfstorageinfopanel
+
+# %BlockOCInterface:* (BlockOCInterface), render=(STANDARD), opaque=true,cls=com.enm.block.BlockOCInterface
+block:id=%BlockOCInterface,data=*,stdrot=true,face0-3=0:networksmanager/machine,face4=0:networksmanager/calculationunit,face5=0:networksmanager/machine
+
+# %BlockRedstoneOut:* (BlockRedstoneOut), render=(STANDARD), opaque=true,cls=com.enm.block.BlockRedstoneOut
+block:id=%BlockRedstoneOut,data=*,stdrot=true,face0-5=0:networksmanager/redstoneOUT
+
+# %BlockRedstoneSwitch:* (BlockRedstoneSwitch), render=(STANDARD), opaque=true,cls=com.enm.block.BlockRedstoneSwitch
+block:id=%BlockRedstoneSwitch,data=*,stdrot=true,face0-5=0:networksmanager/redstoneswitch

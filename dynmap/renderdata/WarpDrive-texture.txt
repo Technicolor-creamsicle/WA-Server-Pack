@@ -1,0 +1,1381 @@
+# WarpDrive 1.7.10-1.4.2.-
+version:1.7
+modname:WarpDrive
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/warpdrive/textures/blocks/
+texture:id=warpdrive/breathing/air,filename=assets/warpdrive/textures/blocks/breathing/air.png
+texture:id=warpdrive/breathing/air_generator-connection,filename=assets/warpdrive/textures/blocks/breathing/air_generator-connection.png
+texture:id=warpdrive/breathing/air_generator-side_active,filename=assets/warpdrive/textures/blocks/breathing/air_generator-side_active.png
+texture:id=warpdrive/breathing/air_shield,filename=assets/warpdrive/textures/blocks/breathing/air_shield.png
+texture:id=warpdrive/building/ship_scanner-bottom,filename=assets/warpdrive/textures/blocks/building/ship_scanner-bottom.png
+texture:id=warpdrive/building/ship_scanner-side,filename=assets/warpdrive/textures/blocks/building/ship_scanner-side.png
+texture:id=warpdrive/building/ship_scanner-top,filename=assets/warpdrive/textures/blocks/building/ship_scanner-top.png
+texture:id=warpdrive/chunk_loader-active,filename=assets/warpdrive/textures/blocks/chunk_loader-active.png
+texture:id=warpdrive/collection/laser_tree_farm-bottom,filename=assets/warpdrive/textures/blocks/collection/laser_tree_farm-bottom.png
+texture:id=warpdrive/collection/laser_tree_farm-side_planting_low_power,filename=assets/warpdrive/textures/blocks/collection/laser_tree_farm-side_planting_low_power.png
+texture:id=warpdrive/collection/laser_tree_farm-top,filename=assets/warpdrive/textures/blocks/collection/laser_tree_farm-top.png
+texture:id=warpdrive/collection/mining_laser-bottom,filename=assets/warpdrive/textures/blocks/collection/mining_laser-bottom.png
+texture:id=warpdrive/collection/mining_laser-side_scanning_low_power,filename=assets/warpdrive/textures/blocks/collection/mining_laser-side_scanning_low_power.png
+texture:id=warpdrive/collection/mining_laser-top,filename=assets/warpdrive/textures/blocks/collection/mining_laser-top.png
+texture:id=warpdrive/decoration/bedrock_glass,filename=assets/warpdrive/textures/blocks/decoration/bedrock_glass.png
+texture:id=warpdrive/decoration/decorative-energized,filename=assets/warpdrive/textures/blocks/decoration/decorative-energized.png
+texture:id=warpdrive/decoration/decorative-network,filename=assets/warpdrive/textures/blocks/decoration/decorative-network.png
+texture:id=warpdrive/decoration/decorative-plain,filename=assets/warpdrive/textures/blocks/decoration/decorative-plain.png
+texture:id=warpdrive/decoration/gas-blue,filename=assets/warpdrive/textures/blocks/decoration/gas-blue.png
+texture:id=warpdrive/decoration/gas-dark,filename=assets/warpdrive/textures/blocks/decoration/gas-dark.png
+texture:id=warpdrive/decoration/gas-darkness,filename=assets/warpdrive/textures/blocks/decoration/gas-darkness.png
+texture:id=warpdrive/decoration/gas-gray,filename=assets/warpdrive/textures/blocks/decoration/gas-gray.png
+texture:id=warpdrive/decoration/gas-green,filename=assets/warpdrive/textures/blocks/decoration/gas-green.png
+texture:id=warpdrive/decoration/gas-milk,filename=assets/warpdrive/textures/blocks/decoration/gas-milk.png
+texture:id=warpdrive/decoration/gas-orange,filename=assets/warpdrive/textures/blocks/decoration/gas-orange.png
+texture:id=warpdrive/decoration/gas-red,filename=assets/warpdrive/textures/blocks/decoration/gas-red.png
+texture:id=warpdrive/decoration/gas-siren,filename=assets/warpdrive/textures/blocks/decoration/gas-siren.png
+texture:id=warpdrive/decoration/gas-violet,filename=assets/warpdrive/textures/blocks/decoration/gas-violet.png
+texture:id=warpdrive/decoration/gas-white,filename=assets/warpdrive/textures/blocks/decoration/gas-white.png
+texture:id=warpdrive/decoration/gas-yellow,filename=assets/warpdrive/textures/blocks/decoration/gas-yellow.png
+texture:id=warpdrive/detection/camera-side,filename=assets/warpdrive/textures/blocks/detection/camera-side.png
+texture:id=warpdrive/detection/cloaking_coil-channeling_inactive,filename=assets/warpdrive/textures/blocks/detection/cloaking_coil-channeling_inactive.png
+texture:id=warpdrive/detection/cloaking_coil-projecting_inactive,filename=assets/warpdrive/textures/blocks/detection/cloaking_coil-projecting_inactive.png
+texture:id=warpdrive/detection/cloaking_core-side_active,filename=assets/warpdrive/textures/blocks/detection/cloaking_core-side_active.png
+texture:id=warpdrive/detection/monitor-front,filename=assets/warpdrive/textures/blocks/detection/monitor-front.png
+texture:id=warpdrive/detection/monitor-side,filename=assets/warpdrive/textures/blocks/detection/monitor-side.png
+texture:id=warpdrive/detection/radar-bottom,filename=assets/warpdrive/textures/blocks/detection/radar-bottom.png
+texture:id=warpdrive/detection/radar-side_scanning,filename=assets/warpdrive/textures/blocks/detection/radar-side_scanning.png
+texture:id=warpdrive/detection/radar-top,filename=assets/warpdrive/textures/blocks/detection/radar-top.png
+texture:id=warpdrive/detection/siren_industrial,filename=assets/warpdrive/textures/blocks/detection/siren_industrial.png
+texture:id=warpdrive/detection/siren_raid_advanced,filename=assets/warpdrive/textures/blocks/detection/siren_raid_advanced.png
+texture:id=warpdrive/detection/siren_raid_basic,filename=assets/warpdrive/textures/blocks/detection/siren_raid_basic.png
+texture:id=warpdrive/detection/siren_raid_superior,filename=assets/warpdrive/textures/blocks/detection/siren_raid_superior.png
+texture:id=warpdrive/detection/warp_isolation,filename=assets/warpdrive/textures/blocks/detection/warp_isolation.png
+texture:id=warpdrive/energy/enan_reactor_core-side13,filename=assets/warpdrive/textures/blocks/energy/enan_reactor_core-side13.png
+texture:id=warpdrive/energy/enan_reactor_core-top_bottom,filename=assets/warpdrive/textures/blocks/energy/enan_reactor_core-top_bottom.png
+texture:id=warpdrive/energy/enan_reactor_laser-side_active,filename=assets/warpdrive/textures/blocks/energy/enan_reactor_laser-side_active.png
+texture:id=warpdrive/energy/enan_reactor_laser-side_inactive,filename=assets/warpdrive/textures/blocks/energy/enan_reactor_laser-side_inactive.png
+texture:id=warpdrive/energy/enan_reactor_laser-top_bottom,filename=assets/warpdrive/textures/blocks/energy/enan_reactor_laser-top_bottom.png
+texture:id=warpdrive/energy/energy_bank_advanced-input,filename=assets/warpdrive/textures/blocks/energy/energy_bank_advanced-input.png
+texture:id=warpdrive/energy/energy_bank_advanced-output,filename=assets/warpdrive/textures/blocks/energy/energy_bank_advanced-output.png
+texture:id=warpdrive/energy/energy_bank_basic-input,filename=assets/warpdrive/textures/blocks/energy/energy_bank_basic-input.png
+texture:id=warpdrive/energy/energy_bank_basic-output,filename=assets/warpdrive/textures/blocks/energy/energy_bank_basic-output.png
+texture:id=warpdrive/energy/energy_bank_creative-input,filename=assets/warpdrive/textures/blocks/energy/energy_bank_creative-input.png
+texture:id=warpdrive/energy/energy_bank_creative-output,filename=assets/warpdrive/textures/blocks/energy/energy_bank_creative-output.png
+texture:id=warpdrive/energy/energy_bank_superior-input,filename=assets/warpdrive/textures/blocks/energy/energy_bank_superior-input.png
+texture:id=warpdrive/energy/energy_bank_superior-output,filename=assets/warpdrive/textures/blocks/energy/energy_bank_superior-output.png
+texture:id=warpdrive/energy/ic2_reactor_laser_cooler-head-valid,filename=assets/warpdrive/textures/blocks/energy/ic2_reactor_laser_cooler-head-valid.png
+texture:id=warpdrive/energy/ic2_reactor_laser_cooler-invalid,filename=assets/warpdrive/textures/blocks/energy/ic2_reactor_laser_cooler-invalid.png
+texture:id=warpdrive/forcefield/forcefield-0,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-0.png
+texture:id=warpdrive/forcefield/forcefield-1,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-1.png
+texture:id=warpdrive/forcefield/forcefield-10,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-10.png
+texture:id=warpdrive/forcefield/forcefield-11,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-11.png
+texture:id=warpdrive/forcefield/forcefield-12,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-12.png
+texture:id=warpdrive/forcefield/forcefield-13,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-13.png
+texture:id=warpdrive/forcefield/forcefield-14,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-14.png
+texture:id=warpdrive/forcefield/forcefield-15,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-15.png
+texture:id=warpdrive/forcefield/forcefield-2,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-2.png
+texture:id=warpdrive/forcefield/forcefield-3,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-3.png
+texture:id=warpdrive/forcefield/forcefield-4,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-4.png
+texture:id=warpdrive/forcefield/forcefield-5,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-5.png
+texture:id=warpdrive/forcefield/forcefield-6,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-6.png
+texture:id=warpdrive/forcefield/forcefield-7,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-7.png
+texture:id=warpdrive/forcefield/forcefield-8,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-8.png
+texture:id=warpdrive/forcefield/forcefield-9,filename=assets/warpdrive/textures/blocks/forcefield/forcefield-9.png
+texture:id=warpdrive/forcefield/projector-shape_sphere,filename=assets/warpdrive/textures/blocks/forcefield/projector-shape_sphere.png
+texture:id=warpdrive/forcefield/projector-side_connected_powered,filename=assets/warpdrive/textures/blocks/forcefield/projector-side_connected_powered.png
+texture:id=warpdrive/forcefield/relay-attraction,filename=assets/warpdrive/textures/blocks/forcefield/relay-attraction.png
+texture:id=warpdrive/forcefield/relay-breaking,filename=assets/warpdrive/textures/blocks/forcefield/relay-breaking.png
+texture:id=warpdrive/forcefield/relay-camouflage,filename=assets/warpdrive/textures/blocks/forcefield/relay-camouflage.png
+texture:id=warpdrive/forcefield/relay-cooling,filename=assets/warpdrive/textures/blocks/forcefield/relay-cooling.png
+texture:id=warpdrive/forcefield/relay-fusion,filename=assets/warpdrive/textures/blocks/forcefield/relay-fusion.png
+texture:id=warpdrive/forcefield/relay-heating,filename=assets/warpdrive/textures/blocks/forcefield/relay-heating.png
+texture:id=warpdrive/forcefield/relay-item_port,filename=assets/warpdrive/textures/blocks/forcefield/relay-item_port.png
+texture:id=warpdrive/forcefield/relay-none,filename=assets/warpdrive/textures/blocks/forcefield/relay-none.png
+texture:id=warpdrive/forcefield/relay-pumping,filename=assets/warpdrive/textures/blocks/forcefield/relay-pumping.png
+texture:id=warpdrive/forcefield/relay-range,filename=assets/warpdrive/textures/blocks/forcefield/relay-range.png
+texture:id=warpdrive/forcefield/relay-repulsion,filename=assets/warpdrive/textures/blocks/forcefield/relay-repulsion.png
+texture:id=warpdrive/forcefield/relay-shock,filename=assets/warpdrive/textures/blocks/forcefield/relay-shock.png
+texture:id=warpdrive/forcefield/relay-speed,filename=assets/warpdrive/textures/blocks/forcefield/relay-speed.png
+texture:id=warpdrive/forcefield/relay-top,filename=assets/warpdrive/textures/blocks/forcefield/relay-top.png
+texture:id=warpdrive/hull/glass_black,filename=assets/warpdrive/textures/blocks/hull/glass_black.png
+texture:id=warpdrive/hull/glass_blue,filename=assets/warpdrive/textures/blocks/hull/glass_blue.png
+texture:id=warpdrive/hull/glass_brown,filename=assets/warpdrive/textures/blocks/hull/glass_brown.png
+texture:id=warpdrive/hull/glass_cyan,filename=assets/warpdrive/textures/blocks/hull/glass_cyan.png
+texture:id=warpdrive/hull/glass_gray,filename=assets/warpdrive/textures/blocks/hull/glass_gray.png
+texture:id=warpdrive/hull/glass_green,filename=assets/warpdrive/textures/blocks/hull/glass_green.png
+texture:id=warpdrive/hull/glass_light_blue,filename=assets/warpdrive/textures/blocks/hull/glass_light_blue.png
+texture:id=warpdrive/hull/glass_lime,filename=assets/warpdrive/textures/blocks/hull/glass_lime.png
+texture:id=warpdrive/hull/glass_magenta,filename=assets/warpdrive/textures/blocks/hull/glass_magenta.png
+texture:id=warpdrive/hull/glass_orange,filename=assets/warpdrive/textures/blocks/hull/glass_orange.png
+texture:id=warpdrive/hull/glass_pink,filename=assets/warpdrive/textures/blocks/hull/glass_pink.png
+texture:id=warpdrive/hull/glass_purple,filename=assets/warpdrive/textures/blocks/hull/glass_purple.png
+texture:id=warpdrive/hull/glass_red,filename=assets/warpdrive/textures/blocks/hull/glass_red.png
+texture:id=warpdrive/hull/glass_silver,filename=assets/warpdrive/textures/blocks/hull/glass_silver.png
+texture:id=warpdrive/hull/glass_white,filename=assets/warpdrive/textures/blocks/hull/glass_white.png
+texture:id=warpdrive/hull/glass_yellow,filename=assets/warpdrive/textures/blocks/hull/glass_yellow.png
+texture:id=warpdrive/hull/plain-black,filename=assets/warpdrive/textures/blocks/hull/plain-black.png
+texture:id=warpdrive/hull/plain-blue,filename=assets/warpdrive/textures/blocks/hull/plain-blue.png
+texture:id=warpdrive/hull/plain-brown,filename=assets/warpdrive/textures/blocks/hull/plain-brown.png
+texture:id=warpdrive/hull/plain-cyan,filename=assets/warpdrive/textures/blocks/hull/plain-cyan.png
+texture:id=warpdrive/hull/plain-gray,filename=assets/warpdrive/textures/blocks/hull/plain-gray.png
+texture:id=warpdrive/hull/plain-green,filename=assets/warpdrive/textures/blocks/hull/plain-green.png
+texture:id=warpdrive/hull/plain-light_blue,filename=assets/warpdrive/textures/blocks/hull/plain-light_blue.png
+texture:id=warpdrive/hull/plain-lime,filename=assets/warpdrive/textures/blocks/hull/plain-lime.png
+texture:id=warpdrive/hull/plain-magenta,filename=assets/warpdrive/textures/blocks/hull/plain-magenta.png
+texture:id=warpdrive/hull/plain-orange,filename=assets/warpdrive/textures/blocks/hull/plain-orange.png
+texture:id=warpdrive/hull/plain-pink,filename=assets/warpdrive/textures/blocks/hull/plain-pink.png
+texture:id=warpdrive/hull/plain-purple,filename=assets/warpdrive/textures/blocks/hull/plain-purple.png
+texture:id=warpdrive/hull/plain-red,filename=assets/warpdrive/textures/blocks/hull/plain-red.png
+texture:id=warpdrive/hull/plain-silver,filename=assets/warpdrive/textures/blocks/hull/plain-silver.png
+texture:id=warpdrive/hull/plain-white,filename=assets/warpdrive/textures/blocks/hull/plain-white.png
+texture:id=warpdrive/hull/plain-yellow,filename=assets/warpdrive/textures/blocks/hull/plain-yellow.png
+texture:id=warpdrive/hull/tiled-black,filename=assets/warpdrive/textures/blocks/hull/tiled-black.png
+texture:id=warpdrive/hull/tiled-blue,filename=assets/warpdrive/textures/blocks/hull/tiled-blue.png
+texture:id=warpdrive/hull/tiled-brown,filename=assets/warpdrive/textures/blocks/hull/tiled-brown.png
+texture:id=warpdrive/hull/tiled-cyan,filename=assets/warpdrive/textures/blocks/hull/tiled-cyan.png
+texture:id=warpdrive/hull/tiled-gray,filename=assets/warpdrive/textures/blocks/hull/tiled-gray.png
+texture:id=warpdrive/hull/tiled-green,filename=assets/warpdrive/textures/blocks/hull/tiled-green.png
+texture:id=warpdrive/hull/tiled-light_blue,filename=assets/warpdrive/textures/blocks/hull/tiled-light_blue.png
+texture:id=warpdrive/hull/tiled-lime,filename=assets/warpdrive/textures/blocks/hull/tiled-lime.png
+texture:id=warpdrive/hull/tiled-magenta,filename=assets/warpdrive/textures/blocks/hull/tiled-magenta.png
+texture:id=warpdrive/hull/tiled-orange,filename=assets/warpdrive/textures/blocks/hull/tiled-orange.png
+texture:id=warpdrive/hull/tiled-pink,filename=assets/warpdrive/textures/blocks/hull/tiled-pink.png
+texture:id=warpdrive/hull/tiled-purple,filename=assets/warpdrive/textures/blocks/hull/tiled-purple.png
+texture:id=warpdrive/hull/tiled-red,filename=assets/warpdrive/textures/blocks/hull/tiled-red.png
+texture:id=warpdrive/hull/tiled-silver,filename=assets/warpdrive/textures/blocks/hull/tiled-silver.png
+texture:id=warpdrive/hull/tiled-white,filename=assets/warpdrive/textures/blocks/hull/tiled-white.png
+texture:id=warpdrive/hull/tiled-yellow,filename=assets/warpdrive/textures/blocks/hull/tiled-yellow.png
+texture:id=warpdrive/hull/tiled_horizontal-black,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-black.png
+texture:id=warpdrive/hull/tiled_horizontal-blue,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-blue.png
+texture:id=warpdrive/hull/tiled_horizontal-brown,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-brown.png
+texture:id=warpdrive/hull/tiled_horizontal-cyan,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-cyan.png
+texture:id=warpdrive/hull/tiled_horizontal-gray,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-gray.png
+texture:id=warpdrive/hull/tiled_horizontal-green,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-green.png
+texture:id=warpdrive/hull/tiled_horizontal-light_blue,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-light_blue.png
+texture:id=warpdrive/hull/tiled_horizontal-lime,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-lime.png
+texture:id=warpdrive/hull/tiled_horizontal-magenta,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-magenta.png
+texture:id=warpdrive/hull/tiled_horizontal-orange,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-orange.png
+texture:id=warpdrive/hull/tiled_horizontal-pink,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-pink.png
+texture:id=warpdrive/hull/tiled_horizontal-purple,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-purple.png
+texture:id=warpdrive/hull/tiled_horizontal-red,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-red.png
+texture:id=warpdrive/hull/tiled_horizontal-silver,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-silver.png
+texture:id=warpdrive/hull/tiled_horizontal-white,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-white.png
+texture:id=warpdrive/hull/tiled_horizontal-yellow,filename=assets/warpdrive/textures/blocks/hull/tiled_horizontal-yellow.png
+texture:id=warpdrive/hull/tiled_vertical-black,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-black.png
+texture:id=warpdrive/hull/tiled_vertical-blue,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-blue.png
+texture:id=warpdrive/hull/tiled_vertical-brown,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-brown.png
+texture:id=warpdrive/hull/tiled_vertical-cyan,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-cyan.png
+texture:id=warpdrive/hull/tiled_vertical-gray,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-gray.png
+texture:id=warpdrive/hull/tiled_vertical-green,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-green.png
+texture:id=warpdrive/hull/tiled_vertical-light_blue,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-light_blue.png
+texture:id=warpdrive/hull/tiled_vertical-lime,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-lime.png
+texture:id=warpdrive/hull/tiled_vertical-magenta,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-magenta.png
+texture:id=warpdrive/hull/tiled_vertical-orange,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-orange.png
+texture:id=warpdrive/hull/tiled_vertical-pink,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-pink.png
+texture:id=warpdrive/hull/tiled_vertical-purple,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-purple.png
+texture:id=warpdrive/hull/tiled_vertical-red,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-red.png
+texture:id=warpdrive/hull/tiled_vertical-silver,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-silver.png
+texture:id=warpdrive/hull/tiled_vertical-white,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-white.png
+texture:id=warpdrive/hull/tiled_vertical-yellow,filename=assets/warpdrive/textures/blocks/hull/tiled_vertical-yellow.png
+texture:id=warpdrive/laser-side,filename=assets/warpdrive/textures/blocks/laser-side.png
+texture:id=warpdrive/laser_medium-side6,filename=assets/warpdrive/textures/blocks/laser_medium-side6.png
+texture:id=warpdrive/laser_medium-top_bottom,filename=assets/warpdrive/textures/blocks/laser_medium-top_bottom.png
+texture:id=warpdrive/movement/lift-side_offline,filename=assets/warpdrive/textures/blocks/movement/lift-side_offline.png
+texture:id=warpdrive/movement/lift-side_up,filename=assets/warpdrive/textures/blocks/movement/lift-side_up.png
+texture:id=warpdrive/movement/lift-top_in,filename=assets/warpdrive/textures/blocks/movement/lift-top_in.png
+texture:id=warpdrive/movement/lift-top_inactive,filename=assets/warpdrive/textures/blocks/movement/lift-top_inactive.png
+texture:id=warpdrive/movement/lift-top_out,filename=assets/warpdrive/textures/blocks/movement/lift-top_out.png
+texture:id=warpdrive/movement/ship_controller-bottom,filename=assets/warpdrive/textures/blocks/movement/ship_controller-bottom.png
+texture:id=warpdrive/movement/ship_controller-side_active2,filename=assets/warpdrive/textures/blocks/movement/ship_controller-side_active2.png
+texture:id=warpdrive/movement/ship_controller-side_active5,filename=assets/warpdrive/textures/blocks/movement/ship_controller-side_active5.png
+texture:id=warpdrive/movement/ship_controller-top,filename=assets/warpdrive/textures/blocks/movement/ship_controller-top.png
+texture:id=warpdrive/movement/ship_core-right_online,filename=assets/warpdrive/textures/blocks/movement/ship_core-right_online.png
+texture:id=warpdrive/movement/ship_core-top-bottom,filename=assets/warpdrive/textures/blocks/movement/ship_core-top-bottom.png
+texture:id=warpdrive/movement/transporter_beacon-deployed_active,filename=assets/warpdrive/textures/blocks/movement/transporter_beacon-deployed_active.png
+texture:id=warpdrive/movement/transporter_beacon-deployed_inactive,filename=assets/warpdrive/textures/blocks/movement/transporter_beacon-deployed_inactive.png
+texture:id=warpdrive/movement/transporter_beacon-packed_active,filename=assets/warpdrive/textures/blocks/movement/transporter_beacon-packed_active.png
+texture:id=warpdrive/movement/transporter_beacon-packed_inactive,filename=assets/warpdrive/textures/blocks/movement/transporter_beacon-packed_inactive.png
+texture:id=warpdrive/movement/transporter_containment-bottom,filename=assets/warpdrive/textures/blocks/movement/transporter_containment-bottom.png
+texture:id=warpdrive/movement/transporter_containment-side,filename=assets/warpdrive/textures/blocks/movement/transporter_containment-side.png
+texture:id=warpdrive/movement/transporter_containment-top,filename=assets/warpdrive/textures/blocks/movement/transporter_containment-top.png
+texture:id=warpdrive/movement/transporter_core-bottom_top,filename=assets/warpdrive/textures/blocks/movement/transporter_core-bottom_top.png
+texture:id=warpdrive/movement/transporter_core-side_invalid,filename=assets/warpdrive/textures/blocks/movement/transporter_core-side_invalid.png
+texture:id=warpdrive/movement/transporter_core-side_low_power,filename=assets/warpdrive/textures/blocks/movement/transporter_core-side_low_power.png
+texture:id=warpdrive/movement/transporter_core-side_offline,filename=assets/warpdrive/textures/blocks/movement/transporter_core-side_offline.png
+texture:id=warpdrive/movement/transporter_core-side_online,filename=assets/warpdrive/textures/blocks/movement/transporter_core-side_online.png
+texture:id=warpdrive/movement/transporter_scanner-bottom,filename=assets/warpdrive/textures/blocks/movement/transporter_scanner-bottom.png
+texture:id=warpdrive/movement/transporter_scanner-side,filename=assets/warpdrive/textures/blocks/movement/transporter_scanner-side.png
+texture:id=warpdrive/movement/transporter_scanner-top_offline,filename=assets/warpdrive/textures/blocks/movement/transporter_scanner-top_offline.png
+texture:id=warpdrive/movement/transporter_scanner-top_online,filename=assets/warpdrive/textures/blocks/movement/transporter_scanner-top_online.png
+texture:id=warpdrive/passive/highly_advanced_machine-side,filename=assets/warpdrive/textures/blocks/passive/highly_advanced_machine-side.png
+texture:id=warpdrive/passive/iridium_block-side,filename=assets/warpdrive/textures/blocks/passive/iridium_block-side.png
+texture:id=warpdrive/weapon/laser_camera-side,filename=assets/warpdrive/textures/blocks/weapon/laser_camera-side.png
+texture:id=warpdrive/weapon/weapon_controller-side,filename=assets/warpdrive/textures/blocks/weapon/weapon_controller-side.png
+
+
+
+# %blockChunkLoader:* (blockChunkLoader), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.BlockChunkLoader
+block:id=%blockChunkLoader,data=*,stdrot=true,face0-5=0:warpdrive/chunk_loader-active
+
+# %blockLaser:* (blockLaser), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.BlockLaser
+block:id=%blockLaser,data=*,stdrot=true,face0-5=0:warpdrive/laser-side
+
+# %blockLaserMedium:* (blockLaserMedium), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.BlockLaserMedium
+block:id=%blockLaserMedium,data=*,stdrot=true,face0-1=0:warpdrive/laser_medium-top_bottom,face2-5=0:warpdrive/laser_medium-side6
+
+# %blockShipScanner:* (blockShipScanner), render=cr0s.warpdrive.render.RenderBlockShipScanner(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.building.BlockShipScanner
+block:id=%blockShipScanner,data=*,stdrot=true,face0=12000:warpdrive/building/ship_scanner-bottom,face1=12000:warpdrive/building/ship_scanner-top,face2-5=12000:warpdrive/building/ship_scanner-side
+
+# %blockAir:* (blockAir), render=cr0s.warpdrive.render.RenderBlockStandard(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.breathing.BlockAir
+block:id=%blockAir,data=*,stdrot=true,face0-5=12000:warpdrive/breathing/air
+
+# %blockAirFlow:* (blockAirFlow), render=cr0s.warpdrive.render.RenderBlockStandard(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.breathing.BlockAirFlow
+block:id=%blockAirFlow,data=*,stdrot=true,face0-5=12000:warpdrive/breathing/air
+
+# %blockAirSource:* (blockAirSource), render=cr0s.warpdrive.render.RenderBlockStandard(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.breathing.BlockAirSource
+block:id=%blockAirSource,data=*,stdrot=true,face0-5=12000:warpdrive/breathing/air
+
+# %blockAirShield:* (blockAirShield), render=cr0s.warpdrive.render.RenderBlockOmnipanel(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.breathing.BlockAirShield
+block:id=%blockAirShield,data=0,stdrot=true,face0-5=12000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=1,stdrot=true,colorMult=FF5A02,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=2,stdrot=true,colorMult=F269FF,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=3,stdrot=true,colorMult=80AAFF,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=4,stdrot=true,colorMult=FFEE3C,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=5,stdrot=true,colorMult=90E801,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=6,stdrot=true,colorMult=FB0680,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=7,stdrot=true,colorMult=2C2C2C,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=8,stdrot=true,colorMult=686868,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=9,stdrot=true,colorMult=0FD7FF,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=10,stdrot=true,colorMult=5D1072,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=11,stdrot=true,colorMult=4351CC,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=12,stdrot=true,colorMult=99572E,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=13,stdrot=true,colorMult=75993C,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=14,stdrot=true,colorMult=CC4D41,face0-5=17000:warpdrive/breathing/air_shield
+block:id=%blockAirShield,data=15,stdrot=true,colorMult=080808,face0-5=17000:warpdrive/breathing/air_shield
+
+# %blockAirGenerator:* (blockAirGenerator), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.breathing.BlockAirGenerator
+block:id=%blockAirGenerator,data=*,stdrot=true,face0-5=0:warpdrive/breathing/air_generator-side_active
+
+# %blockAirGenerator1:* (blockAirGenerator1), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.breathing.BlockAirGeneratorTiered
+block:id=%blockAirGenerator1,data=*,stdrot=true,face0-2=0:warpdrive/breathing/air_generator-connection,face3=0:warpdrive/breathing/air_generator-side_active,face4-5=0:warpdrive/breathing/air_generator-connection
+
+# %blockAirGenerator2:* (blockAirGenerator2), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.breathing.BlockAirGeneratorTiered
+block:id=%blockAirGenerator2,data=*,stdrot=true,face0-2=0:warpdrive/breathing/air_generator-connection,face3=0:warpdrive/breathing/air_generator-side_active,face4-5=0:warpdrive/breathing/air_generator-connection
+
+# %blockAirGenerator3:* (blockAirGenerator3), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.breathing.BlockAirGeneratorTiered
+block:id=%blockAirGenerator3,data=*,stdrot=true,face0-2=0:warpdrive/breathing/air_generator-connection,face3=0:warpdrive/breathing/air_generator-side_active,face4-5=0:warpdrive/breathing/air_generator-connection
+
+# %blockMiningLaser:* (blockMiningLaser), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.collection.BlockMiningLaser
+block:id=%blockMiningLaser,data=*,stdrot=true,face0=0:warpdrive/collection/mining_laser-bottom,face1=0:warpdrive/collection/mining_laser-top,face2-5=0:warpdrive/collection/mining_laser-side_scanning_low_power
+
+# %blockLaserTreeFarm:* (blockLaserTreeFarm), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.collection.BlockLaserTreeFarm
+block:id=%blockLaserTreeFarm,data=*,stdrot=true,face0=0:warpdrive/collection/laser_tree_farm-bottom,face1=0:warpdrive/collection/laser_tree_farm-top,face2-5=0:warpdrive/collection/laser_tree_farm-side_planting_low_power
+
+# %blockDecorative:* (blockDecorative), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.decoration.BlockDecorative
+block:id=%blockDecorative,data=0,stdrot=true,face0-5=0:warpdrive/decoration/decorative-plain
+block:id=%blockDecorative,data=1,stdrot=true,face0-5=0:warpdrive/decoration/decorative-energized
+block:id=%blockDecorative,data=2,stdrot=true,face0-5=0:warpdrive/decoration/decorative-network
+block:id=%blockDecorative,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:warpdrive/decoration/decorative-plain
+
+# %blockGas:* (blockGas), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.decoration.BlockGas
+block:id=%blockGas,data=0,stdrot=true,face0-5=12000:warpdrive/decoration/gas-blue
+block:id=%blockGas,data=1,stdrot=true,face0-5=12000:warpdrive/decoration/gas-red
+block:id=%blockGas,data=2,stdrot=true,face0-5=12000:warpdrive/decoration/gas-green
+block:id=%blockGas,data=3,stdrot=true,face0-5=12000:warpdrive/decoration/gas-yellow
+block:id=%blockGas,data=4,stdrot=true,face0-5=12000:warpdrive/decoration/gas-dark
+block:id=%blockGas,data=5,stdrot=true,face0-5=12000:warpdrive/decoration/gas-darkness
+block:id=%blockGas,data=6,stdrot=true,face0-5=12000:warpdrive/decoration/gas-white
+block:id=%blockGas,data=7,stdrot=true,face0-5=12000:warpdrive/decoration/gas-milk
+block:id=%blockGas,data=8,stdrot=true,face0-5=12000:warpdrive/decoration/gas-orange
+block:id=%blockGas,data=9,stdrot=true,face0-5=12000:warpdrive/decoration/gas-siren
+block:id=%blockGas,data=10,stdrot=true,face0-5=12000:warpdrive/decoration/gas-gray
+block:id=%blockGas,data=11,stdrot=true,face0-5=12000:warpdrive/decoration/gas-violet
+block:id=%blockGas,data=12,stdrot=true,face0-5=12000:warpdrive/decoration/gas-blue
+block:id=%blockGas,data=13,stdrot=true,face0-5=12000:warpdrive/decoration/gas-red
+block:id=%blockGas,data=14,stdrot=true,face0-5=12000:warpdrive/decoration/gas-green
+block:id=%blockGas,data=15,stdrot=true,face0-5=12000:warpdrive/decoration/gas-yellow
+
+# %blockCamera:* (blockCamera), render=cr0s.warpdrive.render.RenderBlockStandard(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.detection.BlockCamera
+block:id=%blockCamera,data=*,stdrot=true,face0-5=0:warpdrive/detection/camera-side
+
+# %blockCloakingCore:* (blockCloakingCore), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.detection.BlockCloakingCore
+block:id=%blockCloakingCore,data=*,stdrot=true,face0-5=0:warpdrive/detection/cloaking_core-side_active
+
+# %blockCloakingCoil:* (blockCloakingCoil), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.detection.BlockCloakingCoil
+block:id=%blockCloakingCoil,data=*,stdrot=true,face0-2=0:warpdrive/detection/cloaking_coil-projecting_inactive,face3=0:warpdrive/detection/cloaking_coil-channeling_inactive,face4-5=0:warpdrive/detection/cloaking_coil-projecting_inactive
+
+# %blockMonitor:* (blockMonitor), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.detection.BlockMonitor
+block:id=%blockMonitor,data=*,stdrot=true,face0-2=0:warpdrive/detection/monitor-side,face3=0:warpdrive/detection/monitor-front,face4-5=0:warpdrive/detection/monitor-side
+
+# %blockRadar:* (blockRadar), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.detection.BlockRadar
+block:id=%blockRadar,data=*,stdrot=true,face0=0:warpdrive/detection/radar-bottom,face1=0:warpdrive/detection/radar-top,face2-5=0:warpdrive/detection/radar-side_scanning
+
+# %siren:* (siren), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.detection.BlockSiren
+block:id=%siren,data=0,data=1,data=2,data=3,stdrot=true,face0-5=0:warpdrive/detection/siren_industrial
+block:id=%siren,data=4,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_basic
+block:id=%siren,data=5,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_advanced
+block:id=%siren,data=6,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_superior
+block:id=%siren,data=7,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_basic
+block:id=%siren,data=8,data=9,data=10,data=11,stdrot=true,face0-5=0:warpdrive/detection/siren_industrial
+block:id=%siren,data=12,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_basic
+block:id=%siren,data=13,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_advanced
+block:id=%siren,data=14,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_superior
+block:id=%siren,data=15,stdrot=true,face0-5=0:warpdrive/detection/siren_raid_basic
+
+# %blockWarpIsolation:* (blockWarpIsolation), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.detection.BlockWarpIsolation
+block:id=%blockWarpIsolation,data=*,stdrot=true,face0-5=0:warpdrive/detection/warp_isolation
+
+# %blockEnanReactorCore:* (blockEnanReactorCore), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.energy.BlockEnanReactorCore
+block:id=%blockEnanReactorCore,data=*,stdrot=true,face0-1=0:warpdrive/energy/enan_reactor_core-top_bottom,face2-5=0:warpdrive/energy/enan_reactor_core-side13
+
+# %blockEnanReactorLaser:* (blockEnanReactorLaser), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.energy.BlockEnanReactorLaser
+block:id=%blockEnanReactorLaser,data=*,stdrot=true,face0-1=0:warpdrive/energy/enan_reactor_laser-top_bottom,face2-3=0:warpdrive/energy/enan_reactor_laser-side_inactive,face4=0:warpdrive/energy/enan_reactor_laser-side_active,face5=0:warpdrive/energy/enan_reactor_laser-side_inactive
+
+# %blockEnergyBank:* (blockEnergyBank), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.energy.BlockEnergyBank
+block:id=%blockEnergyBank,data=0,stdrot=true,face0=0:warpdrive/energy/energy_bank_creative-output,face1=0:warpdrive/energy/energy_bank_creative-input,face2-5=0:warpdrive/energy/energy_bank_creative-output
+block:id=%blockEnergyBank,data=1,stdrot=true,face0=0:warpdrive/energy/energy_bank_basic-output,face1=0:warpdrive/energy/energy_bank_basic-input,face2-5=0:warpdrive/energy/energy_bank_basic-output
+block:id=%blockEnergyBank,data=2,stdrot=true,face0=0:warpdrive/energy/energy_bank_advanced-output,face1=0:warpdrive/energy/energy_bank_advanced-input,face2-5=0:warpdrive/energy/energy_bank_advanced-output
+block:id=%blockEnergyBank,data=3,stdrot=true,face0=0:warpdrive/energy/energy_bank_superior-output,face1=0:warpdrive/energy/energy_bank_superior-input,face2-5=0:warpdrive/energy/energy_bank_superior-output
+block:id=%blockEnergyBank,data=4,stdrot=true,face0=0:warpdrive/energy/energy_bank_creative-output,face1=0:warpdrive/energy/energy_bank_creative-input,face2-5=0:warpdrive/energy/energy_bank_creative-output
+block:id=%blockEnergyBank,data=5,stdrot=true,face0=0:warpdrive/energy/energy_bank_basic-output,face1=0:warpdrive/energy/energy_bank_basic-input,face2-5=0:warpdrive/energy/energy_bank_basic-output
+block:id=%blockEnergyBank,data=6,stdrot=true,face0=0:warpdrive/energy/energy_bank_advanced-output,face1=0:warpdrive/energy/energy_bank_advanced-input,face2-5=0:warpdrive/energy/energy_bank_advanced-output
+block:id=%blockEnergyBank,data=7,stdrot=true,face0=0:warpdrive/energy/energy_bank_superior-output,face1=0:warpdrive/energy/energy_bank_superior-input,face2-5=0:warpdrive/energy/energy_bank_superior-output
+block:id=%blockEnergyBank,data=8,stdrot=true,face0=0:warpdrive/energy/energy_bank_creative-output,face1=0:warpdrive/energy/energy_bank_creative-input,face2-5=0:warpdrive/energy/energy_bank_creative-output
+block:id=%blockEnergyBank,data=9,stdrot=true,face0=0:warpdrive/energy/energy_bank_basic-output,face1=0:warpdrive/energy/energy_bank_basic-input,face2-5=0:warpdrive/energy/energy_bank_basic-output
+block:id=%blockEnergyBank,data=10,stdrot=true,face0=0:warpdrive/energy/energy_bank_advanced-output,face1=0:warpdrive/energy/energy_bank_advanced-input,face2-5=0:warpdrive/energy/energy_bank_advanced-output
+block:id=%blockEnergyBank,data=11,stdrot=true,face0=0:warpdrive/energy/energy_bank_superior-output,face1=0:warpdrive/energy/energy_bank_superior-input,face2-5=0:warpdrive/energy/energy_bank_superior-output
+block:id=%blockEnergyBank,data=12,stdrot=true,face0=0:warpdrive/energy/energy_bank_creative-output,face1=0:warpdrive/energy/energy_bank_creative-input,face2-5=0:warpdrive/energy/energy_bank_creative-output
+block:id=%blockEnergyBank,data=13,stdrot=true,face0=0:warpdrive/energy/energy_bank_basic-output,face1=0:warpdrive/energy/energy_bank_basic-input,face2-5=0:warpdrive/energy/energy_bank_basic-output
+block:id=%blockEnergyBank,data=14,stdrot=true,face0=0:warpdrive/energy/energy_bank_advanced-output,face1=0:warpdrive/energy/energy_bank_advanced-input,face2-5=0:warpdrive/energy/energy_bank_advanced-output
+block:id=%blockEnergyBank,data=15,stdrot=true,face0=0:warpdrive/energy/energy_bank_superior-output,face1=0:warpdrive/energy/energy_bank_superior-input,face2-5=0:warpdrive/energy/energy_bank_superior-output
+
+# %blockIC2reactorLaserMonitor:* (blockIC2reactorLaserMonitor), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.energy.BlockIC2reactorLaserMonitor
+block:id=%blockIC2reactorLaserMonitor,data=*,stdrot=true,face0-3=0:warpdrive/energy/ic2_reactor_laser_cooler-invalid,face4=0:warpdrive/energy/ic2_reactor_laser_cooler-head-valid,face5=0:warpdrive/energy/ic2_reactor_laser_cooler-invalid
+
+# %blockForceField1:* (blockForceField1), render=cr0s.warpdrive.render.RenderBlockForceField(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.forcefield.BlockForceField
+block:id=%blockForceField1,data=0,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-0
+block:id=%blockForceField1,data=1,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-1
+block:id=%blockForceField1,data=2,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-2
+block:id=%blockForceField1,data=3,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-3
+block:id=%blockForceField1,data=4,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-4
+block:id=%blockForceField1,data=5,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-5
+block:id=%blockForceField1,data=6,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-6
+block:id=%blockForceField1,data=7,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-7
+block:id=%blockForceField1,data=8,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-8
+block:id=%blockForceField1,data=9,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-9
+block:id=%blockForceField1,data=10,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-10
+block:id=%blockForceField1,data=11,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-11
+block:id=%blockForceField1,data=12,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-12
+block:id=%blockForceField1,data=13,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-13
+block:id=%blockForceField1,data=14,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-14
+block:id=%blockForceField1,data=15,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-15
+
+# %blockProjector1:* (blockProjector1), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.forcefield.BlockForceFieldProjector
+block:id=%blockProjector1,data=*,stdrot=true,face0-2=0:warpdrive/forcefield/projector-side_connected_powered,face3=0:warpdrive/forcefield/projector-shape_sphere,face4-5=0:warpdrive/forcefield/projector-side_connected_powered
+
+# %blockForceFieldRelay1:* (blockForceFieldRelay1), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.forcefield.BlockForceFieldRelay
+block:id=%blockForceFieldRelay1,data=0,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay1,data=1,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-attraction
+block:id=%blockForceFieldRelay1,data=2,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-breaking
+block:id=%blockForceFieldRelay1,data=3,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-camouflage
+block:id=%blockForceFieldRelay1,data=4,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-cooling
+block:id=%blockForceFieldRelay1,data=5,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-fusion
+block:id=%blockForceFieldRelay1,data=6,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-heating
+block:id=%blockForceFieldRelay1,data=7,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay1,data=8,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-item_port
+block:id=%blockForceFieldRelay1,data=9,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-pumping
+block:id=%blockForceFieldRelay1,data=10,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-range
+block:id=%blockForceFieldRelay1,data=11,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-repulsion
+block:id=%blockForceFieldRelay1,data=12,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay1,data=13,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-shock
+block:id=%blockForceFieldRelay1,data=14,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay1,data=15,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-speed
+
+# %blockForceField2:* (blockForceField2), render=cr0s.warpdrive.render.RenderBlockForceField(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.forcefield.BlockForceField
+block:id=%blockForceField2,data=0,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-0
+block:id=%blockForceField2,data=1,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-1
+block:id=%blockForceField2,data=2,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-2
+block:id=%blockForceField2,data=3,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-3
+block:id=%blockForceField2,data=4,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-4
+block:id=%blockForceField2,data=5,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-5
+block:id=%blockForceField2,data=6,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-6
+block:id=%blockForceField2,data=7,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-7
+block:id=%blockForceField2,data=8,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-8
+block:id=%blockForceField2,data=9,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-9
+block:id=%blockForceField2,data=10,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-10
+block:id=%blockForceField2,data=11,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-11
+block:id=%blockForceField2,data=12,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-12
+block:id=%blockForceField2,data=13,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-13
+block:id=%blockForceField2,data=14,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-14
+block:id=%blockForceField2,data=15,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-15
+
+# %blockProjector2:* (blockProjector2), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.forcefield.BlockForceFieldProjector
+block:id=%blockProjector2,data=*,stdrot=true,face0-2=0:warpdrive/forcefield/projector-side_connected_powered,face3=0:warpdrive/forcefield/projector-shape_sphere,face4-5=0:warpdrive/forcefield/projector-side_connected_powered
+
+# %blockForceFieldRelay2:* (blockForceFieldRelay2), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.forcefield.BlockForceFieldRelay
+block:id=%blockForceFieldRelay2,data=0,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay2,data=1,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-attraction
+block:id=%blockForceFieldRelay2,data=2,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-breaking
+block:id=%blockForceFieldRelay2,data=3,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-camouflage
+block:id=%blockForceFieldRelay2,data=4,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-cooling
+block:id=%blockForceFieldRelay2,data=5,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-fusion
+block:id=%blockForceFieldRelay2,data=6,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-heating
+block:id=%blockForceFieldRelay2,data=7,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay2,data=8,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-item_port
+block:id=%blockForceFieldRelay2,data=9,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-pumping
+block:id=%blockForceFieldRelay2,data=10,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-range
+block:id=%blockForceFieldRelay2,data=11,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-repulsion
+block:id=%blockForceFieldRelay2,data=12,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay2,data=13,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-shock
+block:id=%blockForceFieldRelay2,data=14,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay2,data=15,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-speed
+
+# %blockForceField3:* (blockForceField3), render=cr0s.warpdrive.render.RenderBlockForceField(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.forcefield.BlockForceField
+block:id=%blockForceField3,data=0,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-0
+block:id=%blockForceField3,data=1,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-1
+block:id=%blockForceField3,data=2,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-2
+block:id=%blockForceField3,data=3,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-3
+block:id=%blockForceField3,data=4,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-4
+block:id=%blockForceField3,data=5,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-5
+block:id=%blockForceField3,data=6,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-6
+block:id=%blockForceField3,data=7,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-7
+block:id=%blockForceField3,data=8,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-8
+block:id=%blockForceField3,data=9,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-9
+block:id=%blockForceField3,data=10,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-10
+block:id=%blockForceField3,data=11,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-11
+block:id=%blockForceField3,data=12,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-12
+block:id=%blockForceField3,data=13,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-13
+block:id=%blockForceField3,data=14,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-14
+block:id=%blockForceField3,data=15,stdrot=true,face0-5=12000:warpdrive/forcefield/forcefield-15
+
+# %blockProjector3:* (blockProjector3), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.forcefield.BlockForceFieldProjector
+block:id=%blockProjector3,data=*,stdrot=true,face0-2=0:warpdrive/forcefield/projector-side_connected_powered,face3=0:warpdrive/forcefield/projector-shape_sphere,face4-5=0:warpdrive/forcefield/projector-side_connected_powered
+
+# %blockForceFieldRelay3:* (blockForceFieldRelay3), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.forcefield.BlockForceFieldRelay
+block:id=%blockForceFieldRelay3,data=0,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay3,data=1,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-attraction
+block:id=%blockForceFieldRelay3,data=2,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-breaking
+block:id=%blockForceFieldRelay3,data=3,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-camouflage
+block:id=%blockForceFieldRelay3,data=4,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-cooling
+block:id=%blockForceFieldRelay3,data=5,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-fusion
+block:id=%blockForceFieldRelay3,data=6,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-heating
+block:id=%blockForceFieldRelay3,data=7,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay3,data=8,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-item_port
+block:id=%blockForceFieldRelay3,data=9,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-pumping
+block:id=%blockForceFieldRelay3,data=10,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-range
+block:id=%blockForceFieldRelay3,data=11,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-repulsion
+block:id=%blockForceFieldRelay3,data=12,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay3,data=13,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-shock
+block:id=%blockForceFieldRelay3,data=14,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-none
+block:id=%blockForceFieldRelay3,data=15,stdrot=true,face0-1=0:warpdrive/forcefield/relay-top,face2-5=0:warpdrive/forcefield/relay-speed
+
+# %blockHull1_plain:* (blockHull1_plain), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.hull.BlockHullPlain
+block:id=%blockHull1_plain,data=0,stdrot=true,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull1_plain,data=1,stdrot=true,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull1_plain,data=2,stdrot=true,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull1_plain,data=3,stdrot=true,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull1_plain,data=4,stdrot=true,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull1_plain,data=5,stdrot=true,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull1_plain,data=6,stdrot=true,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull1_plain,data=7,stdrot=true,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull1_plain,data=8,stdrot=true,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull1_plain,data=9,stdrot=true,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull1_plain,data=10,stdrot=true,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull1_plain,data=11,stdrot=true,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull1_plain,data=12,stdrot=true,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull1_plain,data=13,stdrot=true,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull1_plain,data=14,stdrot=true,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull1_plain,data=15,stdrot=true,face0-5=0:warpdrive/hull/plain-black
+
+# %blockHull1_tiled:* (blockHull1_tiled), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.hull.BlockHullPlain
+block:id=%blockHull1_tiled,data=0,stdrot=true,face0-5=0:warpdrive/hull/tiled-white
+block:id=%blockHull1_tiled,data=1,stdrot=true,face0-5=0:warpdrive/hull/tiled-orange
+block:id=%blockHull1_tiled,data=2,stdrot=true,face0-5=0:warpdrive/hull/tiled-magenta
+block:id=%blockHull1_tiled,data=3,stdrot=true,face0-5=0:warpdrive/hull/tiled-light_blue
+block:id=%blockHull1_tiled,data=4,stdrot=true,face0-5=0:warpdrive/hull/tiled-yellow
+block:id=%blockHull1_tiled,data=5,stdrot=true,face0-5=0:warpdrive/hull/tiled-lime
+block:id=%blockHull1_tiled,data=6,stdrot=true,face0-5=0:warpdrive/hull/tiled-pink
+block:id=%blockHull1_tiled,data=7,stdrot=true,face0-5=0:warpdrive/hull/tiled-gray
+block:id=%blockHull1_tiled,data=8,stdrot=true,face0-5=0:warpdrive/hull/tiled-silver
+block:id=%blockHull1_tiled,data=9,stdrot=true,face0-5=0:warpdrive/hull/tiled-cyan
+block:id=%blockHull1_tiled,data=10,stdrot=true,face0-5=0:warpdrive/hull/tiled-purple
+block:id=%blockHull1_tiled,data=11,stdrot=true,face0-5=0:warpdrive/hull/tiled-blue
+block:id=%blockHull1_tiled,data=12,stdrot=true,face0-5=0:warpdrive/hull/tiled-brown
+block:id=%blockHull1_tiled,data=13,stdrot=true,face0-5=0:warpdrive/hull/tiled-green
+block:id=%blockHull1_tiled,data=14,stdrot=true,face0-5=0:warpdrive/hull/tiled-red
+block:id=%blockHull1_tiled,data=15,stdrot=true,face0-5=0:warpdrive/hull/tiled-black
+
+# %blockHull1_glass:* (blockHull1_glass), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullGlass
+block:id=%blockHull1_glass,data=0,stdrot=true,face0-5=12000:warpdrive/hull/glass_white
+block:id=%blockHull1_glass,data=1,stdrot=true,face0-5=12000:warpdrive/hull/glass_orange
+block:id=%blockHull1_glass,data=2,stdrot=true,face0-5=12000:warpdrive/hull/glass_magenta
+block:id=%blockHull1_glass,data=3,stdrot=true,face0-5=12000:warpdrive/hull/glass_light_blue
+block:id=%blockHull1_glass,data=4,stdrot=true,face0-5=12000:warpdrive/hull/glass_yellow
+block:id=%blockHull1_glass,data=5,stdrot=true,face0-5=12000:warpdrive/hull/glass_lime
+block:id=%blockHull1_glass,data=6,stdrot=true,face0-5=12000:warpdrive/hull/glass_pink
+block:id=%blockHull1_glass,data=7,stdrot=true,face0-5=12000:warpdrive/hull/glass_gray
+block:id=%blockHull1_glass,data=8,stdrot=true,face0-5=12000:warpdrive/hull/glass_silver
+block:id=%blockHull1_glass,data=9,stdrot=true,face0-5=12000:warpdrive/hull/glass_cyan
+block:id=%blockHull1_glass,data=10,stdrot=true,face0-5=12000:warpdrive/hull/glass_purple
+block:id=%blockHull1_glass,data=11,stdrot=true,face0-5=12000:warpdrive/hull/glass_blue
+block:id=%blockHull1_glass,data=12,stdrot=true,face0-5=12000:warpdrive/hull/glass_brown
+block:id=%blockHull1_glass,data=13,stdrot=true,face0-5=12000:warpdrive/hull/glass_green
+block:id=%blockHull1_glass,data=14,stdrot=true,face0-5=12000:warpdrive/hull/glass_red
+block:id=%blockHull1_glass,data=15,stdrot=true,face0-5=12000:warpdrive/hull/glass_black
+
+# %blockHull1_omnipanel:* (blockHull1_omnipanel), render=cr0s.warpdrive.render.RenderBlockOmnipanel(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullOmnipanel
+block:id=%blockHull1_omnipanel,data=0,stdrot=true,face0-5=12000:warpdrive/hull/glass_white
+block:id=%blockHull1_omnipanel,data=1,stdrot=true,face0-5=12000:warpdrive/hull/glass_orange
+block:id=%blockHull1_omnipanel,data=2,stdrot=true,face0-5=12000:warpdrive/hull/glass_magenta
+block:id=%blockHull1_omnipanel,data=3,stdrot=true,face0-5=12000:warpdrive/hull/glass_light_blue
+block:id=%blockHull1_omnipanel,data=4,stdrot=true,face0-5=12000:warpdrive/hull/glass_yellow
+block:id=%blockHull1_omnipanel,data=5,stdrot=true,face0-5=12000:warpdrive/hull/glass_lime
+block:id=%blockHull1_omnipanel,data=6,stdrot=true,face0-5=12000:warpdrive/hull/glass_pink
+block:id=%blockHull1_omnipanel,data=7,stdrot=true,face0-5=12000:warpdrive/hull/glass_gray
+block:id=%blockHull1_omnipanel,data=8,stdrot=true,face0-5=12000:warpdrive/hull/glass_silver
+block:id=%blockHull1_omnipanel,data=9,stdrot=true,face0-5=12000:warpdrive/hull/glass_cyan
+block:id=%blockHull1_omnipanel,data=10,stdrot=true,face0-5=12000:warpdrive/hull/glass_purple
+block:id=%blockHull1_omnipanel,data=11,stdrot=true,face0-5=12000:warpdrive/hull/glass_blue
+block:id=%blockHull1_omnipanel,data=12,stdrot=true,face0-5=12000:warpdrive/hull/glass_brown
+block:id=%blockHull1_omnipanel,data=13,stdrot=true,face0-5=12000:warpdrive/hull/glass_green
+block:id=%blockHull1_omnipanel,data=14,stdrot=true,face0-5=12000:warpdrive/hull/glass_red
+block:id=%blockHull1_omnipanel,data=15,stdrot=true,face0-5=12000:warpdrive/hull/glass_black
+
+# %blockHull1_stairs_white:* (blockHull1_stairs_white), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_white,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+
+# %blockHull1_slab_white:* (blockHull1_slab_white), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_white,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull1_slab_white,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-white,face2-5=0:warpdrive/hull/tiled_horizontal-white
+block:id=%blockHull1_slab_white,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-white,face2-3=0:warpdrive/hull/tiled-white,face4-5=0:warpdrive/hull/tiled_vertical-white
+block:id=%blockHull1_slab_white,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-white,face4-5=0:warpdrive/hull/tiled-white
+block:id=%blockHull1_slab_white,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull1_slab_white,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-white,face2-5=0:warpdrive/hull/tiled_horizontal-white
+block:id=%blockHull1_slab_white,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-white,face2-3=0:warpdrive/hull/tiled-white,face4-5=0:warpdrive/hull/tiled_vertical-white
+block:id=%blockHull1_slab_white,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-white,face4-5=0:warpdrive/hull/tiled-white
+
+# %blockHull1_stairs_orange:* (blockHull1_stairs_orange), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_orange,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+
+# %blockHull1_slab_orange:* (blockHull1_slab_orange), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_orange,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull1_slab_orange,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-orange,face2-5=0:warpdrive/hull/tiled_horizontal-orange
+block:id=%blockHull1_slab_orange,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-orange,face2-3=0:warpdrive/hull/tiled-orange,face4-5=0:warpdrive/hull/tiled_vertical-orange
+block:id=%blockHull1_slab_orange,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-orange,face4-5=0:warpdrive/hull/tiled-orange
+block:id=%blockHull1_slab_orange,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull1_slab_orange,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-orange,face2-5=0:warpdrive/hull/tiled_horizontal-orange
+block:id=%blockHull1_slab_orange,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-orange,face2-3=0:warpdrive/hull/tiled-orange,face4-5=0:warpdrive/hull/tiled_vertical-orange
+block:id=%blockHull1_slab_orange,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-orange,face4-5=0:warpdrive/hull/tiled-orange
+
+# %blockHull1_stairs_magenta:* (blockHull1_stairs_magenta), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_magenta,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+
+# %blockHull1_slab_magenta:* (blockHull1_slab_magenta), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_magenta,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull1_slab_magenta,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-magenta,face2-5=0:warpdrive/hull/tiled_horizontal-magenta
+block:id=%blockHull1_slab_magenta,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-magenta,face2-3=0:warpdrive/hull/tiled-magenta,face4-5=0:warpdrive/hull/tiled_vertical-magenta
+block:id=%blockHull1_slab_magenta,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-magenta,face4-5=0:warpdrive/hull/tiled-magenta
+block:id=%blockHull1_slab_magenta,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull1_slab_magenta,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-magenta,face2-5=0:warpdrive/hull/tiled_horizontal-magenta
+block:id=%blockHull1_slab_magenta,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-magenta,face2-3=0:warpdrive/hull/tiled-magenta,face4-5=0:warpdrive/hull/tiled_vertical-magenta
+block:id=%blockHull1_slab_magenta,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-magenta,face4-5=0:warpdrive/hull/tiled-magenta
+
+# %blockHull1_stairs_lightBlue:* (blockHull1_stairs_lightBlue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_lightBlue,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+
+# %blockHull1_slab_lightBlue:* (blockHull1_slab_lightBlue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_lightBlue,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull1_slab_lightBlue,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-light_blue,face2-5=0:warpdrive/hull/tiled_horizontal-light_blue
+block:id=%blockHull1_slab_lightBlue,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-light_blue,face2-3=0:warpdrive/hull/tiled-light_blue,face4-5=0:warpdrive/hull/tiled_vertical-light_blue
+block:id=%blockHull1_slab_lightBlue,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-light_blue,face4-5=0:warpdrive/hull/tiled-light_blue
+block:id=%blockHull1_slab_lightBlue,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull1_slab_lightBlue,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-light_blue,face2-5=0:warpdrive/hull/tiled_horizontal-light_blue
+block:id=%blockHull1_slab_lightBlue,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-light_blue,face2-3=0:warpdrive/hull/tiled-light_blue,face4-5=0:warpdrive/hull/tiled_vertical-light_blue
+block:id=%blockHull1_slab_lightBlue,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-light_blue,face4-5=0:warpdrive/hull/tiled-light_blue
+
+# %blockHull1_stairs_yellow:* (blockHull1_stairs_yellow), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_yellow,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+
+# %blockHull1_slab_yellow:* (blockHull1_slab_yellow), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_yellow,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull1_slab_yellow,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-yellow,face2-5=0:warpdrive/hull/tiled_horizontal-yellow
+block:id=%blockHull1_slab_yellow,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-yellow,face2-3=0:warpdrive/hull/tiled-yellow,face4-5=0:warpdrive/hull/tiled_vertical-yellow
+block:id=%blockHull1_slab_yellow,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-yellow,face4-5=0:warpdrive/hull/tiled-yellow
+block:id=%blockHull1_slab_yellow,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull1_slab_yellow,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-yellow,face2-5=0:warpdrive/hull/tiled_horizontal-yellow
+block:id=%blockHull1_slab_yellow,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-yellow,face2-3=0:warpdrive/hull/tiled-yellow,face4-5=0:warpdrive/hull/tiled_vertical-yellow
+block:id=%blockHull1_slab_yellow,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-yellow,face4-5=0:warpdrive/hull/tiled-yellow
+
+# %blockHull1_stairs_lime:* (blockHull1_stairs_lime), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_lime,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+
+# %blockHull1_slab_lime:* (blockHull1_slab_lime), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_lime,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull1_slab_lime,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-lime,face2-5=0:warpdrive/hull/tiled_horizontal-lime
+block:id=%blockHull1_slab_lime,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-lime,face2-3=0:warpdrive/hull/tiled-lime,face4-5=0:warpdrive/hull/tiled_vertical-lime
+block:id=%blockHull1_slab_lime,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-lime,face4-5=0:warpdrive/hull/tiled-lime
+block:id=%blockHull1_slab_lime,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull1_slab_lime,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-lime,face2-5=0:warpdrive/hull/tiled_horizontal-lime
+block:id=%blockHull1_slab_lime,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-lime,face2-3=0:warpdrive/hull/tiled-lime,face4-5=0:warpdrive/hull/tiled_vertical-lime
+block:id=%blockHull1_slab_lime,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-lime,face4-5=0:warpdrive/hull/tiled-lime
+
+# %blockHull1_stairs_pink:* (blockHull1_stairs_pink), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_pink,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+
+# %blockHull1_slab_pink:* (blockHull1_slab_pink), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_pink,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull1_slab_pink,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-pink,face2-5=0:warpdrive/hull/tiled_horizontal-pink
+block:id=%blockHull1_slab_pink,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-pink,face2-3=0:warpdrive/hull/tiled-pink,face4-5=0:warpdrive/hull/tiled_vertical-pink
+block:id=%blockHull1_slab_pink,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-pink,face4-5=0:warpdrive/hull/tiled-pink
+block:id=%blockHull1_slab_pink,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull1_slab_pink,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-pink,face2-5=0:warpdrive/hull/tiled_horizontal-pink
+block:id=%blockHull1_slab_pink,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-pink,face2-3=0:warpdrive/hull/tiled-pink,face4-5=0:warpdrive/hull/tiled_vertical-pink
+block:id=%blockHull1_slab_pink,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-pink,face4-5=0:warpdrive/hull/tiled-pink
+
+# %blockHull1_stairs_gray:* (blockHull1_stairs_gray), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_gray,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+
+# %blockHull1_slab_gray:* (blockHull1_slab_gray), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_gray,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull1_slab_gray,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-gray,face2-5=0:warpdrive/hull/tiled_horizontal-gray
+block:id=%blockHull1_slab_gray,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-gray,face2-3=0:warpdrive/hull/tiled-gray,face4-5=0:warpdrive/hull/tiled_vertical-gray
+block:id=%blockHull1_slab_gray,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-gray,face4-5=0:warpdrive/hull/tiled-gray
+block:id=%blockHull1_slab_gray,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull1_slab_gray,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-gray,face2-5=0:warpdrive/hull/tiled_horizontal-gray
+block:id=%blockHull1_slab_gray,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-gray,face2-3=0:warpdrive/hull/tiled-gray,face4-5=0:warpdrive/hull/tiled_vertical-gray
+block:id=%blockHull1_slab_gray,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-gray,face4-5=0:warpdrive/hull/tiled-gray
+
+# %blockHull1_stairs_silver:* (blockHull1_stairs_silver), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_silver,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+
+# %blockHull1_slab_silver:* (blockHull1_slab_silver), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_silver,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull1_slab_silver,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-silver,face2-5=0:warpdrive/hull/tiled_horizontal-silver
+block:id=%blockHull1_slab_silver,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-silver,face2-3=0:warpdrive/hull/tiled-silver,face4-5=0:warpdrive/hull/tiled_vertical-silver
+block:id=%blockHull1_slab_silver,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-silver,face4-5=0:warpdrive/hull/tiled-silver
+block:id=%blockHull1_slab_silver,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull1_slab_silver,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-silver,face2-5=0:warpdrive/hull/tiled_horizontal-silver
+block:id=%blockHull1_slab_silver,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-silver,face2-3=0:warpdrive/hull/tiled-silver,face4-5=0:warpdrive/hull/tiled_vertical-silver
+block:id=%blockHull1_slab_silver,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-silver,face4-5=0:warpdrive/hull/tiled-silver
+
+# %blockHull1_stairs_cyan:* (blockHull1_stairs_cyan), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_cyan,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+
+# %blockHull1_slab_cyan:* (blockHull1_slab_cyan), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_cyan,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull1_slab_cyan,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-cyan,face2-5=0:warpdrive/hull/tiled_horizontal-cyan
+block:id=%blockHull1_slab_cyan,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-cyan,face2-3=0:warpdrive/hull/tiled-cyan,face4-5=0:warpdrive/hull/tiled_vertical-cyan
+block:id=%blockHull1_slab_cyan,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-cyan,face4-5=0:warpdrive/hull/tiled-cyan
+block:id=%blockHull1_slab_cyan,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull1_slab_cyan,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-cyan,face2-5=0:warpdrive/hull/tiled_horizontal-cyan
+block:id=%blockHull1_slab_cyan,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-cyan,face2-3=0:warpdrive/hull/tiled-cyan,face4-5=0:warpdrive/hull/tiled_vertical-cyan
+block:id=%blockHull1_slab_cyan,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-cyan,face4-5=0:warpdrive/hull/tiled-cyan
+
+# %blockHull1_stairs_purple:* (blockHull1_stairs_purple), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_purple,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+
+# %blockHull1_slab_purple:* (blockHull1_slab_purple), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_purple,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull1_slab_purple,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-purple,face2-5=0:warpdrive/hull/tiled_horizontal-purple
+block:id=%blockHull1_slab_purple,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-purple,face2-3=0:warpdrive/hull/tiled-purple,face4-5=0:warpdrive/hull/tiled_vertical-purple
+block:id=%blockHull1_slab_purple,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-purple,face4-5=0:warpdrive/hull/tiled-purple
+block:id=%blockHull1_slab_purple,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull1_slab_purple,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-purple,face2-5=0:warpdrive/hull/tiled_horizontal-purple
+block:id=%blockHull1_slab_purple,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-purple,face2-3=0:warpdrive/hull/tiled-purple,face4-5=0:warpdrive/hull/tiled_vertical-purple
+block:id=%blockHull1_slab_purple,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-purple,face4-5=0:warpdrive/hull/tiled-purple
+
+# %blockHull1_stairs_blue:* (blockHull1_stairs_blue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_blue,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+
+# %blockHull1_slab_blue:* (blockHull1_slab_blue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_blue,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull1_slab_blue,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-blue,face2-5=0:warpdrive/hull/tiled_horizontal-blue
+block:id=%blockHull1_slab_blue,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-blue,face2-3=0:warpdrive/hull/tiled-blue,face4-5=0:warpdrive/hull/tiled_vertical-blue
+block:id=%blockHull1_slab_blue,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-blue,face4-5=0:warpdrive/hull/tiled-blue
+block:id=%blockHull1_slab_blue,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull1_slab_blue,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-blue,face2-5=0:warpdrive/hull/tiled_horizontal-blue
+block:id=%blockHull1_slab_blue,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-blue,face2-3=0:warpdrive/hull/tiled-blue,face4-5=0:warpdrive/hull/tiled_vertical-blue
+block:id=%blockHull1_slab_blue,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-blue,face4-5=0:warpdrive/hull/tiled-blue
+
+# %blockHull1_stairs_brown:* (blockHull1_stairs_brown), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_brown,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+
+# %blockHull1_slab_brown:* (blockHull1_slab_brown), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_brown,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull1_slab_brown,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-brown,face2-5=0:warpdrive/hull/tiled_horizontal-brown
+block:id=%blockHull1_slab_brown,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-brown,face2-3=0:warpdrive/hull/tiled-brown,face4-5=0:warpdrive/hull/tiled_vertical-brown
+block:id=%blockHull1_slab_brown,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-brown,face4-5=0:warpdrive/hull/tiled-brown
+block:id=%blockHull1_slab_brown,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull1_slab_brown,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-brown,face2-5=0:warpdrive/hull/tiled_horizontal-brown
+block:id=%blockHull1_slab_brown,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-brown,face2-3=0:warpdrive/hull/tiled-brown,face4-5=0:warpdrive/hull/tiled_vertical-brown
+block:id=%blockHull1_slab_brown,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-brown,face4-5=0:warpdrive/hull/tiled-brown
+
+# %blockHull1_stairs_green:* (blockHull1_stairs_green), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_green,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+
+# %blockHull1_slab_green:* (blockHull1_slab_green), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_green,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull1_slab_green,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-green,face2-5=0:warpdrive/hull/tiled_horizontal-green
+block:id=%blockHull1_slab_green,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-green,face2-3=0:warpdrive/hull/tiled-green,face4-5=0:warpdrive/hull/tiled_vertical-green
+block:id=%blockHull1_slab_green,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-green,face4-5=0:warpdrive/hull/tiled-green
+block:id=%blockHull1_slab_green,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull1_slab_green,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-green,face2-5=0:warpdrive/hull/tiled_horizontal-green
+block:id=%blockHull1_slab_green,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-green,face2-3=0:warpdrive/hull/tiled-green,face4-5=0:warpdrive/hull/tiled_vertical-green
+block:id=%blockHull1_slab_green,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-green,face4-5=0:warpdrive/hull/tiled-green
+
+# %blockHull1_stairs_red:* (blockHull1_stairs_red), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_red,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+
+# %blockHull1_slab_red:* (blockHull1_slab_red), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_red,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull1_slab_red,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-red,face2-5=0:warpdrive/hull/tiled_horizontal-red
+block:id=%blockHull1_slab_red,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-red,face2-3=0:warpdrive/hull/tiled-red,face4-5=0:warpdrive/hull/tiled_vertical-red
+block:id=%blockHull1_slab_red,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-red,face4-5=0:warpdrive/hull/tiled-red
+block:id=%blockHull1_slab_red,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull1_slab_red,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-red,face2-5=0:warpdrive/hull/tiled_horizontal-red
+block:id=%blockHull1_slab_red,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-red,face2-3=0:warpdrive/hull/tiled-red,face4-5=0:warpdrive/hull/tiled_vertical-red
+block:id=%blockHull1_slab_red,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-red,face4-5=0:warpdrive/hull/tiled-red
+
+# %blockHull1_stairs_black:* (blockHull1_stairs_black), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull1_stairs_black,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+
+# %blockHull1_slab_black:* (blockHull1_slab_black), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull1_slab_black,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+block:id=%blockHull1_slab_black,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-black,face2-5=0:warpdrive/hull/tiled_horizontal-black
+block:id=%blockHull1_slab_black,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-black,face2-3=0:warpdrive/hull/tiled-black,face4-5=0:warpdrive/hull/tiled_vertical-black
+block:id=%blockHull1_slab_black,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-black,face4-5=0:warpdrive/hull/tiled-black
+block:id=%blockHull1_slab_black,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+block:id=%blockHull1_slab_black,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-black,face2-5=0:warpdrive/hull/tiled_horizontal-black
+block:id=%blockHull1_slab_black,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-black,face2-3=0:warpdrive/hull/tiled-black,face4-5=0:warpdrive/hull/tiled_vertical-black
+block:id=%blockHull1_slab_black,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-black,face4-5=0:warpdrive/hull/tiled-black
+
+# %blockHull2_plain:* (blockHull2_plain), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.hull.BlockHullPlain
+block:id=%blockHull2_plain,data=0,stdrot=true,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull2_plain,data=1,stdrot=true,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull2_plain,data=2,stdrot=true,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull2_plain,data=3,stdrot=true,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull2_plain,data=4,stdrot=true,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull2_plain,data=5,stdrot=true,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull2_plain,data=6,stdrot=true,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull2_plain,data=7,stdrot=true,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull2_plain,data=8,stdrot=true,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull2_plain,data=9,stdrot=true,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull2_plain,data=10,stdrot=true,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull2_plain,data=11,stdrot=true,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull2_plain,data=12,stdrot=true,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull2_plain,data=13,stdrot=true,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull2_plain,data=14,stdrot=true,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull2_plain,data=15,stdrot=true,face0-5=0:warpdrive/hull/plain-black
+
+# %blockHull2_tiled:* (blockHull2_tiled), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.hull.BlockHullPlain
+block:id=%blockHull2_tiled,data=0,stdrot=true,face0-5=0:warpdrive/hull/tiled-white
+block:id=%blockHull2_tiled,data=1,stdrot=true,face0-5=0:warpdrive/hull/tiled-orange
+block:id=%blockHull2_tiled,data=2,stdrot=true,face0-5=0:warpdrive/hull/tiled-magenta
+block:id=%blockHull2_tiled,data=3,stdrot=true,face0-5=0:warpdrive/hull/tiled-light_blue
+block:id=%blockHull2_tiled,data=4,stdrot=true,face0-5=0:warpdrive/hull/tiled-yellow
+block:id=%blockHull2_tiled,data=5,stdrot=true,face0-5=0:warpdrive/hull/tiled-lime
+block:id=%blockHull2_tiled,data=6,stdrot=true,face0-5=0:warpdrive/hull/tiled-pink
+block:id=%blockHull2_tiled,data=7,stdrot=true,face0-5=0:warpdrive/hull/tiled-gray
+block:id=%blockHull2_tiled,data=8,stdrot=true,face0-5=0:warpdrive/hull/tiled-silver
+block:id=%blockHull2_tiled,data=9,stdrot=true,face0-5=0:warpdrive/hull/tiled-cyan
+block:id=%blockHull2_tiled,data=10,stdrot=true,face0-5=0:warpdrive/hull/tiled-purple
+block:id=%blockHull2_tiled,data=11,stdrot=true,face0-5=0:warpdrive/hull/tiled-blue
+block:id=%blockHull2_tiled,data=12,stdrot=true,face0-5=0:warpdrive/hull/tiled-brown
+block:id=%blockHull2_tiled,data=13,stdrot=true,face0-5=0:warpdrive/hull/tiled-green
+block:id=%blockHull2_tiled,data=14,stdrot=true,face0-5=0:warpdrive/hull/tiled-red
+block:id=%blockHull2_tiled,data=15,stdrot=true,face0-5=0:warpdrive/hull/tiled-black
+
+# %blockHull2_glass:* (blockHull2_glass), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullGlass
+block:id=%blockHull2_glass,data=0,stdrot=true,face0-5=12000:warpdrive/hull/glass_white
+block:id=%blockHull2_glass,data=1,stdrot=true,face0-5=12000:warpdrive/hull/glass_orange
+block:id=%blockHull2_glass,data=2,stdrot=true,face0-5=12000:warpdrive/hull/glass_magenta
+block:id=%blockHull2_glass,data=3,stdrot=true,face0-5=12000:warpdrive/hull/glass_light_blue
+block:id=%blockHull2_glass,data=4,stdrot=true,face0-5=12000:warpdrive/hull/glass_yellow
+block:id=%blockHull2_glass,data=5,stdrot=true,face0-5=12000:warpdrive/hull/glass_lime
+block:id=%blockHull2_glass,data=6,stdrot=true,face0-5=12000:warpdrive/hull/glass_pink
+block:id=%blockHull2_glass,data=7,stdrot=true,face0-5=12000:warpdrive/hull/glass_gray
+block:id=%blockHull2_glass,data=8,stdrot=true,face0-5=12000:warpdrive/hull/glass_silver
+block:id=%blockHull2_glass,data=9,stdrot=true,face0-5=12000:warpdrive/hull/glass_cyan
+block:id=%blockHull2_glass,data=10,stdrot=true,face0-5=12000:warpdrive/hull/glass_purple
+block:id=%blockHull2_glass,data=11,stdrot=true,face0-5=12000:warpdrive/hull/glass_blue
+block:id=%blockHull2_glass,data=12,stdrot=true,face0-5=12000:warpdrive/hull/glass_brown
+block:id=%blockHull2_glass,data=13,stdrot=true,face0-5=12000:warpdrive/hull/glass_green
+block:id=%blockHull2_glass,data=14,stdrot=true,face0-5=12000:warpdrive/hull/glass_red
+block:id=%blockHull2_glass,data=15,stdrot=true,face0-5=12000:warpdrive/hull/glass_black
+
+# %blockHull2_omnipanel:* (blockHull2_omnipanel), render=cr0s.warpdrive.render.RenderBlockOmnipanel(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullOmnipanel
+block:id=%blockHull2_omnipanel,data=0,stdrot=true,face0-5=12000:warpdrive/hull/glass_white
+block:id=%blockHull2_omnipanel,data=1,stdrot=true,face0-5=12000:warpdrive/hull/glass_orange
+block:id=%blockHull2_omnipanel,data=2,stdrot=true,face0-5=12000:warpdrive/hull/glass_magenta
+block:id=%blockHull2_omnipanel,data=3,stdrot=true,face0-5=12000:warpdrive/hull/glass_light_blue
+block:id=%blockHull2_omnipanel,data=4,stdrot=true,face0-5=12000:warpdrive/hull/glass_yellow
+block:id=%blockHull2_omnipanel,data=5,stdrot=true,face0-5=12000:warpdrive/hull/glass_lime
+block:id=%blockHull2_omnipanel,data=6,stdrot=true,face0-5=12000:warpdrive/hull/glass_pink
+block:id=%blockHull2_omnipanel,data=7,stdrot=true,face0-5=12000:warpdrive/hull/glass_gray
+block:id=%blockHull2_omnipanel,data=8,stdrot=true,face0-5=12000:warpdrive/hull/glass_silver
+block:id=%blockHull2_omnipanel,data=9,stdrot=true,face0-5=12000:warpdrive/hull/glass_cyan
+block:id=%blockHull2_omnipanel,data=10,stdrot=true,face0-5=12000:warpdrive/hull/glass_purple
+block:id=%blockHull2_omnipanel,data=11,stdrot=true,face0-5=12000:warpdrive/hull/glass_blue
+block:id=%blockHull2_omnipanel,data=12,stdrot=true,face0-5=12000:warpdrive/hull/glass_brown
+block:id=%blockHull2_omnipanel,data=13,stdrot=true,face0-5=12000:warpdrive/hull/glass_green
+block:id=%blockHull2_omnipanel,data=14,stdrot=true,face0-5=12000:warpdrive/hull/glass_red
+block:id=%blockHull2_omnipanel,data=15,stdrot=true,face0-5=12000:warpdrive/hull/glass_black
+
+# %blockHull2_stairs_white:* (blockHull2_stairs_white), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_white,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+
+# %blockHull2_slab_white:* (blockHull2_slab_white), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_white,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull2_slab_white,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-white,face2-5=0:warpdrive/hull/tiled_horizontal-white
+block:id=%blockHull2_slab_white,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-white,face2-3=0:warpdrive/hull/tiled-white,face4-5=0:warpdrive/hull/tiled_vertical-white
+block:id=%blockHull2_slab_white,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-white,face4-5=0:warpdrive/hull/tiled-white
+block:id=%blockHull2_slab_white,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull2_slab_white,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-white,face2-5=0:warpdrive/hull/tiled_horizontal-white
+block:id=%blockHull2_slab_white,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-white,face2-3=0:warpdrive/hull/tiled-white,face4-5=0:warpdrive/hull/tiled_vertical-white
+block:id=%blockHull2_slab_white,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-white,face4-5=0:warpdrive/hull/tiled-white
+
+# %blockHull2_stairs_orange:* (blockHull2_stairs_orange), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_orange,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+
+# %blockHull2_slab_orange:* (blockHull2_slab_orange), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_orange,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull2_slab_orange,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-orange,face2-5=0:warpdrive/hull/tiled_horizontal-orange
+block:id=%blockHull2_slab_orange,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-orange,face2-3=0:warpdrive/hull/tiled-orange,face4-5=0:warpdrive/hull/tiled_vertical-orange
+block:id=%blockHull2_slab_orange,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-orange,face4-5=0:warpdrive/hull/tiled-orange
+block:id=%blockHull2_slab_orange,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull2_slab_orange,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-orange,face2-5=0:warpdrive/hull/tiled_horizontal-orange
+block:id=%blockHull2_slab_orange,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-orange,face2-3=0:warpdrive/hull/tiled-orange,face4-5=0:warpdrive/hull/tiled_vertical-orange
+block:id=%blockHull2_slab_orange,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-orange,face4-5=0:warpdrive/hull/tiled-orange
+
+# %blockHull2_stairs_magenta:* (blockHull2_stairs_magenta), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_magenta,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+
+# %blockHull2_slab_magenta:* (blockHull2_slab_magenta), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_magenta,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull2_slab_magenta,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-magenta,face2-5=0:warpdrive/hull/tiled_horizontal-magenta
+block:id=%blockHull2_slab_magenta,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-magenta,face2-3=0:warpdrive/hull/tiled-magenta,face4-5=0:warpdrive/hull/tiled_vertical-magenta
+block:id=%blockHull2_slab_magenta,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-magenta,face4-5=0:warpdrive/hull/tiled-magenta
+block:id=%blockHull2_slab_magenta,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull2_slab_magenta,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-magenta,face2-5=0:warpdrive/hull/tiled_horizontal-magenta
+block:id=%blockHull2_slab_magenta,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-magenta,face2-3=0:warpdrive/hull/tiled-magenta,face4-5=0:warpdrive/hull/tiled_vertical-magenta
+block:id=%blockHull2_slab_magenta,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-magenta,face4-5=0:warpdrive/hull/tiled-magenta
+
+# %blockHull2_stairs_lightBlue:* (blockHull2_stairs_lightBlue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_lightBlue,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+
+# %blockHull2_slab_lightBlue:* (blockHull2_slab_lightBlue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_lightBlue,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull2_slab_lightBlue,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-light_blue,face2-5=0:warpdrive/hull/tiled_horizontal-light_blue
+block:id=%blockHull2_slab_lightBlue,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-light_blue,face2-3=0:warpdrive/hull/tiled-light_blue,face4-5=0:warpdrive/hull/tiled_vertical-light_blue
+block:id=%blockHull2_slab_lightBlue,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-light_blue,face4-5=0:warpdrive/hull/tiled-light_blue
+block:id=%blockHull2_slab_lightBlue,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull2_slab_lightBlue,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-light_blue,face2-5=0:warpdrive/hull/tiled_horizontal-light_blue
+block:id=%blockHull2_slab_lightBlue,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-light_blue,face2-3=0:warpdrive/hull/tiled-light_blue,face4-5=0:warpdrive/hull/tiled_vertical-light_blue
+block:id=%blockHull2_slab_lightBlue,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-light_blue,face4-5=0:warpdrive/hull/tiled-light_blue
+
+# %blockHull2_stairs_yellow:* (blockHull2_stairs_yellow), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_yellow,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+
+# %blockHull2_slab_yellow:* (blockHull2_slab_yellow), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_yellow,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull2_slab_yellow,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-yellow,face2-5=0:warpdrive/hull/tiled_horizontal-yellow
+block:id=%blockHull2_slab_yellow,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-yellow,face2-3=0:warpdrive/hull/tiled-yellow,face4-5=0:warpdrive/hull/tiled_vertical-yellow
+block:id=%blockHull2_slab_yellow,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-yellow,face4-5=0:warpdrive/hull/tiled-yellow
+block:id=%blockHull2_slab_yellow,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull2_slab_yellow,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-yellow,face2-5=0:warpdrive/hull/tiled_horizontal-yellow
+block:id=%blockHull2_slab_yellow,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-yellow,face2-3=0:warpdrive/hull/tiled-yellow,face4-5=0:warpdrive/hull/tiled_vertical-yellow
+block:id=%blockHull2_slab_yellow,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-yellow,face4-5=0:warpdrive/hull/tiled-yellow
+
+# %blockHull2_stairs_lime:* (blockHull2_stairs_lime), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_lime,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+
+# %blockHull2_slab_lime:* (blockHull2_slab_lime), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_lime,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull2_slab_lime,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-lime,face2-5=0:warpdrive/hull/tiled_horizontal-lime
+block:id=%blockHull2_slab_lime,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-lime,face2-3=0:warpdrive/hull/tiled-lime,face4-5=0:warpdrive/hull/tiled_vertical-lime
+block:id=%blockHull2_slab_lime,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-lime,face4-5=0:warpdrive/hull/tiled-lime
+block:id=%blockHull2_slab_lime,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull2_slab_lime,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-lime,face2-5=0:warpdrive/hull/tiled_horizontal-lime
+block:id=%blockHull2_slab_lime,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-lime,face2-3=0:warpdrive/hull/tiled-lime,face4-5=0:warpdrive/hull/tiled_vertical-lime
+block:id=%blockHull2_slab_lime,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-lime,face4-5=0:warpdrive/hull/tiled-lime
+
+# %blockHull2_stairs_pink:* (blockHull2_stairs_pink), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_pink,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+
+# %blockHull2_slab_pink:* (blockHull2_slab_pink), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_pink,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull2_slab_pink,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-pink,face2-5=0:warpdrive/hull/tiled_horizontal-pink
+block:id=%blockHull2_slab_pink,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-pink,face2-3=0:warpdrive/hull/tiled-pink,face4-5=0:warpdrive/hull/tiled_vertical-pink
+block:id=%blockHull2_slab_pink,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-pink,face4-5=0:warpdrive/hull/tiled-pink
+block:id=%blockHull2_slab_pink,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull2_slab_pink,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-pink,face2-5=0:warpdrive/hull/tiled_horizontal-pink
+block:id=%blockHull2_slab_pink,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-pink,face2-3=0:warpdrive/hull/tiled-pink,face4-5=0:warpdrive/hull/tiled_vertical-pink
+block:id=%blockHull2_slab_pink,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-pink,face4-5=0:warpdrive/hull/tiled-pink
+
+# %blockHull2_stairs_gray:* (blockHull2_stairs_gray), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_gray,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+
+# %blockHull2_slab_gray:* (blockHull2_slab_gray), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_gray,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull2_slab_gray,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-gray,face2-5=0:warpdrive/hull/tiled_horizontal-gray
+block:id=%blockHull2_slab_gray,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-gray,face2-3=0:warpdrive/hull/tiled-gray,face4-5=0:warpdrive/hull/tiled_vertical-gray
+block:id=%blockHull2_slab_gray,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-gray,face4-5=0:warpdrive/hull/tiled-gray
+block:id=%blockHull2_slab_gray,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull2_slab_gray,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-gray,face2-5=0:warpdrive/hull/tiled_horizontal-gray
+block:id=%blockHull2_slab_gray,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-gray,face2-3=0:warpdrive/hull/tiled-gray,face4-5=0:warpdrive/hull/tiled_vertical-gray
+block:id=%blockHull2_slab_gray,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-gray,face4-5=0:warpdrive/hull/tiled-gray
+
+# %blockHull2_stairs_silver:* (blockHull2_stairs_silver), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_silver,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+
+# %blockHull2_slab_silver:* (blockHull2_slab_silver), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_silver,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull2_slab_silver,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-silver,face2-5=0:warpdrive/hull/tiled_horizontal-silver
+block:id=%blockHull2_slab_silver,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-silver,face2-3=0:warpdrive/hull/tiled-silver,face4-5=0:warpdrive/hull/tiled_vertical-silver
+block:id=%blockHull2_slab_silver,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-silver,face4-5=0:warpdrive/hull/tiled-silver
+block:id=%blockHull2_slab_silver,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull2_slab_silver,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-silver,face2-5=0:warpdrive/hull/tiled_horizontal-silver
+block:id=%blockHull2_slab_silver,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-silver,face2-3=0:warpdrive/hull/tiled-silver,face4-5=0:warpdrive/hull/tiled_vertical-silver
+block:id=%blockHull2_slab_silver,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-silver,face4-5=0:warpdrive/hull/tiled-silver
+
+# %blockHull2_stairs_cyan:* (blockHull2_stairs_cyan), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_cyan,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+
+# %blockHull2_slab_cyan:* (blockHull2_slab_cyan), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_cyan,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull2_slab_cyan,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-cyan,face2-5=0:warpdrive/hull/tiled_horizontal-cyan
+block:id=%blockHull2_slab_cyan,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-cyan,face2-3=0:warpdrive/hull/tiled-cyan,face4-5=0:warpdrive/hull/tiled_vertical-cyan
+block:id=%blockHull2_slab_cyan,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-cyan,face4-5=0:warpdrive/hull/tiled-cyan
+block:id=%blockHull2_slab_cyan,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull2_slab_cyan,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-cyan,face2-5=0:warpdrive/hull/tiled_horizontal-cyan
+block:id=%blockHull2_slab_cyan,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-cyan,face2-3=0:warpdrive/hull/tiled-cyan,face4-5=0:warpdrive/hull/tiled_vertical-cyan
+block:id=%blockHull2_slab_cyan,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-cyan,face4-5=0:warpdrive/hull/tiled-cyan
+
+# %blockHull2_stairs_purple:* (blockHull2_stairs_purple), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_purple,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+
+# %blockHull2_slab_purple:* (blockHull2_slab_purple), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_purple,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull2_slab_purple,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-purple,face2-5=0:warpdrive/hull/tiled_horizontal-purple
+block:id=%blockHull2_slab_purple,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-purple,face2-3=0:warpdrive/hull/tiled-purple,face4-5=0:warpdrive/hull/tiled_vertical-purple
+block:id=%blockHull2_slab_purple,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-purple,face4-5=0:warpdrive/hull/tiled-purple
+block:id=%blockHull2_slab_purple,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull2_slab_purple,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-purple,face2-5=0:warpdrive/hull/tiled_horizontal-purple
+block:id=%blockHull2_slab_purple,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-purple,face2-3=0:warpdrive/hull/tiled-purple,face4-5=0:warpdrive/hull/tiled_vertical-purple
+block:id=%blockHull2_slab_purple,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-purple,face4-5=0:warpdrive/hull/tiled-purple
+
+# %blockHull2_stairs_blue:* (blockHull2_stairs_blue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_blue,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+
+# %blockHull2_slab_blue:* (blockHull2_slab_blue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_blue,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull2_slab_blue,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-blue,face2-5=0:warpdrive/hull/tiled_horizontal-blue
+block:id=%blockHull2_slab_blue,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-blue,face2-3=0:warpdrive/hull/tiled-blue,face4-5=0:warpdrive/hull/tiled_vertical-blue
+block:id=%blockHull2_slab_blue,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-blue,face4-5=0:warpdrive/hull/tiled-blue
+block:id=%blockHull2_slab_blue,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull2_slab_blue,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-blue,face2-5=0:warpdrive/hull/tiled_horizontal-blue
+block:id=%blockHull2_slab_blue,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-blue,face2-3=0:warpdrive/hull/tiled-blue,face4-5=0:warpdrive/hull/tiled_vertical-blue
+block:id=%blockHull2_slab_blue,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-blue,face4-5=0:warpdrive/hull/tiled-blue
+
+# %blockHull2_stairs_brown:* (blockHull2_stairs_brown), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_brown,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+
+# %blockHull2_slab_brown:* (blockHull2_slab_brown), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_brown,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull2_slab_brown,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-brown,face2-5=0:warpdrive/hull/tiled_horizontal-brown
+block:id=%blockHull2_slab_brown,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-brown,face2-3=0:warpdrive/hull/tiled-brown,face4-5=0:warpdrive/hull/tiled_vertical-brown
+block:id=%blockHull2_slab_brown,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-brown,face4-5=0:warpdrive/hull/tiled-brown
+block:id=%blockHull2_slab_brown,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull2_slab_brown,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-brown,face2-5=0:warpdrive/hull/tiled_horizontal-brown
+block:id=%blockHull2_slab_brown,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-brown,face2-3=0:warpdrive/hull/tiled-brown,face4-5=0:warpdrive/hull/tiled_vertical-brown
+block:id=%blockHull2_slab_brown,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-brown,face4-5=0:warpdrive/hull/tiled-brown
+
+# %blockHull2_stairs_green:* (blockHull2_stairs_green), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_green,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+
+# %blockHull2_slab_green:* (blockHull2_slab_green), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_green,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull2_slab_green,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-green,face2-5=0:warpdrive/hull/tiled_horizontal-green
+block:id=%blockHull2_slab_green,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-green,face2-3=0:warpdrive/hull/tiled-green,face4-5=0:warpdrive/hull/tiled_vertical-green
+block:id=%blockHull2_slab_green,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-green,face4-5=0:warpdrive/hull/tiled-green
+block:id=%blockHull2_slab_green,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull2_slab_green,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-green,face2-5=0:warpdrive/hull/tiled_horizontal-green
+block:id=%blockHull2_slab_green,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-green,face2-3=0:warpdrive/hull/tiled-green,face4-5=0:warpdrive/hull/tiled_vertical-green
+block:id=%blockHull2_slab_green,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-green,face4-5=0:warpdrive/hull/tiled-green
+
+# %blockHull2_stairs_red:* (blockHull2_stairs_red), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_red,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+
+# %blockHull2_slab_red:* (blockHull2_slab_red), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_red,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull2_slab_red,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-red,face2-5=0:warpdrive/hull/tiled_horizontal-red
+block:id=%blockHull2_slab_red,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-red,face2-3=0:warpdrive/hull/tiled-red,face4-5=0:warpdrive/hull/tiled_vertical-red
+block:id=%blockHull2_slab_red,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-red,face4-5=0:warpdrive/hull/tiled-red
+block:id=%blockHull2_slab_red,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull2_slab_red,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-red,face2-5=0:warpdrive/hull/tiled_horizontal-red
+block:id=%blockHull2_slab_red,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-red,face2-3=0:warpdrive/hull/tiled-red,face4-5=0:warpdrive/hull/tiled_vertical-red
+block:id=%blockHull2_slab_red,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-red,face4-5=0:warpdrive/hull/tiled-red
+
+# %blockHull2_stairs_black:* (blockHull2_stairs_black), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull2_stairs_black,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+
+# %blockHull2_slab_black:* (blockHull2_slab_black), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull2_slab_black,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+block:id=%blockHull2_slab_black,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-black,face2-5=0:warpdrive/hull/tiled_horizontal-black
+block:id=%blockHull2_slab_black,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-black,face2-3=0:warpdrive/hull/tiled-black,face4-5=0:warpdrive/hull/tiled_vertical-black
+block:id=%blockHull2_slab_black,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-black,face4-5=0:warpdrive/hull/tiled-black
+block:id=%blockHull2_slab_black,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+block:id=%blockHull2_slab_black,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-black,face2-5=0:warpdrive/hull/tiled_horizontal-black
+block:id=%blockHull2_slab_black,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-black,face2-3=0:warpdrive/hull/tiled-black,face4-5=0:warpdrive/hull/tiled_vertical-black
+block:id=%blockHull2_slab_black,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-black,face4-5=0:warpdrive/hull/tiled-black
+
+# %blockHull3_plain:* (blockHull3_plain), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.hull.BlockHullPlain
+block:id=%blockHull3_plain,data=0,stdrot=true,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull3_plain,data=1,stdrot=true,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull3_plain,data=2,stdrot=true,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull3_plain,data=3,stdrot=true,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull3_plain,data=4,stdrot=true,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull3_plain,data=5,stdrot=true,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull3_plain,data=6,stdrot=true,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull3_plain,data=7,stdrot=true,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull3_plain,data=8,stdrot=true,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull3_plain,data=9,stdrot=true,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull3_plain,data=10,stdrot=true,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull3_plain,data=11,stdrot=true,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull3_plain,data=12,stdrot=true,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull3_plain,data=13,stdrot=true,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull3_plain,data=14,stdrot=true,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull3_plain,data=15,stdrot=true,face0-5=0:warpdrive/hull/plain-black
+
+# %blockHull3_tiled:* (blockHull3_tiled), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.hull.BlockHullPlain
+block:id=%blockHull3_tiled,data=0,stdrot=true,face0-5=0:warpdrive/hull/tiled-white
+block:id=%blockHull3_tiled,data=1,stdrot=true,face0-5=0:warpdrive/hull/tiled-orange
+block:id=%blockHull3_tiled,data=2,stdrot=true,face0-5=0:warpdrive/hull/tiled-magenta
+block:id=%blockHull3_tiled,data=3,stdrot=true,face0-5=0:warpdrive/hull/tiled-light_blue
+block:id=%blockHull3_tiled,data=4,stdrot=true,face0-5=0:warpdrive/hull/tiled-yellow
+block:id=%blockHull3_tiled,data=5,stdrot=true,face0-5=0:warpdrive/hull/tiled-lime
+block:id=%blockHull3_tiled,data=6,stdrot=true,face0-5=0:warpdrive/hull/tiled-pink
+block:id=%blockHull3_tiled,data=7,stdrot=true,face0-5=0:warpdrive/hull/tiled-gray
+block:id=%blockHull3_tiled,data=8,stdrot=true,face0-5=0:warpdrive/hull/tiled-silver
+block:id=%blockHull3_tiled,data=9,stdrot=true,face0-5=0:warpdrive/hull/tiled-cyan
+block:id=%blockHull3_tiled,data=10,stdrot=true,face0-5=0:warpdrive/hull/tiled-purple
+block:id=%blockHull3_tiled,data=11,stdrot=true,face0-5=0:warpdrive/hull/tiled-blue
+block:id=%blockHull3_tiled,data=12,stdrot=true,face0-5=0:warpdrive/hull/tiled-brown
+block:id=%blockHull3_tiled,data=13,stdrot=true,face0-5=0:warpdrive/hull/tiled-green
+block:id=%blockHull3_tiled,data=14,stdrot=true,face0-5=0:warpdrive/hull/tiled-red
+block:id=%blockHull3_tiled,data=15,stdrot=true,face0-5=0:warpdrive/hull/tiled-black
+
+# %blockHull3_glass:* (blockHull3_glass), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullGlass
+block:id=%blockHull3_glass,data=0,stdrot=true,face0-5=12000:warpdrive/hull/glass_white
+block:id=%blockHull3_glass,data=1,stdrot=true,face0-5=12000:warpdrive/hull/glass_orange
+block:id=%blockHull3_glass,data=2,stdrot=true,face0-5=12000:warpdrive/hull/glass_magenta
+block:id=%blockHull3_glass,data=3,stdrot=true,face0-5=12000:warpdrive/hull/glass_light_blue
+block:id=%blockHull3_glass,data=4,stdrot=true,face0-5=12000:warpdrive/hull/glass_yellow
+block:id=%blockHull3_glass,data=5,stdrot=true,face0-5=12000:warpdrive/hull/glass_lime
+block:id=%blockHull3_glass,data=6,stdrot=true,face0-5=12000:warpdrive/hull/glass_pink
+block:id=%blockHull3_glass,data=7,stdrot=true,face0-5=12000:warpdrive/hull/glass_gray
+block:id=%blockHull3_glass,data=8,stdrot=true,face0-5=12000:warpdrive/hull/glass_silver
+block:id=%blockHull3_glass,data=9,stdrot=true,face0-5=12000:warpdrive/hull/glass_cyan
+block:id=%blockHull3_glass,data=10,stdrot=true,face0-5=12000:warpdrive/hull/glass_purple
+block:id=%blockHull3_glass,data=11,stdrot=true,face0-5=12000:warpdrive/hull/glass_blue
+block:id=%blockHull3_glass,data=12,stdrot=true,face0-5=12000:warpdrive/hull/glass_brown
+block:id=%blockHull3_glass,data=13,stdrot=true,face0-5=12000:warpdrive/hull/glass_green
+block:id=%blockHull3_glass,data=14,stdrot=true,face0-5=12000:warpdrive/hull/glass_red
+block:id=%blockHull3_glass,data=15,stdrot=true,face0-5=12000:warpdrive/hull/glass_black
+
+# %blockHull3_omnipanel:* (blockHull3_omnipanel), render=cr0s.warpdrive.render.RenderBlockOmnipanel(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullOmnipanel
+block:id=%blockHull3_omnipanel,data=0,stdrot=true,face0-5=12000:warpdrive/hull/glass_white
+block:id=%blockHull3_omnipanel,data=1,stdrot=true,face0-5=12000:warpdrive/hull/glass_orange
+block:id=%blockHull3_omnipanel,data=2,stdrot=true,face0-5=12000:warpdrive/hull/glass_magenta
+block:id=%blockHull3_omnipanel,data=3,stdrot=true,face0-5=12000:warpdrive/hull/glass_light_blue
+block:id=%blockHull3_omnipanel,data=4,stdrot=true,face0-5=12000:warpdrive/hull/glass_yellow
+block:id=%blockHull3_omnipanel,data=5,stdrot=true,face0-5=12000:warpdrive/hull/glass_lime
+block:id=%blockHull3_omnipanel,data=6,stdrot=true,face0-5=12000:warpdrive/hull/glass_pink
+block:id=%blockHull3_omnipanel,data=7,stdrot=true,face0-5=12000:warpdrive/hull/glass_gray
+block:id=%blockHull3_omnipanel,data=8,stdrot=true,face0-5=12000:warpdrive/hull/glass_silver
+block:id=%blockHull3_omnipanel,data=9,stdrot=true,face0-5=12000:warpdrive/hull/glass_cyan
+block:id=%blockHull3_omnipanel,data=10,stdrot=true,face0-5=12000:warpdrive/hull/glass_purple
+block:id=%blockHull3_omnipanel,data=11,stdrot=true,face0-5=12000:warpdrive/hull/glass_blue
+block:id=%blockHull3_omnipanel,data=12,stdrot=true,face0-5=12000:warpdrive/hull/glass_brown
+block:id=%blockHull3_omnipanel,data=13,stdrot=true,face0-5=12000:warpdrive/hull/glass_green
+block:id=%blockHull3_omnipanel,data=14,stdrot=true,face0-5=12000:warpdrive/hull/glass_red
+block:id=%blockHull3_omnipanel,data=15,stdrot=true,face0-5=12000:warpdrive/hull/glass_black
+
+# %blockHull3_stairs_white:* (blockHull3_stairs_white), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_white,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+
+# %blockHull3_slab_white:* (blockHull3_slab_white), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_white,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull3_slab_white,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-white,face2-5=0:warpdrive/hull/tiled_horizontal-white
+block:id=%blockHull3_slab_white,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-white,face2-3=0:warpdrive/hull/tiled-white,face4-5=0:warpdrive/hull/tiled_vertical-white
+block:id=%blockHull3_slab_white,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-white,face4-5=0:warpdrive/hull/tiled-white
+block:id=%blockHull3_slab_white,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-white
+block:id=%blockHull3_slab_white,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-white,face2-5=0:warpdrive/hull/tiled_horizontal-white
+block:id=%blockHull3_slab_white,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-white,face2-3=0:warpdrive/hull/tiled-white,face4-5=0:warpdrive/hull/tiled_vertical-white
+block:id=%blockHull3_slab_white,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-white,face4-5=0:warpdrive/hull/tiled-white
+
+# %blockHull3_stairs_orange:* (blockHull3_stairs_orange), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_orange,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+
+# %blockHull3_slab_orange:* (blockHull3_slab_orange), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_orange,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull3_slab_orange,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-orange,face2-5=0:warpdrive/hull/tiled_horizontal-orange
+block:id=%blockHull3_slab_orange,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-orange,face2-3=0:warpdrive/hull/tiled-orange,face4-5=0:warpdrive/hull/tiled_vertical-orange
+block:id=%blockHull3_slab_orange,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-orange,face4-5=0:warpdrive/hull/tiled-orange
+block:id=%blockHull3_slab_orange,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-orange
+block:id=%blockHull3_slab_orange,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-orange,face2-5=0:warpdrive/hull/tiled_horizontal-orange
+block:id=%blockHull3_slab_orange,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-orange,face2-3=0:warpdrive/hull/tiled-orange,face4-5=0:warpdrive/hull/tiled_vertical-orange
+block:id=%blockHull3_slab_orange,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-orange,face4-5=0:warpdrive/hull/tiled-orange
+
+# %blockHull3_stairs_magenta:* (blockHull3_stairs_magenta), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_magenta,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+
+# %blockHull3_slab_magenta:* (blockHull3_slab_magenta), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_magenta,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull3_slab_magenta,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-magenta,face2-5=0:warpdrive/hull/tiled_horizontal-magenta
+block:id=%blockHull3_slab_magenta,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-magenta,face2-3=0:warpdrive/hull/tiled-magenta,face4-5=0:warpdrive/hull/tiled_vertical-magenta
+block:id=%blockHull3_slab_magenta,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-magenta,face4-5=0:warpdrive/hull/tiled-magenta
+block:id=%blockHull3_slab_magenta,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-magenta
+block:id=%blockHull3_slab_magenta,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-magenta,face2-5=0:warpdrive/hull/tiled_horizontal-magenta
+block:id=%blockHull3_slab_magenta,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-magenta,face2-3=0:warpdrive/hull/tiled-magenta,face4-5=0:warpdrive/hull/tiled_vertical-magenta
+block:id=%blockHull3_slab_magenta,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-magenta,face4-5=0:warpdrive/hull/tiled-magenta
+
+# %blockHull3_stairs_lightBlue:* (blockHull3_stairs_lightBlue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_lightBlue,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+
+# %blockHull3_slab_lightBlue:* (blockHull3_slab_lightBlue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_lightBlue,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull3_slab_lightBlue,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-light_blue,face2-5=0:warpdrive/hull/tiled_horizontal-light_blue
+block:id=%blockHull3_slab_lightBlue,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-light_blue,face2-3=0:warpdrive/hull/tiled-light_blue,face4-5=0:warpdrive/hull/tiled_vertical-light_blue
+block:id=%blockHull3_slab_lightBlue,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-light_blue,face4-5=0:warpdrive/hull/tiled-light_blue
+block:id=%blockHull3_slab_lightBlue,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-light_blue
+block:id=%blockHull3_slab_lightBlue,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-light_blue,face2-5=0:warpdrive/hull/tiled_horizontal-light_blue
+block:id=%blockHull3_slab_lightBlue,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-light_blue,face2-3=0:warpdrive/hull/tiled-light_blue,face4-5=0:warpdrive/hull/tiled_vertical-light_blue
+block:id=%blockHull3_slab_lightBlue,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-light_blue,face4-5=0:warpdrive/hull/tiled-light_blue
+
+# %blockHull3_stairs_yellow:* (blockHull3_stairs_yellow), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_yellow,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+
+# %blockHull3_slab_yellow:* (blockHull3_slab_yellow), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_yellow,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull3_slab_yellow,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-yellow,face2-5=0:warpdrive/hull/tiled_horizontal-yellow
+block:id=%blockHull3_slab_yellow,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-yellow,face2-3=0:warpdrive/hull/tiled-yellow,face4-5=0:warpdrive/hull/tiled_vertical-yellow
+block:id=%blockHull3_slab_yellow,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-yellow,face4-5=0:warpdrive/hull/tiled-yellow
+block:id=%blockHull3_slab_yellow,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-yellow
+block:id=%blockHull3_slab_yellow,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-yellow,face2-5=0:warpdrive/hull/tiled_horizontal-yellow
+block:id=%blockHull3_slab_yellow,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-yellow,face2-3=0:warpdrive/hull/tiled-yellow,face4-5=0:warpdrive/hull/tiled_vertical-yellow
+block:id=%blockHull3_slab_yellow,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-yellow,face4-5=0:warpdrive/hull/tiled-yellow
+
+# %blockHull3_stairs_lime:* (blockHull3_stairs_lime), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_lime,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+
+# %blockHull3_slab_lime:* (blockHull3_slab_lime), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_lime,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull3_slab_lime,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-lime,face2-5=0:warpdrive/hull/tiled_horizontal-lime
+block:id=%blockHull3_slab_lime,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-lime,face2-3=0:warpdrive/hull/tiled-lime,face4-5=0:warpdrive/hull/tiled_vertical-lime
+block:id=%blockHull3_slab_lime,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-lime,face4-5=0:warpdrive/hull/tiled-lime
+block:id=%blockHull3_slab_lime,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-lime
+block:id=%blockHull3_slab_lime,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-lime,face2-5=0:warpdrive/hull/tiled_horizontal-lime
+block:id=%blockHull3_slab_lime,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-lime,face2-3=0:warpdrive/hull/tiled-lime,face4-5=0:warpdrive/hull/tiled_vertical-lime
+block:id=%blockHull3_slab_lime,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-lime,face4-5=0:warpdrive/hull/tiled-lime
+
+# %blockHull3_stairs_pink:* (blockHull3_stairs_pink), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_pink,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+
+# %blockHull3_slab_pink:* (blockHull3_slab_pink), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_pink,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull3_slab_pink,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-pink,face2-5=0:warpdrive/hull/tiled_horizontal-pink
+block:id=%blockHull3_slab_pink,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-pink,face2-3=0:warpdrive/hull/tiled-pink,face4-5=0:warpdrive/hull/tiled_vertical-pink
+block:id=%blockHull3_slab_pink,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-pink,face4-5=0:warpdrive/hull/tiled-pink
+block:id=%blockHull3_slab_pink,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-pink
+block:id=%blockHull3_slab_pink,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-pink,face2-5=0:warpdrive/hull/tiled_horizontal-pink
+block:id=%blockHull3_slab_pink,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-pink,face2-3=0:warpdrive/hull/tiled-pink,face4-5=0:warpdrive/hull/tiled_vertical-pink
+block:id=%blockHull3_slab_pink,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-pink,face4-5=0:warpdrive/hull/tiled-pink
+
+# %blockHull3_stairs_gray:* (blockHull3_stairs_gray), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_gray,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+
+# %blockHull3_slab_gray:* (blockHull3_slab_gray), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_gray,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull3_slab_gray,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-gray,face2-5=0:warpdrive/hull/tiled_horizontal-gray
+block:id=%blockHull3_slab_gray,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-gray,face2-3=0:warpdrive/hull/tiled-gray,face4-5=0:warpdrive/hull/tiled_vertical-gray
+block:id=%blockHull3_slab_gray,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-gray,face4-5=0:warpdrive/hull/tiled-gray
+block:id=%blockHull3_slab_gray,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-gray
+block:id=%blockHull3_slab_gray,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-gray,face2-5=0:warpdrive/hull/tiled_horizontal-gray
+block:id=%blockHull3_slab_gray,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-gray,face2-3=0:warpdrive/hull/tiled-gray,face4-5=0:warpdrive/hull/tiled_vertical-gray
+block:id=%blockHull3_slab_gray,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-gray,face4-5=0:warpdrive/hull/tiled-gray
+
+# %blockHull3_stairs_silver:* (blockHull3_stairs_silver), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_silver,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+
+# %blockHull3_slab_silver:* (blockHull3_slab_silver), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_silver,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull3_slab_silver,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-silver,face2-5=0:warpdrive/hull/tiled_horizontal-silver
+block:id=%blockHull3_slab_silver,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-silver,face2-3=0:warpdrive/hull/tiled-silver,face4-5=0:warpdrive/hull/tiled_vertical-silver
+block:id=%blockHull3_slab_silver,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-silver,face4-5=0:warpdrive/hull/tiled-silver
+block:id=%blockHull3_slab_silver,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-silver
+block:id=%blockHull3_slab_silver,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-silver,face2-5=0:warpdrive/hull/tiled_horizontal-silver
+block:id=%blockHull3_slab_silver,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-silver,face2-3=0:warpdrive/hull/tiled-silver,face4-5=0:warpdrive/hull/tiled_vertical-silver
+block:id=%blockHull3_slab_silver,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-silver,face4-5=0:warpdrive/hull/tiled-silver
+
+# %blockHull3_stairs_cyan:* (blockHull3_stairs_cyan), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_cyan,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+
+# %blockHull3_slab_cyan:* (blockHull3_slab_cyan), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_cyan,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull3_slab_cyan,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-cyan,face2-5=0:warpdrive/hull/tiled_horizontal-cyan
+block:id=%blockHull3_slab_cyan,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-cyan,face2-3=0:warpdrive/hull/tiled-cyan,face4-5=0:warpdrive/hull/tiled_vertical-cyan
+block:id=%blockHull3_slab_cyan,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-cyan,face4-5=0:warpdrive/hull/tiled-cyan
+block:id=%blockHull3_slab_cyan,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-cyan
+block:id=%blockHull3_slab_cyan,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-cyan,face2-5=0:warpdrive/hull/tiled_horizontal-cyan
+block:id=%blockHull3_slab_cyan,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-cyan,face2-3=0:warpdrive/hull/tiled-cyan,face4-5=0:warpdrive/hull/tiled_vertical-cyan
+block:id=%blockHull3_slab_cyan,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-cyan,face4-5=0:warpdrive/hull/tiled-cyan
+
+# %blockHull3_stairs_purple:* (blockHull3_stairs_purple), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_purple,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+
+# %blockHull3_slab_purple:* (blockHull3_slab_purple), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_purple,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull3_slab_purple,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-purple,face2-5=0:warpdrive/hull/tiled_horizontal-purple
+block:id=%blockHull3_slab_purple,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-purple,face2-3=0:warpdrive/hull/tiled-purple,face4-5=0:warpdrive/hull/tiled_vertical-purple
+block:id=%blockHull3_slab_purple,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-purple,face4-5=0:warpdrive/hull/tiled-purple
+block:id=%blockHull3_slab_purple,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-purple
+block:id=%blockHull3_slab_purple,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-purple,face2-5=0:warpdrive/hull/tiled_horizontal-purple
+block:id=%blockHull3_slab_purple,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-purple,face2-3=0:warpdrive/hull/tiled-purple,face4-5=0:warpdrive/hull/tiled_vertical-purple
+block:id=%blockHull3_slab_purple,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-purple,face4-5=0:warpdrive/hull/tiled-purple
+
+# %blockHull3_stairs_blue:* (blockHull3_stairs_blue), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_blue,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+
+# %blockHull3_slab_blue:* (blockHull3_slab_blue), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_blue,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull3_slab_blue,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-blue,face2-5=0:warpdrive/hull/tiled_horizontal-blue
+block:id=%blockHull3_slab_blue,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-blue,face2-3=0:warpdrive/hull/tiled-blue,face4-5=0:warpdrive/hull/tiled_vertical-blue
+block:id=%blockHull3_slab_blue,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-blue,face4-5=0:warpdrive/hull/tiled-blue
+block:id=%blockHull3_slab_blue,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-blue
+block:id=%blockHull3_slab_blue,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-blue,face2-5=0:warpdrive/hull/tiled_horizontal-blue
+block:id=%blockHull3_slab_blue,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-blue,face2-3=0:warpdrive/hull/tiled-blue,face4-5=0:warpdrive/hull/tiled_vertical-blue
+block:id=%blockHull3_slab_blue,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-blue,face4-5=0:warpdrive/hull/tiled-blue
+
+# %blockHull3_stairs_brown:* (blockHull3_stairs_brown), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_brown,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+
+# %blockHull3_slab_brown:* (blockHull3_slab_brown), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_brown,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull3_slab_brown,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-brown,face2-5=0:warpdrive/hull/tiled_horizontal-brown
+block:id=%blockHull3_slab_brown,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-brown,face2-3=0:warpdrive/hull/tiled-brown,face4-5=0:warpdrive/hull/tiled_vertical-brown
+block:id=%blockHull3_slab_brown,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-brown,face4-5=0:warpdrive/hull/tiled-brown
+block:id=%blockHull3_slab_brown,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-brown
+block:id=%blockHull3_slab_brown,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-brown,face2-5=0:warpdrive/hull/tiled_horizontal-brown
+block:id=%blockHull3_slab_brown,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-brown,face2-3=0:warpdrive/hull/tiled-brown,face4-5=0:warpdrive/hull/tiled_vertical-brown
+block:id=%blockHull3_slab_brown,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-brown,face4-5=0:warpdrive/hull/tiled-brown
+
+# %blockHull3_stairs_green:* (blockHull3_stairs_green), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_green,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+
+# %blockHull3_slab_green:* (blockHull3_slab_green), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_green,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull3_slab_green,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-green,face2-5=0:warpdrive/hull/tiled_horizontal-green
+block:id=%blockHull3_slab_green,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-green,face2-3=0:warpdrive/hull/tiled-green,face4-5=0:warpdrive/hull/tiled_vertical-green
+block:id=%blockHull3_slab_green,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-green,face4-5=0:warpdrive/hull/tiled-green
+block:id=%blockHull3_slab_green,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-green
+block:id=%blockHull3_slab_green,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-green,face2-5=0:warpdrive/hull/tiled_horizontal-green
+block:id=%blockHull3_slab_green,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-green,face2-3=0:warpdrive/hull/tiled-green,face4-5=0:warpdrive/hull/tiled_vertical-green
+block:id=%blockHull3_slab_green,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-green,face4-5=0:warpdrive/hull/tiled-green
+
+# %blockHull3_stairs_red:* (blockHull3_stairs_red), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_red,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+
+# %blockHull3_slab_red:* (blockHull3_slab_red), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_red,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull3_slab_red,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-red,face2-5=0:warpdrive/hull/tiled_horizontal-red
+block:id=%blockHull3_slab_red,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-red,face2-3=0:warpdrive/hull/tiled-red,face4-5=0:warpdrive/hull/tiled_vertical-red
+block:id=%blockHull3_slab_red,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-red,face4-5=0:warpdrive/hull/tiled-red
+block:id=%blockHull3_slab_red,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-red
+block:id=%blockHull3_slab_red,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-red,face2-5=0:warpdrive/hull/tiled_horizontal-red
+block:id=%blockHull3_slab_red,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-red,face2-3=0:warpdrive/hull/tiled-red,face4-5=0:warpdrive/hull/tiled_vertical-red
+block:id=%blockHull3_slab_red,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-red,face4-5=0:warpdrive/hull/tiled-red
+
+# %blockHull3_stairs_black:* (blockHull3_stairs_black), render=(STAIRS), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullStairs
+block:id=%blockHull3_stairs_black,data=*,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+
+# %blockHull3_slab_black:* (blockHull3_slab_black), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.hull.BlockHullSlab
+block:id=%blockHull3_slab_black,data=0,data=1,data=2,data=3,data=4,data=5,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+block:id=%blockHull3_slab_black,data=6,data=7,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-black,face2-5=0:warpdrive/hull/tiled_horizontal-black
+block:id=%blockHull3_slab_black,data=8,data=9,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-black,face2-3=0:warpdrive/hull/tiled-black,face4-5=0:warpdrive/hull/tiled_vertical-black
+block:id=%blockHull3_slab_black,data=10,data=11,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-black,face4-5=0:warpdrive/hull/tiled-black
+block:id=%blockHull3_slab_black,data=12,stdrot=true,transparency=SEMITRANSPARENT,face0-5=0:warpdrive/hull/plain-black
+block:id=%blockHull3_slab_black,data=13,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled-black,face2-5=0:warpdrive/hull/tiled_horizontal-black
+block:id=%blockHull3_slab_black,data=14,stdrot=true,transparency=SEMITRANSPARENT,face0-1=0:warpdrive/hull/tiled_horizontal-black,face2-3=0:warpdrive/hull/tiled-black,face4-5=0:warpdrive/hull/tiled_vertical-black
+block:id=%blockHull3_slab_black,data=15,stdrot=true,transparency=SEMITRANSPARENT,face0-3=0:warpdrive/hull/tiled_vertical-black,face4-5=0:warpdrive/hull/tiled-black
+
+# %blockLift:* (blockLift), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.movement.BlockLift
+block:id=%blockLift,data=0,stdrot=true,face0=0:warpdrive/movement/lift-top_inactive,face1=0:warpdrive/movement/lift-top_out,face2-5=0:warpdrive/movement/lift-side_up
+block:id=%blockLift,data=1,data=2,stdrot=true,face0=0:warpdrive/movement/lift-top_in,face1=0:warpdrive/movement/lift-top_out,face2-5=0:warpdrive/movement/lift-side_up
+block:id=%blockLift,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,face0-5=0:warpdrive/movement/lift-side_offline
+
+# %blockShipController:* (blockShipController), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.movement.BlockShipController
+block:id=%blockShipController,data=*,stdrot=true,face0=0:warpdrive/movement/ship_controller-bottom,face1=0:warpdrive/movement/ship_controller-top,face2-5=0:warpdrive/movement/ship_controller-side_active5
+
+# %blockShipCore:* (blockShipCore), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.movement.BlockShipCore
+block:id=%blockShipCore,data=*,stdrot=true,face0-1=0:warpdrive/movement/ship_core-top-bottom,face2=0:warpdrive/movement/ship_core-right_online,face3=0:warpdrive/movement/ship_controller-side_active2,face4-5=0:warpdrive/movement/ship_core-right_online
+
+# %blockTransporterBeacon:* (blockTransporterBeacon), render=cr0s.warpdrive.render.RenderBlockTransporterBeacon(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.movement.BlockTransporterBeacon
+block:id=%blockTransporterBeacon,data=0,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_inactive
+block:id=%blockTransporterBeacon,data=1,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_active
+block:id=%blockTransporterBeacon,data=2,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_inactive
+block:id=%blockTransporterBeacon,data=3,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_active
+block:id=%blockTransporterBeacon,data=4,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_inactive
+block:id=%blockTransporterBeacon,data=5,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_active
+block:id=%blockTransporterBeacon,data=6,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_inactive
+block:id=%blockTransporterBeacon,data=7,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_active
+block:id=%blockTransporterBeacon,data=8,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_inactive
+block:id=%blockTransporterBeacon,data=9,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_active
+block:id=%blockTransporterBeacon,data=10,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_inactive
+block:id=%blockTransporterBeacon,data=11,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_active
+block:id=%blockTransporterBeacon,data=12,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_inactive
+block:id=%blockTransporterBeacon,data=13,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-packed_active
+block:id=%blockTransporterBeacon,data=14,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_inactive
+block:id=%blockTransporterBeacon,data=15,stdrot=true,face0-5=0:warpdrive/movement/transporter_beacon-deployed_active
+
+# %blockTransporterCore:* (blockTransporterCore), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.movement.BlockTransporterCore
+block:id=%blockTransporterCore,data=0,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_invalid
+block:id=%blockTransporterCore,data=1,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_offline
+block:id=%blockTransporterCore,data=2,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_low_power
+block:id=%blockTransporterCore,data=3,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_online
+block:id=%blockTransporterCore,data=4,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_invalid
+block:id=%blockTransporterCore,data=5,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_offline
+block:id=%blockTransporterCore,data=6,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_low_power
+block:id=%blockTransporterCore,data=7,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_online
+block:id=%blockTransporterCore,data=8,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_invalid
+block:id=%blockTransporterCore,data=9,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_offline
+block:id=%blockTransporterCore,data=10,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_low_power
+block:id=%blockTransporterCore,data=11,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_online
+block:id=%blockTransporterCore,data=12,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_invalid
+block:id=%blockTransporterCore,data=13,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_offline
+block:id=%blockTransporterCore,data=14,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_low_power
+block:id=%blockTransporterCore,data=15,stdrot=true,face0-1=0:warpdrive/movement/transporter_core-bottom_top,face2-5=0:warpdrive/movement/transporter_core-side_online
+
+# %blockTransporterContainment:* (blockTransporterContainment), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.movement.BlockTransporterContainment
+block:id=%blockTransporterContainment,data=*,stdrot=true,transparency=TRANSPARENT,face0=0:warpdrive/movement/transporter_containment-bottom,face1=0:warpdrive/movement/transporter_containment-top,face2-5=0:warpdrive/movement/transporter_containment-side
+
+# %blockTransporterScanner:* (blockTransporterScanner), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.movement.BlockTransporterScanner
+block:id=%blockTransporterScanner,data=0,stdrot=true,transparency=TRANSPARENT,face0=0:warpdrive/movement/transporter_scanner-bottom,face1=0:warpdrive/movement/transporter_scanner-top_offline,face2-5=0:warpdrive/movement/transporter_scanner-side
+block:id=%blockTransporterScanner,data=1,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15,stdrot=true,transparency=TRANSPARENT,face0=0:warpdrive/movement/transporter_scanner-bottom,face1=0:warpdrive/movement/transporter_scanner-top_online,face2-5=0:warpdrive/movement/transporter_scanner-side
+
+# %blockBedrockGlass:* (blockBedrockGlass), render=(STANDARD), opaque=false,cls=cr0s.warpdrive.block.decoration.BlockBedrockGlass
+block:id=%blockBedrockGlass,data=*,stdrot=true,face0-5=0:warpdrive/decoration/bedrock_glass
+
+# %blockHighlyAdvancedMachine:* (blockHighlyAdvancedMachine), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.passive.BlockHighlyAdvancedMachine
+block:id=%blockHighlyAdvancedMachine,data=*,stdrot=true,face0-5=0:warpdrive/passive/highly_advanced_machine-side
+
+# %blockIridium:* (blockIridium), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.passive.BlockIridium
+block:id=%blockIridium,data=*,stdrot=true,face0-5=0:warpdrive/passive/iridium_block-side
+
+# %blockLaserCamera:* (blockLaserCamera), render=cr0s.warpdrive.render.RenderBlockStandard(CUSTOM), opaque=false,cls=cr0s.warpdrive.block.weapon.BlockLaserCamera
+block:id=%blockLaserCamera,data=*,stdrot=true,face0-5=0:warpdrive/weapon/laser_camera-side
+
+# %blockWeaponController:* (blockWeaponController), render=(STANDARD), opaque=true,cls=cr0s.warpdrive.block.weapon.BlockWeaponController
+block:id=%blockWeaponController,data=*,stdrot=true,face0=0:warpdrive/movement/ship_controller-bottom,face1=0:warpdrive/movement/ship_controller-top,face2-5=0:warpdrive/weapon/weapon_controller-side

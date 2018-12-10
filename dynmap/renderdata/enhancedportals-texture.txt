@@ -1,0 +1,53 @@
+# enhancedportals 3.0.12
+version:1.7
+modname:enhancedportals
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/enhancedportals/textures/blocks/
+texture:id=enhancedportals/bridge/0,filename=assets/enhancedportals/textures/blocks/bridge/0.png
+texture:id=enhancedportals/dbs_empty,filename=assets/enhancedportals/textures/blocks/dbs_empty.png
+texture:id=enhancedportals/frame/0,filename=assets/enhancedportals/textures/blocks/frame/0.png
+texture:id=enhancedportals/frame_0b,filename=assets/enhancedportals/textures/blocks/frame_0b.png
+texture:id=enhancedportals/frame_1b,filename=assets/enhancedportals/textures/blocks/frame_1b.png
+texture:id=enhancedportals/frame_2b,filename=assets/enhancedportals/textures/blocks/frame_2b.png
+texture:id=enhancedportals/frame_3b,filename=assets/enhancedportals/textures/blocks/frame_3b.png
+texture:id=enhancedportals/frame_4b,filename=assets/enhancedportals/textures/blocks/frame_4b.png
+texture:id=enhancedportals/frame_5b,filename=assets/enhancedportals/textures/blocks/frame_5b.png
+texture:id=enhancedportals/frame_6b,filename=assets/enhancedportals/textures/blocks/frame_6b.png
+texture:id=enhancedportals/frame_7b,filename=assets/enhancedportals/textures/blocks/frame_7b.png
+texture:id=enhancedportals/frame_8b,filename=assets/enhancedportals/textures/blocks/frame_8b.png
+texture:id=enhancedportals/frame_9b,filename=assets/enhancedportals/textures/blocks/frame_9b.png
+texture:id=enhancedportals/portal,filename=assets/enhancedportals/textures/blocks/portal.png
+
+
+
+# %frame:* (frame), render=(STANDARD), opaque=false,cls=enhancedportals.block.BlockFrame
+block:id=%frame,data=0,stdrot=true,face0-5=12000:enhancedportals/frame_0b
+block:id=%frame,data=1,stdrot=true,face0-5=12000:enhancedportals/frame_1b
+block:id=%frame,data=2,stdrot=true,face0-5=12000:enhancedportals/frame_2b
+block:id=%frame,data=3,stdrot=true,face0-5=12000:enhancedportals/frame_3b
+block:id=%frame,data=4,stdrot=true,face0-5=12000:enhancedportals/frame_4b
+block:id=%frame,data=5,stdrot=true,face0-5=12000:enhancedportals/frame_5b
+block:id=%frame,data=6,stdrot=true,face0-5=12000:enhancedportals/frame_6b
+block:id=%frame,data=7,stdrot=true,face0-5=12000:enhancedportals/frame_7b
+block:id=%frame,data=8,stdrot=true,face0-5=12000:enhancedportals/frame_8b
+block:id=%frame,data=9,stdrot=true,face0-5=12000:enhancedportals/frame_9b
+
+# %portal:* (portal), render=enhancedportals.client.PortalRenderer(CUSTOM), opaque=false,cls=enhancedportals.block.BlockPortal
+block:id=%portal,data=*,stdrot=true,face0-5=12000:enhancedportals/portal
+
+# %dbs:* (dbs), render=(STANDARD), opaque=true,cls=enhancedportals.block.BlockStabilizer
+block:id=%dbs,data=*,stdrot=true,face0-5=0:enhancedportals/bridge/0
+
+# %decor_frame:* (decor_frame), render=(STANDARD), opaque=true,cls=enhancedportals.block.BlockDecorBorderedQuartz
+block:id=%decor_frame,data=*,stdrot=true,face0-5=0:enhancedportals/frame/0
+
+# %decor_dbs:* (decor_dbs), render=(STANDARD), opaque=true,cls=enhancedportals.block.BlockDecorEnderInfusedMetal
+block:id=%decor_dbs,data=*,stdrot=true,face0-5=0:enhancedportals/bridge/0
+
+# %dbs_empty:* (dbs_empty), render=(STANDARD), opaque=true,cls=enhancedportals.block.BlockStabilizerEmpty
+block:id=%dbs_empty,data=0,stdrot=true,face0-5=0:enhancedportals/dbs_empty

@@ -1,0 +1,20 @@
+# catwalkmod x.x.x
+version:1.7
+modname:catwalkmod
+
+
+
+# Configuration file not found!
+
+
+texturepath:assets/catwalkmod/textures/blocks/
+texture:id=catwalkmod/catwalk,filename=assets/catwalkmod/textures/blocks/catwalk.png
+texture:id=catwalkmod/ladder,filename=assets/catwalkmod/textures/blocks/ladder.png
+
+
+
+# %scaffold:* (scaffold), render=(STANDARD), opaque=false,cls=com.thecodewarrior.catwalks.legacy.BlockLegacyCatwalk
+block:id=%scaffold,data=*,stdrot=true,face0-5=0:catwalkmod/catwalk
+
+# %cagedLadder:* (cagedLadder), render=(STANDARD), opaque=false,cls=com.thecodewarrior.catwalks.legacy.BlockLegacyCagedLadder
+block:id=%cagedLadder,data=*,stdrot=true,face0-5=0:catwalkmod/ladder

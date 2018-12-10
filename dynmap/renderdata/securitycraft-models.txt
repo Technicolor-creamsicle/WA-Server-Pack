@@ -1,0 +1,275 @@
+# securitycraft v1.8.2.4
+version:1.7
+modname:securitycraft
+
+
+cfgfile:config/securitycraft.cfg
+
+patch:id=VertX1Z0ToX0Z1,Ox=1.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0,visibility=flip
+patch:id=VertX025,Ox=0.25,Oy=0.0,Oz=1.0,Ux=0.25,Uy=0.0,Uz=0.0,Vx=0.25,Vy=1.0,Vz=1.0
+patch:id=VertX075,Ox=0.75,Oy=0.0,Oz=1.0,Ux=0.75,Uy=0.0,Uz=0.0,Vx=0.75,Vy=1.0,Vz=1.0
+patch:id=HorizY001ZTop,Ox=0.0,Oy=0.01,Oz=0.0,Ux=1.0,Uy=0.01,Uz=0.0,Vx=0.0,Vy=0.01,Vz=1.0
+patch:id=SlopeXUpZTop,Ox=0.0,Oy=0.0,Oz=0.0,Ux=0.0,Uy=0.0,Uz=1.0,Vx=1.0,Vy=1.0,Vz=0.0
+patch:id=VertX0In,Ox=0.0,Oy=0.0,Oz=1.0,Ux=0.0,Uy=0.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0
+patch:id=VertX04375,Ox=0.4375,Oy=0.0,Oz=0.0,Ux=0.4375,Uy=0.0,Uz=1.0,Vx=0.4375,Vy=1.0,Vz=0.0,visibility=top
+patch:id=TorchSide1,Ox=-0.5,Oy=0.2,Oz=0.4375,Ux=0.5,Uy=0.2,Uz=0.4375,Vx=-0.1,Vy=1.2,Vz=0.4375,Vmax=0.8,visibility=bottom
+patch:id=TorchSide2,Ox=-0.5,Oy=0.2,Oz=0.5625,Ux=0.5,Uy=0.2,Uz=0.5625,Vx=-0.1,Vy=1.2,Vz=0.5625,Vmax=0.8,visibility=top
+patch:id=TorchSide3,Ox=0.0625,Oy=0.2,Oz=0.0,Ux=0.0625,Uy=0.2,Uz=1.0,Vx=0.4625,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=bottom
+patch:id=TorchSide4,Ox=-0.0625,Oy=0.2,Oz=0.0,Ux=-0.0625,Uy=0.2,Uz=1.0,Vx=0.3375,Vy=1.2,Vz=0.0,Vmax=0.8,visibility=top
+patch:id=TorchTop,Ox=0.0,Oy=0.625,Oz=-0.0625,Ux=1.0,Uy=0.625,Uz=-0.0625,Vx=0.0,Vy=0.625,Vz=0.9375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=TorchTopSlope,Ox=0.0,Oy=0.825,Oz=-0.3625,Ux=1.0,Uy=0.825,Uz=-0.3625,Vx=0.0,Vy=0.825,Vz=0.6375,Umin=0.4375,Umax=0.5625,Vmin=0.5,Vmax=0.625
+patch:id=VertX00625,Ox=0.0625,Oy=0.0,Oz=0.0,Ux=0.0625,Uy=0.0,Uz=1.0,Vx=0.0625,Vy=1.0,Vz=0.0,visibility=top
+patch:id=HorizY100ZTop,Ox=0.0,Oy=1.0,Oz=0.0,Ux=1.0,Uy=1.0,Uz=0.0,Vx=0.0,Vy=1.0,Vz=1.0,visibility=bottom
+
+
+# %laser:* (laser), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockLaserField
+boxblock:id=%laser,xmin=0.25,xmax=0.75,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.30000001192092896,zmax=0.699999988079071,data=0
+boxblock:id=%laser,xmin=0.25,xmax=0.75,ymin=0.0,ymax=1.0,zmin=0.30000001192092896,zmax=0.699999988079071,data=1
+boxblock:id=%laser,xmin=0.25,xmax=0.75,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.0,zmax=1.0,data=2
+boxblock:id=%laser,xmin=0.0,xmax=1.0,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.30000001192092896,zmax=0.699999988079071,data=3
+boxblock:id=%laser,xmin=0.25,xmax=0.75,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.30000001192092896,zmax=0.699999988079071,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %mine:* (mine), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockMine
+boxblock:id=%mine,xmin=0.30000001192092896,xmax=0.699999988079071,ymin=0.0,ymax=0.20000000298023224,zmin=0.30000001192092896,zmax=0.699999988079071,data=*
+
+# %mineCut:* (mineCut), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockMine
+boxblock:id=%mineCut,xmin=0.30000001192092896,xmax=0.699999988079071,ymin=0.0,ymax=0.20000000298023224,zmin=0.30000001192092896,zmax=0.699999988079071,data=*
+
+# %ironDoorReinforced:* (ironDoorReinforced), render=(DOOR), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedDoor
+customblock:id=%ironDoorReinforced,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+
+# %bogusLava:* (bogusLava), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeLavaBase
+boxblock:id=%bogusLava,ymax=0.875,data=1
+boxblock:id=%bogusLava,ymax=0.75,data=2
+boxblock:id=%bogusLava,ymax=0.625,data=3
+boxblock:id=%bogusLava,ymax=0.5,data=4
+boxblock:id=%bogusLava,ymax=0.375,data=5
+boxblock:id=%bogusLava,ymax=0.25,data=6
+boxblock:id=%bogusLava,ymax=0.125,data=7
+boxblock:id=%bogusLava,ymax=0.875,data=9
+boxblock:id=%bogusLava,ymax=0.75,data=10
+boxblock:id=%bogusLava,ymax=0.625,data=11
+boxblock:id=%bogusLava,ymax=0.5,data=12
+boxblock:id=%bogusLava,ymax=0.375,data=13
+boxblock:id=%bogusLava,ymax=0.25,data=14
+boxblock:id=%bogusLava,ymax=0.125,data=15
+
+# %bogusLavaFlowing:* (bogusLavaFlowing), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeLava
+boxblock:id=%bogusLavaFlowing,ymax=0.875,data=1
+boxblock:id=%bogusLavaFlowing,ymax=0.75,data=2
+boxblock:id=%bogusLavaFlowing,ymax=0.625,data=3
+boxblock:id=%bogusLavaFlowing,ymax=0.5,data=4
+boxblock:id=%bogusLavaFlowing,ymax=0.375,data=5
+boxblock:id=%bogusLavaFlowing,ymax=0.25,data=6
+boxblock:id=%bogusLavaFlowing,ymax=0.125,data=7
+boxblock:id=%bogusLavaFlowing,ymax=0.875,data=9
+boxblock:id=%bogusLavaFlowing,ymax=0.75,data=10
+boxblock:id=%bogusLavaFlowing,ymax=0.625,data=11
+boxblock:id=%bogusLavaFlowing,ymax=0.5,data=12
+boxblock:id=%bogusLavaFlowing,ymax=0.375,data=13
+boxblock:id=%bogusLavaFlowing,ymax=0.25,data=14
+boxblock:id=%bogusLavaFlowing,ymax=0.125,data=15
+
+# %bogusWater:* (bogusWater), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeWaterBase
+boxblock:id=%bogusWater,ymax=0.875,data=1
+boxblock:id=%bogusWater,ymax=0.75,data=2
+boxblock:id=%bogusWater,ymax=0.625,data=3
+boxblock:id=%bogusWater,ymax=0.5,data=4
+boxblock:id=%bogusWater,ymax=0.375,data=5
+boxblock:id=%bogusWater,ymax=0.25,data=6
+boxblock:id=%bogusWater,ymax=0.125,data=7
+boxblock:id=%bogusWater,ymax=0.875,data=9
+boxblock:id=%bogusWater,ymax=0.75,data=10
+boxblock:id=%bogusWater,ymax=0.625,data=11
+boxblock:id=%bogusWater,ymax=0.5,data=12
+boxblock:id=%bogusWater,ymax=0.375,data=13
+boxblock:id=%bogusWater,ymax=0.25,data=14
+boxblock:id=%bogusWater,ymax=0.125,data=15
+
+# %bogusWaterFlowing:* (bogusWaterFlowing), render=(FLUIDS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockFakeWater
+boxblock:id=%bogusWaterFlowing,ymax=0.875,data=1
+boxblock:id=%bogusWaterFlowing,ymax=0.75,data=2
+boxblock:id=%bogusWaterFlowing,ymax=0.625,data=3
+boxblock:id=%bogusWaterFlowing,ymax=0.5,data=4
+boxblock:id=%bogusWaterFlowing,ymax=0.375,data=5
+boxblock:id=%bogusWaterFlowing,ymax=0.25,data=6
+boxblock:id=%bogusWaterFlowing,ymax=0.125,data=7
+boxblock:id=%bogusWaterFlowing,ymax=0.875,data=9
+boxblock:id=%bogusWaterFlowing,ymax=0.75,data=10
+boxblock:id=%bogusWaterFlowing,ymax=0.625,data=11
+boxblock:id=%bogusWaterFlowing,ymax=0.5,data=12
+boxblock:id=%bogusWaterFlowing,ymax=0.375,data=13
+boxblock:id=%bogusWaterFlowing,ymax=0.25,data=14
+boxblock:id=%bogusWaterFlowing,ymax=0.125,data=15
+
+# %ironTrapdoor:* (ironTrapdoor), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockIronTrapDoor
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.1875,zmin=0.0,zmax=1.0,data=0,data=1,data=2,data=3
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.8125,zmax=1.0,data=4
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.0,zmax=0.1875,data=5
+boxblock:id=%ironTrapdoor,xmin=0.8125,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.0,zmax=1.0,data=6
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=0.1875,ymin=0.0,ymax=1.0,zmin=0.0,zmax=1.0,data=7
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=1.0,ymin=0.8125,ymax=1.0,zmin=0.0,zmax=1.0,data=8,data=9,data=10,data=11
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.8125,zmax=1.0,data=12
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.0,zmax=0.1875,data=13
+boxblock:id=%ironTrapdoor,xmin=0.8125,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.0,zmax=1.0,data=14
+boxblock:id=%ironTrapdoor,xmin=0.0,xmax=0.1875,ymin=0.0,ymax=1.0,zmin=0.0,zmax=1.0,data=15
+
+# %bouncingBetty:* (bouncingBetty), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockBouncingBetty
+boxblock:id=%bouncingBetty,xmin=0.20000000298023224,xmax=0.800000011920929,ymin=0.0,ymax=0.20000000298023224,zmin=0.20000000298023224,zmax=0.800000011920929,data=*
+
+# %inventoryScannerField:* (inventoryScannerField), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockInventoryScannerField
+boxblock:id=%inventoryScannerField,xmin=0.25,xmax=0.75,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.30000001192092896,zmax=0.699999988079071,data=0
+boxblock:id=%inventoryScannerField,xmin=0.0,xmax=1.0,ymin=0.0,ymax=1.0,zmin=0.4000000059604645,zmax=0.6000000238418579,data=1
+boxblock:id=%inventoryScannerField,xmin=0.4000000059604645,xmax=0.6000000238418579,ymin=0.0,ymax=1.0,zmin=0.0,zmax=1.0,data=2,data=3,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %trackMine:* (trackMine), render=(MINECARTTRACK), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockTrackMine
+patchblock:id=%trackMine,patch0=HorizY001ZTop,data=0
+patchblock:id=%trackMine,patch0=HorizY001ZTop@90,data=1
+patchblock:id=%trackMine,patch0=SlopeXUpZTop,data=2
+patchblock:id=%trackMine,patch0=SlopeXUpZTop@180,data=3
+patchblock:id=%trackMine,patch0=SlopeXUpZTop@270,data=4
+patchblock:id=%trackMine,patch0=SlopeXUpZTop@90,data=5
+patchblock:id=%trackMine,patch0=HorizY001ZTop@90,data=6
+patchblock:id=%trackMine,patch0=HorizY001ZTop@180,data=7
+patchblock:id=%trackMine,patch0=HorizY001ZTop@270,data=8,data=9
+patchblock:id=%trackMine,patch0=SlopeXUpZTop,data=10
+patchblock:id=%trackMine,patch0=SlopeXUpZTop@180,data=11
+patchblock:id=%trackMine,patch0=SlopeXUpZTop@270,data=12
+patchblock:id=%trackMine,patch0=SlopeXUpZTop@90,data=13
+
+# %portableRadar:* (portableRadar), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockPortableRadar
+boxblock:id=%portableRadar,xmin=0.30000001192092896,xmax=0.699999988079071,ymin=0.0,ymax=0.44999998807907104,zmin=0.30000001192092896,zmax=0.699999988079071,data=*
+
+# %reinforcedIronBars:* (reinforcedIronBars), render=(PANE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedIronBars
+customblock:id=%reinforcedIronBars,class=org.dynmap.hdmap.renderer.PaneRenderer,data=*
+
+# %keypadChest:* (keypadChest), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockKeypadChest
+boxblock:id=%keypadChest,xmin=0.0625,xmax=0.9375,ymin=0.0,ymax=0.875,zmin=0.0625,zmax=0.9375,data=*
+
+# %reinforcedGlass:* (reinforcedGlass), render=(PANE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedGlassPane
+customblock:id=%reinforcedGlass,class=org.dynmap.hdmap.renderer.PaneRenderer,data=*
+
+# %alarm:* (alarm), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockAlarm
+boxblock:id=%alarm,xmin=0.3125,xmax=0.6875,ymin=0.5,ymax=1.0,zmin=0.3125,zmax=0.6875,data=0
+boxblock:id=%alarm,xmin=0.0,xmax=0.5,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=1
+boxblock:id=%alarm,xmin=0.5,xmax=1.0,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=2
+boxblock:id=%alarm,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.0,zmax=0.5,data=3
+boxblock:id=%alarm,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.5,zmax=1.0,data=4
+boxblock:id=%alarm,xmin=0.3125,xmax=0.6875,ymin=0.0,ymax=0.5,zmin=0.3125,zmax=0.6875,data=5,data=6,data=7
+boxblock:id=%alarm,xmin=0.3125,xmax=0.6875,ymin=0.5,ymax=1.0,zmin=0.3125,zmax=0.6875,data=8
+boxblock:id=%alarm,xmin=0.0,xmax=0.5,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=9
+boxblock:id=%alarm,xmin=0.5,xmax=1.0,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=10
+boxblock:id=%alarm,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.0,zmax=0.5,data=11
+boxblock:id=%alarm,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.5,zmax=1.0,data=12
+boxblock:id=%alarm,xmin=0.3125,xmax=0.6875,ymin=0.0,ymax=0.5,zmin=0.3125,zmax=0.6875,data=13,data=14,data=15
+
+# %alarmLit:* (alarmLit), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockAlarm
+boxblock:id=%alarmLit,xmin=0.3125,xmax=0.6875,ymin=0.5,ymax=1.0,zmin=0.3125,zmax=0.6875,data=0
+boxblock:id=%alarmLit,xmin=0.0,xmax=0.5,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=1
+boxblock:id=%alarmLit,xmin=0.5,xmax=1.0,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=2
+boxblock:id=%alarmLit,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.0,zmax=0.5,data=3
+boxblock:id=%alarmLit,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.5,zmax=1.0,data=4
+boxblock:id=%alarmLit,xmin=0.3125,xmax=0.6875,ymin=0.0,ymax=0.5,zmin=0.3125,zmax=0.6875,data=5,data=6,data=7
+boxblock:id=%alarmLit,xmin=0.3125,xmax=0.6875,ymin=0.5,ymax=1.0,zmin=0.3125,zmax=0.6875,data=8
+boxblock:id=%alarmLit,xmin=0.0,xmax=0.5,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=9
+boxblock:id=%alarmLit,xmin=0.5,xmax=1.0,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.2524999976158142,zmax=0.7475000023841858,data=10
+boxblock:id=%alarmLit,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.0,zmax=0.5,data=11
+boxblock:id=%alarmLit,xmin=0.2524999976158142,xmax=0.7475000023841858,ymin=0.2524999976158142,ymax=0.7475000023841858,zmin=0.5,zmax=1.0,data=12
+boxblock:id=%alarmLit,xmin=0.3125,xmax=0.6875,ymin=0.0,ymax=0.5,zmin=0.3125,zmax=0.6875,data=13,data=14,data=15
+
+# %reinforcedFenceGate:* (reinforcedFenceGate), render=(FENCEGATE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedFenceGate
+customblock:id=%reinforcedFenceGate,class=org.dynmap.hdmap.renderer.FenceGateBlockRenderer,type=fence,link0=107,data=*
+
+# %panicButton:* (panicButton), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockPanicButton
+boxblock:id=%panicButton,xmin=0.18000000715255737,xmax=0.8149999976158142,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.949999988079071,zmax=1.0,data=0
+boxblock:id=%panicButton,xmin=0.0,xmax=0.125,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.18000000715255737,zmax=0.8199999928474426,data=1
+boxblock:id=%panicButton,xmin=0.875,xmax=1.0,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.18000000715255737,zmax=0.8199999928474426,data=2
+boxblock:id=%panicButton,xmin=0.18000000715255737,xmax=0.8149999976158142,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.0,zmax=0.125,data=3
+boxblock:id=%panicButton,xmin=0.18000000715255737,xmax=0.8149999976158142,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.875,zmax=1.0,data=4
+boxblock:id=%panicButton,xmin=0.875,xmax=1.0,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.18000000715255737,zmax=0.8199999928474426,data=5
+boxblock:id=%panicButton,xmin=0.0,xmax=0.0625,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.18000000715255737,zmax=0.8199999928474426,data=6
+boxblock:id=%panicButton,xmin=0.9375,xmax=1.0,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.18000000715255737,zmax=0.8199999928474426,data=7
+boxblock:id=%panicButton,xmin=0.18000000715255737,xmax=0.8149999976158142,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.0,zmax=0.0625,data=8
+boxblock:id=%panicButton,xmin=0.18000000715255737,xmax=0.8149999976158142,ymin=0.30000001192092896,ymax=0.699999988079071,zmin=0.9375,zmax=1.0,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %claymoreActive:* (claymoreActive), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockClaymore
+boxblock:id=%claymoreActive,xmin=0.17499999701976776,xmax=0.44999998807907104,ymin=0.0,ymax=0.33500000834465027,zmin=0.22499999403953552,zmax=0.7749999761581421,data=0
+boxblock:id=%claymoreActive,xmin=0.22499999403953552,xmax=0.7749999761581421,ymin=0.0,ymax=0.32499998807907104,zmin=0.550000011920929,zmax=0.824999988079071,data=1
+boxblock:id=%claymoreActive,xmin=0.550000011920929,xmax=0.824999988079071,ymin=0.0,ymax=0.33500000834465027,zmin=0.22499999403953552,zmax=0.7749999761581421,data=2
+boxblock:id=%claymoreActive,xmin=0.22499999403953552,xmax=0.7749999761581421,ymin=0.0,ymax=0.32499998807907104,zmin=0.17499999701976776,zmax=0.44999998807907104,data=3
+boxblock:id=%claymoreActive,xmin=0.17499999701976776,xmax=0.44999998807907104,ymin=0.0,ymax=0.33500000834465027,zmin=0.22499999403953552,zmax=0.7749999761581421,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %claymoreDefused:* (claymoreDefused), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockClaymore
+boxblock:id=%claymoreDefused,xmin=0.17499999701976776,xmax=0.44999998807907104,ymin=0.0,ymax=0.33500000834465027,zmin=0.22499999403953552,zmax=0.7749999761581421,data=0
+boxblock:id=%claymoreDefused,xmin=0.22499999403953552,xmax=0.7749999761581421,ymin=0.0,ymax=0.32499998807907104,zmin=0.550000011920929,zmax=0.824999988079071,data=1
+boxblock:id=%claymoreDefused,xmin=0.550000011920929,xmax=0.824999988079071,ymin=0.0,ymax=0.33500000834465027,zmin=0.22499999403953552,zmax=0.7749999761581421,data=2
+boxblock:id=%claymoreDefused,xmin=0.22499999403953552,xmax=0.7749999761581421,ymin=0.0,ymax=0.32499998807907104,zmin=0.17499999701976776,zmax=0.44999998807907104,data=3
+boxblock:id=%claymoreDefused,xmin=0.17499999701976776,xmax=0.44999998807907104,ymin=0.0,ymax=0.33500000834465027,zmin=0.22499999403953552,zmax=0.7749999761581421,data=4,data=5,data=6,data=7,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %securityCamera:* (securityCamera), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockSecurityCamera
+boxblock:id=%securityCamera,xmin=0.0,xmax=0.8500000238418579,ymin=0.25,ymax=0.800000011920929,zmin=0.2750000059604645,zmax=0.7250000238418579,data=0,data=1
+boxblock:id=%securityCamera,xmin=0.125,xmax=1.0,ymin=0.25,ymax=0.800000011920929,zmin=0.2750000059604645,zmax=0.7250000238418579,data=2
+boxblock:id=%securityCamera,xmin=0.2750000059604645,xmax=0.699999988079071,ymin=0.25,ymax=0.800000011920929,zmin=0.0,zmax=0.8500000238418579,data=3
+boxblock:id=%securityCamera,xmin=0.2750000059604645,xmax=0.699999988079071,ymin=0.25,ymax=0.800000011920929,zmin=0.15000000596046448,zmax=1.0,data=4
+boxblock:id=%securityCamera,xmin=0.0,xmax=0.8500000238418579,ymin=0.25,ymax=0.800000011920929,zmin=0.2750000059604645,zmax=0.7250000238418579,data=5
+boxblock:id=%securityCamera,xmin=0.125,xmax=1.0,ymin=0.25,ymax=0.800000011920929,zmin=0.2750000059604645,zmax=0.7250000238418579,data=6
+boxblock:id=%securityCamera,xmin=0.2750000059604645,xmax=0.699999988079071,ymin=0.25,ymax=0.800000011920929,zmin=0.0,zmax=0.8500000238418579,data=7
+boxblock:id=%securityCamera,xmin=0.2750000059604645,xmax=0.699999988079071,ymin=0.25,ymax=0.800000011920929,zmin=0.15000000596046448,zmax=1.0,data=8
+boxblock:id=%securityCamera,xmin=0.0,xmax=0.8500000238418579,ymin=0.25,ymax=0.800000011920929,zmin=0.2750000059604645,zmax=0.7250000238418579,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %reinforcedStairsOak:* (reinforcedStairsOak), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsOak,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsSpruce:* (reinforcedStairsSpruce), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsSpruce,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsBirch:* (reinforcedStairsBirch), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsBirch,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsJungle:* (reinforcedStairsJungle), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsJungle,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsAcacia:* (reinforcedStairsAcacia), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsAcacia,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsDarkoak:* (reinforcedStairsDarkoak), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsDarkoak,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsStone:* (reinforcedStairsStone), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsStone,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsCobblestone:* (reinforcedStairsCobblestone), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsCobblestone,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsSandstone:* (reinforcedStairsSandstone), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsSandstone,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %scIronFence:* (scIronFence), render=(FENCE), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockIronFence
+customblock:id=%scIronFence,class=org.dynmap.hdmap.renderer.FenceWallBlockRenderer,type=fence,link0=107,data=*
+
+# %ims:* (ims), render=(CUSTOM), opaque=false,cls=net.geforcemods.securitycraft.blocks.mines.BlockIMS
+boxblock:id=%ims,xmin=0.0,xmax=1.0,ymin=0.0,ymax=0.44999998807907104,zmin=0.0,zmax=1.0,data=*
+
+# %reinforcedWoodSlabs:* (reinforcedWoodSlabs), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedWoodSlabs
+boxblock:id=%reinforcedWoodSlabs,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6,data=7
+boxblock:id=%reinforcedWoodSlabs,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14,data=15
+
+# %reinforcedStoneSlabs:* (reinforcedStoneSlabs), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedSlabs
+boxblock:id=%reinforcedStoneSlabs,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6
+boxblock:id=%reinforcedStoneSlabs,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14
+
+# %reinforcedDirtSlab:* (reinforcedDirtSlab), render=(STANDARD), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedSlabs
+boxblock:id=%reinforcedDirtSlab,ymax=0.5,data=0,data=1,data=2,data=3,data=4,data=5,data=6
+boxblock:id=%reinforcedDirtSlab,ymin=0.5,data=8,data=9,data=10,data=11,data=12,data=13,data=14
+
+# %scannerDoor:* (scannerDoor), render=(DOOR), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockScannerDoor
+customblock:id=%scannerDoor,class=org.dynmap.hdmap.renderer.DoorRenderer,data=*
+
+# %reinforcedStairsStoneBrick:* (reinforcedStairsStoneBrick), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsStoneBrick,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsBrick:* (reinforcedStairsBrick), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsBrick,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
+
+# %reinforcedStairsNetherBrick:* (reinforcedStairsNetherBrick), render=(STAIRS), opaque=false,cls=net.geforcemods.securitycraft.blocks.BlockReinforcedStairs
+customblock:id=%reinforcedStairsNetherBrick,class=org.dynmap.hdmap.renderer.StairBlockRenderer,data=*
