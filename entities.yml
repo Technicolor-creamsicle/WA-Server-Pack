@@ -122,11 +122,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    mekanism-common-entity-EntityBabySkeleton:
+    net-minecraft-entity-item-EntityFireworkRocket:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityFireworkRocket:
+    mekanism-common-entity-EntityBabySkeleton:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
