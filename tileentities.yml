@@ -136,28 +136,55 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-peripheral-modem-TileCable:
+    cofh-thermalexpansion-block-machine-TilePulverizer:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-grindstone-TileCrank:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityHopper:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
+      tick-no-players: false
+      tick-interval: 1
     dan200-computercraft-shared-computer-blocks-TileComputer:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp5:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipController:
+    cr0s-warpdrive-block-movement-TileEntityLift:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityShipCore:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-machine-TilePulverizer:
+    ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileFurnace:
+    cr0s-warpdrive-block-movement-TileEntityShipController:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-TileEntityLaserMedium:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-collection-TileEntityMiningLaser:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-modem-TileCable:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp5:
       tick-no-players: false
       tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
@@ -166,22 +193,10 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
       tick-no-players: false
       tick-interval: 1
-    appeng-tile-grindstone-TileCrank:
-      tick-no-players: false
-      tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityHopper:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
-      tick-no-players: false
-      tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
       tick-no-players: false
       tick-interval: 1
     buildcraft-transport-TileGenericPipeCompat:
@@ -211,9 +226,6 @@ world-settings:
     matteroverdrive-tile-TileEntityMachinePatternMonitor:
       tick-no-players: false
       tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityLift:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityMachineNetworkRouter:
       tick-no-players: false
       tick-interval: 1
@@ -239,18 +251,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityScannerDoor:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-TileEntityLaserMedium:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-collection-TileEntityMiningLaser:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
-      tick-no-players: false
-      tick-interval: 1
-    ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityMachineReplicator:
