@@ -86,7 +86,27 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    tconstruct-world-entity-BlueSlime:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityXPOrb:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     matteroverdrive-entity-monster-EntityRangedRogueAndroidMob:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-projectile-EntityEgg:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    openblocks-common-entity-EntityHangGlider:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -95,10 +115,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-monster-EntityEnderman:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityMeleeRougeAndroidMob:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -130,14 +146,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityXPOrb:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    tconstruct-world-entity-BlueSlime:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     cr0s-warpdrive-world-EntitySphereGen:
       tick-no-players: false
       never-ever-tick: false
@@ -162,10 +170,6 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-projectile-EntityEgg:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     com-enm-mob-javapower-EntityJavaPowerMob:
       tick-no-players: false
       never-ever-tick: false
@@ -183,10 +187,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     buildcraft-builders-EntityMechanicalArm:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    openblocks-common-entity-EntityHangGlider:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
