@@ -305,7 +305,7 @@ laser_cannon {
     I:entity_hit_base_damage=3
 
     # Base energy consumed from hitting an entity
-    I:entity_hit_energy=30000
+    I:entity_hit_energy=15000
 
     # Energy required by additional hit point (won't be consumed)
     I:entity_hit_energy_per_damage=30000
@@ -551,10 +551,10 @@ ship {
     I:teleport_energy_per_entity=1000000
 
     # Maximum ship mass (in blocks) to jump on a planet
-    I:volume_max_on_planet_surface=15000
+    I:volume_max_on_planet_surface=1200
 
     # Minimum ship mass (in blocks) to enter or exit hyperspace without a jumpgate
-    I:volume_min_for_hyperspace=1500
+    I:volume_min_for_hyperspace=3000
 
     # Ship volume won't be refreshed unless it's older than that many seconds
     I:volume_scan_age_tolerance=120

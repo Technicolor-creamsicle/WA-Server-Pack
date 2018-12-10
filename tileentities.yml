@@ -133,6 +133,9 @@ world-settings:
     crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
+    com-rwtema-extrautils-tileentity-TileEntityTrashCan:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
       tick-no-players: false
       tick-interval: 1
@@ -146,9 +149,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     appeng-tile-grindstone-TileCrank:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-TileEntityTrashCan:
       tick-no-players: false
       tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
