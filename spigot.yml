@@ -11,9 +11,6 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
-commands:
-  log: true
-  tab-complete: true
 settings:
   late-bind: false
   sample-count: 12
@@ -31,6 +28,9 @@ messages:
   server-full: WorldAutomation.Net is Currently Full!
   outdated-client: Outdated client! Please see www.worldautomation.net!
   outdated-server: Outdated server! Please see www.worldautomation.net!
+commands:
+  log: true
+  tab-complete: true
 stats:
   disable-saving: false
   forced-stats: {}
@@ -92,10 +92,10 @@ world-settings:
       entity: 1000
     max-tnt-per-tick: 100
     item-despawn-rate: 6000
-    view-distance: 10
-    use-async-lighting: false
     chunks-per-tick: 650
     clear-tick-list: false
-    zombie-aggressive-towards-villager: true
+    view-distance: 10
+    use-async-lighting: false
     enable-zombie-pigmen-portal-spawns: true
     arrow-despawn-rate: 1200
+    zombie-aggressive-towards-villager: true
