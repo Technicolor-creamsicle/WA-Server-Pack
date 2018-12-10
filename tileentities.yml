@@ -70,10 +70,10 @@ world-settings:
     net-malisis-doors-door-tileentity-DoorTileEntity:
       tick-no-players: false
       tick-interval: 1
-    mods-railcraft-common-blocks-hidden-TileHidden:
+    forestry-core-tiles-TileAnalyzer:
       tick-no-players: false
       tick-interval: 1
-    forestry-core-tiles-TileAnalyzer:
+    mods-railcraft-common-blocks-hidden-TileHidden:
       tick-no-players: false
       tick-interval: 1
     net-geforcemods-securitycraft-tileentity-TileEntityRetinalScanner:
