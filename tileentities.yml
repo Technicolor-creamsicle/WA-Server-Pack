@@ -175,6 +175,9 @@ world-settings:
     crazypants-enderio-machine-wireless-TileWirelessCharger:
       tick-no-players: false
       tick-interval: 1
+    li-cil-oc-common-tileentity-Adapter:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
