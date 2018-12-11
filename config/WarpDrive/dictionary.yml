@@ -151,6 +151,7 @@ entity_tags {
     S:IC2.StickyDynamite=NoMass NonLivingTarget
     S:ItemFrame=NoMass NonLivingTarget
     S:LeashKnot=NoMass NonLivingTarget
+    S:MatterOverdrive.AndroidPlayer=LivingWithoutAir
     S:MinecartChest=NoMass NonLivingTarget
     S:MinecartFurnace=NoMass NonLivingTarget
     S:MinecartHopper=NoMass NonLivingTarget
