@@ -139,6 +139,9 @@ world-settings:
     crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
     cr0s-warpdrive-block-TileEntityLaserMedium:
       tick-no-players: false
       tick-interval: 1
@@ -155,9 +158,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityShipCore:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
     mrtjp-projectred-illumination-TileLamp:

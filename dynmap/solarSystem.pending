@@ -1,0 +1,103 @@
+tiles:
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1276,-973,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6358,441,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1590,186,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1276,-972,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6358,442,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1590,187,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1275,-973,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6358,443,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1590,188,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1275,-972,iso_S_90_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6357,440,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1589,186,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6357,441,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -1589,187,iso_SE_60_lowres,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6357,442,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6357,443,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6356,440,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6356,441,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6356,442,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6356,443,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6355,442,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6354,442,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6354,443,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6353,441,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6353,442,iso_SE_30_hires,0
+-   class: org.dynmap.hdmap.HDMapTile
+    data: -6353,443,iso_SE_30_hires,0
+invalid:
+    ct: [
+        ]
+    t: [
+        ]
+    flat: [
+        ]
+invZoomOut:
+    ct:
+    - &id001 [
+        ]
+    - *id001
+    - *id001
+    - [
+        ]
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    -   - fffffffe/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/10000000:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    t:
+    - *id001
+    - *id001
+    - [
+        ]
+    - [
+        ]
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    -   - fffffff3/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:20/0:20/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    -   - fffffff9/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:40000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0
+    - *id001
+    - *id001
+    flat:
+    - *id001
+    - *id001
+    - *id001
+    - [
+        ]
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    - *id001
+    -   - fffffffe/ffffffff:0/0:0/0:0/0:0/0:10000/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0:0/0

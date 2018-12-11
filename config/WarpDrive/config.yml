@@ -374,7 +374,7 @@ logging {
     B:enable_break_place_logs=false
 
     # Detailed breathing logs to help debug the mod, enable it before reporting a bug
-    B:enable_breathing_logs=false
+    B:enable_breathing_logs=true
 
     # Detailed building logs to help debug the mod, enable it before reporting a bug
     B:enable_building_logs=false
@@ -561,8 +561,8 @@ ship {
 
     # List of player names which have unlimited block counts to their ship
     S:volume_unlimited_playernames <
-        notch
-        someone
+        Moccc
+        mindamp
      >
 
     # Random variation added to warmup (measured in ticks)

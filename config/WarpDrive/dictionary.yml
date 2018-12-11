@@ -137,6 +137,8 @@ block_tags {
 ##########################################################################################################
 
 entity_tags {
+    S:AndroidPlayer=LivingWithoutAir
+    S:Android_Player=LivingWithoutAir
     S:Arrow=NoMass NonLivingTarget
     S:Boat=NoMass NonLivingTarget
     S:Creeper=LivingWithoutAir
@@ -151,7 +153,8 @@ entity_tags {
     S:IC2.StickyDynamite=NoMass NonLivingTarget
     S:ItemFrame=NoMass NonLivingTarget
     S:LeashKnot=NoMass NonLivingTarget
-    S:MatterOverdrive.AndroidPlayer=LivingWithoutAir
+    S:MO.AndroidPlayer=LivingWithoutAir
+    S:MO.Android_Player=LivingWithoutAir
     S:MinecartChest=NoMass NonLivingTarget
     S:MinecartFurnace=NoMass NonLivingTarget
     S:MinecartHopper=NoMass NonLivingTarget
@@ -161,6 +164,11 @@ entity_tags {
     S:Painting=NoMass NonLivingTarget
     S:Skeleton=LivingWithoutAir
     S:Zombie=LivingWithoutAir
+    S:android_player=LivingWithoutAir
+    S:mo.AndroidPlayer=LivingWithoutAir
+    S:mo.android_player=LivingWithoutAir
+    S:mo.entity.android_player=LivingWithoutAir
+    S:mo.entity.android_player.Android_Player=LivingWithoutAir
     S:testdummy.Dummy=LivingWithoutAir
 }
 
@@ -206,6 +214,12 @@ item_tags {
     S:"IC2:itemArmorQuantumHelmet"=BreathingHelmet
     S:"IC2:itemArmorRubBoots"=NoFallDamage
     S:"IC2:itemSolarHelmet"=BreathingHelmet
+    S:"MO:android_player"=BreathingHelmet
+    S:"MO:tritanium_spine"=BreathingHelmet
+    S:"MatterOverdrive:TritaniumSpine"=BreathingHelmet
+    S:"MatterOverdrive:Tritanium_Spine"=BreathingHelmet
+    S:"MatterOverdrive:tritaniumSpine"=BreathingHelmet
+    S:"MatterOverdrive:tritanium_spine"=BreathingHelmet
     S:"PneumaticCraft:pneumaticHelmet"=BreathingHelmet
     S:"RedstoneArsenal:armor.helmetFlux"=BreathingHelmet
     S:"Techguns:steam,_helmet"=BreathingHelmet
@@ -215,6 +229,10 @@ item_tags {
     S:"Techguns:tacticalMask"=BreathingHelmet
     S:"WarpDrive:itemWarpArmor_boots"=NoFallDamage
     S:"WarpDrive:itemWarpArmor_leggings"=NoFallDamage
+    S:"mo:TritaniumSpine"=BreathingHelmet
+    S:"mo:android_player"=BreathingHelmet
+    S:"mo:tritaniumSpine"=BreathingHelmet
+    S:"mo:tritanium_spine"=BreathingHelmet
 }
 
 
