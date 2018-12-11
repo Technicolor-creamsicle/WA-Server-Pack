@@ -163,6 +163,7 @@ world-environment-settings:
     keep-world-loaded: true
   the_end:
     keep-world-loaded: false
+    enabled: true
   storage:
     keep-world-loaded: false
   endoftime:

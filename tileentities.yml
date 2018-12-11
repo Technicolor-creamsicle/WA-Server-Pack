@@ -232,6 +232,24 @@ world-settings:
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
       tick-no-players: false
       tick-interval: 1
+    vazkii-botania-common-block-tile-TileSpecialFlower:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-LavaTankLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-FaucetLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-SmelteryLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityPiston:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
@@ -239,9 +257,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     mrtjp-projectred-illumination-TileLamp:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-CastingTableLogic:
       tick-no-players: false
       tick-interval: 1
     mcjty-rftools-blocks-logic-SequencerTileEntity:
@@ -310,9 +325,6 @@ world-settings:
     cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1
-    vazkii-botania-common-block-tile-TileSpecialFlower:
-      tick-no-players: false
-      tick-interval: 1
     dan200-computercraft-shared-peripheral-monitor-TileMonitor:
       tick-no-players: false
       tick-interval: 1
@@ -359,15 +371,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     mekanism-common-tile-TileEntityAdvancedFactory:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-LavaTankLogic:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-FaucetLogic:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-SmelteryLogic:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnaceSurvival:

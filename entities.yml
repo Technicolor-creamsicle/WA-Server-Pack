@@ -206,6 +206,30 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-item-EntityEnderEye:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-monster-EntitySilverfish:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityEnderCrystal:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-boss-EntityDragon:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-tools-entity-FancyEntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     lumien-randomthings-Entity-EntitySoul:
       tick-no-players: false
       never-ever-tick: false
@@ -214,15 +238,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-player-EntityPlayerMP:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-item-EntityTNTPrimed:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    tconstruct-tools-entity-FancyEntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
