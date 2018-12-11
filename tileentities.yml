@@ -196,6 +196,24 @@ world-settings:
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
       tick-no-players: false
       tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineReplicator:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternStorage:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-machines-analyzer-TileEntityMachineMatterAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
@@ -212,21 +230,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     mcjty-rftools-blocks-logic-SequencerTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineReplicator:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternStorage:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-machines-analyzer-TileEntityMachineMatterAnalyzer:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
@@ -281,9 +284,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
-      tick-no-players: false
-      tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
