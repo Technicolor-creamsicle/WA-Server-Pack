@@ -101,6 +101,8 @@ groups:
     permissions:
     - discordsrv.sync.424623843059957763
     - essentials.sethome.multiple.vip
+    - essentials.fly
+    - essentials.fly.safelogin
   Mod:
     inheritance:
     - Citizen
