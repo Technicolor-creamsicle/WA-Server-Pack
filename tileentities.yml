@@ -154,16 +154,16 @@ world-settings:
     matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp3:
+    crazypants-enderio-machine-painter-TileEntityPainter:
       tick-no-players: false
       tick-interval: 1
-    crazypants-enderio-machine-painter-TileEntityPainter:
+    cr0s-warpdrive-block-movement-TileEntityShipCore:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityShipController:
       tick-no-players: false
       tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityShipCore:
+    TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
     micdoodle8-mods-galacticraft-core-tile-TileEntityOxygenStorageModule:
