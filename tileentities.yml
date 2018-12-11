@@ -160,6 +160,33 @@ world-settings:
     crazypants-enderio-machine-painter-TileEntityPainter:
       tick-no-players: false
       tick-interval: 1
+    matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachineReplicator:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternStorage:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-machines-analyzer-TileEntityMachineMatterAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityMachinePatternMonitor:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityEnchantmentTable:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
+      tick-no-players: false
+      tick-interval: 1
+    ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
+      tick-no-players: false
+      tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
       tick-no-players: false
       tick-interval: 1
@@ -178,13 +205,7 @@ world-settings:
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
       tick-no-players: false
       tick-interval: 1
-    cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
-      tick-no-players: false
-      tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityLift:
-      tick-no-players: false
-      tick-interval: 1
-    ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-peripheral-modem-TileCable:
@@ -229,22 +250,13 @@ world-settings:
     matteroverdrive-tile-TileEntityFusionReactorPart:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternMonitor:
-      tick-no-players: false
-      tick-interval: 1
     matteroverdrive-tile-TileEntityMachineNetworkRouter:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-pipes-TileEntityNetworkPipe:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-pipes-TileEntityHeavyMatterPipe:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-machines-transporter-TileEntityMachineTransporter:
@@ -259,9 +271,6 @@ world-settings:
     net-geforcemods-securitycraft-tileentity-TileEntityScannerDoor:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityMachineReplicator:
-      tick-no-players: false
-      tick-interval: 1
     buildcraft-builders-TileQuarryCompat:
       tick-no-players: false
       tick-interval: 1
@@ -274,16 +283,7 @@ world-settings:
     cofh-thermalexpansion-block-ender-TileTesseract:
       tick-no-players: false
       tick-interval: 1
-    net-minecraft-tileentity-TileEntityEnchantmentTable:
-      tick-no-players: false
-      tick-interval: 1
     vazkii-botania-common-block-tile-TileSpecialFlower:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-tile-TileEntityMachinePatternStorage:
-      tick-no-players: false
-      tick-interval: 1
-    matteroverdrive-machines-analyzer-TileEntityMachineMatterAnalyzer:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-peripheral-monitor-TileMonitor:

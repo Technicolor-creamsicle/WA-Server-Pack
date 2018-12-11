@@ -114,7 +114,51 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    tconstruct-world-entity-BlueSlime:
+    net-minecraft-entity-projectile-EntityPotion:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    lumien-randomthings-Entity-EntitySoul:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-player-EntityPlayerMP:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-monster-EntityMutantScientist:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityMinecartChest:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityFireworkRocket:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    powercrystals-netherores-entity-EntityArmedOre:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    net-minecraft-entity-item-EntityTNTPrimed:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    tconstruct-tools-entity-FancyEntityItem:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    matteroverdrive-entity-weapon-PlasmaBolt:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    ic2-core-item-tool-EntityMiningLaser:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -122,7 +166,7 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    powercrystals-netherores-entity-EntityArmedOre:
+    tconstruct-world-entity-BlueSlime:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -142,31 +186,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-item-EntityFireworkRocket:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     net-minecraft-entity-monster-EntitySlime:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    lumien-randomthings-Entity-EntitySoul:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    com-gmail-filoghost-holographicdisplays-nms-v17R4-EntityNMSItem:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-player-EntityPlayerMP:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     lumien-randomthings-Entity-EntitySpirit:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityMinecartChest:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -182,19 +206,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    matteroverdrive-entity-weapon-PlasmaBolt:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
     buildcraft-core-lib-EntityBlock:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
     buildcraft-builders-EntityMechanicalArm:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    tconstruct-tools-entity-FancyEntityItem:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -207,10 +223,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-item-EntityBoat:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    matteroverdrive-entity-monster-EntityMutantScientist:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -231,10 +243,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     com-vicmatskiv-weaponlib-ai-EntityCustomMob10000:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-projectile-EntityPotion:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
@@ -259,10 +267,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     com-InfinityRaider-AgriCraft-entity-EntityVillagerFarmer:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    net-minecraft-entity-item-EntityTNTPrimed:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
