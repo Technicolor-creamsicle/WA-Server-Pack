@@ -374,7 +374,7 @@ logging {
     B:enable_break_place_logs=false
 
     # Detailed breathing logs to help debug the mod, enable it before reporting a bug
-    B:enable_breathing_logs=true
+    B:enable_breathing_logs=false
 
     # Detailed building logs to help debug the mod, enable it before reporting a bug
     B:enable_building_logs=false
