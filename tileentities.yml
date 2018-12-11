@@ -169,6 +169,15 @@ world-settings:
     mrtjp-projectred-illumination-TileLamp:
       tick-no-players: false
       tick-interval: 1
+    tconstruct-smeltery-logic-CastingBasinLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    mcjty-rftools-blocks-logic-SequencerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
     matteroverdrive-tile-pipes-TileEntityNetworkPipe:
       tick-no-players: false
       tick-interval: 1
@@ -305,15 +314,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     TileMultipartcmp0:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-CastingTableLogic:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-CastingBasinLogic:
-      tick-no-players: false
-      tick-interval: 1
-    mcjty-rftools-blocks-logic-SequencerTileEntity:
       tick-no-players: false
       tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:

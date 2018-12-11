@@ -446,7 +446,7 @@ mining_laser {
     I:max_mediums_count=3
 
     # Mining duration per scanned block
-    I:mine_delay_ticks=3
+    I:mine_delay_ticks=1
 
     # Energy cost multiplier per block when mining only ores
     D:oresonly_energy_factor=15.0
@@ -461,10 +461,10 @@ mining_laser {
     I:radius_no_laser_medium=4
 
     # Bonus to mining radius per laser medium, measured in blocks
-    I:radius_per_laser_medium=1
+    I:radius_per_laser_medium=2
 
     # Scan duration per layer
-    I:scan_delay_ticks=20
+    I:scan_delay_ticks=5
 
     # Energy cost multiplier per block when mining with silktouch
     D:silktouch_energy_factor=1.5
