@@ -178,6 +178,24 @@ world-settings:
     li-cil-oc-common-tileentity-Adapter:
       tick-no-players: false
       tick-interval: 1
+    cofh-thermalexpansion-block-machine-TilePulverizer:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-grindstone-TileCrank:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityHopper:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
@@ -218,24 +236,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TilePulverizer:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    appeng-tile-grindstone-TileCrank:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityHopper:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
-      tick-no-players: false
-      tick-interval: 1
-    com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityLift:
