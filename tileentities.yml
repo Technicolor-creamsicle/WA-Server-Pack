@@ -256,6 +256,9 @@ world-settings:
     TileMultipartcmp8:
       tick-no-players: false
       tick-interval: 1
+    appeng-tile-misc-TileCharger:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1

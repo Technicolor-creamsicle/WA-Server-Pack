@@ -234,6 +234,14 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    appeng-entity-EntityChargedQuartz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
+    appeng-entity-EntityGrowingCrystal:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     lumien-randomthings-Entity-EntitySoul:
       tick-no-players: false
       never-ever-tick: false
@@ -259,10 +267,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     buildcraft-builders-EntityMechanicalArm:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    appeng-entity-EntityChargedQuartz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
