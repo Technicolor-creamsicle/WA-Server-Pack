@@ -277,6 +277,36 @@ world-settings:
     io-endertech-tile-TileChargePad:
       tick-no-players: false
       tick-interval: 1
+    cr0s-warpdrive-block-movement-TileEntityLift:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityInscriber:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-tiles-TileApiary:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-core-tiles-TileEscritoire:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
@@ -293,21 +323,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     ic2-core-block-generator-tileentity-TileEntitySolarGenerator:
-      tick-no-players: false
-      tick-interval: 1
-    cr0s-warpdrive-block-movement-TileEntityLift:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
     buildcraft-transport-TileGenericPipeCompat:
@@ -368,18 +383,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     blusunrize-immersiveengineering-common-blocks-wooden-TileEntityWoodenCrate:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-apiculture-tiles-TileApiary:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-core-tiles-TileEscritoire:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-spawner-TilePoweredSpawner:

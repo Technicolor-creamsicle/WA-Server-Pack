@@ -246,6 +246,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    com-InfinityRaider-AgriCraft-entity-EntityVillagerFarmer:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     lumien-randomthings-Entity-EntitySoul:
       tick-no-players: false
       never-ever-tick: false
@@ -315,10 +319,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     net-minecraft-entity-monster-EntityCaveSpider:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-entity-EntityVillagerFarmer:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
