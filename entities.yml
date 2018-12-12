@@ -242,6 +242,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    net-minecraft-entity-projectile-EntityLargeFireball:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     lumien-randomthings-Entity-EntitySoul:
       tick-no-players: false
       never-ever-tick: false
