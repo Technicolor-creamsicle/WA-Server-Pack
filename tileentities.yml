@@ -250,6 +250,12 @@ world-settings:
     net-minecraft-tileentity-TileEntityPiston:
       tick-no-players: false
       tick-interval: 1
+    openblocks-common-tileentity-TileEntityTank:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp8:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
