@@ -259,6 +259,12 @@ world-settings:
     appeng-tile-misc-TileCharger:
       tick-no-players: false
       tick-interval: 1
+    com-vanhal-progressiveautomation-entities-miner-TileMiner:
+      tick-no-players: false
+      tick-interval: 1
+    com-vanhal-progressiveautomation-entities-miner-TileMinerStone:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
