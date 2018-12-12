@@ -265,6 +265,18 @@ world-settings:
     com-vanhal-progressiveautomation-entities-miner-TileMinerStone:
       tick-no-players: false
       tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileSmelter:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileTransposer:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileCrucible:
+      tick-no-players: false
+      tick-interval: 1
+    io-endertech-tile-TileChargePad:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
