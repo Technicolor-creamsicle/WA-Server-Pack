@@ -307,6 +307,9 @@ world-settings:
     mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
       tick-no-players: false
       tick-interval: 1
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityDeepStorageUnit:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
