@@ -22,12 +22,6 @@ debug:
 config-version: 1
 world-settings:
   default:
-    mods-railcraft-common-blocks-hidden-TileHidden:
-      tick-no-players: false
-      tick-interval: 1
-    codechicken-chunkloader-TileSpotLoader:
-      tick-no-players: false
-      tick-interval: 1
     forestry-apiculture-tiles-TileSwarm:
       tick-no-players: false
       tick-interval: 1
@@ -67,6 +61,9 @@ world-settings:
     li-cil-oc-common-tileentity-Case:
       tick-no-players: false
       tick-interval: 1
+    codechicken-chunkloader-TileSpotLoader:
+      tick-no-players: false
+      tick-interval: 1
     codechicken-enderstorage-storage-liquid-TileEnderTank:
       tick-no-players: false
       tick-interval: 1
@@ -100,13 +97,13 @@ world-settings:
     matteroverdrive-tile-TileEntityMachineNetworkSwitch:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp4:
+    TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
     mekanism-common-tile-TileEntityMetallurgicInfuser:
       tick-no-players: false
       tick-interval: 1
-    TileMultipartcmp5:
+    TileMultipartcmp4:
       tick-no-players: false
       tick-interval: 1
     mekanism-common-tile-TileEntityEnrichmentChamber:
@@ -133,13 +130,52 @@ world-settings:
     matteroverdrive-tile-TileEntityMachineStarMap:
       tick-no-players: false
       tick-interval: 1
-    crazypants-enderio-machine-alloy-TileAlloySmelter:
+    cofh-thermalexpansion-block-machine-TileCrucible:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileTransposer:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
-    cr0s-warpdrive-block-breathing-TileEntityAirGeneratorTiered:
+    cofh-thermalexpansion-block-machine-TileSmelter:
+      tick-no-players: false
+      tick-interval: 1
+    io-endertech-tile-TileChargePad:
+      tick-no-players: false
+      tick-interval: 1
+    net-malisis-doors-door-tileentity-FenceGateTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    net-minecraft-tileentity-TileEntityHopper:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-misc-TileCharger:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-alloy-TileAlloySmelter:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TilePulverizer:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileFurnace:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-hidden-TileHidden:
+      tick-no-players: false
+      tick-interval: 1
+    cr0s-warpdrive-block-TileEntityLaserMedium:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-light-TileElectricLight:
+      tick-no-players: false
+      tick-interval: 1
+    dan200-computercraft-shared-peripheral-modem-TileCable:
       tick-no-players: false
       tick-interval: 1
     dan200-computercraft-shared-computer-blocks-TileComputer:
@@ -148,13 +184,16 @@ world-settings:
     cr0s-warpdrive-block-collection-TileEntityMiningLaser:
       tick-no-players: false
       tick-interval: 1
-    cr0s-warpdrive-block-TileEntityLaserMedium:
+    crazypants-enderio-machine-wireless-TileWirelessCharger:
       tick-no-players: false
       tick-interval: 1
-    dan200-computercraft-shared-peripheral-modem-TileCable:
+    cr0s-warpdrive-block-breathing-TileEntityAirGeneratorTiered:
       tick-no-players: false
       tick-interval: 1
     matteroverdrive-tile-TileEntityHoloSign:
+      tick-no-players: false
+      tick-interval: 1
+    TileMultipartcmp5:
       tick-no-players: false
       tick-interval: 1
     crazypants-enderio-machine-painter-TileEntityPainter:
@@ -169,28 +208,10 @@ world-settings:
     dan200-computercraft-shared-peripheral-modem-TileWirelessModem:
       tick-no-players: false
       tick-interval: 1
-    crazypants-enderio-machine-light-TileElectricLight:
-      tick-no-players: false
-      tick-interval: 1
-    crazypants-enderio-machine-wireless-TileWirelessCharger:
-      tick-no-players: false
-      tick-interval: 1
     li-cil-oc-common-tileentity-Adapter:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-machine-TilePulverizer:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileFurnace:
-      tick-no-players: false
-      tick-interval: 1
     appeng-tile-grindstone-TileCrank:
-      tick-no-players: false
-      tick-interval: 1
-    net-minecraft-tileentity-TileEntityHopper:
-      tick-no-players: false
-      tick-interval: 1
-    net-malisis-doors-door-tileentity-FenceGateTileEntity:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
@@ -256,25 +277,10 @@ world-settings:
     TileMultipartcmp8:
       tick-no-players: false
       tick-interval: 1
-    appeng-tile-misc-TileCharger:
-      tick-no-players: false
-      tick-interval: 1
     com-vanhal-progressiveautomation-entities-miner-TileMiner:
       tick-no-players: false
       tick-interval: 1
     com-vanhal-progressiveautomation-entities-miner-TileMinerStone:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileSmelter:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileTransposer:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileCrucible:
-      tick-no-players: false
-      tick-interval: 1
-    io-endertech-tile-TileChargePad:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityLift:
@@ -298,9 +304,6 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
       tick-no-players: false
       tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
-      tick-no-players: false
-      tick-interval: 1
     mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
       tick-no-players: false
       tick-interval: 1
@@ -308,9 +311,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     powercrystals-minefactoryreloaded-tile-machine-TileEntityDeepStorageUnit:
-      tick-no-players: false
-      tick-interval: 1
-    TileMultipartcmp3:
       tick-no-players: false
       tick-interval: 1
     micdoodle8-mods-galacticraft-core-tile-TileEntityOxygenStorageModule:
