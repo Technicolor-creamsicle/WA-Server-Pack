@@ -3,7 +3,7 @@ uuid: cd37089d-0990-4d13-a252-c364ba0fee6a
 timestamps:
   login: 1545001260645
   lastteleport: 1545007729836
-  logout: 1544888203500
+  logout: 1545010994624
 ipAddress: 188.250.28.161
 lastlocation:
   world: Universe
@@ -44,8 +44,8 @@ homes:
     pitch: 28.462212
 logoutlocation:
   world: Universe
-  x: -282.3837163758023
-  y: 58.875
-  z: -139.23117672325782
-  yaw: 12.294701
-  pitch: 0.45000425
+  x: -280.4518843607858
+  y: 79.0
+  z: -133.98422473973434
+  yaw: -174.52454
+  pitch: 12.899974
