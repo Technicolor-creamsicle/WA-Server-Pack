@@ -186,11 +186,11 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    cr0s-warpdrive-world-EntitySphereGen:
+    net-minecraft-entity-monster-EntitySlime:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
-    net-minecraft-entity-monster-EntitySlime:
+    cr0s-warpdrive-world-EntitySphereGen:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1

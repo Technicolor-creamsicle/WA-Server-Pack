@@ -250,6 +250,9 @@ world-settings:
     buildcraft-transport-TileGenericPipeCompat:
       tick-no-players: false
       tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannelFull:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp5:
       tick-no-players: false
       tick-interval: 1
