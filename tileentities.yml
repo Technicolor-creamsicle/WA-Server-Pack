@@ -226,6 +226,27 @@ world-settings:
     cr0s-warpdrive-block-movement-TileEntityLift:
       tick-no-players: false
       tick-interval: 1
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityHarvester:
+      tick-no-players: false
+      tick-interval: 1
+    mcjty-rftools-blocks-crafter-CrafterBlockTileEntity1:
+      tick-no-players: false
+      tick-interval: 1
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityDeepStorageUnit:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileAccumulator:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp5:
       tick-no-players: false
       tick-interval: 1
@@ -295,22 +316,10 @@ world-settings:
     forestry-core-tiles-TileEscritoire:
       tick-no-players: false
       tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
-      tick-no-players: false
-      tick-interval: 1
     mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
       tick-no-players: false
       tick-interval: 1
     mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
-      tick-no-players: false
-      tick-interval: 1
-    powercrystals-minefactoryreloaded-tile-machine-TileEntityDeepStorageUnit:
       tick-no-players: false
       tick-interval: 1
     micdoodle8-mods-galacticraft-core-tile-TileEntityOxygenStorageModule:
