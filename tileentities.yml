@@ -136,10 +136,13 @@ world-settings:
     cofh-thermalexpansion-block-machine-TileTransposer:
       tick-no-players: false
       tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileSmelter:
+      tick-no-players: false
+      tick-interval: 1
     crazypants-enderio-conduit-TileConduitBundle:
       tick-no-players: false
       tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileSmelter:
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
       tick-no-players: false
       tick-interval: 1
     io-endertech-tile-TileChargePad:
@@ -148,13 +151,25 @@ world-settings:
     net-malisis-doors-door-tileentity-FenceGateTileEntity:
       tick-no-players: false
       tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannelFull:
+      tick-no-players: false
+      tick-interval: 1
+    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityHopper:
       tick-no-players: false
       tick-interval: 1
-    appeng-tile-misc-TileCharger:
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityHarvester:
       tick-no-players: false
       tick-interval: 1
-    crazypants-enderio-machine-alloy-TileAlloySmelter:
+    mcjty-rftools-blocks-crafter-CrafterBlockTileEntity1:
+      tick-no-players: false
+      tick-interval: 1
+    powercrystals-minefactoryreloaded-tile-machine-TileEntityDeepStorageUnit:
       tick-no-players: false
       tick-interval: 1
     cofh-thermalexpansion-block-machine-TilePulverizer:
@@ -163,7 +178,19 @@ world-settings:
     cofh-thermalexpansion-block-machine-TileFurnace:
       tick-no-players: false
       tick-interval: 1
+    buildcraft-transport-TileGenericPipeCompat:
+      tick-no-players: false
+      tick-interval: 1
     com-InfinityRaider-AgriCraft-tileentity-TileEntitySeedAnalyzer:
+      tick-no-players: false
+      tick-interval: 1
+    cofh-thermalexpansion-block-machine-TileAccumulator:
+      tick-no-players: false
+      tick-interval: 1
+    appeng-tile-misc-TileCharger:
+      tick-no-players: false
+      tick-interval: 1
+    crazypants-enderio-machine-alloy-TileAlloySmelter:
       tick-no-players: false
       tick-interval: 1
     mods-railcraft-common-blocks-hidden-TileHidden:
@@ -224,33 +251,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-movement-TileEntityLift:
-      tick-no-players: false
-      tick-interval: 1
-    powercrystals-minefactoryreloaded-tile-machine-TileEntityHarvester:
-      tick-no-players: false
-      tick-interval: 1
-    mcjty-rftools-blocks-crafter-CrafterBlockTileEntity1:
-      tick-no-players: false
-      tick-interval: 1
-    powercrystals-minefactoryreloaded-tile-machine-TileEntityDeepStorageUnit:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannel:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntitySprinkler:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityTank:
-      tick-no-players: false
-      tick-interval: 1
-    cofh-thermalexpansion-block-machine-TileAccumulator:
-      tick-no-players: false
-      tick-interval: 1
-    buildcraft-transport-TileGenericPipeCompat:
-      tick-no-players: false
-      tick-interval: 1
-    com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannelFull:
       tick-no-players: false
       tick-interval: 1
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
