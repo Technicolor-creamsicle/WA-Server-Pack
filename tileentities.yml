@@ -256,6 +256,9 @@ world-settings:
     fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
+    openblocks-common-tileentity-TileEntitySprinkler:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp5:
       tick-no-players: false
       tick-interval: 1
