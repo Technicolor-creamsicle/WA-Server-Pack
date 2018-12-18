@@ -253,6 +253,9 @@ world-settings:
     com-InfinityRaider-AgriCraft-tileentity-irrigation-TileEntityChannelFull:
       tick-no-players: false
       tick-interval: 1
+    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
+      tick-no-players: false
+      tick-interval: 1
     TileMultipartcmp5:
       tick-no-players: false
       tick-interval: 1
@@ -275,9 +278,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
-      tick-no-players: false
-      tick-interval: 1
-    fiskfille-lightsabers-common-tileentity-TileEntityHolocron:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-CastingBasinLogic:
