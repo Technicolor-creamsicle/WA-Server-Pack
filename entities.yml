@@ -126,6 +126,10 @@ world-settings:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
+    cofh-thermalfoundation-entity-monster-EntityBlitz:
+      tick-no-players: false
+      never-ever-tick: false
+      tick-interval: 1
     net-minecraft-entity-monster-EntityPigZombie:
       tick-no-players: false
       never-ever-tick: false
@@ -175,10 +179,6 @@ world-settings:
       never-ever-tick: false
       tick-interval: 1
     appeng-entity-EntityChargedQuartz:
-      tick-no-players: false
-      never-ever-tick: false
-      tick-interval: 1
-    cofh-thermalfoundation-entity-monster-EntityBlitz:
       tick-no-players: false
       never-ever-tick: false
       tick-interval: 1
