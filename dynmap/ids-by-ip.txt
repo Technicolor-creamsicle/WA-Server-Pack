@@ -4,6 +4,8 @@
 - Oreo_the_Awesome
 '92_117_42_208':
 - Miotismon
+'90_140_228_41':
+- nevvsonthebeat
 '188_25_10_247':
 - CATXVII
 '188_250_28_161':
@@ -27,5 +29,9 @@
 - moccc
 '24_144_247_47':
 - firematth101
+'60_150_156_239':
+- ryubayashi
+'73_240_82_86':
+- DabDimmaDome
 '203_173_140_117':
 - wierdo3211
