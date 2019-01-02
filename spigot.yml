@@ -11,19 +11,19 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
 settings:
   bungeecord: false
-  late-bind: false
-  sample-count: 12
   timeout-time: 90
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
+  late-bind: false
+  sample-count: 12
   player-shuffle: 0
   fullMatchRate: 10
-commands:
-  log: true
-  tab-complete: true
 messages:
   restart: WorldAutomation.Net is Restarting Please Wait!
   whitelist: You are not whitelisted for WorldAutomation.Net!
