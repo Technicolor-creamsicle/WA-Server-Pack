@@ -22,8 +22,8 @@ settings:
   restart-on-crash: true
   restart-script: ./start.sh
   netty-threads: -1
-  player-shuffle: 0
   fullMatchRate: 10
+  player-shuffle: 0
 messages:
   restart: WorldAutomation.Net is Restarting Please Wait!
   whitelist: You are not whitelisted for WorldAutomation.Net!
@@ -37,6 +37,9 @@ stats:
 world-settings:
   default:
     verbose: false
+    ticks-per:
+      hopper-transfer: 8
+      hopper-check: 8
     random-light-updates: false
     save-structure-info: true
     max-bulk-chunks: 5
@@ -88,14 +91,11 @@ world-settings:
       monsters: 48
       misc: 32
       other: 64
-    ticks-per:
-      hopper-transfer: 8
-      hopper-check: 8
-    arrow-despawn-rate: 1200
-    item-despawn-rate: 6000
-    enable-zombie-pigmen-portal-spawns: true
+    view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
-    view-distance: 10
-    use-async-lighting: false
     zombie-aggressive-towards-villager: true
+    enable-zombie-pigmen-portal-spawns: true
+    use-async-lighting: false
+    item-despawn-rate: 6000
+    arrow-despawn-rate: 1200
