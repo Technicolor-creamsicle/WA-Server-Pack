@@ -220,6 +220,30 @@ world-settings:
     matteroverdrive-tile-TileEntityHoloSign:
       tick-no-players: false
       tick-interval: 1
+    tconstruct-smeltery-logic-CastingBasinLogic:
+      tick-no-players: false
+      tick-interval: 1
+    tconstruct-smeltery-logic-CastingTableLogic:
+      tick-no-players: false
+      tick-interval: 1
+    mcjty-rftools-blocks-logic-SequencerTileEntity:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-apiculture-tiles-TileApiary:
+      tick-no-players: false
+      tick-interval: 1
+    forestry-core-tiles-TileEscritoire:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
+      tick-no-players: false
+      tick-interval: 1
+    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
+      tick-no-players: false
+      tick-interval: 1
+    matteroverdrive-tile-TileEntityInscriber:
+      tick-no-players: false
+      tick-interval: 1
     net-minecraft-tileentity-TileEntityEnchantmentTable:
       tick-no-players: false
       tick-interval: 1
@@ -283,9 +307,6 @@ world-settings:
     com-rwtema-extrautils-tileentity-generators-TileEntityGeneratorFurnace:
       tick-no-players: false
       tick-interval: 1
-    tconstruct-smeltery-logic-CastingBasinLogic:
-      tick-no-players: false
-      tick-interval: 1
     vazkii-botania-common-block-tile-TileSpecialFlower:
       tick-no-players: false
       tick-interval: 1
@@ -296,9 +317,6 @@ world-settings:
       tick-no-players: false
       tick-interval: 1
     tconstruct-smeltery-logic-SmelteryLogic:
-      tick-no-players: false
-      tick-interval: 1
-    tconstruct-smeltery-logic-CastingTableLogic:
       tick-no-players: false
       tick-interval: 1
     net-minecraft-tileentity-TileEntityPiston:
@@ -316,28 +334,10 @@ world-settings:
     com-vanhal-progressiveautomation-entities-miner-TileMinerStone:
       tick-no-players: false
       tick-interval: 1
-    matteroverdrive-tile-TileEntityInscriber:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-apiculture-tiles-TileApiary:
-      tick-no-players: false
-      tick-interval: 1
-    forestry-core-tiles-TileEscritoire:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-alpha-TileRollingMachine:
-      tick-no-players: false
-      tick-interval: 1
-    mods-railcraft-common-blocks-machine-beta-TileEngineSteamHobby:
-      tick-no-players: false
-      tick-interval: 1
     micdoodle8-mods-galacticraft-core-tile-TileEntityOxygenStorageModule:
       tick-no-players: false
       tick-interval: 1
     mrtjp-projectred-illumination-TileLamp:
-      tick-no-players: false
-      tick-interval: 1
-    mcjty-rftools-blocks-logic-SequencerTileEntity:
       tick-no-players: false
       tick-interval: 1
     cr0s-warpdrive-block-breathing-TileEntityAirGenerator:
