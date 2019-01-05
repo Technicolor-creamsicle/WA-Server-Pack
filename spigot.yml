@@ -11,6 +11,9 @@
 # Forums: http://www.spigotmc.org/forum/
 
 config-version: 7
+commands:
+  log: true
+  tab-complete: true
 settings:
   bungeecord: false
   late-bind: false
@@ -21,9 +24,6 @@ settings:
   netty-threads: -1
   fullMatchRate: 10
   player-shuffle: 0
-commands:
-  log: true
-  tab-complete: true
 messages:
   restart: WorldAutomation.Net is Restarting Please Wait!
   whitelist: You are not whitelisted for WorldAutomation.Net!
@@ -37,18 +37,6 @@ stats:
 world-settings:
   default:
     verbose: false
-    random-light-updates: false
-    save-structure-info: true
-    max-bulk-chunks: 5
-    max-entity-collisions: 8
-    max-tick-time:
-      tile: 1000
-      entity: 1000
-    max-tnt-per-tick: 100
-    merge-radius:
-      item: 2.5
-      exp: 3.0
-    mob-spawn-range: 4
     anti-xray:
       enabled: false
       engine-mode: 1
@@ -82,6 +70,13 @@ world-settings:
       animals: 32
       monsters: 32
       misc: 16
+    merge-radius:
+      item: 2.5
+      exp: 3.0
+    max-tick-time:
+      tile: 1000
+      entity: 1000
+    max-tnt-per-tick: 100
     entity-tracking-range:
       players: 48
       animals: 48
@@ -91,11 +86,16 @@ world-settings:
     ticks-per:
       hopper-transfer: 8
       hopper-check: 8
-    arrow-despawn-rate: 1200
+    random-light-updates: false
+    save-structure-info: true
+    max-bulk-chunks: 5
+    max-entity-collisions: 8
+    mob-spawn-range: 4
     enable-zombie-pigmen-portal-spawns: true
     zombie-aggressive-towards-villager: true
-    item-despawn-rate: 6000
-    view-distance: 10
     chunks-per-tick: 650
     clear-tick-list: false
+    view-distance: 10
     use-async-lighting: false
+    arrow-despawn-rate: 1200
+    item-despawn-rate: 6000
