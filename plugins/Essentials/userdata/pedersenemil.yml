@@ -1,0 +1,20 @@
+geolocation: Denmark
+uuid: 8ab5cf59-d0e9-4257-879e-153cd3012a72
+timestamps:
+  login: 1547789767612
+  logout: 1547791099294
+ipAddress: 2.111.73.130
+lastlocation:
+  world: Universe
+  x: -1090.01882877359
+  y: 62.0
+  z: 1051.573751776827
+  yaw: 123.95712
+  pitch: 0.44998538
+logoutlocation:
+  world: Universe
+  x: -1146.7019070566896
+  y: 78.0
+  z: 929.4432554067067
+  yaw: 119.15759
+  pitch: 11.55
